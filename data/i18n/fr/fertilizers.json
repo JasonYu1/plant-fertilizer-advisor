@@ -1,1162 +1,1474 @@
 {
-  "species": {
-    "Ficus carica": {
-      "category": "Figuier commun (arbre fruitier)",
-      "npk": "Équilibré 8-8-8 ou 10-10-10 ; passez à un engrais moins azoté dès la nouaison",
-      "fertilizer": "Engrais granulé équilibré ; un surfaçage de compost convient très bien",
-      "schedule": "3 fois par an : début de printemps, début d'été, cœur de l'été. Arrêtez en août pour que les jeunes pousses s'aoûtent",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Trop d'azote donne un feuillage luxuriant mais peu de fruits",
-        "Les figuiers en pot doivent être nourris chaque mois pendant la saison de croissance",
-        "Paillez avec du compost chaque printemps"
-      ]
-    },
-    "Solanum tuberosum": {
-      "category": "Pomme de terre",
-      "npk": "Plus de phosphore et de potassium, azote modéré (ex. : 5-10-10)",
-      "fertilizer": "Engrais granulé pour légumes incorporé au sol à la plantation",
-      "schedule": "À la plantation, puis en apport localisé quand les plants font 15-20 cm et de nouveau à la floraison (tubérisation)",
-      "soil_ph": "5.0-6.0 (un sol légèrement acide limite la gale commune)",
-      "tips": [
-        "Évitez le fumier frais et l'excès d'azote : vous obtiendrez des feuilles au lieu de tubercules",
-        "Le potassium est essentiel pour le calibre des tubercules et la qualité de conservation",
-        "Buttez les tiges au fur et à mesure de la croissance"
-      ]
-    }
+ "species": {
+  "Ficus carica": {
+   "category": "Figuier commun (arbre fruitier)",
+   "npk": "Équilibré 8-8-8 ou 10-10-10 ; passez à un engrais moins azoté dès la nouaison",
+   "fertilizer": "Engrais granulé équilibré ; un surfaçage de compost convient très bien",
+   "schedule": "3 fois par an : début de printemps, début d'été, cœur de l'été. Arrêtez en août pour que les jeunes pousses s'aoûtent",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Trop d'azote donne un feuillage luxuriant mais peu de fruits",
+    "Les figuiers en pot doivent être nourris chaque mois pendant la saison de croissance",
+    "Paillez avec du compost chaque printemps"
+   ],
+   "watering": "Arrosage profond une fois par semaine en été ; figuiers en pot tous les 2-3 jours en période de chaleur",
+   "temperature": "Fructifie le mieux entre 20-30 °C ; rustique jusqu'à environ -10 °C en dormance",
+   "humidity": "Tolère bien l'air sec ; laisser le terreau sécher légèrement entre deux arrosages"
   },
-  "genus": {
-    "Solanum": {
-      "category": "Légume de la famille de la tomate / aubergine",
-      "npk": "Commencez équilibré, puis peu d'azote et beaucoup de phosphore-potassium à la floraison (ex. : 3-4-6 ou engrais tomates)",
-      "fertilizer": "Engrais tomates/légumes avec calcium pour prévenir la nécrose apicale (cul noir)",
-      "schedule": "Au repiquage, puis toutes les 2 semaines dès le début de la floraison",
-      "soil_ph": "6.2-6.8",
-      "tips": [
-        "Trop d'azote = de grandes plantes feuillues, peu de fruits",
-        "Gardez un arrosage régulier : l'absorption du calcium en dépend",
-        "Le magnésium (sel d'Epsom) aide si les vieilles feuilles jaunissent entre les nervures"
-      ]
-    },
-    "Capsicum": {
-      "category": "Poivron / piment",
-      "npk": "Équilibré au début (5-5-5), puis plus de potassium à la fructification (3-5-7)",
-      "fertilizer": "Un engrais tomates/légumes convient parfaitement aux poivrons",
-      "schedule": "Au repiquage, puis toutes les 2-3 semaines pendant la fructification",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Les poivrons sont moins gourmands que les tomates : la demi-dose suffit souvent",
-        "L'excès d'azote retarde la fructification"
-      ]
-    },
-    "Cucumis": {
-      "category": "Concombre / melon",
-      "npk": "Équilibré à la plantation (5-5-5), plus de potassium quand les tiges s'allongent (ex. : 3-4-6)",
-      "fertilizer": "Sol riche en compost plus un engrais liquide pour légumes",
-      "schedule": "À la plantation, quand les tiges commencent à courir et au début de la floraison",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Très gourmands en nourriture comme en eau : ne les laissez jamais se dessécher",
-        "Apportez du compost en surfaçage à mi-saison"
-      ]
-    },
-    "Cucurbita": {
-      "category": "Courge / potiron / courgette",
-      "npk": "Équilibré au début, puis riche en potassium pour la fructification (ex. : 4-4-8)",
-      "fertilizer": "Compost ou fumier bien décomposé à la plantation, plus un engrais granulé pour légumes",
-      "schedule": "À la plantation, aux premières fleurs et chaque mois pendant la fructification",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Parmi les plantes les plus gourmandes du jardin : plantez sur une butte enrichie de compost",
-        "Arrosez au pied pour éviter l'oïdium"
-      ]
-    },
-    "Lactuca": {
-      "category": "Laitue (légume-feuille)",
-      "npk": "Dominante azotée pour le feuillage (ex. : 10-5-5 ou émulsion de poisson)",
-      "fertilizer": "Émulsion de poisson liquide ou engrais soluble équilibré à demi-dose",
-      "schedule": "Apport léger toutes les 2 semaines ; la laitue pousse vite et s'enracine peu profondément",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Un azote rapidement disponible garde des feuilles tendres et douces",
-        "Arrêtez les apports une semaine avant la récolte"
-      ]
-    },
-    "Spinacia": {
-      "category": "Épinard (légume-feuille)",
-      "npk": "Riche en azote (ex. : 10-5-5)",
-      "fertilizer": "Émulsion de poisson, sang séché ou engrais soluble équilibré",
-      "schedule": "À la plantation puis quand les plants ont 4-6 vraies feuilles",
-      "soil_ph": "6.5-7.5",
-      "tips": [
-        "L'épinard monte en graines sous stress : azote et arrosage réguliers le gardent feuillu",
-        "Préfère un sol plus neutre que la plupart des légumes"
-      ]
-    },
-    "Brassica": {
-      "category": "Famille du chou / brocoli / chou frisé",
-      "npk": "Dominante azotée et apports réguliers (ex. : 8-4-4), plus bore et calcium",
-      "fertilizer": "Granulé équilibré à la plantation, apport d'azote localisé plus tard",
-      "schedule": "À la plantation, puis apport localisé 3-4 semaines plus tard ; pour le brocoli, de nouveau à la formation des têtes",
-      "soil_ph": "6.5-7.0 (un pH plus élevé limite aussi la hernie du chou)",
-      "tips": [
-        "Très gourmands : un sol pauvre donne des têtes petites et amères",
-        "Chaulez les sols acides avant la plantation"
-      ]
-    },
-    "Allium": {
-      "category": "Oignon / ail / poireau",
-      "npk": "Azote au début pour le feuillage (il deviendra les tuniques du bulbe), plus rien dès le début de la bulbaison",
-      "fertilizer": "Sang séché ou sulfate d'ammonium en apport localisé au printemps",
-      "schedule": "Toutes les 2-3 semaines jusqu'au gonflement des bulbes, puis arrêt complet",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Chaque feuille correspond à une tunique du bulbe : stimulez le feuillage tôt",
-        "Un azote tardif retarde la bulbaison et nuit à la conservation"
-      ]
-    },
-    "Daucus": {
-      "category": "Carotte (légume-racine)",
-      "npk": "Peu d'azote, plus de phosphore et de potassium (ex. : 1-2-2)",
-      "fertilizer": "Compost incorporé en profondeur ; évitez absolument le fumier frais",
-      "schedule": "Peu nécessaire si le sol est correct ; un apport léger quand les fanes font 10 cm",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Fumier frais et sol grumeleux donnent des racines fourchues et poilues",
-        "Un sol meuble, profond et sans cailloux compte plus que l'engrais"
-      ]
-    },
-    "Phaseolus": {
-      "category": "Haricot (légumineuse)",
-      "npk": "Peu d'azote : les haricots le fixent eux-mêmes. Phosphore et potassium seulement (ex. : 1-4-4)",
-      "fertilizer": "Du compost à la plantation suffit généralement",
-      "schedule": "À la plantation ; éventuellement une fois à la floraison",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Un apport d'azote rend les haricots paresseux : beaucoup de tiges, peu de gousses",
-        "Une poudre d'inoculant aide dans un sol qui n'a jamais porté de haricots"
-      ]
-    },
-    "Pisum": {
-      "category": "Pois (légumineuse)",
-      "npk": "Peu d'azote, phosphore-potassium modérés (ex. : 1-4-4)",
-      "fertilizer": "Compost à la plantation ; les pois se nourrissent en grande partie seuls",
-      "schedule": "À la plantation seulement, dans la plupart des sols",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Comme les haricots, les pois fixent l'azote : inutile d'en apporter",
-        "La cendre de bois offre un léger apport de potassium"
-      ]
-    },
-    "Zea": {
-      "category": "Maïs",
-      "npk": "Très gourmand en azote (ex. : 16-4-8 ou apports d'azote réguliers en cours de culture)",
-      "fertilizer": "Équilibré à la plantation, puis azote (sang séché, urée, émulsion de poisson) par la suite",
-      "schedule": "À la plantation, quand les plants arrivent au genou et à la sortie des panicules",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Des feuilles vert pâle signifient qu'il réclame de l'azote tout de suite",
-        "Plantez en blocs, pas en rangs, pour la pollinisation"
-      ]
-    },
-    "Beta": {
-      "category": "Betterave / blette",
-      "npk": "Équilibré avec un bon niveau de potassium (ex. : 5-5-8), plus du bore",
-      "fertilizer": "Compost plus un engrais granulé équilibré",
-      "schedule": "À la plantation et une fois en milieu de saison",
-      "soil_ph": "6.2-7.0",
-      "tips": [
-        "Des taches noires nécrosées à l'intérieur des betteraves signalent généralement une carence en bore",
-        "L'excès d'azote favorise les fanes au détriment des racines"
-      ]
-    },
-    "Fragaria": {
-      "category": "Fraisier",
-      "npk": "Équilibré (10-10-10) après la récolte ; apport léger au printemps",
-      "fertilizer": "Engrais petits fruits ou granulé équilibré",
-      "schedule": "Apport léger en tout début de printemps, apport principal juste après la récolte (c'est là que se forment les bourgeons de l'an prochain)",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Trop d'azote au printemps donne des fraises molles et fades",
-        "Rénovez et nourrissez les variétés non remontantes juste après la cueillette"
-      ]
-    },
-    "Rubus": {
-      "category": "Framboisier / mûrier",
-      "npk": "Équilibré (10-10-10) en tout début de printemps",
-      "fertilizer": "Engrais granulé équilibré plus un paillage de compost",
-      "schedule": "Début de printemps au démarrage de la végétation ; variétés remontantes de nouveau en début d'été",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Nourrissez les rangs, pas les plants : les racines s'étalent largement",
-        "Paillez généreusement ; les ronces fruitières adorent les sols frais et riches"
-      ]
-    },
-    "Vaccinium": {
-      "category": "Myrtillier (plante de terre de bruyère)",
-      "npk": "Engrais pour terre de bruyère (ex. : engrais azalées, à base de sulfate d'ammonium)",
-      "fertilizer": "Holly-tone / engrais azalées ; n'utilisez jamais d'engrais à base de nitrates",
-      "schedule": "Début de printemps puis de nouveau 6 semaines plus tard ; plus rien après juillet",
-      "soil_ph": "4.5-5.5 (essentiel : ils dépérissent en sol neutre)",
-      "tips": [
-        "Feuilles jaunes à nervures vertes = sol pas assez acide, pas un manque d'engrais",
-        "Acidifiez avec du soufre élémentaire plusieurs mois avant la plantation",
-        "Paillez avec des aiguilles ou de l'écorce de pin"
-      ]
-    },
-    "Vitis": {
-      "category": "Vigne",
-      "npk": "Sobre et léger : engrais équilibré seulement si la croissance est faible (ex. : 10-10-10 à faible dose)",
-      "fertilizer": "Compost ; en sol fertile, la vigne n'a généralement besoin de rien",
-      "schedule": "Une fois en début de printemps, seulement si les rameaux ont poussé de moins de 1 m l'an dernier",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Une vigne suralimentée fait une jungle de feuillage et de piètres fruits",
-        "La carence en potassium se repère au brunissement du bord des feuilles en plein été"
-      ]
-    },
-    "Citrus": {
-      "category": "Agrumes (citronnier, oranger, limettier)",
-      "npk": "Formule agrumes riche en azote avec oligo-éléments (ex. : 6-3-3 plus fer, zinc, manganèse)",
-      "fertilizer": "Engrais spécial agrumes : les agrumes sont sujets aux carences en oligo-éléments",
-      "schedule": "Toutes les 6 semaines du printemps à l'été ; chaque mois pour les sujets en pot ; très peu en hiver",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Feuilles jaunes à nervures vertes = carence en fer ou en manganèse, fréquente en pot",
-        "Les agrumes en pot perdent vite leurs nutriments par lessivage : nourrissez peu mais souvent",
-        "Arrosez abondamment avant de fertiliser, jamais sur sol sec"
-      ]
-    },
-    "Malus": {
-      "category": "Pommier / pommier d'ornement",
-      "npk": "Équilibré (10-10-10) seulement les premières années ; les arbres adultes n'ont souvent besoin que d'azote, à doser selon la pousse",
-      "fertilizer": "Engrais granulé équilibré épandu jusqu'à l'aplomb de la ramure",
-      "schedule": "Début de printemps avant la floraison ; inutile si les rameaux ont poussé de plus de 30 cm l'an dernier",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "La surfertilisation provoque des gourmands et des pousses tendres sensibles au feu bactérien",
-        "Ne fertilisez jamais après juillet"
-      ]
-    },
-    "Prunus": {
-      "category": "Cerisier / prunier / pêcher / abricotier",
-      "npk": "Engrais équilibré pauvre en azote (ex. : 5-10-10) ; un peu plus d'azote pour les pêchers",
-      "fertilizer": "Engrais granulé pour arbres fruitiers épandu à l'aplomb de la ramure",
-      "schedule": "Une fois en début de printemps ; pour les jeunes arbres, un second apport léger fin mai",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Fiez-vous à la pousse : 25-40 cm de nouveaux rameaux par an conviennent à un arbre adulte",
-        "L'excès d'azote aggrave la moniliose et le chancre"
-      ]
-    },
-    "Pyrus": {
-      "category": "Poirier",
-      "npk": "Très peu d'azote (ex. : 5-10-10) : les poiriers attirent le feu bactérien",
-      "fertilizer": "Apport granulé léger, ou simplement un paillage de compost",
-      "schedule": "Une fois en début de printemps, et seulement si la croissance a été faible",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Les pousses tendres gorgées d'azote sont exactement ce que le feu bactérien attaque",
-        "Dans le doute, ne nourrissez pas un poirier"
-      ]
-    },
-    "Persea": {
-      "category": "Avocatier",
-      "npk": "Formule agrumes/avocatier avec azote et zinc (ex. : 6-3-3 + oligo-éléments)",
-      "fertilizer": "Engrais agrumes et avocatiers",
-      "schedule": "Toutes les 6-8 semaines pendant la saison de croissance ; avec parcimonie la première année",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Extrêmement sensible à l'accumulation de sels : rincez régulièrement les pots",
-        "Exige un drainage parfait ; la pourriture des racines tue plus d'avocatiers que la faim"
-      ]
-    },
-    "Musa": {
-      "category": "Bananier",
-      "npk": "Très gros consommateur de potassium (ex. : 3-1-6 ou 9-3-27)",
-      "fertilizer": "Engrais riche en potassium ou engrais spécial bananiers/palmiers",
-      "schedule": "Chaque mois tant qu'il fait chaud ; les bananiers mangent sans arrêt en été",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "L'une des plantes les plus gourmandes qui soient : compostez généreusement",
-        "Le potassium conditionne la taille des fruits et la résistance au froid"
-      ]
-    },
-    "Olea": {
-      "category": "Olivier",
-      "npk": "Azote modéré (ex. : 10-5-5 à faible dose) ; l'olivier tolère les sols pauvres",
-      "fertilizer": "Apport granulé léger ou compost",
-      "schedule": "Début de printemps et début d'été, légèrement",
-      "soil_ph": "6.5-8.0 (tolère le calcaire)",
-      "tips": [
-        "L'olivier fructifie mieux légèrement stressé que choyé",
-        "Un drainage parfait vaut mieux que n'importe quel engrais"
-      ]
-    },
-    "Ocimum": {
-      "category": "Basilic (herbe aromatique)",
-      "npk": "Apport équilibré léger (ex. : 5-5-5 à demi-dose)",
-      "fertilizer": "Engrais liquide dilué ou émulsion de poisson",
-      "schedule": "Toutes les 3-4 semaines ; toutes les 2 semaines pour le basilic en pot",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Un basilic suralimenté grandit mais perd son parfum : les huiles se concentrent dans les plants plus sobres",
-        "Pincez les fleurs pour que les feuilles continuent de venir"
-      ]
-    },
-    "Mentha": {
-      "category": "Menthe (herbe aromatique)",
-      "npk": "Presque rien : un apport équilibré léger si les feuilles pâlissent",
-      "fertilizer": "Surfaçage de compost une fois par saison",
-      "schedule": "Une fois au printemps, c'est largement suffisant",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "La menthe prospère dans la négligence ; la nourrir la rend surtout plus envahissante",
-        "Cultivez-la en pot, sauf si vous voulez une pelouse de menthe"
-      ]
-    },
-    "Salvia": {
-      "category": "Sauge (herbe méditerranéenne)",
-      "npk": "Très léger : un peu de compost au printemps",
-      "fertilizer": "Compost uniquement ; pas d'engrais du commerce en pleine terre",
-      "schedule": "Une fois au printemps",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Les herbes méditerranéennes filent et perdent leur goût quand on les suralimente",
-        "Un drainage impeccable compte bien plus que les nutriments"
-      ]
-    },
-    "Rosmarinus": {
-      "category": "Romarin (herbe méditerranéenne)",
-      "npk": "Minimal : un apport équilibré léger pour les sujets en pot seulement",
-      "fertilizer": "Compost ou engrais liquide au quart de dose pour les pots",
-      "schedule": "Au printemps seulement ; 2-3 fois par saison pour les plantes en pot",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Le romarin a évolué sur des coteaux rocailleux : sobre et au sec, il est heureux",
-        "L'excès d'eau le tue bien avant le manque d'engrais"
-      ]
-    },
-    "Thymus": {
-      "category": "Thym (herbe méditerranéenne)",
-      "npk": "Minimal ; rien dans un sol de jardin correct",
-      "fertilizer": "Au plus, un voile de compost au printemps",
-      "schedule": "Au printemps seulement",
-      "soil_ph": "6.0-8.0",
-      "tips": [
-        "Un sol riche rend le thym mou et fade",
-        "Un sol caillouteux et très drainant, voilà son véritable engrais"
-      ]
-    },
-    "Petroselinum": {
-      "category": "Persil (herbe aromatique)",
-      "npk": "Apport léger à dominante azotée (ex. : émulsion de poisson)",
-      "fertilizer": "Émulsion de poisson ou engrais liquide équilibré à demi-dose",
-      "schedule": "Toutes les 3-4 semaines pendant la saison de récolte",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Le persil est plus gourmand que la plupart des herbes : on le cultive pour son feuillage abondant",
-        "Coupez d'abord les tiges extérieures pour qu'il continue de produire"
-      ]
-    },
-    "Coriandrum": {
-      "category": "Coriandre (herbe aromatique)",
-      "npk": "Apport azoté léger",
-      "fertilizer": "Engrais liquide à demi-dose",
-      "schedule": "Une ou deux fois au cours de sa courte vie",
-      "soil_ph": "6.2-6.8",
-      "tips": [
-        "C'est la chaleur, pas la faim, qui fait monter la coriandre en graines : semez en échelonné plutôt que de surfertiliser",
-        "Gardez le sol régulièrement humide"
-      ]
-    },
-    "Lavandula": {
-      "category": "Lavande (arbuste méditerranéen)",
-      "npk": "Pratiquement rien : la lavande préfère les sols pauvres",
-      "fertilizer": "Rien, ou un peu de compost à la plantation. Pas de paillis contre la tige",
-      "schedule": "Inutile une fois la plante établie",
-      "soil_ph": "6.5-7.5 (apprécie un peu de calcaire)",
-      "tips": [
-        "L'engrais réduit le parfum et la rusticité hivernale",
-        "Chaulez les sols acides ; un paillis de gravier vaut mieux que l'écorce"
-      ]
-    },
-    "Rosa": {
-      "category": "Rosier",
-      "npk": "Équilibré avec un supplément de phosphore et de potassium (ex. : 4-6-4 ou engrais spécial rosiers)",
-      "fertilizer": "Engrais rosiers ou farine de luzerne plus compost ; engrais liquide entre les vagues de floraison",
-      "schedule": "Premier apport à l'ouverture des feuilles au printemps, puis après chaque vague de floraison ; arrêtez 6-8 semaines avant les premières gelées",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Les rosiers remontants sont de gros gourmands",
-        "Peaux de banane et luzerne sont des apports de potassium classiques",
-        "Une fertilisation tardive produit des pousses sensibles au gel"
-      ]
-    },
-    "Hydrangea": {
-      "category": "Hortensia",
-      "npk": "Équilibré à libération lente (ex. : 10-10-10) ; pour des fleurs bleues, engrais acide pauvre en phosphore",
-      "fertilizer": "Engrais arbustes à libération lente au printemps",
-      "schedule": "Une fois au printemps, éventuellement de nouveau en début d'été ; plus rien après juillet",
-      "soil_ph": "5.2-5.5 pour des fleurs bleues, 6.0-6.5 pour des fleurs roses",
-      "tips": [
-        "La couleur des fleurs suit le pH : sulfate d'aluminium pour le bleu, chaux de jardin pour le rose (hortensias à grandes feuilles uniquement)",
-        "Un excès de phosphore bloque l'absorption de l'aluminium et garde les fleurs roses",
-        "La surfertilisation donne des feuilles au lieu de fleurs"
-      ]
-    },
-    "Rhododendron": {
-      "category": "Rhododendron / azalée (plante de terre de bruyère)",
-      "npk": "Engrais pour terre de bruyère (ex. : engrais azalées/camélias, 4-3-4 avec soufre)",
-      "fertilizer": "Holly-tone ou engrais acide similaire",
-      "schedule": "Juste après la floraison, légèrement ; plus rien après la mi-été",
-      "soil_ph": "4.5-6.0",
-      "tips": [
-        "Leurs fines racines superficielles brûlent facilement : mieux vaut toujours sous-doser que surdoser",
-        "Un jaunissement entre les nervures signale un pH trop élevé",
-        "Paillez avec de l'écorce de pin plutôt que de fertiliser davantage"
-      ]
-    },
-    "Camellia": {
-      "category": "Camélia (plante de terre de bruyère)",
-      "npk": "Engrais pour terre de bruyère (engrais azalées/camélias)",
-      "fertilizer": "Engrais acide plus un paillis d'écorce de pin",
-      "schedule": "À la fin de la floraison, puis 6-8 semaines plus tard ; jamais pendant la floraison",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Fertiliser pendant la formation des boutons peut les faire tomber",
-        "Les camélias mangent peu : la moitié de la dose indiquée est plus sûre"
-      ]
-    },
-    "Gardenia": {
-      "category": "Gardénia (plante de terre de bruyère)",
-      "npk": "Formule acide avec fer (ex. : engrais acide 3-1-2 + fer chélaté)",
-      "fertilizer": "Engrais azalées ; pulvérisation de fer chélaté en cas de feuilles jaunissantes",
-      "schedule": "Toutes les 4-6 semaines du printemps à la fin de l'été",
-      "soil_ph": "5.0-6.0",
-      "tips": [
-        "Les gardénias sont les divas des plantes de terre de bruyère : des feuilles jaunes signalent généralement un blocage du fer dû à un pH trop élevé",
-        "La chute des boutons vient des variations de température et d'arrosage, pas de la faim"
-      ]
-    },
-    "Paeonia": {
-      "category": "Pivoine",
-      "npk": "Peu d'azote, bon niveau de phosphore-potassium (ex. : 5-10-10)",
-      "fertilizer": "Engrais bulbes ou granulé pauvre en azote autour de la souche (jamais dessus)",
-      "schedule": "Début de printemps quand les pousses font 10 cm, et de nouveau après la floraison",
-      "soil_ph": "6.5-7.0",
-      "tips": [
-        "Gavées d'azote, les pivoines s'affaissent et sautent la floraison",
-        "La profondeur de plantation (yeux à 3-5 cm maximum) influence la floraison plus que n'importe quel engrais"
-      ]
-    },
-    "Dahlia": {
-      "category": "Dahlia",
-      "npk": "Peu d'azote, beaucoup de potassium (ex. : 5-10-10 ou engrais tomates)",
-      "fertilizer": "L'engrais tomates est la nourriture classique du dahlia",
-      "schedule": "Chaque mois, d'un mois après la plantation jusqu'au début de l'automne",
-      "soil_ph": "6.2-6.8",
-      "tips": [
-        "Trop d'azote donne des plantes géantes, des tiges faibles, peu de fleurs et des tubercules sujets à la pourriture",
-        "Arrêtez les apports en septembre pour aider les tubercules à mûrir"
-      ]
-    },
-    "Tulipa": {
-      "category": "Tulipe (bulbe)",
-      "npk": "Engrais bulbes / poudre d'os à la plantation ; engrais équilibré à la sortie des feuilles",
-      "fertilizer": "Engrais bulbes incorporé dans le trou de plantation",
-      "schedule": "À la plantation d'automne, puis une fois à l'émergence des pousses au printemps",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Nourrissez le feuillage après la floraison : c'est la fleur de l'an prochain qui se construit",
-        "Ne coupez jamais les feuilles avant leur jaunissement naturel"
-      ]
-    },
-    "Narcissus": {
-      "category": "Jonquille / narcisse (bulbe)",
-      "npk": "Engrais bulbes à la plantation, engrais pauvre en azote (ex. : 5-10-12) à la sortie du feuillage",
-      "fertilizer": "Engrais bulbes",
-      "schedule": "À la plantation d'automne et à l'émergence au printemps ; un apport après floraison aide la naturalisation",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Laissez le feuillage se dessécher naturellement pendant 6 semaines après la floraison",
-        "Trop d'azote favorise la pourriture des bulbes"
-      ]
-    },
-    "Lilium": {
-      "category": "Lys (vrai lys à bulbe)",
-      "npk": "Équilibré à pauvre en azote (ex. : 5-10-10)",
-      "fertilizer": "Engrais bulbes ou engrais tomates",
-      "schedule": "À l'émergence des pousses puis de nouveau à la floraison",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Les lys aiment la tête au soleil et les pieds dans un sol frais et paillé",
-        "Laissez les tiges en place après la floraison pour nourrir le bulbe"
-      ]
-    },
-    "Chrysanthemum": {
-      "category": "Chrysanthème",
-      "npk": "Engrais équilibré (ex. : 5-5-5) jusqu'à ce que les boutons se colorent, puis arrêt",
-      "fertilizer": "Engrais liquide équilibré",
-      "schedule": "Chaque mois du printemps jusqu'à la coloration des boutons",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Pincez les extrémités jusqu'à début juillet pour obtenir des plantes touffues",
-        "Fertiliser pendant la floraison raccourcit la vie des fleurs"
-      ]
-    },
-    "Petunia": {
-      "category": "Pétunia (annuelle fleurie)",
-      "npk": "Apport équilibré régulier avec fer (ex. : 20-10-20) ; ils sont réputés voraces",
-      "fertilizer": "Engrais soluble ; granulés à libération lente en fond de suspension comme base",
-      "schedule": "Toutes les 1-2 semaines en massif, chaque semaine en suspensions et en pots",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Un jaunissement des jeunes pousses signale une carence en fer, fréquente chez les pétunias",
-        "Chaque arrosage lessive les suspensions : nourrissez souvent"
-      ]
-    },
-    "Pelargonium": {
-      "category": "Géranium (plante à massif)",
-      "npk": "Engrais équilibré (ex. : 10-10-10 ou 20-20-20 dilué)",
-      "fertilizer": "Engrais soluble équilibré",
-      "schedule": "Toutes les 2-3 semaines pendant la saison de floraison",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Un géranium suralimenté fait des feuilles, pas des fleurs",
-        "Supprimez religieusement les fleurs fanées pour une floraison continue"
-      ]
-    },
-    "Tagetes": {
-      "category": "Œillet d'Inde / rose d'Inde (annuelle)",
-      "npk": "Apport équilibré léger ; les œillets d'Inde préfèrent un sol maigre",
-      "fertilizer": "Du compost à la plantation suffit généralement",
-      "schedule": "Un apport léger un mois après la plantation, tout au plus",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Un sol riche donne un feuillage luxuriant et peu de fleurs",
-        "Ils réussissent vraiment mieux légèrement affamés"
-      ]
-    },
-    "Helianthus": {
-      "category": "Tournesol",
-      "npk": "Équilibré à la plantation, azote pendant la croissance, potassium au stade des boutons",
-      "fertilizer": "Sol riche en compost plus un engrais granulé équilibré",
-      "schedule": "À la plantation et une fois à mi-croissance",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Les variétés géantes sont très gourmandes en nourriture et en eau",
-        "Trop d'azote tardif = tiges faibles qui cassent"
-      ]
-    },
-    "Viola": {
-      "category": "Pensée / violette cornue",
-      "npk": "Engrais liquide équilibré (ex. : 15-15-15 dilué)",
-      "fertilizer": "Engrais soluble",
-      "schedule": "Toutes les 2-3 semaines pendant la floraison ; chaque mois par temps frais",
-      "soil_ph": "5.5-6.2",
-      "tips": [
-        "Les pensées se nourrissent et fleurissent même en saison fraîche : ne vous arrêtez pas à l'automne",
-        "Supprimez les fleurs fanées pour prolonger la floraison"
-      ]
-    },
-    "Impatiens": {
-      "category": "Impatiens (annuelle d'ombre)",
-      "npk": "Apport équilibré léger (ex. : 10-10-10 à demi-dose)",
-      "fertilizer": "Engrais soluble dilué",
-      "schedule": "Toutes les 2 semaines en pot, chaque mois en massif",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "La surfertilisation donne de grandes plantes feuillues aux fleurs clairsemées",
-        "Une humidité constante compte plus que la nourriture"
-      ]
-    },
-    "Fuchsia": {
-      "category": "Fuchsia",
-      "npk": "Apport équilibré dilué et régulier (ex. : quart de dose à chaque arrosage)",
-      "fertilizer": "Engrais soluble équilibré ou légèrement riche en potassium",
-      "schedule": "Peu mais chaque semaine : la règle d'or du fuchsia",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Des apports légers et constants valent mieux que de fortes doses occasionnelles",
-        "Cessez franchement les apports à l'automne pour laisser la plante se reposer"
-      ]
-    },
-    "Begonia": {
-      "category": "Bégonia",
-      "npk": "Apport équilibré dilué (ex. : 10-10-10 au quart de dose)",
-      "fertilizer": "Engrais soluble, bien dilué",
-      "schedule": "Toutes les 2 semaines en période de croissance active",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Les racines du bégonia brûlent facilement : diluez toujours plus que l'étiquette ne l'indique",
-        "Bégonias tubéreux : arrêtez les apports en fin d'été"
-      ]
-    },
-    "Hibiscus": {
-      "category": "Hibiscus",
-      "npk": "Beaucoup de potassium, azote modéré, PEU de phosphore (ex. : 12-4-18 ou 10-4-12)",
-      "fertilizer": "Engrais hibiscus ou engrais riche en potassium ; évitez les stimulateurs de floraison",
-      "schedule": "Toutes les 2 semaines en été, chaque mois au printemps et à l'automne, rien en hiver",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "L'hibiscus est atypique : le phosphore s'accumule et finit par l'empoisonner avec le temps",
-        "Fuyez complètement les engrais « super floraison » riches en phosphore"
-      ]
-    },
-    "Bougainvillea": {
-      "category": "Bougainvillier",
-      "npk": "Équilibré avec oligo-éléments (ex. : 6-8-10 + fer) ; une fertilisation sobre favorise la floraison",
-      "fertilizer": "Engrais bougainvillier ou hibiscus",
-      "schedule": "Chaque mois en saison de croissance, légèrement",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Il fleurit mieux légèrement stressé : un peu de faim et de sécheresse déclenche la couleur",
-        "Excès d'eau plus excès d'engrais = tout en vert, pas de bractées"
-      ]
-    },
-    "Jasminum": {
-      "category": "Jasmin",
-      "npk": "Engrais équilibré à tendance potassique (ex. : 7-9-5)",
-      "fertilizer": "Engrais liquide équilibré",
-      "schedule": "Toutes les 2-4 semaines pendant la saison de croissance",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Le potassium soutient la floraison et le parfum",
-        "Un jasmin à l'étroit dans son pot fleurit mieux : ne surdimensionnez pas le contenant"
-      ]
-    },
-    "Clematis": {
-      "category": "Clématite",
-      "npk": "Engrais de floraison pauvre en azote (ex. : 5-10-10 ou engrais rosiers/tomates)",
-      "fertilizer": "Engrais rosiers ou engrais tomates",
-      "schedule": "Au printemps quand les bourgeons gonflent, puis chaque mois ; pause pendant la floraison proprement dite",
-      "soil_ph": "6.5-7.0",
-      "tips": [
-        "La vieille règle tient toujours : la tête au soleil, les pieds à l'ombre - paillez les racines",
-        "Fertiliser pendant la floraison peut écourter le spectacle"
-      ]
-    },
-    "Hosta": {
-      "category": "Hosta (vivace d'ombre)",
-      "npk": "Équilibré à libération lente (ex. : 10-10-10) au printemps",
-      "fertilizer": "Granulé à libération lente plus compost",
-      "schedule": "Une fois au printemps au déploiement des feuilles ; apport léger facultatif en début d'été ; rien après juillet",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Les hostas se nourrissent surtout d'un sol riche et frais : le compost vaut mieux que l'engrais",
-        "Une fertilisation tardive retarde la dormance et expose aux dégâts du gel"
-      ]
-    },
-    "Syringa": {
-      "category": "Lilas",
-      "npk": "Minimal : un peu d'engrais équilibré seulement en sol pauvre ; apprécie le calcaire",
-      "fertilizer": "Compost ; une poignée de chaux de jardin en sol acide",
-      "schedule": "Début de printemps tout au plus",
-      "soil_ph": "6.5-7.5",
-      "tips": [
-        "Les lilas fertilisés refusent souvent de fleurir : sol maigre et plein soleil réussissent mieux",
-        "Taillez juste après la floraison, pas plus tard"
-      ]
-    },
-    "Magnolia": {
-      "category": "Magnolia",
-      "npk": "Engrais arbres équilibré à libération lente (ex. : 10-10-10), légèrement",
-      "fertilizer": "Granulé à libération lente épandu sous la ramure",
-      "schedule": "Début de printemps pour les jeunes arbres ; les sujets établis en ont rarement besoin",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Racines charnues et superficielles : n'enfouissez jamais l'engrais, épandez simplement en surface et arrosez",
-        "Paillez large, pas épais"
-      ]
-    },
-    "Acer": {
-      "category": "Érable (y compris érable du Japon)",
-      "npk": "Doux et lent : léger engrais à libération lente au printemps si la croissance est faible (ex. : 10-10-10 à demi-dose)",
-      "fertilizer": "Un paillage de compost est généralement tout ce qu'un érable demande",
-      "schedule": "Début de printemps seulement, et uniquement les arbres jeunes ou affaiblis",
-      "soil_ph": "5.5-6.5 (les érables du Japon préfèrent un sol légèrement acide)",
-      "tips": [
-        "Les érables du Japon détestent les fortes fertilisations : cela donne une pousse grossière et la brûlure des feuilles",
-        "Ne fertilisez jamais un érable nouvellement planté la première année"
-      ]
-    },
-    "Buxus": {
-      "category": "Buis",
-      "npk": "Engrais équilibré à tendance azotée (ex. : 10-6-4)",
-      "fertilizer": "Engrais granulé pour arbustes épandu à l'aplomb de la ramure",
-      "schedule": "Début de printemps ; un second apport léger à l'automne est possible en climat doux",
-      "soil_ph": "6.5-7.2",
-      "tips": [
-        "Un feuillage bronzé en hiver signale souvent une faim d'azote",
-        "Racines superficielles : épandez en surface, n'enfouissez jamais"
-      ]
-    },
-    "Ficus": {
-      "category": "Ficus (caoutchouc, figuier lyre, figuier pleureur)",
-      "npk": "Engrais foliaire à tendance azotée (ex. : engrais plantes vertes de ratio 3-1-2)",
-      "fertilizer": "Engrais liquide pour plantes d'intérieur à demi-dose",
-      "schedule": "Chaque mois du printemps au début de l'automne ; rien en hiver",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Le figuier lyre aime la constance : même place, même rythme",
-        "Rincez le pot à l'eau claire tous les deux ou trois mois pour éliminer les sels accumulés"
-      ]
-    },
-    "Monstera": {
-      "category": "Monstera (plante d'intérieur)",
-      "npk": "Équilibré à tendance azotée (ex. : 3-1-2 ou 20-20-20 dilué)",
-      "fertilizer": "Engrais liquide pour plantes d'intérieur à demi-dose",
-      "schedule": "Chaque mois pendant la croissance de printemps/été ; tous les 2 mois ou rien en hiver",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Les grandes feuilles fenestrées viennent de la lumière et de l'âge plus que de l'engrais",
-        "Jeunes feuilles pâles = nourrissez ; bords bruns et secs = probablement trop d'engrais ou air trop sec"
-      ]
-    },
-    "Epipremnum": {
-      "category": "Pothos (plante d'intérieur)",
-      "npk": "N'importe quel engrais plantes d'intérieur équilibré, dilué (ex. : 10-10-10 à demi-dose)",
-      "fertilizer": "Engrais liquide pour plantes d'intérieur",
-      "schedule": "Chaque mois en saison de croissance ; le pothos tolère la négligence",
-      "soil_ph": "6.1-6.8",
-      "tips": [
-        "L'une des plantes les plus difficiles à sous-alimenter : dans le doute, abstenez-vous",
-        "Nourrissez seulement quand il produit activement de nouvelles feuilles"
-      ]
-    },
-    "Philodendron": {
-      "category": "Philodendron (plante d'intérieur)",
-      "npk": "Engrais foliaire à tendance azotée (ratio 3-1-2)",
-      "fertilizer": "Engrais liquide pour plantes d'intérieur à demi-dose",
-      "schedule": "Chaque mois au printemps-été, toutes les 6-8 semaines en hiver s'il pousse encore",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "De petites feuilles nouvelles sur une plante adulte signifient généralement qu'elle a faim",
-        "Sensible aux sels : rincez le pot de temps en temps"
-      ]
-    },
-    "Dracaena": {
-      "category": "Dracéna (et plantes proches)",
-      "npk": "Apport équilibré léger (ex. : 10-10-10 au quart de dose)",
-      "fertilizer": "Engrais liquide dilué pour plantes d'intérieur",
-      "schedule": "Tous les 1-2 mois, en saison de croissance uniquement",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Très sensible au fluor : les pointes brunes viennent souvent de l'eau du robinet et de la perlite, pas de la faim",
-        "La surfertilisation se repère à des pointes brûlées et des stries pâles"
-      ]
-    },
-    "Sansevieria": {
-      "category": "Sansevière (langue de belle-mère)",
-      "npk": "Minimal : engrais cactées à demi-dose (ex. : 2-7-7 dilué)",
-      "fertilizer": "Engrais cactées/plantes grasses",
-      "schedule": "2-3 fois par an pendant les mois chauds, c'est bien suffisant",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Les sansevières stockent tout : en donner plus ne sert à rien, sinon à risquer de brûler les racines",
-        "Ne fertilisez jamais en hiver ni juste après un rempotage"
-      ]
-    },
-    "Chlorophytum": {
-      "category": "Plante araignée (chlorophytum)",
-      "npk": "Apport équilibré dilué (ex. : 10-10-10 au quart ou à la moitié de la dose)",
-      "fertilizer": "Engrais liquide pour plantes d'intérieur",
-      "schedule": "Chaque mois au printemps/été",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Les pointes brunes viennent généralement du fluor et des sels : utilisez eau de pluie ou eau distillée, et dosez léger",
-        "Une plante araignée suralimentée cesse de produire des rejets"
-      ]
-    },
-    "Spathiphyllum": {
-      "category": "Spathiphyllum (fleur de lune)",
-      "npk": "Apport équilibré dilué (ex. : 20-20-20 au quart de dose)",
-      "fertilizer": "Engrais liquide pour plantes d'intérieur, bien dilué",
-      "schedule": "Toutes les 6 semaines du printemps à l'été",
-      "soil_ph": "5.8-6.5",
-      "tips": [
-        "Des fleurs vertes signalent un excès d'engrais",
-        "Des pointes brunes signalent des sels ou une eau chlorée : rincez le pot"
-      ]
-    },
-    "Zamioculcas": {
-      "category": "Plante ZZ (zamioculcas)",
-      "npk": "Minimal : engrais équilibré au quart de dose",
-      "fertilizer": "Engrais liquide dilué pour plantes d'intérieur",
-      "schedule": "2-3 fois par an, en saison de croissance uniquement",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Le zamioculcas vit sur les réserves de ses rhizomes : il n'a presque pas besoin de vous",
-        "Excès d'engrais et excès d'eau sont les deux seules vraies façons d'en tuer un"
-      ]
-    },
-    "Goeppertia": {
-      "category": "Calathéa / groupe des marantas",
-      "npk": "Apport très dilué à tendance azotée (quart de dose)",
-      "fertilizer": "Engrais liquide doux ; ce sont des divas sensibles aux sels",
-      "schedule": "Chaque mois en saison de croissance, au quart de dose",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Les calathéas brûlent facilement à cause des sels d'engrais : moins, c'est mieux",
-        "Les bords secs et cassants viennent presque toujours de la qualité de l'eau ou de l'humidité, pas de la faim"
-      ]
-    },
-    "Calathea": {
-      "category": "Calathéa / groupe des marantas",
-      "npk": "Apport très dilué à tendance azotée (quart de dose)",
-      "fertilizer": "Engrais liquide doux ; ce sont des divas sensibles aux sels",
-      "schedule": "Chaque mois en saison de croissance, au quart de dose",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Les calathéas brûlent facilement à cause des sels d'engrais : moins, c'est mieux",
-        "Les bords secs et cassants viennent presque toujours de la qualité de l'eau ou de l'humidité, pas de la faim"
-      ]
-    },
-    "Hedera": {
-      "category": "Lierre",
-      "npk": "Engrais foliaire équilibré (ex. : 10-10-10 dilué)",
-      "fertilizer": "Engrais liquide pour plantes d'intérieur ; rien n'est nécessaire en extérieur",
-      "schedule": "Chaque mois à l'intérieur en saison de croissance ; le lierre d'extérieur n'a besoin de rien",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Ne nourrissez pas le lierre en plein été chaud ni en plein hiver : sa croissance marque alors une pause",
-        "Un lierre d'extérieur fertilisé régulièrement devient encore plus envahissant"
-      ]
-    },
-    "Hoya": {
-      "category": "Hoya (fleur de porcelaine)",
-      "npk": "Apport équilibré léger ; passez à plus de phosphore à l'apparition des boutons (ex. : 5-10-5)",
-      "fertilizer": "Engrais liquide dilué ou engrais orchidées",
-      "schedule": "Chaque mois en croissance ; arrêt en hiver",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Ne supprimez jamais les anciens pédoncules floraux : ils refleurissent au même endroit",
-        "Un hoya légèrement à l'étroit dans son pot fleurit mieux"
-      ]
-    },
-    "Peperomia": {
-      "category": "Pépéromia",
-      "npk": "Apport équilibré dilué (quart de dose)",
-      "fertilizer": "Engrais liquide pour plantes d'intérieur, bien dilué",
-      "schedule": "Au plus une fois par mois en saison de croissance",
-      "soil_ph": "6.0-6.6",
-      "tips": [
-        "Systèmes racinaires minuscules : ils se nourrissent peu, par nature",
-        "L'excès d'eau est le vrai tueur ; l'engrais est presque facultatif"
-      ]
-    },
-    "Saintpaulia": {
-      "category": "Violette africaine (saintpaulia)",
-      "npk": "Engrais spécial violettes (ex. : 14-12-14) ou engrais équilibré au quart de dose",
-      "fertilizer": "Engrais pour violettes africaines, à faible dose à chaque arrosage",
-      "schedule": "Quart de dose à chaque arrosage, ou chaque mois à demi-dose",
-      "soil_ph": "5.8-6.2",
-      "tips": [
-        "Arrosez par le bas pour garder les feuilles sèches",
-        "L'absence de fleurs vient généralement d'un manque de lumière, pas d'un manque de nourriture"
-      ]
-    },
-    "Phalaenopsis": {
-      "category": "Orchidée papillon (phalaenopsis)",
-      "npk": "Engrais orchidées, « peu mais souvent » (ex. : 20-20-20 au quart de dose)",
-      "fertilizer": "Engrais spécial orchidées",
-      "schedule": "Quart de dose chaque semaine, eau claire un arrosage sur quatre pour rincer",
-      "soil_ph": "5.5-6.5 (en substrat d'écorce)",
-      "tips": [
-        "Rincez à l'eau claire chaque mois : les racines d'orchidée brûlent facilement avec les sels",
-        "Nourrissez moins (voire pas du tout) en pleine floraison",
-        "N'utilisez jamais de terreau classique pour les orchidées"
-      ]
-    },
-    "Aloe": {
-      "category": "Aloès (plante grasse)",
-      "npk": "Faible et rare : engrais cactées (ex. : 2-7-7) à demi-dose",
-      "fertilizer": "Engrais cactées/plantes grasses",
-      "schedule": "2-3 fois au printemps et en été, rien le reste du temps",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Un aloès suralimenté devient mou, affaissé et sujet à la pourriture",
-        "Substrat caillouteux et soleil comptent infiniment plus que l'engrais"
-      ]
-    },
-    "Haworthia": {
-      "category": "Haworthia (petite plante grasse)",
-      "npk": "Presque rien : engrais cactées au quart de dose",
-      "fertilizer": "Engrais cactées/plantes grasses",
-      "schedule": "Une ou deux fois par an au printemps/été",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Croissance lente et appétit minuscule : dans le doute, ne nourrissez pas",
-        "L'étiolement (étirement) signifie qu'elle veut de la lumière, pas de la nourriture"
-      ]
-    },
-    "Echeveria": {
-      "category": "Échevéria (plante grasse en rosette)",
-      "npk": "Engrais cactées pauvre en azote (ex. : 2-7-7) à demi-dose",
-      "fertilizer": "Engrais cactées/plantes grasses",
-      "schedule": "2-3 fois au printemps/été",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "La surfertilisation ruine la forme compacte de la rosette",
-        "Forme serrée et belles couleurs viennent d'une lumière vive et d'un sol maigre"
-      ]
-    },
-    "Crassula": {
-      "category": "Arbre de jade et plantes proches",
-      "npk": "Faible : engrais cactées à demi-dose",
-      "fertilizer": "Engrais cactées/plantes grasses",
-      "schedule": "Tous les 2 mois, au printemps/été uniquement",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Un arbre de jade vit des décennies avec presque rien : une fertilisation sobre le garde robuste",
-        "Nourrissez uniquement les plantes établies et en croissance active"
-      ]
-    },
-    "Kalanchoe": {
-      "category": "Kalanchoé",
-      "npk": "Engrais équilibré en croissance ; plus de potassium pour favoriser la remontée de floraison",
-      "fertilizer": "Engrais équilibré dilué ou engrais pour plantes fleuries d'intérieur",
-      "schedule": "Chaque mois au printemps/été ; arrêt pendant le repos à jours courts qui déclenche la floraison",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "La refloraison demande 6 semaines de longues nuits, pas plus d'engrais",
-        "Les règles des plantes grasses s'appliquent : sol bien drainé, fertilisation modérée"
-      ]
-    },
-    "Sedum": {
-      "category": "Sédum / orpin",
-      "npk": "Rien à minimal : ils prospèrent en sol pauvre",
-      "fertilizer": "Au plus, une fine couche de compost",
-      "schedule": "Inutile ; éventuellement une fois au printemps pour les plantes en pot",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Les sédums fertilisés deviennent hauts, mous et s'ouvrent en leur centre",
-        "Maigre, caillouteux, ensoleillé = parfait"
-      ]
-    },
-    "Agave": {
-      "category": "Agave",
-      "npk": "Rien en pleine terre ; rare engrais cactées dilué pour les pots",
-      "fertilizer": "Engrais cactées pour les sujets en pot uniquement",
-      "schedule": "1-2 fois par an pour les pots ; jamais pour les plantes en pleine terre",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Fertiliser un agave peut le pousser à fleurir - or les agaves meurent après la floraison",
-        "Sérieusement : ne fertilisez pas les agaves que vous voulez garder"
-      ]
-    },
-    "Nephrolepis": {
-      "category": "Fougère de Boston",
-      "npk": "Apport équilibré dilué (ex. : 20-10-20 au quart de dose)",
-      "fertilizer": "Engrais liquide pour plantes d'intérieur, bien dilué",
-      "schedule": "Chaque mois du printemps au début de l'automne",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Les fougères ont des racines délicates : péchez toujours par excès de douceur",
-        "Des frondes pâles et lentes en été = l'heure d'un apport léger"
-      ]
-    },
-    "Pinus": {
-      "category": "Pin",
-      "npk": "Rarement nécessaire ; engrais acide pour conifères (ex. : 4-3-4 avec soufre) si l'arbre faiblit",
-      "fertilizer": "Engrais acide type Holly-tone, ou simplement un paillis d'aiguilles de pin",
-      "schedule": "Début de printemps, uniquement pour les arbres jeunes ou visiblement en difficulté",
-      "soil_ph": "5.0-6.5",
-      "tips": [
-        "Les pins établis dans le jardin n'ont presque jamais besoin d'engrais",
-        "Laissez les aiguilles tombées au sol : c'est l'arbre qui se nourrit lui-même"
-      ]
-    },
-    "Juniperus": {
-      "category": "Genévrier",
-      "npk": "Léger engrais pour conifères (ex. : 16-4-8 à libération lente) si la couleur est terne",
-      "fertilizer": "Engrais à libération lente pour conifères",
-      "schedule": "Début de printemps tout au plus ; les sujets établis n'ont généralement besoin de rien",
-      "soil_ph": "5.5-7.0",
-      "tips": [
-        "Les genévriers tolèrent les sols pauvres par nature",
-        "Un jaunissement vient plus souvent d'araignées rouges ou d'un sol détrempé que de la faim"
-      ]
-    },
-    "Thuja": {
-      "category": "Thuya / haie de cèdres",
-      "npk": "Engrais conifères à tendance azotée (ex. : 18-6-12 à libération lente)",
-      "fertilizer": "Engrais à libération lente pour conifères et haies",
-      "schedule": "Début de printemps ; une haie que l'on pousse à croître peut recevoir un second apport en fin de printemps",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Nourrissez les haies encore en formation ; les écrans adultes demandent peu",
-        "Arrosez abondamment après l'apport : les thuyas s'enracinent en surface"
-      ]
-    }
-  },
-  "family": {
-    "Cactaceae": {
-      "category": "Cactus",
-      "npk": "Peu d'azote, plus de P-K (ex. : 2-7-7), bien dilué",
-      "fertilizer": "Engrais cactées/plantes grasses",
-      "schedule": "Chaque mois à demi-dose pendant la croissance de printemps/été ; rien pendant le repos hivernal",
-      "soil_ph": "5.5-7.0",
-      "tips": [
-        "Le repos hivernal doit être sec et sans engrais : c'est lui qui déclenche les fleurs",
-        "Les cactus suralimentés poussent vite, mous et perdent leur allure naturelle"
-      ]
-    },
-    "Orchidaceae": {
-      "category": "Orchidée",
-      "npk": "Engrais orchidées « peu mais souvent » (20-20-20 au quart de dose)",
-      "fertilizer": "Engrais spécial orchidées",
-      "schedule": "Quart de dose chaque semaine en croissance ; rinçage mensuel à l'eau claire",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Dans l'écorce, les racines d'orchidée ne reçoivent presque aucun nutriment naturellement - mais elles brûlent facilement",
-        "Ralentissez les apports pendant la floraison"
-      ]
-    },
-    "Crassulaceae": {
-      "category": "Plante grasse",
-      "npk": "Engrais cactées pauvre en azote (ex. : 2-7-7) à demi-dose",
-      "fertilizer": "Engrais cactées/plantes grasses",
-      "schedule": "2-3 fois au printemps/été uniquement",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Les plantes grasses préfèrent la sobriété : la surfertilisation provoque étiolement et pourriture",
-        "Ne fertilisez jamais les plantes dormantes ou fraîchement rempotées"
-      ]
-    },
-    "Poaceae": {
-      "category": "Graminée (gazon / ornementale)",
-      "npk": "Gazon : dominante azotée (ex. : 20-5-10). Graminées ornementales : peu ou pas du tout",
-      "fertilizer": "Engrais gazon à libération lente ; compost pour les ornementales",
-      "schedule": "Gazon : fin de printemps et début d'automne. Graminées ornementales : une fois au printemps tout au plus",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "La fertilisation d'automne construit les racines ; celle de printemps fabrique surtout de la tonte",
-        "Les graminées ornementales s'affaissent quand on les suralimente"
-      ]
-    },
-    "Ericaceae": {
-      "category": "Famille des bruyères (plantes de terre de bruyère : bruyère, piéris, etc.)",
-      "npk": "Engrais pour terre de bruyère (engrais azalées/camélias), légèrement",
-      "fertilizer": "Holly-tone ou engrais acide similaire",
-      "schedule": "Une fois au printemps, après la floraison",
-      "soil_ph": "4.5-6.0",
-      "tips": [
-        "Toute la famille exige un sol acide : le pH d'abord, l'engrais ensuite",
-        "Racines fines et superficielles : sous-dosez et paillez avec de l'écorce de pin"
-      ]
-    },
-    "Arecaceae": {
-      "category": "Palmier",
-      "npk": "Formule palmiers avec magnésium et manganèse (ex. : 8-2-12 + Mg)",
-      "fertilizer": "Engrais spécial palmiers : les palmiers ont des besoins uniques en oligo-éléments",
-      "schedule": "Tous les 2-3 mois en saison de croissance",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Un jaunissement en bandes sur les palmes = carence en magnésium, classique chez les palmiers",
-        "Ne coupez jamais les palmes vertes : le palmier recycle les nutriments de ses vieilles feuilles"
-      ]
-    },
-    "Lamiaceae": {
-      "category": "Herbe de la famille de la menthe",
-      "npk": "Apport équilibré léger ; la plupart préfèrent un sol maigre",
-      "fertilizer": "Compost ; engrais liquide dilué pour les herbes en pot",
-      "schedule": "Une ou deux fois par saison",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Surfertiliser les herbes aromatiques échange la saveur contre le volume",
-        "Récoltez souvent : c'est mieux que l'engrais pour une croissance touffue"
-      ]
-    },
-    "Rosaceae": {
-      "category": "Famille des rosiers (arbustes et arbres à fleurs ou à fruits)",
-      "npk": "Engrais équilibré, pauvre en azote pour les espèces fruitières (ex. : 5-10-10)",
-      "fertilizer": "Engrais granulé équilibré ou engrais arbres fruitiers",
-      "schedule": "Début de printemps ; de nouveau après la nouaison pour les espèces fruitières",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Surveillez le feu bactérien dans cette famille : évitez l'excès d'azote",
-        "Jugez les arbres à la pousse annuelle avant de fertiliser"
-      ]
-    },
-    "Fabaceae": {
-      "category": "Famille des légumineuses",
-      "npk": "Peu d'azote (elles le fixent elles-mêmes), P-K modérés",
-      "fertilizer": "Compost ; évitez les engrais azotés",
-      "schedule": "À la plantation ; peu de choses ensuite",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Grâce à leurs racines fixatrices d'azote, la plupart des légumineuses se nourrissent seules",
-        "Le phosphore favorise la nodulation et la floraison"
-      ]
-    },
-    "Asteraceae": {
-      "category": "Famille des marguerites (asters, zinnias, échinacées...)",
-      "npk": "Apport équilibré léger (ex. : 5-5-5) ; la plupart fleurissent mieux en sol maigre",
-      "fertilizer": "Compost à la plantation plus un engrais liquide occasionnel",
-      "schedule": "À la plantation et une fois en milieu de saison",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Suralimentées, la plupart des marguerites deviennent hautes, molles et avares de fleurs",
-        "Supprimez les fleurs fanées plutôt que de nourrir davantage"
-      ]
-    },
-    "Cucurbitaceae": {
-      "category": "Famille des courges et concombres",
-      "npk": "Équilibré au début, riche en potassium à la fructification",
-      "fertilizer": "Sol riche en compost plus un engrais pour légumes",
-      "schedule": "À la plantation, à la floraison et chaque mois pendant la fructification",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Grosses gourmandes : plantez sur des buttes de compost",
-        "Un arrosage régulier évite les fruits amers"
-      ]
-    },
-    "Solanaceae": {
-      "category": "Légume de la famille des solanacées",
-      "npk": "Équilibré au début, pauvre en azote et riche en potassium à la floraison (engrais tomates)",
-      "fertilizer": "Engrais tomates/légumes avec calcium",
-      "schedule": "Au repiquage, puis toutes les 2 semaines dès les premières fleurs",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Un arrosage régulier prévient la nécrose apicale (cul noir)",
-        "Levez le pied sur l'azote dès le début de la floraison"
-      ]
-    },
-    "Amaryllidaceae": {
-      "category": "Bulbe de la famille des amaryllis et des oignons",
-      "npk": "Engrais bulbes ; équilibré pauvre en azote (ex. : 5-10-10)",
-      "fertilizer": "Engrais bulbes",
-      "schedule": "À la plantation et à la sortie du feuillage",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Nourrissez pendant la phase de feuillage : c'est elle qui construit le bulbe de l'an prochain",
-        "Laissez les feuilles se dessécher naturellement"
-      ]
-    },
-    "Pinaceae": {
-      "category": "Pin / épicéa / sapin (conifère)",
-      "npk": "Rarement nécessaire ; engrais acide pour conifères si l'arbre est jeune ou affaibli",
-      "fertilizer": "Engrais acide pour conifères ou paillis d'aiguilles",
-      "schedule": "Début de printemps, seulement si nécessaire",
-      "soil_ph": "5.0-6.5",
-      "tips": [
-        "Les conifères établis profitent rarement de l'engrais",
-        "Le brunissement vient généralement de l'eau, des sels ou des ravageurs, pas de la faim"
-      ]
-    }
-  },
-  "default": {
-    "category": "Recommandation générale",
-    "npk": "Engrais équilibré (ex. : 10-10-10) à la moitié de la dose indiquée sur l'étiquette",
-    "fertilizer": "Engrais équilibré tout usage : granulé à libération lente au jardin, liquide pour les pots",
-    "schedule": "Printemps et début d'été pour les plantes de jardin ; chaque mois en saison de croissance (jamais en hiver) pour les plantes d'intérieur",
-    "soil_ph": "6.0-7.0 convient à la plupart des plantes",
-    "tips": [
-      "Dans le doute, sous-dosez : presque toutes les plantes se remettent plus vite de la faim que d'une brûlure d'engrais",
-      "Fertilisez uniquement en période de croissance active, sur un sol humide (jamais sec)",
-      "Des vieilles feuilles jaunes signalent souvent une faim d'azote ; des bords de feuilles brûlés, souvent un excès d'engrais"
-    ]
+  "Solanum tuberosum": {
+   "category": "Pomme de terre",
+   "npk": "Plus de phosphore et de potassium, azote modéré (ex. : 5-10-10)",
+   "fertilizer": "Engrais granulé pour légumes incorporé au sol à la plantation",
+   "schedule": "À la plantation, puis en apport localisé quand les plants font 15-20 cm et de nouveau à la floraison (tubérisation)",
+   "soil_ph": "5.0-6.0 (un sol légèrement acide limite la gale commune)",
+   "tips": [
+    "Évitez le fumier frais et l'excès d'azote : vous obtiendrez des feuilles au lieu de tubercules",
+    "Le potassium est essentiel pour le calibre des tubercules et la qualité de conservation",
+    "Buttez les tiges au fur et à mesure de la croissance"
+   ],
+   "watering": "2-3 cm d'eau par semaine ; crucial surtout pendant la formation des tubercules",
+   "temperature": "Pousse le mieux entre 15-21 °C ; la tubérisation s'arrête au-dessus de 27 °C",
+   "humidity": "Garder le sol régulièrement humide mais jamais détrempé ; les coups de sec donnent des tubercules difformes"
   }
+ },
+ "genus": {
+  "Solanum": {
+   "category": "Légume de la famille de la tomate / aubergine",
+   "npk": "Commencez équilibré, puis peu d'azote et beaucoup de phosphore-potassium à la floraison (ex. : 3-4-6 ou engrais tomates)",
+   "fertilizer": "Engrais tomates/légumes avec calcium pour prévenir la nécrose apicale (cul noir)",
+   "schedule": "Au repiquage, puis toutes les 2 semaines dès le début de la floraison",
+   "soil_ph": "6.2-6.8",
+   "tips": [
+    "Trop d'azote = de grandes plantes feuillues, peu de fruits",
+    "Gardez un arrosage régulier : l'absorption du calcium en dépend",
+    "Le magnésium (sel d'Epsom) aide si les vieilles feuilles jaunissent entre les nervures"
+   ],
+   "watering": "Arrosage profond 2-3× par semaine au pied ; ne jamais alterner entre sol complètement sec et détrempé",
+   "temperature": "21-27 °C le jour, au-dessus de 13 °C la nuit ; la nouaison échoue au-delà de 32 °C",
+   "humidity": "Modérée (40-70%) ; garder le feuillage sec, une humidité du sol régulière prévient la nécrose apicale"
+  },
+  "Capsicum": {
+   "category": "Poivron / piment",
+   "npk": "Équilibré au début (5-5-5), puis plus de potassium à la fructification (3-5-7)",
+   "fertilizer": "Un engrais tomates/légumes convient parfaitement aux poivrons",
+   "schedule": "Au repiquage, puis toutes les 2-3 semaines pendant la fructification",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Les poivrons sont moins gourmands que les tomates : la demi-dose suffit souvent",
+    "L'excès d'azote retarde la fructification"
+   ],
+   "watering": "Quand les 3 premiers cm de sol sèchent — environ tous les 2-3 jours en été",
+   "temperature": "21-29 °C le jour, 16-21 °C la nuit ; en dessous de 12 °C la croissance s'arrête",
+   "humidity": "Modérée (50-70%) ; humidité régulière, un léger assèchement avant la récolte concentre le piquant"
+  },
+  "Cucumis": {
+   "category": "Concombre / melon",
+   "npk": "Équilibré à la plantation (5-5-5), plus de potassium quand les tiges s'allongent (ex. : 3-4-6)",
+   "fertilizer": "Sol riche en compost plus un engrais liquide pour légumes",
+   "schedule": "À la plantation, quand les tiges commencent à courir et au début de la floraison",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Très gourmands en nourriture comme en eau : ne les laissez jamais se dessécher",
+    "Apportez du compost en surfaçage à mi-saison"
+   ],
+   "watering": "Abondant et fréquent — 3-5 cm par semaine, tous les jours en période de canicule ; toujours au pied",
+   "temperature": "24-29 °C ; la croissance s'arrête en dessous de 15 °C, le gel tue instantanément",
+   "humidity": "Sol très humide en permanence ; les coups de sec rendent les concombres amers"
+  },
+  "Cucurbita": {
+   "category": "Courge / potiron / courgette",
+   "npk": "Équilibré au début, puis riche en potassium pour la fructification (ex. : 4-4-8)",
+   "fertilizer": "Compost ou fumier bien décomposé à la plantation, plus un engrais granulé pour légumes",
+   "schedule": "À la plantation, aux premières fleurs et chaque mois pendant la fructification",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Parmi les plantes les plus gourmandes du jardin : plantez sur une butte enrichie de compost",
+    "Arrosez au pied pour éviter l'oïdium"
+   ],
+   "watering": "Arrosage profond 1-2× par semaine (2-5 cm) ; le matin et uniquement au pied",
+   "temperature": "21-29 °C ; très sensible au gel",
+   "humidity": "Sol humide, feuilles sèches — un feuillage mouillé est une invitation à l'oïdium"
+  },
+  "Lactuca": {
+   "category": "Laitue (légume-feuille)",
+   "npk": "Dominante azotée pour le feuillage (ex. : 10-5-5 ou émulsion de poisson)",
+   "fertilizer": "Émulsion de poisson liquide ou engrais soluble équilibré à demi-dose",
+   "schedule": "Apport léger toutes les 2 semaines ; la laitue pousse vite et s'enracine peu profondément",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Un azote rapidement disponible garde des feuilles tendres et douces",
+    "Arrêtez les apports une semaine avant la récolte"
+   ],
+   "watering": "Léger et fréquent — les racines superficielles veulent de l'eau tous les 1-2 jours par temps chaud",
+   "temperature": "Croquante et sucrée entre 10-21 °C ; monte en graines et devient amère au-dessus de 24 °C",
+   "humidity": "Sol constamment humide (sans être détrempé) ; un paillage garde les racines au frais"
+  },
+  "Spinacia": {
+   "category": "Épinard (légume-feuille)",
+   "npk": "Riche en azote (ex. : 10-5-5)",
+   "fertilizer": "Émulsion de poisson, sang séché ou engrais soluble équilibré",
+   "schedule": "À la plantation puis quand les plants ont 4-6 vraies feuilles",
+   "soil_ph": "6.5-7.5",
+   "tips": [
+    "L'épinard monte en graines sous stress : azote et arrosage réguliers le gardent feuillu",
+    "Préfère un sol plus neutre que la plupart des légumes"
+   ],
+   "watering": "Garder régulièrement humide ; 2-3 cm par semaine, davantage par temps chaud",
+   "temperature": "S'épanouit entre 10-21 °C ; la chaleur au-dessus de 24 °C déclenche la montée en graines",
+   "humidity": "Humidité du sol régulière ; un stress hydrique signifie montée en graines immédiate"
+  },
+  "Brassica": {
+   "category": "Famille du chou / brocoli / chou frisé",
+   "npk": "Dominante azotée et apports réguliers (ex. : 8-4-4), plus bore et calcium",
+   "fertilizer": "Granulé équilibré à la plantation, apport d'azote localisé plus tard",
+   "schedule": "À la plantation, puis apport localisé 3-4 semaines plus tard ; pour le brocoli, de nouveau à la formation des têtes",
+   "soil_ph": "6.5-7.0 (un pH plus élevé limite aussi la hernie du chou)",
+   "tips": [
+    "Très gourmands : un sol pauvre donne des têtes petites et amères",
+    "Chaulez les sols acides avant la plantation"
+   ],
+   "watering": "2-3 cm par semaine, avec régularité ; les pommes éclatent si on détrempe après une période sèche",
+   "temperature": "Culture de saison fraîche : 15-21 °C idéal ; les plants adultes se moquent des petites gelées",
+   "humidity": "Humidité du sol constante du début à la fin ; pailler généreusement"
+  },
+  "Allium": {
+   "category": "Oignon / ail / poireau",
+   "npk": "Azote au début pour le feuillage (il deviendra les tuniques du bulbe), plus rien dès le début de la bulbaison",
+   "fertilizer": "Sang séché ou sulfate d'ammonium en apport localisé au printemps",
+   "schedule": "Toutes les 2-3 semaines jusqu'au gonflement des bulbes, puis arrêt complet",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Chaque feuille correspond à une tunique du bulbe : stimulez le feuillage tôt",
+    "Un azote tardif retarde la bulbaison et nuit à la conservation"
+   ],
+   "watering": "Hebdomadaire pendant la pousse des feuilles ; ARRÊTER l'arrosage dès que les bulbes mûrissent et que le feuillage se couche",
+   "temperature": "Les feuilles poussent entre 13-24 °C ; la bulbaison est déclenchée par la longueur du jour, pas par la chaleur",
+   "humidity": "Printemps humide, fin de culture au sec — un sol mouillé à maturité fait pourrir les bulbes de conservation"
+  },
+  "Daucus": {
+   "category": "Carotte (légume-racine)",
+   "npk": "Peu d'azote, plus de phosphore et de potassium (ex. : 1-2-2)",
+   "fertilizer": "Compost incorporé en profondeur ; évitez absolument le fumier frais",
+   "schedule": "Peu nécessaire si le sol est correct ; un apport léger quand les fanes font 10 cm",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Fumier frais et sol grumeleux donnent des racines fourchues et poilues",
+    "Un sol meuble, profond et sans cailloux compte plus que l'engrais"
+   ],
+   "watering": "Régulièrement humide pendant la germination ; puis 2-3 cm par semaine — l'arrosage en dents de scie fait éclater les racines",
+   "temperature": "La meilleure saveur s'obtient entre 15-21 °C ; s'adoucit après une légère gelée d'automne",
+   "humidity": "Humidité modérée et régulière dans un sol profond et meuble"
+  },
+  "Phaseolus": {
+   "category": "Haricot (légumineuse)",
+   "npk": "Peu d'azote : les haricots le fixent eux-mêmes. Phosphore et potassium seulement (ex. : 1-4-4)",
+   "fertilizer": "Du compost à la plantation suffit généralement",
+   "schedule": "À la plantation ; éventuellement une fois à la floraison",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Un apport d'azote rend les haricots paresseux : beaucoup de tiges, peu de gousses",
+    "Une poudre d'inoculant aide dans un sol qui n'a jamais porté de haricots"
+   ],
+   "watering": "2-3 cm par semaine, surtout pendant la floraison et le remplissage des gousses",
+   "temperature": "Semer dans un sol au-dessus de 16 °C ; pousse le mieux entre 18-27 °C",
+   "humidity": "Modérée ; ne pas travailler entre des plants mouillés — cela propage les maladies"
+  },
+  "Pisum": {
+   "category": "Pois (légumineuse)",
+   "npk": "Peu d'azote, phosphore-potassium modérés (ex. : 1-4-4)",
+   "fertilizer": "Compost à la plantation ; les pois se nourrissent en grande partie seuls",
+   "schedule": "À la plantation seulement, dans la plupart des sols",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Comme les haricots, les pois fixent l'azote : inutile d'en apporter",
+    "La cendre de bois offre un léger apport de potassium"
+   ],
+   "watering": "Léger jusqu'à la floraison, puis régulier — 2-3 cm par semaine pendant le remplissage des gousses",
+   "temperature": "Culture de temps frais : 13-18 °C ; cesse de produire au-dessus de 27 °C",
+   "humidity": "Humidité régulière ; pailler pour garder les racines printanières au frais"
+  },
+  "Zea": {
+   "category": "Maïs",
+   "npk": "Très gourmand en azote (ex. : 16-4-8 ou apports d'azote réguliers en cours de culture)",
+   "fertilizer": "Équilibré à la plantation, puis azote (sang séché, urée, émulsion de poisson) par la suite",
+   "schedule": "À la plantation, quand les plants arrivent au genou et à la sortie des panicules",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Des feuilles vert pâle signifient qu'il réclame de l'azote tout de suite",
+    "Plantez en blocs, pas en rangs, pour la pollinisation"
+   ],
+   "watering": "2-3 cm par semaine ; critique à la floraison mâle et au remplissage des épis — la sécheresse à ce moment-là coûte des grains",
+   "temperature": "Germe au-dessus de 16 °C ; pousse le plus vite entre 24-30 °C",
+   "humidity": "Humidité profonde du sol pendant l'apparition des soies ; les petites aspersions quotidiennes ne servent pas à grand-chose"
+  },
+  "Beta": {
+   "category": "Betterave / blette",
+   "npk": "Équilibré avec un bon niveau de potassium (ex. : 5-5-8), plus du bore",
+   "fertilizer": "Compost plus un engrais granulé équilibré",
+   "schedule": "À la plantation et une fois en milieu de saison",
+   "soil_ph": "6.2-7.0",
+   "tips": [
+    "Des taches noires nécrosées à l'intérieur des betteraves signalent généralement une carence en bore",
+    "L'excès d'azote favorise les fanes au détriment des racines"
+   ],
+   "watering": "2-3 cm par semaine, avec régularité ; des racines ligneuses sont la suite logique d'un stress hydrique",
+   "temperature": "15-21 °C idéal ; tolère les petites gelées en début comme en fin de saison",
+   "humidity": "Humidité constante pour des racines tendres"
+  },
+  "Fragaria": {
+   "category": "Fraisier",
+   "npk": "Équilibré (10-10-10) après la récolte ; apport léger au printemps",
+   "fertilizer": "Engrais petits fruits ou granulé équilibré",
+   "schedule": "Apport léger en tout début de printemps, apport principal juste après la récolte (c'est là que se forment les bourgeons de l'an prochain)",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Trop d'azote au printemps donne des fraises molles et fades",
+    "Rénovez et nourrissez les variétés non remontantes juste après la cueillette"
+   ],
+   "watering": "2-3 cm par semaine ; légèrement tous les jours pendant la fructification par temps chaud (racines superficielles)",
+   "temperature": "15-26 °C ; les fleurs craignent le gel — couvrir les nuits froides",
+   "humidity": "Sol humide, fruits au sec : un paillis de paille garde les fraises hors du sol mouillé"
+  },
+  "Rubus": {
+   "category": "Framboisier / mûrier",
+   "npk": "Équilibré (10-10-10) en tout début de printemps",
+   "fertilizer": "Engrais granulé équilibré plus un paillage de compost",
+   "schedule": "Début de printemps au démarrage de la végétation ; variétés remontantes de nouveau en début d'été",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Nourrissez les rangs, pas les plants : les racines s'étalent largement",
+    "Paillez généreusement ; les ronces fruitières adorent les sols frais et riches"
+   ],
+   "watering": "2-5 cm par semaine de la floraison jusqu'à la récolte",
+   "temperature": "Les cannes résistent à -20 °C ou moins ; les fruits sont meilleurs entre 18-24 °C",
+   "humidity": "Zone racinaire fraîche, humide et paillée ; une bonne circulation d'air entre les cannes"
+  },
+  "Vaccinium": {
+   "category": "Myrtillier (plante de terre de bruyère)",
+   "npk": "Engrais pour terre de bruyère (ex. : engrais azalées, à base de sulfate d'ammonium)",
+   "fertilizer": "Holly-tone / engrais azalées ; n'utilisez jamais d'engrais à base de nitrates",
+   "schedule": "Début de printemps puis de nouveau 6 semaines plus tard ; plus rien après juillet",
+   "soil_ph": "4.5-5.5 (essentiel : ils dépérissent en sol neutre)",
+   "tips": [
+    "Feuilles jaunes à nervures vertes = sol pas assez acide, pas un manque d'engrais",
+    "Acidifiez avec du soufre élémentaire plusieurs mois avant la plantation",
+    "Paillez avec des aiguilles ou de l'écorce de pin"
+   ],
+   "watering": "2-5 cm par semaine ; les fines racines superficielles sèchent vite — ne jamais les laisser faire",
+   "temperature": "Rustique ; fructifie le mieux entre 18-26 °C (vérifiez les besoins en froid de votre variété)",
+   "humidity": "Sol acide constamment humide (sans être inondé) ; un paillis d'aiguilles de pin est idéal"
+  },
+  "Vitis": {
+   "category": "Vigne",
+   "npk": "Sobre et léger : engrais équilibré seulement si la croissance est faible (ex. : 10-10-10 à faible dose)",
+   "fertilizer": "Compost ; en sol fertile, la vigne n'a généralement besoin de rien",
+   "schedule": "Une fois en début de printemps, seulement si les rameaux ont poussé de moins de 1 m l'an dernier",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Une vigne suralimentée fait une jungle de feuillage et de piètres fruits",
+    "La carence en potassium se repère au brunissement du bord des feuilles en plein été"
+   ],
+   "watering": "Profond et peu fréquent une fois établie ; réduire à l'approche des vendanges pour concentrer les sucres",
+   "temperature": "Saison de croissance entre 15-32 °C ; les ceps en dormance supportent les fortes gelées",
+   "humidity": "Préfère l'air sec — un feuillage humide attrape les maladies fongiques ; tailler pour aérer"
+  },
+  "Citrus": {
+   "category": "Agrumes (citronnier, oranger, limettier)",
+   "npk": "Formule agrumes riche en azote avec oligo-éléments (ex. : 6-3-3 plus fer, zinc, manganèse)",
+   "fertilizer": "Engrais spécial agrumes : les agrumes sont sujets aux carences en oligo-éléments",
+   "schedule": "Toutes les 6 semaines du printemps à l'été ; chaque mois pour les sujets en pot ; très peu en hiver",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Feuilles jaunes à nervures vertes = carence en fer ou en manganèse, fréquente en pot",
+    "Les agrumes en pot perdent vite leurs nutriments par lessivage : nourrissez peu mais souvent",
+    "Arrosez abondamment avant de fertiliser, jamais sur sol sec"
+   ],
+   "watering": "En profondeur quand les 5 premiers cm sèchent ; les arbres en pot environ chaque semaine, sans jamais laisser d'eau stagner",
+   "temperature": "13-30 °C ; la plupart des variétés souffrent en dessous de -2 °C — rentrer les pots avant les gelées",
+   "humidity": "Modérée à élevée (50%+) ; l'air d'intérieur en hiver est trop sec — brumiser ou poser sur un plateau de billes d'argile"
+  },
+  "Malus": {
+   "category": "Pommier / pommier d'ornement",
+   "npk": "Équilibré (10-10-10) seulement les premières années ; les arbres adultes n'ont souvent besoin que d'azote, à doser selon la pousse",
+   "fertilizer": "Engrais granulé équilibré épandu jusqu'à l'aplomb de la ramure",
+   "schedule": "Début de printemps avant la floraison ; inutile si les rameaux ont poussé de plus de 30 cm l'an dernier",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "La surfertilisation provoque des gourmands et des pousses tendres sensibles au feu bactérien",
+    "Ne fertilisez jamais après juillet"
+   ],
+   "watering": "Jeunes arbres : chaque semaine et en profondeur ; arbres établis : seulement en cas de sécheresse",
+   "temperature": "Résiste au froid ; a besoin de froid hivernal (variable selon la variété) pour bien fructifier",
+   "humidity": "Moyenne ; tailler la couronne de façon aérée pour que les feuilles sèchent vite"
+  },
+  "Prunus": {
+   "category": "Cerisier / prunier / pêcher / abricotier",
+   "npk": "Engrais équilibré pauvre en azote (ex. : 5-10-10) ; un peu plus d'azote pour les pêchers",
+   "fertilizer": "Engrais granulé pour arbres fruitiers épandu à l'aplomb de la ramure",
+   "schedule": "Une fois en début de printemps ; pour les jeunes arbres, un second apport léger fin mai",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Fiez-vous à la pousse : 25-40 cm de nouveaux rameaux par an conviennent à un arbre adulte",
+    "L'excès d'azote aggrave la moniliose et le chancre"
+   ],
+   "watering": "En profondeur toutes les 1-2 semaines par temps sec, surtout quand les fruits grossissent",
+   "temperature": "Rustique, mais les floraisons précoces craignent le gel ; fructifie entre 18-27 °C",
+   "humidity": "Moyenne ; éviter de mouiller le feuillage — cette famille pourrit facilement"
+  },
+  "Pyrus": {
+   "category": "Poirier",
+   "npk": "Très peu d'azote (ex. : 5-10-10) : les poiriers attirent le feu bactérien",
+   "fertilizer": "Apport granulé léger, ou simplement un paillage de compost",
+   "schedule": "Une fois en début de printemps, et seulement si la croissance a été faible",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Les pousses tendres gorgées d'azote sont exactement ce que le feu bactérien attaque",
+    "Dans le doute, ne nourrissez pas un poirier"
+   ],
+   "watering": "En profondeur toutes les 1-2 semaines en cas de sécheresse ; les arbres établis sont coriaces",
+   "temperature": "Résiste au froid ; a besoin d'un peu de froid hivernal ; les fruits mûrissent le mieux entre 18-24 °C",
+   "humidity": "Moyenne ; taille aérée pour la circulation de l'air"
+  },
+  "Persea": {
+   "category": "Avocatier",
+   "npk": "Formule agrumes/avocatier avec azote et zinc (ex. : 6-3-3 + oligo-éléments)",
+   "fertilizer": "Engrais agrumes et avocatiers",
+   "schedule": "Toutes les 6-8 semaines pendant la saison de croissance ; avec parcimonie la première année",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Extrêmement sensible à l'accumulation de sels : rincez régulièrement les pots",
+    "Exige un drainage parfait ; la pourriture des racines tue plus d'avocatiers que la faim"
+   ],
+   "watering": "En profondeur, puis laisser sécher les 5-10 premiers cm — des racines détrempées sont fatales aux avocatiers",
+   "temperature": "18-29 °C ; la plupart des variétés souffrent en dessous de 0 °C",
+   "humidity": "Modérée à élevée ; pailler épais mais sans toucher le tronc"
+  },
+  "Musa": {
+   "category": "Bananier",
+   "npk": "Très gros consommateur de potassium (ex. : 3-1-6 ou 9-3-27)",
+   "fertilizer": "Engrais riche en potassium ou engrais spécial bananiers/palmiers",
+   "schedule": "Chaque mois tant qu'il fait chaud ; les bananiers mangent sans arrêt en été",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "L'une des plantes les plus gourmandes qui soient : compostez généreusement",
+    "Le potassium conditionne la taille des fruits et la résistance au froid"
+   ],
+   "watering": "Perpétuellement assoiffé par temps chaud — tous les 1-2 jours en été ; ses feuilles immenses transpirent énormément",
+   "temperature": "Adore 24-32 °C ; la croissance s'arrête en dessous de 14 °C, le feuillage meurt au gel",
+   "humidity": "Élevée (60%+) ; les bananiers d'intérieur apprécient la brumisation et la compagnie d'autres plantes"
+  },
+  "Olea": {
+   "category": "Olivier",
+   "npk": "Azote modéré (ex. : 10-5-5 à faible dose) ; l'olivier tolère les sols pauvres",
+   "fertilizer": "Apport granulé léger ou compost",
+   "schedule": "Début de printemps et début d'été, légèrement",
+   "soil_ph": "6.5-8.0 (tolère le calcaire)",
+   "tips": [
+    "L'olivier fructifie mieux légèrement stressé que choyé",
+    "Un drainage parfait vaut mieux que n'importe quel engrais"
+   ],
+   "watering": "Résiste à la sécheresse une fois établi ; un arrosage copieux mensuel en été sec, hebdomadaire en pot",
+   "temperature": "Méditerranéen : étés chauds et secs, hivers frais ; souffre en dessous d'environ -10 °C",
+   "humidity": "Faible à modérée ; déteste l'humidité et les sols gorgés d'eau"
+  },
+  "Ocimum": {
+   "category": "Basilic (herbe aromatique)",
+   "npk": "Apport équilibré léger (ex. : 5-5-5 à demi-dose)",
+   "fertilizer": "Engrais liquide dilué ou émulsion de poisson",
+   "schedule": "Toutes les 3-4 semaines ; toutes les 2 semaines pour le basilic en pot",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Un basilic suralimenté grandit mais perd son parfum : les huiles se concentrent dans les plants plus sobres",
+    "Pincez les fleurs pour que les feuilles continuent de venir"
+   ],
+   "watering": "Quand la surface sèche — tous les 2-3 jours en été, tous les jours pour les petits pots",
+   "temperature": "Amateur de chaleur : 18-30 °C ; boude en dessous de 10 °C, noircit au gel",
+   "humidity": "Sol régulièrement humide ; arrosage au pied le matin"
+  },
+  "Mentha": {
+   "category": "Menthe (herbe aromatique)",
+   "npk": "Presque rien : un apport équilibré léger si les feuilles pâlissent",
+   "fertilizer": "Surfaçage de compost une fois par saison",
+   "schedule": "Une fois au printemps, c'est largement suffisant",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "La menthe prospère dans la négligence ; la nourrir la rend surtout plus envahissante",
+    "Cultivez-la en pot, sauf si vous voulez une pelouse de menthe"
+   ],
+   "watering": "Garder humide — la menthe est la rare herbe aromatique qui aime un peu avoir les pieds dans l'eau",
+   "temperature": "Pousse entre 13-25 °C ; disparaît au gel, repart des racines",
+   "humidity": "Un sol humide et la mi-ombre la gardent luxuriante"
+  },
+  "Salvia": {
+   "category": "Sauge (herbe méditerranéenne)",
+   "npk": "Très léger : un peu de compost au printemps",
+   "fertilizer": "Compost uniquement ; pas d'engrais du commerce en pleine terre",
+   "schedule": "Une fois au printemps",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Les herbes méditerranéennes filent et perdent leur goût quand on les suralimente",
+    "Un drainage impeccable compte bien plus que les nutriments"
+   ],
+   "watering": "Seulement quand le sol est sec sur 3-5 cm ; les plants établis supportent la sécheresse",
+   "temperature": "18-29 °C ; la plupart des sauges de jardin sont rustiques jusqu'à environ -15 °C",
+   "humidity": "Faible ; air sec et drainage impeccable, à la méditerranéenne"
+  },
+  "Rosmarinus": {
+   "category": "Romarin (herbe méditerranéenne)",
+   "npk": "Minimal : un apport équilibré léger pour les sujets en pot seulement",
+   "fertilizer": "Compost ou engrais liquide au quart de dose pour les pots",
+   "schedule": "Au printemps seulement ; 2-3 fois par saison pour les plantes en pot",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Le romarin a évolué sur des coteaux rocailleux : sobre et au sec, il est heureux",
+    "L'excès d'eau le tue bien avant le manque d'engrais"
+   ],
+   "watering": "Avec parcimonie — laisser bien sécher les pots entre deux arrosages ; l'excès d'eau est le tueur numéro 1",
+   "temperature": "18-29 °C ; beaucoup de variétés souffrent en dessous de -7 °C — cultiver en pot et abriter en climat froid",
+   "humidity": "Faible ; a horreur de l'air humide et stagnant et des sols détrempés en hiver"
+  },
+  "Thymus": {
+   "category": "Thym (herbe méditerranéenne)",
+   "npk": "Minimal ; rien dans un sol de jardin correct",
+   "fertilizer": "Au plus, un voile de compost au printemps",
+   "schedule": "Au printemps seulement",
+   "soil_ph": "6.0-8.0",
+   "tips": [
+    "Un sol riche rend le thym mou et fade",
+    "Un sol caillouteux et très drainant, voilà son véritable engrais"
+   ],
+   "watering": "Rarement — seule une sécheresse prolongée dérange un thym établi",
+   "temperature": "Petit arbuste rustique ; prospère par des étés de 15-30 °C",
+   "humidity": "Faible ; sol sec et caillouteux, plein soleil"
+  },
+  "Petroselinum": {
+   "category": "Persil (herbe aromatique)",
+   "npk": "Apport léger à dominante azotée (ex. : émulsion de poisson)",
+   "fertilizer": "Émulsion de poisson ou engrais liquide équilibré à demi-dose",
+   "schedule": "Toutes les 3-4 semaines pendant la saison de récolte",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Le persil est plus gourmand que la plupart des herbes : on le cultive pour son feuillage abondant",
+    "Coupez d'abord les tiges extérieures pour qu'il continue de produire"
+   ],
+   "watering": "Régulièrement humide — environ 2-3 cm par semaine ; se fane de façon théâtrale mais s'en remet",
+   "temperature": "Au mieux entre 10-24 °C ; supporte les petites gelées",
+   "humidity": "Humidité régulière pour un feuillage tendre"
+  },
+  "Coriandrum": {
+   "category": "Coriandre (herbe aromatique)",
+   "npk": "Apport azoté léger",
+   "fertilizer": "Engrais liquide à demi-dose",
+   "schedule": "Une ou deux fois au cours de sa courte vie",
+   "soil_ph": "6.2-6.8",
+   "tips": [
+    "C'est la chaleur, pas la faim, qui fait monter la coriandre en graines : semez en échelonné plutôt que de surfertiliser",
+    "Gardez le sol régulièrement humide"
+   ],
+   "watering": "Garder régulièrement humide ; sec + chaud = montée en graines immédiate",
+   "temperature": "Amatrice de fraîcheur : 10-24 °C ; monte vite en graines au-dessus de 27 °C",
+   "humidity": "Sol humide, emplacement frais ; mieux vaut semer en succession que de lutter contre l'été"
+  },
+  "Lavandula": {
+   "category": "Lavande (arbuste méditerranéen)",
+   "npk": "Pratiquement rien : la lavande préfère les sols pauvres",
+   "fertilizer": "Rien, ou un peu de compost à la plantation. Pas de paillis contre la tige",
+   "schedule": "Inutile une fois la plante établie",
+   "soil_ph": "6.5-7.5 (apprécie un peu de calcaire)",
+   "tips": [
+    "L'engrais réduit le parfum et la rusticité hivernale",
+    "Chaulez les sols acides ; un paillis de gravier vaut mieux que l'écorce"
+   ],
+   "watering": "Très peu une fois établie ; arroser les jeunes plants jusqu'à l'enracinement, puis la laisser tranquille",
+   "temperature": "Étés de 15-30 °C ; la lavande vraie est rustique jusqu'à environ -15 °C",
+   "humidity": "Faible — le duo humidité et sol mouillé tue plus de lavandes que le froid ne le fera jamais"
+  },
+  "Rosa": {
+   "category": "Rosier",
+   "npk": "Équilibré avec un supplément de phosphore et de potassium (ex. : 4-6-4 ou engrais spécial rosiers)",
+   "fertilizer": "Engrais rosiers ou farine de luzerne plus compost ; engrais liquide entre les vagues de floraison",
+   "schedule": "Premier apport à l'ouverture des feuilles au printemps, puis après chaque vague de floraison ; arrêtez 6-8 semaines avant les premières gelées",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Les rosiers remontants sont de gros gourmands",
+    "Peaux de banane et luzerne sont des apports de potassium classiques",
+    "Une fertilisation tardive produit des pousses sensibles au gel"
+   ],
+   "watering": "En profondeur 1-2× par semaine au pied (davantage en pot) ; les petites aspersions font des racines superficielles",
+   "temperature": "Fleurit le mieux entre 15-26 °C ; rusticité variable — butter le point de greffe de paillis avant les hivers froids",
+   "humidity": "Moyenne ; arroser le matin et garder le feuillage sec pour tenir la maladie des taches noires à distance"
+  },
+  "Hydrangea": {
+   "category": "Hortensia",
+   "npk": "Équilibré à libération lente (ex. : 10-10-10) ; pour des fleurs bleues, engrais acide pauvre en phosphore",
+   "fertilizer": "Engrais arbustes à libération lente au printemps",
+   "schedule": "Une fois au printemps, éventuellement de nouveau en début d'été ; plus rien après juillet",
+   "soil_ph": "5.2-5.5 pour des fleurs bleues, 6.0-6.5 pour des fleurs roses",
+   "tips": [
+    "La couleur des fleurs suit le pH : sulfate d'aluminium pour le bleu, chaux de jardin pour le rose (hortensias à grandes feuilles uniquement)",
+    "Un excès de phosphore bloque l'absorption de l'aluminium et garde les fleurs roses",
+    "La surfertilisation donne des feuilles au lieu de fleurs"
+   ],
+   "watering": "Assoiffé — en profondeur 2-3× par semaine en période de chaleur ; le flétrissement de l'après-midi est sa plainte signature",
+   "temperature": "Au plus heureux entre 15-25 °C avec de l'ombre l'après-midi ; les boutons des hortensias à grandes feuilles gèlent en dessous d'environ -15 °C",
+   "humidity": "Zone racinaire humide, paillée et fraîche ; humidité de l'air modérée à élevée"
+  },
+  "Rhododendron": {
+   "category": "Rhododendron / azalée (plante de terre de bruyère)",
+   "npk": "Engrais pour terre de bruyère (ex. : engrais azalées/camélias, 4-3-4 avec soufre)",
+   "fertilizer": "Holly-tone ou engrais acide similaire",
+   "schedule": "Juste après la floraison, légèrement ; plus rien après la mi-été",
+   "soil_ph": "4.5-6.0",
+   "tips": [
+    "Leurs fines racines superficielles brûlent facilement : mieux vaut toujours sous-doser que surdoser",
+    "Un jaunissement entre les nervures signale un pH trop élevé",
+    "Paillez avec de l'écorce de pin plutôt que de fertiliser davantage"
+   ],
+   "watering": "Garder les racines superficielles régulièrement humides — arrosage profond hebdomadaire plus un paillage permanent",
+   "temperature": "Arbuste de climat frais : 13-24 °C ; la plupart sont bien rustiques",
+   "humidity": "Modérée à élevée ; déteste le vent chaud et sec"
+  },
+  "Camellia": {
+   "category": "Camélia (plante de terre de bruyère)",
+   "npk": "Engrais pour terre de bruyère (engrais azalées/camélias)",
+   "fertilizer": "Engrais acide plus un paillis d'écorce de pin",
+   "schedule": "À la fin de la floraison, puis 6-8 semaines plus tard ; jamais pendant la floraison",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Fertiliser pendant la formation des boutons peut les faire tomber",
+    "Les camélias mangent peu : la moitié de la dose indiquée est plus sûre"
+   ],
+   "watering": "Régulièrement humide, jamais détrempé ; soigner particulièrement l'arrosage pendant la formation des boutons (été-automne)",
+   "temperature": "Climat doux : 7-21 °C de préférence ; les fleurs souffrent en dessous d'environ -5 °C",
+   "humidity": "Modérée à élevée ; à l'abri des vents desséchants"
+  },
+  "Gardenia": {
+   "category": "Gardénia (plante de terre de bruyère)",
+   "npk": "Formule acide avec fer (ex. : engrais acide 3-1-2 + fer chélaté)",
+   "fertilizer": "Engrais azalées ; pulvérisation de fer chélaté en cas de feuilles jaunissantes",
+   "schedule": "Toutes les 4-6 semaines du printemps à la fin de l'été",
+   "soil_ph": "5.0-6.0",
+   "tips": [
+    "Les gardénias sont les divas des plantes de terre de bruyère : des feuilles jaunes signalent généralement un blocage du fer dû à un pH trop élevé",
+    "La chute des boutons vient des variations de température et d'arrosage, pas de la faim"
+   ],
+   "watering": "Régulièrement humide avec une eau à température ambiante (idéalement douce) ; jamais complètement sec",
+   "temperature": "Capricieux : 18-24 °C le jour et, point crucial, 15-18 °C la nuit pour former ses boutons",
+   "humidity": "Élevée (50-60%+) ; air sec d'intérieur = feuilles jaunes et boutons qui tombent"
+  },
+  "Paeonia": {
+   "category": "Pivoine",
+   "npk": "Peu d'azote, bon niveau de phosphore-potassium (ex. : 5-10-10)",
+   "fertilizer": "Engrais bulbes ou granulé pauvre en azote autour de la souche (jamais dessus)",
+   "schedule": "Début de printemps quand les pousses font 10 cm, et de nouveau après la floraison",
+   "soil_ph": "6.5-7.0",
+   "tips": [
+    "Gavées d'azote, les pivoines s'affaissent et sautent la floraison",
+    "La profondeur de plantation (yeux à 3-5 cm maximum) influence la floraison plus que n'importe quel engrais"
+   ],
+   "watering": "En profondeur tous les 10-14 jours par temps sec ; les pivoines établies tolèrent la sécheresse",
+   "temperature": "A besoin d'hivers froids (vernalisation) pour fleurir ; pousse entre 15-26 °C",
+   "humidity": "Moyenne ; une bonne circulation d'air autour des tiges prévient le botrytis"
+  },
+  "Dahlia": {
+   "category": "Dahlia",
+   "npk": "Peu d'azote, beaucoup de potassium (ex. : 5-10-10 ou engrais tomates)",
+   "fertilizer": "L'engrais tomates est la nourriture classique du dahlia",
+   "schedule": "Chaque mois, d'un mois après la plantation jusqu'au début de l'automne",
+   "soil_ph": "6.2-6.8",
+   "tips": [
+    "Trop d'azote donne des plantes géantes, des tiges faibles, peu de fleurs et des tubercules sujets à la pourriture",
+    "Arrêtez les apports en septembre pour aider les tubercules à mûrir"
+   ],
+   "watering": "Rien jusqu'à l'apparition des pousses, puis en profondeur 2-3× par semaine en pleine floraison",
+   "temperature": "Pousse entre 16-24 °C ; les tubercules meurent dans un sol gelé — les arracher en climat froid",
+   "humidity": "Modérée ; arrosage le matin, feuillage au sec"
+  },
+  "Tulipa": {
+   "category": "Tulipe (bulbe)",
+   "npk": "Engrais bulbes / poudre d'os à la plantation ; engrais équilibré à la sortie des feuilles",
+   "fertilizer": "Engrais bulbes incorporé dans le trou de plantation",
+   "schedule": "À la plantation d'automne, puis une fois à l'émergence des pousses au printemps",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Nourrissez le feuillage après la floraison : c'est la fleur de l'an prochain qui se construit",
+    "Ne coupez jamais les feuilles avant leur jaunissement naturel"
+   ],
+   "watering": "Arroser à la plantation et par printemps sec ; garder AU SEC pendant la dormance estivale",
+   "temperature": "A besoin de 12-16 semaines en dessous de 10 °C en hiver ; fleurit entre 10-18 °C",
+   "humidity": "Toujours bien drainé — un sol humide en été fait pourrir les bulbes"
+  },
+  "Narcissus": {
+   "category": "Jonquille / narcisse (bulbe)",
+   "npk": "Engrais bulbes à la plantation, engrais pauvre en azote (ex. : 5-10-12) à la sortie du feuillage",
+   "fertilizer": "Engrais bulbes",
+   "schedule": "À la plantation d'automne et à l'émergence au printemps ; un apport après floraison aide la naturalisation",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Laissez le feuillage se dessécher naturellement pendant 6 semaines après la floraison",
+    "Trop d'azote favorise la pourriture des bulbes"
+   ],
+   "watering": "Humide de l'automne au printemps ; repos au sec en été",
+   "temperature": "Résiste au froid ; a besoin du froid hivernal ; fleurit entre 10-18 °C",
+   "humidity": "Humidité printanière moyenne, étés secs"
+  },
+  "Lilium": {
+   "category": "Lys (vrai lys à bulbe)",
+   "npk": "Équilibré à pauvre en azote (ex. : 5-10-10)",
+   "fertilizer": "Engrais bulbes ou engrais tomates",
+   "schedule": "À l'émergence des pousses puis de nouveau à la floraison",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Les lys aiment la tête au soleil et les pieds dans un sol frais et paillé",
+    "Laissez les tiges en place après la floraison pour nourrir le bulbe"
+   ],
+   "watering": "2-3 cm par semaine pendant la croissance ; les bulbes ne veulent jamais tremper dans l'eau",
+   "temperature": "Fleurit entre 18-24 °C ; aime les racines fraîches sous paillis et la tête au soleil",
+   "humidity": "Modérée ; un drainage parfait est non négociable"
+  },
+  "Chrysanthemum": {
+   "category": "Chrysanthème",
+   "npk": "Engrais équilibré (ex. : 5-5-5) jusqu'à ce que les boutons se colorent, puis arrêt",
+   "fertilizer": "Engrais liquide équilibré",
+   "schedule": "Chaque mois du printemps jusqu'à la coloration des boutons",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Pincez les extrémités jusqu'à début juillet pour obtenir des plantes touffues",
+    "Fertiliser pendant la floraison raccourcit la vie des fleurs"
+   ],
+   "watering": "Régulièrement humide — les racines superficielles flétrissent vite en pot ; vérifier chaque jour par chaleur d'automne",
+   "temperature": "15-24 °C ; la floraison est déclenchée par les longues nuits, pas par la température",
+   "humidity": "Modérée ; arroser le sol, pas le dense couvert de fleurs"
+  },
+  "Petunia": {
+   "category": "Pétunia (annuelle fleurie)",
+   "npk": "Apport équilibré régulier avec fer (ex. : 20-10-20) ; ils sont réputés voraces",
+   "fertilizer": "Engrais soluble ; granulés à libération lente en fond de suspension comme base",
+   "schedule": "Toutes les 1-2 semaines en massif, chaque semaine en suspensions et en pots",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Un jaunissement des jeunes pousses signale une carence en fer, fréquente chez les pétunias",
+    "Chaque arrosage lessive les suspensions : nourrissez souvent"
+   ],
+   "watering": "Massifs : un arrosage profond hebdomadaire. Suspensions : tous les jours en été, deux fois les jours de fournaise",
+   "temperature": "16-27 °C ; une petite gelée et le spectacle est terminé",
+   "humidity": "Modérée ; les suspensions sèchent à une vitesse redoutable dans le vent"
+  },
+  "Pelargonium": {
+   "category": "Géranium (plante à massif)",
+   "npk": "Engrais équilibré (ex. : 10-10-10 ou 20-20-20 dilué)",
+   "fertilizer": "Engrais soluble équilibré",
+   "schedule": "Toutes les 2-3 semaines pendant la saison de floraison",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Un géranium suralimenté fait des feuilles, pas des fleurs",
+    "Supprimez religieusement les fleurs fanées pour une floraison continue"
+   ],
+   "watering": "Laisser sécher les premiers cm entre deux arrosages — légèrement sec vaut mieux que détrempé",
+   "temperature": "16-27 °C le jour ; rentrer avant les gelées (ils hivernent sans difficulté)",
+   "humidity": "Faible à modérée ; tolère bien l'air sec"
+  },
+  "Tagetes": {
+   "category": "Œillet d'Inde / rose d'Inde (annuelle)",
+   "npk": "Apport équilibré léger ; les œillets d'Inde préfèrent un sol maigre",
+   "fertilizer": "Du compost à la plantation suffit généralement",
+   "schedule": "Un apport léger un mois après la plantation, tout au plus",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Un sol riche donne un feuillage luxuriant et peu de fleurs",
+    "Ils réussissent vraiment mieux légèrement affamés"
+   ],
+   "watering": "Arrosage profond hebdomadaire ; les œillets d'Inde établis supportent les périodes sèches",
+   "temperature": "18-30 °C ; craint le gel mais la chaleur ne l'inquiète pas le moins du monde",
+   "humidity": "Faible à modérée ; l'arrosage par-dessus abîme les fleurs"
+  },
+  "Helianthus": {
+   "category": "Tournesol",
+   "npk": "Équilibré à la plantation, azote pendant la croissance, potassium au stade des boutons",
+   "fertilizer": "Sol riche en compost plus un engrais granulé équilibré",
+   "schedule": "À la plantation et une fois à mi-croissance",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Les variétés géantes sont très gourmandes en nourriture et en eau",
+    "Trop d'azote tardif = tiges faibles qui cassent"
+   ],
+   "watering": "En profondeur chaque semaine — les racines pivotantes vont loin, mais les géants boivent beaucoup à l'approche de la floraison",
+   "temperature": "21-29 °C ; les semis supportent les petites gelées, les plants adultes se moquent de la chaleur",
+   "humidity": "Humidité du sol modérée ; tuteurage + sol mouillé + vent = géants renversés"
+  },
+  "Viola": {
+   "category": "Pensée / violette cornue",
+   "npk": "Engrais liquide équilibré (ex. : 15-15-15 dilué)",
+   "fertilizer": "Engrais soluble",
+   "schedule": "Toutes les 2-3 semaines pendant la floraison ; chaque mois par temps frais",
+   "soil_ph": "5.5-6.2",
+   "tips": [
+    "Les pensées se nourrissent et fleurissent même en saison fraîche : ne vous arrêtez pas à l'automne",
+    "Supprimez les fleurs fanées pour prolonger la floraison"
+   ],
+   "watering": "Régulièrement humide ; arroser le matin tous les 2-3 jours par temps doux",
+   "temperature": "Amatrices de fraîcheur : 7-18 °C ; fleurissent malgré les gelées, fondent sous la chaleur estivale",
+   "humidity": "Sol humide et frais ; pailler pendant les périodes chaudes"
+  },
+  "Impatiens": {
+   "category": "Impatiens (annuelle d'ombre)",
+   "npk": "Apport équilibré léger (ex. : 10-10-10 à demi-dose)",
+   "fertilizer": "Engrais soluble dilué",
+   "schedule": "Toutes les 2 semaines en pot, chaque mois en massif",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "La surfertilisation donne de grandes plantes feuillues aux fleurs clairsemées",
+    "Une humidité constante compte plus que la nourriture"
+   ],
+   "watering": "Fréquemment — flétrit de façon très théâtrale quand il a soif ; tous les jours pour les pots à l'ombre chaude",
+   "temperature": "18-24 °C ; parmi les premières victimes du gel",
+   "humidity": "Modérée à élevée ; sol constamment humide"
+  },
+  "Fuchsia": {
+   "category": "Fuchsia",
+   "npk": "Apport équilibré dilué et régulier (ex. : quart de dose à chaque arrosage)",
+   "fertilizer": "Engrais soluble équilibré ou légèrement riche en potassium",
+   "schedule": "Peu mais chaque semaine : la règle d'or du fuchsia",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Des apports légers et constants valent mieux que de fortes doses occasionnelles",
+    "Cessez franchement les apports à l'automne pour laisser la plante se reposer"
+   ],
+   "watering": "Garder les suspensions régulièrement humides — tous les jours en été ; jamais complètement sec",
+   "temperature": "Performeur de fraîcheur : 13-24 °C ; laisse tomber ses boutons au-dessus de 27 °C",
+   "humidity": "Élevée ; adore l'ombre lumineuse, fraîche et humide"
+  },
+  "Begonia": {
+   "category": "Bégonia",
+   "npk": "Apport équilibré dilué (ex. : 10-10-10 au quart de dose)",
+   "fertilizer": "Engrais soluble, bien dilué",
+   "schedule": "Toutes les 2 semaines en période de croissance active",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Les racines du bégonia brûlent facilement : diluez toujours plus que l'étiquette ne l'indique",
+    "Bégonias tubéreux : arrêtez les apports en fin d'été"
+   ],
+   "watering": "Quand la surface sèche ; arroser au pied — les tiges charnues pourrissent dès qu'on les éclabousse",
+   "temperature": "18-24 °C ; les variétés tubéreuses doivent être arrachées avant les gelées",
+   "humidity": "Humidité de l'air modérée à élevée, mais un sol plutôt du côté sec de l'humide"
+  },
+  "Hibiscus": {
+   "category": "Hibiscus",
+   "npk": "Beaucoup de potassium, azote modéré, PEU de phosphore (ex. : 12-4-18 ou 10-4-12)",
+   "fertilizer": "Engrais hibiscus ou engrais riche en potassium ; évitez les stimulateurs de floraison",
+   "schedule": "Toutes les 2 semaines en été, chaque mois au printemps et à l'automne, rien en hiver",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "L'hibiscus est atypique : le phosphore s'accumule et finit par l'empoisonner avec le temps",
+    "Fuyez complètement les engrais « super floraison » riches en phosphore"
+   ],
+   "watering": "Tous les jours par temps chaud pour les pots — gros buveur en pleine floraison ; moins en hiver",
+   "temperature": "Types tropicaux : 16-32 °C, à l'intérieur en dessous de 10 °C ; les types rustiques encaissent -20 °C",
+   "humidity": "Modérée à élevée ; air sec plus sol sec = chute des boutons"
+  },
+  "Bougainvillea": {
+   "category": "Bougainvillier",
+   "npk": "Équilibré avec oligo-éléments (ex. : 6-8-10 + fer) ; une fertilisation sobre favorise la floraison",
+   "fertilizer": "Engrais bougainvillier ou hibiscus",
+   "schedule": "Chaque mois en saison de croissance, légèrement",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Il fleurit mieux légèrement stressé : un peu de faim et de sécheresse déclenche la couleur",
+    "Excès d'eau plus excès d'engrais = tout en vert, pas de bractées"
+   ],
+   "watering": "En profondeur, puis le laisser bien sécher — une légère sécheresse déclenche le festival de couleurs",
+   "temperature": "Adore 18-35 °C ; perd ses feuilles en dessous de 5 °C, le gel le tue",
+   "humidity": "Faible à modérée ; fleurit le mieux quand on le traite avec un peu de dureté"
+  },
+  "Jasminum": {
+   "category": "Jasmin",
+   "npk": "Engrais équilibré à tendance potassique (ex. : 7-9-5)",
+   "fertilizer": "Engrais liquide équilibré",
+   "schedule": "Toutes les 2-4 semaines pendant la saison de croissance",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Le potassium soutient la floraison et le parfum",
+    "Un jasmin à l'étroit dans son pot fleurit mieux : ne surdimensionnez pas le contenant"
+   ],
+   "watering": "Régulièrement humide en croissance et en floraison ; légèrement plus sec pendant le repos hivernal",
+   "temperature": "16-27 °C ; beaucoup ont besoin de nuits d'automne fraîches (10-13 °C) pour former leurs boutons",
+   "humidity": "Modérée à élevée ; brumiser les plantes d'intérieur en hiver"
+  },
+  "Clematis": {
+   "category": "Clématite",
+   "npk": "Engrais de floraison pauvre en azote (ex. : 5-10-10 ou engrais rosiers/tomates)",
+   "fertilizer": "Engrais rosiers ou engrais tomates",
+   "schedule": "Au printemps quand les bourgeons gonflent, puis chaque mois ; pause pendant la floraison proprement dite",
+   "soil_ph": "6.5-7.0",
+   "tips": [
+    "La vieille règle tient toujours : la tête au soleil, les pieds à l'ombre - paillez les racines",
+    "Fertiliser pendant la floraison peut écourter le spectacle"
+   ],
+   "watering": "En profondeur chaque semaine — « la tête au soleil, les pieds à l'ombre » inclut des racines humides et paillées",
+   "temperature": "Rustique ; pousse le mieux entre 15-25 °C avec les racines au frais",
+   "humidity": "Modérée ; pailler ou planter un couvre-sol pour ombrager la zone racinaire"
+  },
+  "Hosta": {
+   "category": "Hosta (vivace d'ombre)",
+   "npk": "Équilibré à libération lente (ex. : 10-10-10) au printemps",
+   "fertilizer": "Granulé à libération lente plus compost",
+   "schedule": "Une fois au printemps au déploiement des feuilles ; apport léger facultatif en début d'été ; rien après juillet",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Les hostas se nourrissent surtout d'un sol riche et frais : le compost vaut mieux que l'engrais",
+    "Une fertilisation tardive retarde la dormance et expose aux dégâts du gel"
+   ],
+   "watering": "2-3 cm par semaine ; les variétés à grandes feuilles en ombre sèche en demandent plus qu'on ne le croit",
+   "temperature": "Plante d'ombre fraîche : 10-24 °C ; totalement rustique, a besoin du froid hivernal pour se reposer",
+   "humidity": "Sol riche et humide ; des bords grillés signalent la soif ou trop de soleil"
+  },
+  "Syringa": {
+   "category": "Lilas",
+   "npk": "Minimal : un peu d'engrais équilibré seulement en sol pauvre ; apprécie le calcaire",
+   "fertilizer": "Compost ; une poignée de chaux de jardin en sol acide",
+   "schedule": "Début de printemps tout au plus",
+   "soil_ph": "6.5-7.5",
+   "tips": [
+    "Les lilas fertilisés refusent souvent de fleurir : sol maigre et plein soleil réussissent mieux",
+    "Taillez juste après la floraison, pas plus tard"
+   ],
+   "watering": "Seulement en vraie sécheresse une fois établi ; les jeunes arbustes chaque semaine pendant une saison",
+   "temperature": "Arbuste de climat froid — il lui faut des hivers gélifs pour bien fleurir",
+   "humidity": "Moyenne ; la circulation d'air tient l'oïdium à distance"
+  },
+  "Magnolia": {
+   "category": "Magnolia",
+   "npk": "Engrais arbres équilibré à libération lente (ex. : 10-10-10), légèrement",
+   "fertilizer": "Granulé à libération lente épandu sous la ramure",
+   "schedule": "Début de printemps pour les jeunes arbres ; les sujets établis en ont rarement besoin",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Racines charnues et superficielles : n'enfouissez jamais l'engrais, épandez simplement en surface et arrosez",
+    "Paillez large, pas épais"
+   ],
+   "watering": "Jeunes arbres : en profondeur chaque semaine pendant 2 saisons ; arbres adultes : seulement en sécheresse",
+   "temperature": "Variable selon l'espèce ; les floraisons précoces perdent leurs fleurs aux gelées tardives — choisir l'emplacement avec soin",
+   "humidity": "Zone racinaire humide et paillée ; les racines superficielles n'aiment pas être dérangées"
+  },
+  "Acer": {
+   "category": "Érable (y compris érable du Japon)",
+   "npk": "Doux et lent : léger engrais à libération lente au printemps si la croissance est faible (ex. : 10-10-10 à demi-dose)",
+   "fertilizer": "Un paillage de compost est généralement tout ce qu'un érable demande",
+   "schedule": "Début de printemps seulement, et uniquement les arbres jeunes ou affaiblis",
+   "soil_ph": "5.5-6.5 (les érables du Japon préfèrent un sol légèrement acide)",
+   "tips": [
+    "Les érables du Japon détestent les fortes fertilisations : cela donne une pousse grossière et la brûlure des feuilles",
+    "Ne fertilisez jamais un érable nouvellement planté la première année"
+   ],
+   "watering": "Érables du Japon : régulièrement humide, jamais détrempé ; grands érables : seuls les jeunes arbres ont besoin d'aide",
+   "temperature": "Rustique ; les feuilles d'érable du Japon grillent au-dessus de 32 °C au soleil et au vent",
+   "humidity": "Modérée ; à l'abri des vents chauds et secs pour garder les pointes des feuilles vertes"
+  },
+  "Buxus": {
+   "category": "Buis",
+   "npk": "Engrais équilibré à tendance azotée (ex. : 10-6-4)",
+   "fertilizer": "Engrais granulé pour arbustes épandu à l'aplomb de la ramure",
+   "schedule": "Début de printemps ; un second apport léger à l'automne est possible en climat doux",
+   "soil_ph": "6.5-7.2",
+   "tips": [
+    "Un feuillage bronzé en hiver signale souvent une faim d'azote",
+    "Racines superficielles : épandez en surface, n'enfouissez jamais"
+   ],
+   "watering": "En profondeur toutes les 1-2 semaines pendant les périodes sèches ; racines superficielles sous paillis",
+   "temperature": "Rustique ; soleil d'hiver + sol gelé = feuillage qui bronze",
+   "humidity": "Moyenne ; toujours un bon drainage"
+  },
+  "Ficus": {
+   "category": "Ficus (caoutchouc, figuier lyre, figuier pleureur)",
+   "npk": "Engrais foliaire à tendance azotée (ex. : engrais plantes vertes de ratio 3-1-2)",
+   "fertilizer": "Engrais liquide pour plantes d'intérieur à demi-dose",
+   "schedule": "Chaque mois du printemps au début de l'automne ; rien en hiver",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Le figuier lyre aime la constance : même place, même rythme",
+    "Rincez le pot à l'eau claire tous les deux ou trois mois pour éliminer les sels accumulés"
+   ],
+   "watering": "Quand les 3-5 premiers cm sèchent — en général chaque semaine à l'intérieur ; moins en hiver",
+   "temperature": "16-27 °C ; déteste les courants d'air froids et les déménagements soudains (chute de feuilles garantie)",
+   "humidity": "Modérée (40-60%) ; essuyer les feuilles poussiéreuses pour qu'elles puissent respirer"
+  },
+  "Monstera": {
+   "category": "Monstera (plante d'intérieur)",
+   "npk": "Équilibré à tendance azotée (ex. : 3-1-2 ou 20-20-20 dilué)",
+   "fertilizer": "Engrais liquide pour plantes d'intérieur à demi-dose",
+   "schedule": "Chaque mois pendant la croissance de printemps/été ; tous les 2 mois ou rien en hiver",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Les grandes feuilles fenestrées viennent de la lumière et de l'âge plus que de l'engrais",
+    "Jeunes feuilles pâles = nourrissez ; bords bruns et secs = probablement trop d'engrais ou air trop sec"
+   ],
+   "watering": "Quand les 5 premiers cm sèchent — environ toutes les 1-2 semaines ; moins en hiver",
+   "temperature": "18-29 °C ; la croissance cale en dessous de 15 °C",
+   "humidity": "Au plus heureux à 60%+, tolère 40% ; adore un tuteur en mousse et une douche de temps en temps"
+  },
+  "Epipremnum": {
+   "category": "Pothos (plante d'intérieur)",
+   "npk": "N'importe quel engrais plantes d'intérieur équilibré, dilué (ex. : 10-10-10 à demi-dose)",
+   "fertilizer": "Engrais liquide pour plantes d'intérieur",
+   "schedule": "Chaque mois en saison de croissance ; le pothos tolère la négligence",
+   "soil_ph": "6.1-6.8",
+   "tips": [
+    "L'une des plantes les plus difficiles à sous-alimenter : dans le doute, abstenez-vous",
+    "Nourrissez seulement quand il produit activement de nouvelles feuilles"
+   ],
+   "watering": "Laisser sécher la moitié supérieure du pot ; des feuilles qui pendent vous disent que c'est l'heure",
+   "temperature": "18-29 °C ; tolère tout ce qui est vivable en intérieur",
+   "humidity": "Pas difficile — l'humidité normale d'une pièce lui convient"
+  },
+  "Philodendron": {
+   "category": "Philodendron (plante d'intérieur)",
+   "npk": "Engrais foliaire à tendance azotée (ratio 3-1-2)",
+   "fertilizer": "Engrais liquide pour plantes d'intérieur à demi-dose",
+   "schedule": "Chaque mois au printemps-été, toutes les 6-8 semaines en hiver s'il pousse encore",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "De petites feuilles nouvelles sur une plante adulte signifient généralement qu'elle a faim",
+    "Sensible aux sels : rincez le pot de temps en temps"
+   ],
+   "watering": "Quand les 3-5 premiers cm sèchent ; des feuilles jaunes signifient généralement trop d'eau",
+   "temperature": "18-28 °C ; maintenir au-dessus de 13 °C",
+   "humidity": "40-60% ; plus d'humidité = de plus grandes feuilles"
+  },
+  "Dracaena": {
+   "category": "Dracéna (et plantes proches)",
+   "npk": "Apport équilibré léger (ex. : 10-10-10 au quart de dose)",
+   "fertilizer": "Engrais liquide dilué pour plantes d'intérieur",
+   "schedule": "Tous les 1-2 mois, en saison de croissance uniquement",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Très sensible au fluor : les pointes brunes viennent souvent de l'eau du robinet et de la perlite, pas de la faim",
+    "La surfertilisation se repère à des pointes brûlées et des stries pâles"
+   ],
+   "watering": "Tous les 10-14 jours — laisser sécher la moitié supérieure ; utiliser de l'eau filtrée ou de pluie si les pointes brunissent",
+   "temperature": "18-27 °C ; maintenir au-dessus de 12 °C",
+   "humidity": "L'humidité normale d'une pièce convient ; les pointes brunes viennent en général de la qualité de l'eau, pas de la sécheresse"
+  },
+  "Sansevieria": {
+   "category": "Sansevière (langue de belle-mère)",
+   "npk": "Minimal : engrais cactées à demi-dose (ex. : 2-7-7 dilué)",
+   "fertilizer": "Engrais cactées/plantes grasses",
+   "schedule": "2-3 fois par an pendant les mois chauds, c'est bien suffisant",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Les sansevières stockent tout : en donner plus ne sert à rien, sinon à risquer de brûler les racines",
+    "Ne fertilisez jamais en hiver ni juste après un rempotage"
+   ],
+   "watering": "Toutes les 2-6 semaines — seulement quand le sol est complètement sec ; une fois par mois ou moins en hiver",
+   "temperature": "18-29 °C ; survit à tout au-dessus de 10 °C",
+   "humidity": "Faible ; prospère dans l'air sec là où les autres plantes font la tête"
+  },
+  "Chlorophytum": {
+   "category": "Plante araignée (chlorophytum)",
+   "npk": "Apport équilibré dilué (ex. : 10-10-10 au quart ou à la moitié de la dose)",
+   "fertilizer": "Engrais liquide pour plantes d'intérieur",
+   "schedule": "Chaque mois au printemps/été",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Les pointes brunes viennent généralement du fluor et des sels : utilisez eau de pluie ou eau distillée, et dosez léger",
+    "Une plante araignée suralimentée cesse de produire des rejets"
+   ],
+   "watering": "À peu près chaque semaine, en laissant sécher les premiers cm ; ses racines charnues gardent une réserve",
+   "temperature": "13-27 °C ; très indulgent",
+   "humidity": "Moyenne ; des pointes qui brunissent accusent le fluor de l'eau du robinet avant la sécheresse"
+  },
+  "Spathiphyllum": {
+   "category": "Spathiphyllum (fleur de lune)",
+   "npk": "Apport équilibré dilué (ex. : 20-20-20 au quart de dose)",
+   "fertilizer": "Engrais liquide pour plantes d'intérieur, bien dilué",
+   "schedule": "Toutes les 6 semaines du printemps à l'été",
+   "soil_ph": "5.8-6.5",
+   "tips": [
+    "Des fleurs vertes signalent un excès d'engrais",
+    "Des pointes brunes signalent des sels ou une eau chlorée : rincez le pot"
+   ],
+   "watering": "Quand il s'affaisse légèrement ou que les 3 premiers cm sèchent — environ chaque semaine ; se redresse en quelques heures",
+   "temperature": "18-27 °C ; en dessous de 12 °C, des dégâts apparaissent",
+   "humidity": "Modérée à élevée ; pointes brunes dans les pièces sèches"
+  },
+  "Zamioculcas": {
+   "category": "Plante ZZ (zamioculcas)",
+   "npk": "Minimal : engrais équilibré au quart de dose",
+   "fertilizer": "Engrais liquide dilué pour plantes d'intérieur",
+   "schedule": "2-3 fois par an, en saison de croissance uniquement",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Le zamioculcas vit sur les réserves de ses rhizomes : il n'a presque pas besoin de vous",
+    "Excès d'engrais et excès d'eau sont les deux seules vraies façons d'en tuer un"
+   ],
+   "watering": "Toutes les 2-4 semaines, complètement sec entre deux ; dans le doute, attendez une semaine",
+   "temperature": "18-27 °C ; à l'aise au-dessus de 10 °C",
+   "humidity": "Faible ; l'air sec ne lui pose aucun problème"
+  },
+  "Goeppertia": {
+   "category": "Calathéa / groupe des marantas",
+   "npk": "Apport très dilué à tendance azotée (quart de dose)",
+   "fertilizer": "Engrais liquide doux ; ce sont des divas sensibles aux sels",
+   "schedule": "Chaque mois en saison de croissance, au quart de dose",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Les calathéas brûlent facilement à cause des sels d'engrais : moins, c'est mieux",
+    "Les bords secs et cassants viennent presque toujours de la qualité de l'eau ou de l'humidité, pas de la faim"
+   ],
+   "watering": "Garder légèrement humide (jamais détrempé) avec de l'eau de pluie ou distillée ; de petites gorgées souvent",
+   "temperature": "18-27 °C ; les courants d'air froids font s'enrouler les feuilles instantanément",
+   "humidity": "Élevée (60%+) — la partie non négociable quand on possède un calathea"
+  },
+  "Calathea": {
+   "category": "Calathéa / groupe des marantas",
+   "npk": "Apport très dilué à tendance azotée (quart de dose)",
+   "fertilizer": "Engrais liquide doux ; ce sont des divas sensibles aux sels",
+   "schedule": "Chaque mois en saison de croissance, au quart de dose",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Les calathéas brûlent facilement à cause des sels d'engrais : moins, c'est mieux",
+    "Les bords secs et cassants viennent presque toujours de la qualité de l'eau ou de l'humidité, pas de la faim"
+   ],
+   "watering": "Garder légèrement humide (jamais détrempé) avec de l'eau de pluie ou distillée ; de petites gorgées souvent",
+   "temperature": "18-27 °C ; les courants d'air froids font s'enrouler les feuilles instantanément",
+   "humidity": "Élevée (60%+) — la partie non négociable quand on possède un calathea"
+  },
+  "Hedera": {
+   "category": "Lierre",
+   "npk": "Engrais foliaire équilibré (ex. : 10-10-10 dilué)",
+   "fertilizer": "Engrais liquide pour plantes d'intérieur ; rien n'est nécessaire en extérieur",
+   "schedule": "Chaque mois à l'intérieur en saison de croissance ; le lierre d'extérieur n'a besoin de rien",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Ne nourrissez pas le lierre en plein été chaud ni en plein hiver : sa croissance marque alors une pause",
+    "Un lierre d'extérieur fertilisé régulièrement devient encore plus envahissant"
+   ],
+   "watering": "Quand les 3 premiers cm sèchent ; le lierre préfère légèrement sec à légèrement mouillé",
+   "temperature": "10-21 °C — plus frais que ce qu'aiment la plupart des plantes d'intérieur ; rustique dehors",
+   "humidity": "Modérée ; les pièces chaudes et sèches sont une invitation aux araignées rouges"
+  },
+  "Hoya": {
+   "category": "Hoya (fleur de porcelaine)",
+   "npk": "Apport équilibré léger ; passez à plus de phosphore à l'apparition des boutons (ex. : 5-10-5)",
+   "fertilizer": "Engrais liquide dilué ou engrais orchidées",
+   "schedule": "Chaque mois en croissance ; arrêt en hiver",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Ne supprimez jamais les anciens pédoncules floraux : ils refleurissent au même endroit",
+    "Un hoya légèrement à l'étroit dans son pot fleurit mieux"
+   ],
+   "watering": "Le laisser bien sécher entre deux arrosages — ses feuilles semi-succulentes gardent des réserves",
+   "temperature": "16-29 °C ; maintenir au-dessus de 10 °C",
+   "humidity": "Modérée (40-60%) ; plus élevée pendant la formation des boutons"
+  },
+  "Peperomia": {
+   "category": "Pépéromia",
+   "npk": "Apport équilibré dilué (quart de dose)",
+   "fertilizer": "Engrais liquide pour plantes d'intérieur, bien dilué",
+   "schedule": "Au plus une fois par mois en saison de croissance",
+   "soil_ph": "6.0-6.6",
+   "tips": [
+    "Systèmes racinaires minuscules : ils se nourrissent peu, par nature",
+    "L'excès d'eau est le vrai tueur ; l'engrais est presque facultatif"
+   ],
+   "watering": "Quand la moitié supérieure sèche — environ tous les 10 jours ; l'excès d'eau est le principal tueur",
+   "temperature": "18-27 °C ; toujours au-dessus de 13 °C",
+   "humidity": "Les pièces ordinaires leur conviennent ; leurs feuilles épaisses amortissent les périodes sèches"
+  },
+  "Saintpaulia": {
+   "category": "Violette africaine (saintpaulia)",
+   "npk": "Engrais spécial violettes (ex. : 14-12-14) ou engrais équilibré au quart de dose",
+   "fertilizer": "Engrais pour violettes africaines, à faible dose à chaque arrosage",
+   "schedule": "Quart de dose à chaque arrosage, ou chaque mois à demi-dose",
+   "soil_ph": "5.8-6.2",
+   "tips": [
+    "Arrosez par le bas pour garder les feuilles sèches",
+    "L'absence de fleurs vient généralement d'un manque de lumière, pas d'un manque de nourriture"
+   ],
+   "watering": "Par le dessous quand la surface sèche ; eau à température ambiante, jamais sur les feuilles",
+   "temperature": "Un 18-24 °C stable ; les rebords de fenêtre froids tachent les feuilles",
+   "humidity": "Modérée à élevée (50%+) ; plateau de billes d'argile, pas de brumisation"
+  },
+  "Phalaenopsis": {
+   "category": "Orchidée papillon (phalaenopsis)",
+   "npk": "Engrais orchidées, « peu mais souvent » (ex. : 20-20-20 au quart de dose)",
+   "fertilizer": "Engrais spécial orchidées",
+   "schedule": "Quart de dose chaque semaine, eau claire un arrosage sur quatre pour rincer",
+   "soil_ph": "5.5-6.5 (en substrat d'écorce)",
+   "tips": [
+    "Rincez à l'eau claire chaque mois : les racines d'orchidée brûlent facilement avec les sels",
+    "Nourrissez moins (voire pas du tout) en pleine floraison",
+    "N'utilisez jamais de terreau classique pour les orchidées"
+   ],
+   "watering": "À peu près chaque semaine : quand les racines deviennent argentées, tremper puis bien égoutter ; ne jamais laisser d'eau au cœur de la plante",
+   "temperature": "18-29 °C le jour ; quelques semaines de nuits à 16-18 °C déclenchent une nouvelle hampe florale",
+   "humidity": "50-70% ; les fenêtres de salle de bains et de cuisine sont l'immobilier de luxe des orchidées"
+  },
+  "Aloe": {
+   "category": "Aloès (plante grasse)",
+   "npk": "Faible et rare : engrais cactées (ex. : 2-7-7) à demi-dose",
+   "fertilizer": "Engrais cactées/plantes grasses",
+   "schedule": "2-3 fois au printemps et en été, rien le reste du temps",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Un aloès suralimenté devient mou, affaissé et sujet à la pourriture",
+    "Substrat caillouteux et soleil comptent infiniment plus que l'engrais"
+   ],
+   "watering": "En profondeur, puis complètement sec — toutes les 2-3 semaines en été, une fois par mois ou moins en hiver",
+   "temperature": "13-27 °C ; souffre en dessous de 4 °C",
+   "humidity": "Faible ; air sec et sol caillouteux"
+  },
+  "Haworthia": {
+   "category": "Haworthia (petite plante grasse)",
+   "npk": "Presque rien : engrais cactées au quart de dose",
+   "fertilizer": "Engrais cactées/plantes grasses",
+   "schedule": "Une ou deux fois par an au printemps/été",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Croissance lente et appétit minuscule : dans le doute, ne nourrissez pas",
+    "L'étiolement (étirement) signifie qu'elle veut de la lumière, pas de la nourriture"
+   ],
+   "watering": "Toutes les 2-3 semaines en croissance, à peine en hiver ; des feuilles qui se rident = enfin l'heure",
+   "temperature": "15-26 °C ; protéger en dessous de 5 °C",
+   "humidity": "Faible ; tolère des pièces trop sombres et trop sèches pour la plupart des succulentes"
+  },
+  "Echeveria": {
+   "category": "Échevéria (plante grasse en rosette)",
+   "npk": "Engrais cactées pauvre en azote (ex. : 2-7-7) à demi-dose",
+   "fertilizer": "Engrais cactées/plantes grasses",
+   "schedule": "2-3 fois au printemps/été",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "La surfertilisation ruine la forme compacte de la rosette",
+    "Forme serrée et belles couleurs viennent d'une lumière vive et d'un sol maigre"
+   ],
+   "watering": "Tremper puis sécher — tous les 10-14 jours en été, une fois par mois en hiver ; ne jamais arroser la rosette",
+   "temperature": "18-27 °C ; protéger en dessous de 5 °C",
+   "humidity": "Faible ; l'air humide et stagnant fait pourrir la rosette"
+  },
+  "Crassula": {
+   "category": "Arbre de jade et plantes proches",
+   "npk": "Faible : engrais cactées à demi-dose",
+   "fertilizer": "Engrais cactées/plantes grasses",
+   "schedule": "Tous les 2 mois, au printemps/été uniquement",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Un arbre de jade vit des décennies avec presque rien : une fertilisation sobre le garde robuste",
+    "Nourrissez uniquement les plantes établies et en croissance active"
+   ],
+   "watering": "Quand les feuilles perdent leur brillant ou que le sol est sec depuis longtemps — toutes les 2-3 semaines, moins en hiver",
+   "temperature": "18-24 °C ; tolère jusqu'à environ 7 °C",
+   "humidity": "Faible ; la plante classique du rebord de fenêtre sec"
+  },
+  "Kalanchoe": {
+   "category": "Kalanchoé",
+   "npk": "Engrais équilibré en croissance ; plus de potassium pour favoriser la remontée de floraison",
+   "fertilizer": "Engrais équilibré dilué ou engrais pour plantes fleuries d'intérieur",
+   "schedule": "Chaque mois au printemps/été ; arrêt pendant le repos à jours courts qui déclenche la floraison",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "La refloraison demande 6 semaines de longues nuits, pas plus d'engrais",
+    "Les règles des plantes grasses s'appliquent : sol bien drainé, fertilisation modérée"
+   ],
+   "watering": "Toutes les 1-2 semaines, en laissant sécher entre deux ; moins pendant le repos sombre de l'hiver",
+   "temperature": "16-24 °C ; protéger en dessous de 7 °C",
+   "humidity": "Faible à modérée"
+  },
+  "Sedum": {
+   "category": "Sédum / orpin",
+   "npk": "Rien à minimal : ils prospèrent en sol pauvre",
+   "fertilizer": "Au plus, une fine couche de compost",
+   "schedule": "Inutile ; éventuellement une fois au printemps pour les plantes en pot",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Les sédums fertilisés deviennent hauts, mous et s'ouvrent en leur centre",
+    "Maigre, caillouteux, ensoleillé = parfait"
+   ],
+   "watering": "Presque jamais une fois établi en pleine terre ; les pots une fois par mois en été",
+   "temperature": "Rustique jusqu'aux grands froids ; se dore joyeusement au-dessus de 30 °C",
+   "humidity": "Faible ; un sol mouillé en hiver est le seul véritable ennemi"
+  },
+  "Agave": {
+   "category": "Agave",
+   "npk": "Rien en pleine terre ; rare engrais cactées dilué pour les pots",
+   "fertilizer": "Engrais cactées pour les sujets en pot uniquement",
+   "schedule": "1-2 fois par an pour les pots ; jamais pour les plantes en pleine terre",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Fertiliser un agave peut le pousser à fleurir - or les agaves meurent après la floraison",
+    "Sérieusement : ne fertilisez pas les agaves que vous voulez garder"
+   ],
+   "watering": "Un arrosage copieux mensuel en été pour les pots ; en pleine terre, il vit de la pluie",
+   "temperature": "Adore la chaleur ; rusticité extrêmement variable selon l'espèce (de -20 °C à sensible au gel)",
+   "humidity": "Faible ; conditions désertiques"
+  },
+  "Nephrolepis": {
+   "category": "Fougère de Boston",
+   "npk": "Apport équilibré dilué (ex. : 20-10-20 au quart de dose)",
+   "fertilizer": "Engrais liquide pour plantes d'intérieur, bien dilué",
+   "schedule": "Chaque mois du printemps au début de l'automne",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Les fougères ont des racines délicates : péchez toujours par excès de douceur",
+    "Des frondes pâles et lentes en été = l'heure d'un apport léger"
+   ],
+   "watering": "Garder toujours régulièrement humide — une fougère de Boston qui a soif sème ses folioles comme des confettis",
+   "temperature": "16-24 °C ; en dessous de 10 °C, les frondes souffrent",
+   "humidity": "Élevée (60%+) ; la fougère classique des vérandas humides et des salles de bains"
+  },
+  "Pinus": {
+   "category": "Pin",
+   "npk": "Rarement nécessaire ; engrais acide pour conifères (ex. : 4-3-4 avec soufre) si l'arbre faiblit",
+   "fertilizer": "Engrais acide type Holly-tone, ou simplement un paillis d'aiguilles de pin",
+   "schedule": "Début de printemps, uniquement pour les arbres jeunes ou visiblement en difficulté",
+   "soil_ph": "5.0-6.5",
+   "tips": [
+    "Les pins établis dans le jardin n'ont presque jamais besoin d'engrais",
+    "Laissez les aiguilles tombées au sol : c'est l'arbre qui se nourrit lui-même"
+   ],
+   "watering": "Seulement les jeunes arbres : en profondeur toutes les 1-2 semaines leurs deux premiers étés",
+   "temperature": "Rustique sur une immense plage ; les pins établis ignorent la météo",
+   "humidity": "Faible à moyenne ; a besoin d'un sol très drainant"
+  },
+  "Juniperus": {
+   "category": "Genévrier",
+   "npk": "Léger engrais pour conifères (ex. : 16-4-8 à libération lente) si la couleur est terne",
+   "fertilizer": "Engrais à libération lente pour conifères",
+   "schedule": "Début de printemps tout au plus ; les sujets établis n'ont généralement besoin de rien",
+   "soil_ph": "5.5-7.0",
+   "tips": [
+    "Les genévriers tolèrent les sols pauvres par nature",
+    "Un jaunissement vient plus souvent d'araignées rouges ou d'un sol détrempé que de la faim"
+   ],
+   "watering": "Les genévriers établis n'ont presque jamais besoin de rien ; les nouveaux plants en profondeur chaque semaine pendant une saison",
+   "temperature": "Extrêmement rustique, et tolérant à la chaleur aussi",
+   "humidity": "Faible ; l'ombre humide est la seule chose que les genévriers détestent"
+  },
+  "Thuja": {
+   "category": "Thuya / haie de cèdres",
+   "npk": "Engrais conifères à tendance azotée (ex. : 18-6-12 à libération lente)",
+   "fertilizer": "Engrais à libération lente pour conifères et haies",
+   "schedule": "Début de printemps ; une haie que l'on pousse à croître peut recevoir un second apport en fin de printemps",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Nourrissez les haies encore en formation ; les écrans adultes demandent peu",
+    "Arrosez abondamment après l'apport : les thuyas s'enracinent en surface"
+   ],
+   "watering": "Un arrosage copieux hebdomadaire pour les haies pendant les périodes sèches — les racines superficielles brunissent vite en sécheresse",
+   "temperature": "Résiste au froid ; le brunissement dû au vent d'hiver est courant et se répare en général tout seul",
+   "humidity": "Modérée ; pailler la zone racinaire superficielle"
+  }
+ },
+ "family": {
+  "Cactaceae": {
+   "category": "Cactus",
+   "npk": "Peu d'azote, plus de P-K (ex. : 2-7-7), bien dilué",
+   "fertilizer": "Engrais cactées/plantes grasses",
+   "schedule": "Chaque mois à demi-dose pendant la croissance de printemps/été ; rien pendant le repos hivernal",
+   "soil_ph": "5.5-7.0",
+   "tips": [
+    "Le repos hivernal doit être sec et sans engrais : c'est lui qui déclenche les fleurs",
+    "Les cactus suralimentés poussent vite, mous et perdent leur allure naturelle"
+   ],
+   "watering": "Toutes les 2-4 semaines en été (tremper puis sécher) ; presque rien pendant le repos hivernal",
+   "temperature": "Étés chauds ; la plupart veulent un hiver frais (8-13 °C) et sec pour déclencher la floraison",
+   "humidity": "Très faible ; humidité + froid = pourriture"
+  },
+  "Orchidaceae": {
+   "category": "Orchidée",
+   "npk": "Engrais orchidées « peu mais souvent » (20-20-20 au quart de dose)",
+   "fertilizer": "Engrais spécial orchidées",
+   "schedule": "Quart de dose chaque semaine en croissance ; rinçage mensuel à l'eau claire",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Dans l'écorce, les racines d'orchidée ne reçoivent presque aucun nutriment naturellement - mais elles brûlent facilement",
+    "Ralentissez les apports pendant la floraison"
+   ],
+   "watering": "Tremper puis égoutter quand le substrat approche du sec — environ chaque semaine ; jamais d'écorces détrempées",
+   "temperature": "La plupart : 18-29 °C le jour ; des nuits plus fraîches encouragent la floraison",
+   "humidity": "50-70% avec de l'air en mouvement"
+  },
+  "Crassulaceae": {
+   "category": "Plante grasse",
+   "npk": "Engrais cactées pauvre en azote (ex. : 2-7-7) à demi-dose",
+   "fertilizer": "Engrais cactées/plantes grasses",
+   "schedule": "2-3 fois au printemps/été uniquement",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Les plantes grasses préfèrent la sobriété : la surfertilisation provoque étiolement et pourriture",
+    "Ne fertilisez jamais les plantes dormantes ou fraîchement rempotées"
+   ],
+   "watering": "Tremper à fond, puis sécher à fond — toutes les 2-3 semaines en croissance, à peine en hiver",
+   "temperature": "18-27 °C ; la plupart doivent être protégées en dessous de 5 °C",
+   "humidity": "Faible ; l'air sec prévient la pourriture"
+  },
+  "Poaceae": {
+   "category": "Graminée (gazon / ornementale)",
+   "npk": "Gazon : dominante azotée (ex. : 20-5-10). Graminées ornementales : peu ou pas du tout",
+   "fertilizer": "Engrais gazon à libération lente ; compost pour les ornementales",
+   "schedule": "Gazon : fin de printemps et début d'automne. Graminées ornementales : une fois au printemps tout au plus",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "La fertilisation d'automne construit les racines ; celle de printemps fabrique surtout de la tonte",
+    "Les graminées ornementales s'affaissent quand on les suralimente"
+   ],
+   "watering": "Pelouses : 2-3 cm par semaine en une ou deux séances copieuses ; graminées ornementales : rarement une fois établies",
+   "temperature": "Les graminées de saison fraîche prospèrent entre 15-24 °C ; celles de saison chaude entre 24-35 °C",
+   "humidity": "Un arrosage profond et espacé fait des racines profondes ; les aspersions nocturnes font des champignons"
+  },
+  "Ericaceae": {
+   "category": "Famille des bruyères (plantes de terre de bruyère : bruyère, piéris, etc.)",
+   "npk": "Engrais pour terre de bruyère (engrais azalées/camélias), légèrement",
+   "fertilizer": "Holly-tone ou engrais acide similaire",
+   "schedule": "Une fois au printemps, après la floraison",
+   "soil_ph": "4.5-6.0",
+   "tips": [
+    "Toute la famille exige un sol acide : le pH d'abord, l'engrais ensuite",
+    "Racines fines et superficielles : sous-dosez et paillez avec de l'écorce de pin"
+   ],
+   "watering": "Les racines superficielles veulent une humidité légère et constante — arrosage profond hebdomadaire plus paillage",
+   "temperature": "Famille de climat frais : 13-24 °C ; la plupart résistent bien au froid",
+   "humidity": "Modérée à élevée ; le vent chaud et sec les grille"
+  },
+  "Arecaceae": {
+   "category": "Palmier",
+   "npk": "Formule palmiers avec magnésium et manganèse (ex. : 8-2-12 + Mg)",
+   "fertilizer": "Engrais spécial palmiers : les palmiers ont des besoins uniques en oligo-éléments",
+   "schedule": "Tous les 2-3 mois en saison de croissance",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Un jaunissement en bandes sur les palmes = carence en magnésium, classique chez les palmiers",
+    "Ne coupez jamais les palmes vertes : le palmier recycle les nutriments de ses vieilles feuilles"
+   ],
+   "watering": "Quand les 3-5 premiers cm sèchent — chaque semaine à l'intérieur ; davantage pour les palmiers d'extérieur en sol sableux",
+   "temperature": "La plupart des palmiers d'intérieur : 18-29 °C, toujours au-dessus de 13 °C",
+   "humidity": "Modérée à élevée ; les pointes brunes trahissent l'air sec"
+  },
+  "Lamiaceae": {
+   "category": "Herbe de la famille de la menthe",
+   "npk": "Apport équilibré léger ; la plupart préfèrent un sol maigre",
+   "fertilizer": "Compost ; engrais liquide dilué pour les herbes en pot",
+   "schedule": "Une ou deux fois par saison",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Surfertiliser les herbes aromatiques échange la saveur contre le volume",
+    "Récoltez souvent : c'est mieux que l'engrais pour une croissance touffue"
+   ],
+   "watering": "La plupart (types méditerranéens) veulent sécher entre deux arrosages ; la menthe est l'exception qui aime l'eau",
+   "temperature": "18-29 °C en saison de croissance",
+   "humidity": "Faible à modérée ; la circulation d'air garde le feuillage sain"
+  },
+  "Rosaceae": {
+   "category": "Famille des rosiers (arbustes et arbres à fleurs ou à fruits)",
+   "npk": "Engrais équilibré, pauvre en azote pour les espèces fruitières (ex. : 5-10-10)",
+   "fertilizer": "Engrais granulé équilibré ou engrais arbres fruitiers",
+   "schedule": "Début de printemps ; de nouveau après la nouaison pour les espèces fruitières",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Surveillez le feu bactérien dans cette famille : évitez l'excès d'azote",
+    "Jugez les arbres à la pousse annuelle avant de fertiliser"
+   ],
+   "watering": "En profondeur chaque semaine pour les jeunes plants et pendant le développement des fruits",
+   "temperature": "Majoritairement rustiques ; le gel au moment de la floraison est la fenêtre de danger",
+   "humidity": "Moyenne, avec une taille aérée — cette famille attrape tous les champignons qui passent"
+  },
+  "Fabaceae": {
+   "category": "Famille des légumineuses",
+   "npk": "Peu d'azote (elles le fixent elles-mêmes), P-K modérés",
+   "fertilizer": "Compost ; évitez les engrais azotés",
+   "schedule": "À la plantation ; peu de choses ensuite",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Grâce à leurs racines fixatrices d'azote, la plupart des légumineuses se nourrissent seules",
+    "Le phosphore favorise la nodulation et la floraison"
+   ],
+   "watering": "2-3 cm par semaine, surtout à la floraison et à la formation des gousses",
+   "temperature": "Pois au frais (13-18 °C), haricots au chaud (18-27 °C)",
+   "humidity": "Modérée ; un feuillage mouillé propage les maladies du haricot — arroser au pied"
+  },
+  "Asteraceae": {
+   "category": "Famille des marguerites (asters, zinnias, échinacées...)",
+   "npk": "Apport équilibré léger (ex. : 5-5-5) ; la plupart fleurissent mieux en sol maigre",
+   "fertilizer": "Compost à la plantation plus un engrais liquide occasionnel",
+   "schedule": "À la plantation et une fois en milieu de saison",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Suralimentées, la plupart des marguerites deviennent hautes, molles et avares de fleurs",
+    "Supprimez les fleurs fanées plutôt que de nourrir davantage"
+   ],
+   "watering": "Arrosage profond hebdomadaire ; la plupart s'endurcissent une fois établies",
+   "temperature": "Large gamme ; la plupart fleurissent le mieux entre 15-26 °C",
+   "humidity": "Faible à modérée ; les massifs serrés et humides sont une invitation au mildiou"
+  },
+  "Cucurbitaceae": {
+   "category": "Famille des courges et concombres",
+   "npk": "Équilibré au début, riche en potassium à la fructification",
+   "fertilizer": "Sol riche en compost plus un engrais pour légumes",
+   "schedule": "À la plantation, à la floraison et chaque mois pendant la fructification",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Grosses gourmandes : plantez sur des buttes de compost",
+    "Un arrosage régulier évite les fruits amers"
+   ],
+   "watering": "Copieux : 2-5 cm par semaine au pied, tous les jours en vague de chaleur",
+   "temperature": "Amatrices de chaleur : 21-29 °C ; tout s'arrête en dessous de 15 °C",
+   "humidity": "Sol humide, feuilles sèches"
+  },
+  "Solanaceae": {
+   "category": "Légume de la famille des solanacées",
+   "npk": "Équilibré au début, pauvre en azote et riche en potassium à la floraison (engrais tomates)",
+   "fertilizer": "Engrais tomates/légumes avec calcium",
+   "schedule": "Au repiquage, puis toutes les 2 semaines dès les premières fleurs",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Un arrosage régulier prévient la nécrose apicale (cul noir)",
+    "Levez le pied sur l'azote dès le début de la floraison"
+   ],
+   "watering": "Profond et régulier — 2-3× par semaine ; les fluctuations provoquent fruits éclatés et nécrose apicale",
+   "temperature": "21-29 °C le jour, au-dessus de 13 °C la nuit",
+   "humidity": "Modérée ; toujours arroser au pied"
+  },
+  "Amaryllidaceae": {
+   "category": "Bulbe de la famille des amaryllis et des oignons",
+   "npk": "Engrais bulbes ; équilibré pauvre en azote (ex. : 5-10-10)",
+   "fertilizer": "Engrais bulbes",
+   "schedule": "À la plantation et à la sortie du feuillage",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Nourrissez pendant la phase de feuillage : c'est elle qui construit le bulbe de l'an prochain",
+    "Laissez les feuilles se dessécher naturellement"
+   ],
+   "watering": "Humide pendant la pousse du feuillage, puis en réduisant jusqu'à une dormance au sec",
+   "temperature": "Les bulbes rustiques ont besoin du froid hivernal ; les frileux (amaryllis) : 18-24 °C",
+   "humidity": "Moyenne ; respecter la période de repos au sec"
+  },
+  "Pinaceae": {
+   "category": "Pin / épicéa / sapin (conifère)",
+   "npk": "Rarement nécessaire ; engrais acide pour conifères si l'arbre est jeune ou affaibli",
+   "fertilizer": "Engrais acide pour conifères ou paillis d'aiguilles",
+   "schedule": "Début de printemps, seulement si nécessaire",
+   "soil_ph": "5.0-6.5",
+   "tips": [
+    "Les conifères établis profitent rarement de l'engrais",
+    "Le brunissement vient généralement de l'eau, des sels ou des ravageurs, pas de la faim"
+   ],
+   "watering": "Jeunes conifères : en profondeur toutes les 1-2 semaines ; établis : seulement en sécheresse extrême",
+   "temperature": "Rustiques sur d'immenses plages de température",
+   "humidity": "Moyenne ; c'est le drainage qui compte le plus"
+  }
+ },
+ "default": {
+  "category": "Recommandation générale",
+  "npk": "Engrais équilibré (ex. : 10-10-10) à la moitié de la dose indiquée sur l'étiquette",
+  "fertilizer": "Engrais équilibré tout usage : granulé à libération lente au jardin, liquide pour les pots",
+  "schedule": "Printemps et début d'été pour les plantes de jardin ; chaque mois en saison de croissance (jamais en hiver) pour les plantes d'intérieur",
+  "soil_ph": "6.0-7.0 convient à la plupart des plantes",
+  "tips": [
+   "Dans le doute, sous-dosez : presque toutes les plantes se remettent plus vite de la faim que d'une brûlure d'engrais",
+   "Fertilisez uniquement en période de croissance active, sur un sol humide (jamais sec)",
+   "Des vieilles feuilles jaunes signalent souvent une faim d'azote ; des bords de feuilles brûlés, souvent un excès d'engrais"
+  ],
+  "watering": "Arroser en profondeur quand les 2-3 premiers cm de terreau sont secs au toucher ; la plupart des plantes préfèrent copieux-et-espacé à petit-peu-mais-souvent",
+  "temperature": "La plupart des plantes de jardin et d'intérieur sont à l'aise entre 18-24 °C ; protéger du gel sauf rusticité connue",
+  "humidity": "Une humidité moyenne convient à la plupart des plantes ; garder le terreau humide mais jamais détrempé, avec des trous de drainage toujours"
+ }
 }

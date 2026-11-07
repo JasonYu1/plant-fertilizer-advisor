@@ -1,1162 +1,1474 @@
 {
-  "species": {
-    "Ficus carica": {
-      "category": "Higuera (árbol frutal)",
-      "npk": "Equilibrado 8-8-8 o 10-10-10; pasa a menos nitrógeno cuando cuaje la fruta",
-      "fertilizer": "Fertilizante granulado equilibrado; un aporte superficial de compost funciona muy bien",
-      "schedule": "3 veces al año: comienzos de primavera, comienzos de verano y pleno verano. Deja de abonar en agosto para que la nueva brotación endurezca",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Demasiado nitrógeno da hojas exuberantes pero poca fruta",
-        "Las higueras en maceta necesitan abono mensual durante la temporada de crecimiento",
-        "Acolcha con compost cada primavera"
-      ]
-    },
-    "Solanum tuberosum": {
-      "category": "Patata (papa)",
-      "npk": "Más fósforo y potasio, nitrógeno moderado (p. ej., 5-10-10)",
-      "fertilizer": "Fertilizante granulado para hortalizas incorporado al suelo en la plantación",
-      "schedule": "En la plantación, luego un aporte lateral cuando las plantas midan 15-20 cm y otra vez en la floración (formación de tubérculos)",
-      "soil_ph": "5.0-6.0 (un suelo ligeramente ácido reduce la sarna)",
-      "tips": [
-        "Evita el estiércol fresco y el exceso de nitrógeno: obtendrás hojas en lugar de tubérculos",
-        "El potasio es clave para el tamaño de los tubérculos y su conservación",
-        "Aporca tierra alrededor de los tallos a medida que crecen"
-      ]
-    }
+ "species": {
+  "Ficus carica": {
+   "category": "Higuera (árbol frutal)",
+   "npk": "Equilibrado 8-8-8 o 10-10-10; pasa a menos nitrógeno cuando cuaje la fruta",
+   "fertilizer": "Fertilizante granulado equilibrado; un aporte superficial de compost funciona muy bien",
+   "schedule": "3 veces al año: comienzos de primavera, comienzos de verano y pleno verano. Deja de abonar en agosto para que la nueva brotación endurezca",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Demasiado nitrógeno da hojas exuberantes pero poca fruta",
+    "Las higueras en maceta necesitan abono mensual durante la temporada de crecimiento",
+    "Acolcha con compost cada primavera"
+   ],
+   "watering": "Riego profundo una vez por semana en verano; las higueras en maceta cada 2-3 días con calor",
+   "temperature": "Fructifica mejor a 20-30 °C; resiste hasta unos -10 °C en reposo invernal",
+   "humidity": "Tolera bien el aire seco; deja que el sustrato se seque un poco entre riegos"
   },
-  "genus": {
-    "Solanum": {
-      "category": "Hortaliza de la familia del tomate y la berenjena",
-      "npk": "Empieza con fórmula equilibrada y, en la floración, pasa a poco nitrógeno y mucho fósforo-potasio (p. ej., 3-4-6 o abono para tomates)",
-      "fertilizer": "Fertilizante para tomate/hortalizas con calcio para prevenir la podredumbre apical",
-      "schedule": "Al trasplantar y luego cada 2 semanas desde que empieza la floración",
-      "soil_ph": "6.2-6.8",
-      "tips": [
-        "Demasiado nitrógeno = plantas grandes y frondosas, pocos frutos",
-        "Mantén el riego constante: la absorción de calcio depende de ello",
-        "El magnesio (sal de Epsom) ayuda si las hojas viejas amarillean entre los nervios"
-      ]
-    },
-    "Capsicum": {
-      "category": "Pimiento",
-      "npk": "Equilibrado al principio (5-5-5), luego más potasio en la fructificación (3-5-7)",
-      "fertilizer": "El fertilizante para tomate/hortalizas funciona de maravilla con los pimientos",
-      "schedule": "Al trasplantar y luego cada 2-3 semanas durante la fructificación",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Los pimientos comen menos que los tomates: a media dosis suele bastar",
-        "El exceso de nitrógeno retrasa la fructificación"
-      ]
-    },
-    "Cucumis": {
-      "category": "Pepino / melón",
-      "npk": "Equilibrado en la plantación (5-5-5), más potasio cuando las guías empiecen a correr (p. ej., 3-4-6)",
-      "fertilizer": "Suelo rico en compost más un abono líquido para hortalizas",
-      "schedule": "En la plantación, cuando las guías empiezan a extenderse y al comenzar la floración",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Comen y beben mucho: no dejes que se sequen nunca",
-        "Aporta compost en superficie a mitad de temporada"
-      ]
-    },
-    "Cucurbita": {
-      "category": "Calabaza / zapallo / calabacín",
-      "npk": "Equilibrado al principio, luego mucho potasio para la fructificación (p. ej., 4-4-8)",
-      "fertilizer": "Compost o estiércol bien descompuesto en la plantación, más abono granulado para hortalizas",
-      "schedule": "En la plantación, con las primeras flores y mensualmente mientras fructifica",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Están entre las plantas más comilonas del huerto: plántalas en un montículo enriquecido con compost",
-        "Riega en la base para evitar el oídio"
-      ]
-    },
-    "Lactuca": {
-      "category": "Lechuga (verdura de hoja)",
-      "npk": "Con predominio de nitrógeno para el crecimiento de la hoja (p. ej., 10-5-5 o emulsión de pescado)",
-      "fertilizer": "Emulsión de pescado líquida o abono soluble equilibrado a media dosis",
-      "schedule": "Abonado ligero cada 2 semanas; la lechuga crece rápido y tiene raíces superficiales",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "El nitrógeno de acción rápida mantiene las hojas tiernas y dulces",
-        "Deja de abonar una semana antes de la cosecha"
-      ]
-    },
-    "Spinacia": {
-      "category": "Espinaca (verdura de hoja)",
-      "npk": "Rica en nitrógeno (p. ej., 10-5-5)",
-      "fertilizer": "Emulsión de pescado, harina de sangre o abono soluble equilibrado",
-      "schedule": "En la siembra y de nuevo cuando las plantas tengan 4-6 hojas verdaderas",
-      "soil_ph": "6.5-7.5",
-      "tips": [
-        "La espinaca espiga con el estrés: nitrógeno y riego constantes la mantienen produciendo hoja",
-        "Prefiere un suelo más neutro que la mayoría de las hortalizas"
-      ]
-    },
-    "Brassica": {
-      "category": "Familia del repollo / brócoli / col rizada (kale)",
-      "npk": "Con predominio de nitrógeno y aporte constante de todo (p. ej., 8-4-4), más boro y calcio",
-      "fertilizer": "Granulado equilibrado en la plantación, aporte lateral de nitrógeno más adelante",
-      "schedule": "En la plantación, luego aporte lateral a las 3-4 semanas; el brócoli otra vez cuando empiezan a formarse las cabezas",
-      "soil_ph": "6.5-7.0 (un pH más alto también frena la hernia de la col)",
-      "tips": [
-        "Son muy comilonas: un suelo pobre da cabezas pequeñas y amargas",
-        "Encala el suelo ácido antes de plantar"
-      ]
-    },
-    "Allium": {
-      "category": "Cebolla / ajo / puerro",
-      "npk": "Nitrógeno al principio para las hojas (se convierten en las capas del bulbo), nada cuando empiece el engorde",
-      "fertilizer": "Aporte lateral de harina de sangre o sulfato amónico en primavera",
-      "schedule": "Cada 2-3 semanas hasta que los bulbos empiecen a engordar; después, suspende por completo",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Cada hoja equivale a una capa del bulbo: impulsa el crecimiento de hoja al principio",
-        "El nitrógeno tardío retrasa el engorde y perjudica la conservación"
-      ]
-    },
-    "Daucus": {
-      "category": "Zanahoria (hortaliza de raíz)",
-      "npk": "Poco nitrógeno, más fósforo y potasio (p. ej., 1-2-2)",
-      "fertilizer": "Compost incorporado en profundidad; evita por completo el estiércol fresco",
-      "schedule": "Apenas necesita si el suelo es decente; un abonado ligero cuando las hojas midan 10 cm",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "El estiércol fresco y el suelo con terrones producen raíces bifurcadas y peludas",
-        "Un suelo suelto, profundo y sin piedras importa más que el fertilizante"
-      ]
-    },
-    "Phaseolus": {
-      "category": "Judía / frijol (leguminosa)",
-      "npk": "Poco nitrógeno: los frijoles fijan el suyo. Solo fósforo y potasio (p. ej., 1-4-4)",
-      "fertilizer": "Compost en la plantación suele ser todo lo que necesitan",
-      "schedule": "En la plantación; opcionalmente una vez en la floración",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "El nitrógeno añadido vuelve perezosos a los frijoles: todo guía y pocas vainas",
-        "El inoculante en polvo ayuda en suelos donde nunca se han cultivado frijoles"
-      ]
-    },
-    "Pisum": {
-      "category": "Guisante / arveja (leguminosa)",
-      "npk": "Poco nitrógeno, fósforo-potasio moderados (p. ej., 1-4-4)",
-      "fertilizer": "Compost en la plantación; los guisantes se alimentan casi solos",
-      "schedule": "Solo en la plantación, en la mayoría de los suelos",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Como los frijoles, los guisantes fijan nitrógeno: olvídate del abono nitrogenado",
-        "La ceniza de madera da un suave aporte de potasio"
-      ]
-    },
-    "Zea": {
-      "category": "Maíz",
-      "npk": "Muy exigente en nitrógeno (p. ej., 16-4-8 o aportes laterales regulares de nitrógeno)",
-      "fertilizer": "Equilibrado en la siembra y luego nitrógeno (harina de sangre, urea, emulsión de pescado)",
-      "schedule": "En la siembra, cuando llega a la altura de la rodilla y en la aparición de las panojas",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Las hojas verde pálido indican que quiere nitrógeno ya",
-        "Siembra en bloques, no en hileras, para favorecer la polinización"
-      ]
-    },
-    "Beta": {
-      "category": "Remolacha / acelga",
-      "npk": "Equilibrado con buen potasio (p. ej., 5-5-8), más boro",
-      "fertilizer": "Compost más abono granulado equilibrado",
-      "schedule": "En la siembra y una vez a mitad de temporada",
-      "soil_ph": "6.2-7.0",
-      "tips": [
-        "Las manchas negras muertas dentro de las remolachas suelen indicar carencia de boro",
-        "El exceso de nitrógeno desarrolla las hojas a costa de las raíces"
-      ]
-    },
-    "Fragaria": {
-      "category": "Fresa / frutilla",
-      "npk": "Equilibrado (10-10-10) tras la cosecha; abonado ligero en primavera",
-      "fertilizer": "Abono para frutos del bosque o granulado equilibrado",
-      "schedule": "Abonado ligero a comienzos de primavera y el principal justo después de la cosecha (es cuando se forman las yemas del año siguiente)",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Mucho nitrógeno en primavera da fresas blandas e insípidas",
-        "Renueva y abona las variedades de junio inmediatamente después de recoger"
-      ]
-    },
-    "Rubus": {
-      "category": "Frambuesa / zarzamora",
-      "npk": "Equilibrado (10-10-10) a comienzos de primavera",
-      "fertilizer": "Abono granulado equilibrado más acolchado de compost",
-      "schedule": "A comienzos de primavera, cuando arranca el crecimiento; las remontantes otra vez a comienzos de verano",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Abona las hileras, no las plantas: las raíces se extienden mucho",
-        "Acolcha en abundancia; las zarzas adoran una zona de raíces fresca y rica"
-      ]
-    },
-    "Vaccinium": {
-      "category": "Arándano (planta acidófila)",
-      "npk": "Fertilizante de fórmula ácida (p. ej., abono para azaleas, a base de sulfato amónico)",
-      "fertilizer": "Holly-tone / fertilizante para azaleas; nunca uses abonos a base de nitratos",
-      "schedule": "A comienzos de primavera y de nuevo 6 semanas después; nada a partir de julio",
-      "soil_ph": "4.5-5.5 (crítico: fracasan en suelo neutro)",
-      "tips": [
-        "Hojas amarillas con nervios verdes = suelo poco ácido, no falta de abono",
-        "Acidifica con azufre elemental meses antes de plantar",
-        "Acolcha con acículas o corteza de pino"
-      ]
-    },
-    "Vitis": {
-      "category": "Vid (uva)",
-      "npk": "Poco y austero: abono equilibrado solo si el crecimiento es débil (p. ej., 10-10-10 ligero)",
-      "fertilizer": "Compost; las vides en suelo fértil no suelen necesitar nada",
-      "schedule": "Una vez a comienzos de primavera, solo si los sarmientos crecieron menos de 1 m el año pasado",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Las vides sobrealimentadas hacen una selva de follaje y mala fruta",
-        "La carencia de potasio se nota como bordes de hoja que se doran a mitad de verano"
-      ]
-    },
-    "Citrus": {
-      "category": "Cítricos (limón, naranja, lima)",
-      "npk": "Fórmula para cítricos rica en nitrógeno con micronutrientes (p. ej., 6-3-3 más hierro, zinc y manganeso)",
-      "fertilizer": "Abono específico para cítricos: son propensos a carencias de micronutrientes",
-      "schedule": "Cada 6 semanas de primavera a verano; mensual en árboles en maceta; muy poco en invierno",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Hojas amarillas con nervios verdes = carencia de hierro o manganeso, habitual en maceta",
-        "Los cítricos en maceta pierden nutrientes muy rápido: abona poco y a menudo",
-        "Riega a fondo antes de abonar; nunca abones sobre suelo seco"
-      ]
-    },
-    "Malus": {
-      "category": "Manzano / manzano silvestre",
-      "npk": "Equilibrado (10-10-10) solo mientras son jóvenes; los árboles adultos suelen necesitar solo nitrógeno, según el crecimiento",
-      "fertilizer": "Abono granulado equilibrado repartido hasta la línea de goteo de la copa",
-      "schedule": "A comienzos de primavera, antes de la floración; no abones si los brotes crecieron más de 30 cm el año pasado",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "El exceso de abono provoca chupones y brotes tiernos propensos al fuego bacteriano",
-        "Nunca fertilices después de julio"
-      ]
-    },
-    "Prunus": {
-      "category": "Cerezo / ciruelo / melocotonero (duraznero) / albaricoquero",
-      "npk": "Abono equilibrado bajo en nitrógeno (p. ej., 5-10-10); los melocotoneros, algo más de nitrógeno",
-      "fertilizer": "Fertilizante granulado para frutales en la línea de goteo de la copa",
-      "schedule": "Una vez a comienzos de primavera; los árboles jóvenes, un segundo abonado ligero a finales de mayo",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Guíate por el crecimiento: 25-40 cm de brote nuevo al año es lo correcto en árboles adultos",
-        "El exceso de nitrógeno agrava la monilia (podredumbre parda) y los chancros"
-      ]
-    },
-    "Pyrus": {
-      "category": "Peral",
-      "npk": "Muy poco nitrógeno (p. ej., 5-10-10): los perales son imanes para el fuego bacteriano",
-      "fertilizer": "Abono granulado ligero, o simplemente acolchado de compost",
-      "schedule": "Una vez a comienzos de primavera, y solo si el crecimiento fue débil",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "El crecimiento exuberante alimentado con nitrógeno es justo lo que ataca el fuego bacteriano",
-        "Ante la duda, no abones un peral"
-      ]
-    },
-    "Persea": {
-      "category": "Aguacate (palta)",
-      "npk": "Fórmula para cítricos/aguacate con nitrógeno y zinc (p. ej., 6-3-3 + micronutrientes)",
-      "fertilizer": "Abono para cítricos y aguacate",
-      "schedule": "Cada 6-8 semanas durante la temporada de crecimiento; con moderación el primer año",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Extremadamente sensible a la acumulación de sales: enjuaga las macetas con regularidad",
-        "Necesita un drenaje perfecto; la podredumbre de raíz mata más aguacates que el hambre"
-      ]
-    },
-    "Musa": {
-      "category": "Plátano (banano)",
-      "npk": "Gran consumidor de potasio (p. ej., 3-1-6 o 9-3-27)",
-      "fertilizer": "Abono rico en potasio o fertilizante específico para bananos/palmeras",
-      "schedule": "Mensual mientras haga calor; los bananos comen sin parar en verano",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Una de las plantas más hambrientas que puedes cultivar: aporta compost con generosidad",
-        "El potasio determina el tamaño de la fruta y la resistencia al frío"
-      ]
-    },
-    "Olea": {
-      "category": "Olivo",
-      "npk": "Nitrógeno moderado (p. ej., 10-5-5 ligero); los olivos toleran suelos pobres",
-      "fertilizer": "Abono granulado ligero o compost",
-      "schedule": "A comienzos de primavera y de verano, con mano ligera",
-      "soil_ph": "6.5-8.0 (tolera suelos alcalinos)",
-      "tips": [
-        "Los olivos fructifican mejor con algo de estrés que mimados",
-        "Un drenaje perfecto vale más que cualquier fertilizante"
-      ]
-    },
-    "Ocimum": {
-      "category": "Albahaca (hierba aromática)",
-      "npk": "Abonado equilibrado ligero (p. ej., 5-5-5 a media dosis)",
-      "fertilizer": "Abono líquido diluido o emulsión de pescado",
-      "schedule": "Cada 3-4 semanas; en maceta, cada 2 semanas",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "La albahaca sobrealimentada crece mucho pero pierde sabor: los aceites se concentran en plantas más austeras",
-        "Pellizca las flores para que siga sacando hojas"
-      ]
-    },
-    "Mentha": {
-      "category": "Menta (hierba aromática)",
-      "npk": "Casi nada: un abonado equilibrado ligero si las hojas palidecen",
-      "fertilizer": "Aporte superficial de compost una vez por temporada",
-      "schedule": "Una vez en primavera es más que suficiente",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "La menta prospera con el abandono; abonarla sobre todo la hace más invasora",
-        "Cultívala en maceta salvo que quieras un césped de menta"
-      ]
-    },
-    "Salvia": {
-      "category": "Salvia (hierba mediterránea)",
-      "npk": "Muy ligero: un poco de compost en primavera",
-      "fertilizer": "Solo compost; evita el fertilizante comercial en plena tierra",
-      "schedule": "Una vez en primavera",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Las hierbas mediterráneas se espigan y pierden sabor cuando se sobrealimentan",
-        "Un buen drenaje importa mucho más que los nutrientes"
-      ]
-    },
-    "Rosmarinus": {
-      "category": "Romero (hierba mediterránea)",
-      "npk": "Mínimo: abonado equilibrado ligero solo para plantas en maceta",
-      "fertilizer": "Compost o abono líquido a un cuarto de dosis para macetas",
-      "schedule": "Solo en primavera; en maceta, 2-3 veces por temporada",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "El romero evolucionó en laderas rocosas: austero y seco es feliz",
-        "El exceso de riego lo mata mucho antes que la falta de abono"
-      ]
-    },
-    "Thymus": {
-      "category": "Tomillo (hierba mediterránea)",
-      "npk": "Mínimo; nada en un suelo de jardín decente",
-      "fertilizer": "Como mucho, una pizca de compost en primavera",
-      "schedule": "Solo en primavera",
-      "soil_ph": "6.0-8.0",
-      "tips": [
-        "Un suelo rico vuelve al tomillo caído y de sabor flojo",
-        "Un sustrato arenoso y de drenaje rápido es el verdadero fertilizante"
-      ]
-    },
-    "Petroselinum": {
-      "category": "Perejil (hierba aromática)",
-      "npk": "Abonado ligero con tendencia al nitrógeno (p. ej., emulsión de pescado)",
-      "fertilizer": "Emulsión de pescado o líquido equilibrado a media dosis",
-      "schedule": "Cada 3-4 semanas durante la temporada de cosecha",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "El perejil es más hambriento que la mayoría de las hierbas: se cultiva por su hoja frondosa",
-        "Corta primero los tallos exteriores para que siga produciendo"
-      ]
-    },
-    "Coriandrum": {
-      "category": "Cilantro / coriandro (hierba aromática)",
-      "npk": "Abonado ligero de nitrógeno",
-      "fertilizer": "Abono líquido a media dosis",
-      "schedule": "Una o dos veces durante su corta vida",
-      "soil_ph": "6.2-6.8",
-      "tips": [
-        "Lo que hace espigar al cilantro es el calor, no el hambre: haz siembras escalonadas en vez de sobrealimentarlo",
-        "Mantén el suelo uniformemente húmedo"
-      ]
-    },
-    "Lavandula": {
-      "category": "Lavanda (arbusto mediterráneo)",
-      "npk": "Prácticamente nada: la lavanda prefiere suelos pobres",
-      "fertilizer": "Nada, o un poco de compost al plantar. Sin acolchado pegado al tallo",
-      "schedule": "No lo necesita una vez establecida",
-      "soil_ph": "6.5-7.5 (le gusta algo de cal)",
-      "tips": [
-        "El fertilizante reduce la fragancia y la resistencia al invierno",
-        "Añade cal al suelo ácido; el acolchado de grava supera al de corteza"
-      ]
-    },
-    "Rosa": {
-      "category": "Rosal",
-      "npk": "Equilibrado con extra de fósforo y potasio (p. ej., 4-6-4 o abono específico para rosales)",
-      "fertilizer": "Abono para rosales o harina de alfalfa más compost; abono líquido entre tandas de floración",
-      "schedule": "Primer abonado cuando se abren las hojas en primavera, luego tras cada tanda de flores; suspende 6-8 semanas antes de la primera helada",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Los rosales reflorecientes son muy comilones",
-        "Las cáscaras de plátano y la alfalfa son los clásicos refuerzos de potasio",
-        "Abonar a final de temporada produce brotes sensibles a las heladas"
-      ]
-    },
-    "Hydrangea": {
-      "category": "Hortensia",
-      "npk": "Equilibrado de liberación lenta (p. ej., 10-10-10); para flores azules usa un abono ácido bajo en fósforo",
-      "fertilizer": "Abono de liberación lenta para arbustos en primavera",
-      "schedule": "Una vez en primavera y, opcionalmente, otra a comienzos de verano; nada a partir de julio",
-      "soil_ph": "5.2-5.5 para flores azules, 6.0-6.5 para rosas",
-      "tips": [
-        "El color de la flor sigue al pH: sulfato de aluminio para azul, cal de jardín para rosa (solo las de hoja grande)",
-        "Mucho fósforo bloquea la absorción de aluminio y mantiene las flores rosas",
-        "El exceso de abono da hojas en lugar de flores"
-      ]
-    },
-    "Rhododendron": {
-      "category": "Rododendro / azalea (planta acidófila)",
-      "npk": "Abono de fórmula ácida (p. ej., abono para azaleas/camelias, 4-3-4 con azufre)",
-      "fertilizer": "Holly-tone o un fertilizante ácido similar",
-      "schedule": "Justo después de la floración, con mano ligera; nada después de mediados de verano",
-      "soil_ph": "4.5-6.0",
-      "tips": [
-        "Sus raíces finas y superficiales se queman con facilidad: mejor quedarse corto que pasarse",
-        "El amarilleo entre los nervios indica que el pH es demasiado alto",
-        "Acolcha con corteza de pino en lugar de abonar más"
-      ]
-    },
-    "Camellia": {
-      "category": "Camelia (planta acidófila)",
-      "npk": "Abono de fórmula ácida (abono para azaleas/camelias)",
-      "fertilizer": "Fertilizante ácido más acolchado de corteza de pino",
-      "schedule": "Al terminar la floración y de nuevo 6-8 semanas después; nunca mientras florece",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Abonar durante la formación de botones puede provocar su caída",
-        "Las camelias comen poco: la mitad de la dosis de la etiqueta es más segura"
-      ]
-    },
-    "Gardenia": {
-      "category": "Gardenia (planta acidófila)",
-      "npk": "Fórmula ácida con hierro (p. ej., abono ácido 3-1-2 + hierro quelatado)",
-      "fertilizer": "Abono para azaleas; pulverización de hierro quelatado si las hojas amarillean",
-      "schedule": "Cada 4-6 semanas desde primavera hasta finales de verano",
-      "soil_ph": "5.0-6.0",
-      "tips": [
-        "Las gardenias son las divas de las acidófilas: las hojas amarillas suelen deberse a hierro bloqueado por un pH alto",
-        "La caída de botones se debe a cambios de temperatura y riego, no al hambre"
-      ]
-    },
-    "Paeonia": {
-      "category": "Peonía",
-      "npk": "Poco nitrógeno, buen fósforo-potasio (p. ej., 5-10-10)",
-      "fertilizer": "Abono para bulbos o granulado bajo en N alrededor de la corona (no encima)",
-      "schedule": "A comienzos de primavera, cuando los brotes miden 10 cm, y de nuevo tras la floración",
-      "soil_ph": "6.5-7.0",
-      "tips": [
-        "Las peonías cebadas de nitrógeno se desploman y se saltan la floración",
-        "La profundidad de plantación (yemas a 3-5 cm como máximo) influye en la floración más que cualquier fertilizante"
-      ]
-    },
-    "Dahlia": {
-      "category": "Dalia",
-      "npk": "Poco nitrógeno, mucho potasio (p. ej., 5-10-10 o abono para tomates)",
-      "fertilizer": "El fertilizante para tomates es el abono clásico de las dalias",
-      "schedule": "Mensual desde un mes después de la plantación hasta comienzos de otoño",
-      "soil_ph": "6.2-6.8",
-      "tips": [
-        "Mucho nitrógeno da plantas gigantes, tallos débiles, pocas flores y tubérculos propensos a pudrirse",
-        "Deja de abonar en septiembre para ayudar a curar los tubérculos"
-      ]
-    },
-    "Tulipa": {
-      "category": "Tulipán (bulbo)",
-      "npk": "Abono para bulbos / harina de huesos al plantar; abonado equilibrado cuando emergen las hojas",
-      "fertilizer": "Fertilizante para bulbos incorporado en el hoyo de plantación",
-      "schedule": "En la plantación de otoño y una vez cuando los brotes emergen en primavera",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Abona las hojas después de la floración: ahí se está formando la flor del año que viene",
-        "Nunca cortes las hojas hasta que amarilleen de forma natural"
-      ]
-    },
-    "Narcissus": {
-      "category": "Narciso (bulbo)",
-      "npk": "Abono para bulbos al plantar, abono bajo en N (p. ej., 5-10-12) cuando emerge el follaje",
-      "fertilizer": "Fertilizante para bulbos",
-      "schedule": "En la plantación de otoño y en la brotación de primavera; un abonado tras la floración ayuda a naturalizarlos",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Deja que el follaje muera de forma natural durante 6 semanas tras la floración",
-        "Mucho nitrógeno favorece la podredumbre del bulbo"
-      ]
-    },
-    "Lilium": {
-      "category": "Azucena / lirio (bulbo verdadero)",
-      "npk": "Equilibrado a bajo en N (p. ej., 5-10-10)",
-      "fertilizer": "Fertilizante para bulbos o para tomates",
-      "schedule": "Cuando emergen los brotes y de nuevo en la floración",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "A los lirios les gusta la cabeza al sol y los pies en suelo fresco y acolchado",
-        "Deja los tallos en pie tras la floración para alimentar el bulbo"
-      ]
-    },
-    "Chrysanthemum": {
-      "category": "Crisantemo",
-      "npk": "Abonado equilibrado (p. ej., 5-5-5) hasta que los botones muestren color; luego suspende",
-      "fertilizer": "Abono líquido equilibrado",
-      "schedule": "Mensual desde primavera hasta que los botones tomen color",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Pellizca las puntas hasta comienzos de julio para plantas más compactas",
-        "Abonar durante la floración acorta la vida de las flores"
-      ]
-    },
-    "Petunia": {
-      "category": "Petunia (anual de flor)",
-      "npk": "Abonado equilibrado constante con hierro (p. ej., 20-10-20); son famosas por su apetito",
-      "fertilizer": "Abono hidrosoluble; gránulos de liberación lenta como base en las cestas",
-      "schedule": "Cada 1-2 semanas en macizos, semanal en cestas y macetas",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "El amarilleo de los brotes nuevos indica carencia de hierro, habitual en las petunias",
-        "Las cestas colgantes pierden nutrientes con cada riego, así que abona a menudo"
-      ]
-    },
-    "Pelargonium": {
-      "category": "Geranio (planta de temporada)",
-      "npk": "Abonado equilibrado (p. ej., 10-10-10 o 20-20-20 diluido)",
-      "fertilizer": "Abono equilibrado hidrosoluble",
-      "schedule": "Cada 2-3 semanas durante la temporada de floración",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Los geranios sobrealimentados hacen hojas, no flores",
-        "Retira las flores marchitas con constancia para una floración continua"
-      ]
-    },
-    "Tagetes": {
-      "category": "Tagete / cempasúchil (anual)",
-      "npk": "Abonado equilibrado ligero; los tagetes prefieren suelo pobre",
-      "fertilizer": "Compost en la plantación suele bastar",
-      "schedule": "Un abonado ligero un mes después de plantar, si acaso",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Un suelo rico da follaje exuberante y pocas flores",
-        "De verdad rinden mejor pasando un poco de hambre"
-      ]
-    },
-    "Helianthus": {
-      "category": "Girasol",
-      "npk": "Equilibrado en la siembra, nitrógeno durante el crecimiento, potasio al formarse los botones",
-      "fertilizer": "Suelo rico en compost más un abono granulado equilibrado",
-      "schedule": "En la siembra y una vez a media altura",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Las variedades gigantes comen y beben mucho",
-        "Demasiado nitrógeno tardío = tallos débiles que se parten"
-      ]
-    },
-    "Viola": {
-      "category": "Pensamiento / violeta",
-      "npk": "Abono líquido equilibrado (p. ej., 15-15-15 diluido)",
-      "fertilizer": "Abono hidrosoluble",
-      "schedule": "Cada 2-3 semanas mientras florecen; mensual con tiempo fresco",
-      "soil_ph": "5.5-6.2",
-      "tips": [
-        "Los pensamientos comen y florecen incluso en estaciones frescas: no pares en otoño",
-        "Retira las flores marchitas para que sigan saliendo"
-      ]
-    },
-    "Impatiens": {
-      "category": "Alegría / impatiens (anual de sombra)",
-      "npk": "Abonado equilibrado ligero (p. ej., 10-10-10 a media dosis)",
-      "fertilizer": "Abono hidrosoluble diluido",
-      "schedule": "Cada 2 semanas en maceta, mensual en macizos",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "El exceso de abono da plantas altas y frondosas con pocas flores",
-        "Una humedad constante importa más que la comida"
-      ]
-    },
-    "Fuchsia": {
-      "category": "Fucsia",
-      "npk": "Abonado equilibrado, constante y diluido (p. ej., un cuarto de dosis en cada riego)",
-      "fertilizer": "Abono hidrosoluble equilibrado o algo rico en potasio",
-      "schedule": "Poco y cada semana: la regla clásica de la fucsia",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Un abonado ligero y constante supera a las dosis fuertes ocasionales",
-        "Reduce mucho el abono en otoño para que la planta descanse"
-      ]
-    },
-    "Begonia": {
-      "category": "Begonia",
-      "npk": "Abonado equilibrado diluido (p. ej., 10-10-10 a un cuarto de dosis)",
-      "fertilizer": "Abono hidrosoluble, bien diluido",
-      "schedule": "Cada 2 semanas en crecimiento activo",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Las raíces de la begonia se queman con facilidad: diluye siempre más de lo que dice la etiqueta",
-        "Las tuberosas: deja de abonar a finales de verano"
-      ]
-    },
-    "Hibiscus": {
-      "category": "Hibisco",
-      "npk": "Mucho potasio, nitrógeno moderado y POCO fósforo (p. ej., 12-4-18 o 10-4-12)",
-      "fertilizer": "Abono para hibiscos o rico en potasio; evita los potenciadores de floración",
-      "schedule": "Cada 2 semanas en verano, mensual en primavera/otoño, nada en invierno",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "El hibisco es peculiar: el fósforo se acumula y lo envenena con el tiempo",
-        "Evita por completo los fertilizantes de floración ricos en fósforo"
-      ]
-    },
-    "Bougainvillea": {
-      "category": "Buganvilla (bugambilia)",
-      "npk": "Equilibrado con micronutrientes (p. ej., 6-8-10 + hierro); un abonado austero favorece la floración",
-      "fertilizer": "Abono para buganvillas o hibiscos",
-      "schedule": "Mensual en la temporada de crecimiento, con mano ligera",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Florece mejor con algo de estrés: un poco de hambre y sequía dispara el color",
-        "Exceso de riego más exceso de abono = todo verde y nada de brácteas"
-      ]
-    },
-    "Jasminum": {
-      "category": "Jazmín",
-      "npk": "Abonado equilibrado con tendencia al potasio (p. ej., 7-9-5)",
-      "fertilizer": "Abono líquido equilibrado",
-      "schedule": "Cada 2-4 semanas durante la temporada de crecimiento",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "El potasio sostiene la floración y la fragancia",
-        "El jazmín en maceta con raíces apretadas florece mejor: no lo pases a una maceta demasiado grande"
-      ]
-    },
-    "Clematis": {
-      "category": "Clemátide",
-      "npk": "Abono de floración bajo en nitrógeno (p. ej., 5-10-10 o abono para rosales/tomates)",
-      "fertilizer": "Fertilizante para rosales o tomates",
-      "schedule": "En primavera cuando engordan las yemas, luego mensual; haz una pausa mientras está en plena flor",
-      "soil_ph": "6.5-7.0",
-      "tips": [
-        "La vieja regla se cumple: la cabeza al sol y los pies a la sombra; acolcha las raíces",
-        "Abonar durante la floración puede acortar el espectáculo"
-      ]
-    },
-    "Hosta": {
-      "category": "Hosta (perenne de sombra)",
-      "npk": "Equilibrado de liberación lenta (p. ej., 10-10-10) en primavera",
-      "fertilizer": "Granulado de liberación lenta más compost",
-      "schedule": "Una vez en primavera cuando se despliegan las hojas; abonado ligero opcional a comienzos de verano; nada a partir de julio",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Las hostas se alimentan sobre todo de un suelo rico y húmedo: el compost supera al fertilizante",
-        "Abonar tarde retrasa la dormancia e invita a los daños por heladas"
-      ]
-    },
-    "Syringa": {
-      "category": "Lilo (lila)",
-      "npk": "Mínimo: un poco de abono equilibrado solo en suelo pobre; le gusta la cal",
-      "fertilizer": "Compost; un puñado de cal de jardín en suelo ácido",
-      "schedule": "A comienzos de primavera, como mucho",
-      "soil_ph": "6.5-7.5",
-      "tips": [
-        "Los lilos fertilizados a menudo se niegan a florecer: suelo austero y pleno sol funcionan mejor",
-        "Poda justo después de la floración, no más tarde"
-      ]
-    },
-    "Magnolia": {
-      "category": "Magnolia",
-      "npk": "Abono equilibrado de liberación lenta para árboles (p. ej., 10-10-10), con mano ligera",
-      "fertilizer": "Granulado de liberación lenta bajo la copa",
-      "schedule": "A comienzos de primavera para árboles jóvenes; los establecidos rara vez necesitan abono",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Raíces carnosas y superficiales: nunca entierres el fertilizante, repártelo en superficie y riega",
-        "Acolcha en extensión, no en grosor"
-      ]
-    },
-    "Acer": {
-      "category": "Arce (incl. arce japonés)",
-      "npk": "Poco y despacio: liberación lenta ligera en primavera si el crecimiento es débil (p. ej., 10-10-10 a media dosis)",
-      "fertilizer": "Un acolchado de compost suele ser todo lo que un arce quiere",
-      "schedule": "Solo a comienzos de primavera, y solo árboles jóvenes o debilitados",
-      "soil_ph": "5.5-6.5 (los arces japoneses prefieren un suelo ligeramente ácido)",
-      "tips": [
-        "Los arces japoneses detestan el abonado fuerte: provoca crecimiento basto y hojas quemadas",
-        "Nunca fertilices un arce recién plantado en su primer año"
-      ]
-    },
-    "Buxus": {
-      "category": "Boj",
-      "npk": "Abonado equilibrado con tendencia al nitrógeno (p. ej., 10-6-4)",
-      "fertilizer": "Abono granulado para arbustos en la línea de goteo",
-      "schedule": "A comienzos de primavera; un segundo abonado ligero en otoño es aceptable en climas suaves",
-      "soil_ph": "6.5-7.2",
-      "tips": [
-        "El follaje bronceado en invierno suele señalar hambre de nitrógeno",
-        "Raíces superficiales: abona en superficie, nunca lo entierres"
-      ]
-    },
-    "Ficus": {
-      "category": "Ficus (árbol del caucho, ficus lira, ficus benjamina)",
-      "npk": "Abono foliar con tendencia al nitrógeno (p. ej., proporción 3-1-2 para plantas de interior)",
-      "fertilizer": "Fertilizante líquido para plantas de interior a media dosis",
-      "schedule": "Mensual de primavera a comienzos de otoño; nada en invierno",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Los ficus lira prefieren la constancia: mismo sitio, misma rutina",
-        "Enjuaga la maceta con agua sola cada pocos meses para eliminar la acumulación de sales"
-      ]
-    },
-    "Monstera": {
-      "category": "Costilla de Adán (planta de interior)",
-      "npk": "Equilibrado a con tendencia al nitrógeno (p. ej., 3-1-2 o 20-20-20 diluido)",
-      "fertilizer": "Abono líquido para plantas de interior a media dosis",
-      "schedule": "Mensual durante el crecimiento de primavera/verano; cada 2 meses o nada en invierno",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Las hojas grandes y fenestradas vienen de la luz y la edad más que del fertilizante",
-        "Hojas nuevas pálidas = abona; bordes marrones y crujientes = probablemente exceso de abono o aire seco"
-      ]
-    },
-    "Epipremnum": {
-      "category": "Potos (planta de interior)",
-      "npk": "Cualquier abono equilibrado para plantas de interior, diluido (p. ej., 10-10-10 a media dosis)",
-      "fertilizer": "Fertilizante líquido para plantas de interior",
-      "schedule": "Mensual en la temporada de crecimiento; el potos tolera el descuido",
-      "soil_ph": "6.1-6.8",
-      "tips": [
-        "Una de las plantas más difíciles de subalimentar: ante la duda, sáltate el abonado",
-        "Abona solo cuando esté sacando hojas nuevas activamente"
-      ]
-    },
-    "Philodendron": {
-      "category": "Filodendro (planta de interior)",
-      "npk": "Abono foliar con tendencia al nitrógeno (p. ej., proporción 3-1-2)",
-      "fertilizer": "Abono líquido para plantas de interior a media dosis",
-      "schedule": "Mensual en primavera-verano, cada 6-8 semanas en invierno si sigue creciendo",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Hojas nuevas pequeñas en una planta adulta suelen significar que tiene hambre",
-        "Sensible a las sales: enjuaga la maceta de vez en cuando"
-      ]
-    },
-    "Dracaena": {
-      "category": "Drácena / grupo de la lengua de suegra",
-      "npk": "Abonado equilibrado ligero (p. ej., 10-10-10 a un cuarto de dosis)",
-      "fertilizer": "Abono líquido para plantas de interior diluido",
-      "schedule": "Cada 1-2 meses, solo en la temporada de crecimiento",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Muy sensible al flúor: las puntas marrones suelen venir del agua del grifo y la perlita, no del hambre",
-        "El exceso de abono se nota en puntas quemadas y vetas pálidas"
-      ]
-    },
-    "Sansevieria": {
-      "category": "Lengua de suegra (sansevieria)",
-      "npk": "Mínimo: abono para cactus a media dosis (p. ej., 2-7-7 diluido)",
-      "fertilizer": "Fertilizante para cactus/suculentas",
-      "schedule": "2-3 veces al año durante los meses cálidos es más que suficiente",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Las sansevierias lo almacenan todo: abonar de más solo arriesga quemar las raíces",
-        "Nunca abones en invierno ni justo después de trasplantar"
-      ]
-    },
-    "Chlorophytum": {
-      "category": "Cinta (mala madre)",
-      "npk": "Abonado equilibrado diluido (p. ej., 10-10-10 a un cuarto o la mitad de dosis)",
-      "fertilizer": "Abono líquido para plantas de interior",
-      "schedule": "Mensual en primavera/verano",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Las puntas marrones suelen deberse al flúor y las sales: usa agua de lluvia o destilada y abona con moderación",
-        "Las cintas sobrealimentadas dejan de producir hijuelos"
-      ]
-    },
-    "Spathiphyllum": {
-      "category": "Espatifilo (cuna de Moisés)",
-      "npk": "Abonado equilibrado diluido (p. ej., 20-20-20 a un cuarto de dosis)",
-      "fertilizer": "Abono líquido para plantas de interior, bien diluido",
-      "schedule": "Cada 6 semanas de primavera a verano",
-      "soil_ph": "5.8-6.5",
-      "tips": [
-        "Las flores verdes indican demasiado fertilizante",
-        "Las puntas marrones indican sales o agua clorada: enjuaga la maceta"
-      ]
-    },
-    "Zamioculcas": {
-      "category": "Planta ZZ (zamioculca)",
-      "npk": "Mínimo: abono equilibrado a un cuarto de dosis",
-      "fertilizer": "Abono líquido para plantas de interior diluido",
-      "schedule": "2-3 veces al año, solo en la temporada de crecimiento",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Las plantas ZZ funcionan con la energía almacenada en sus rizomas: apenas te necesitan",
-        "El exceso de abono y de riego son las únicas formas reales de matar una"
-      ]
-    },
-    "Goeppertia": {
-      "category": "Calatea / grupo de las plantas de la oración",
-      "npk": "Abono muy diluido con tendencia al nitrógeno (a un cuarto de dosis)",
-      "fertilizer": "Abono líquido suave; son unas divas sensibles a las sales",
-      "schedule": "Mensual en la temporada de crecimiento, a un cuarto de dosis",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Las calateas se queman fácilmente con las sales del fertilizante: menos es más",
-        "Los bordes crujientes casi siempre son por la calidad del agua o la humedad, no por hambre"
-      ]
-    },
-    "Calathea": {
-      "category": "Calatea / grupo de las plantas de la oración",
-      "npk": "Abono muy diluido con tendencia al nitrógeno (a un cuarto de dosis)",
-      "fertilizer": "Abono líquido suave; son unas divas sensibles a las sales",
-      "schedule": "Mensual en la temporada de crecimiento, a un cuarto de dosis",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Las calateas se queman fácilmente con las sales del fertilizante: menos es más",
-        "Los bordes crujientes casi siempre son por la calidad del agua o la humedad, no por hambre"
-      ]
-    },
-    "Hedera": {
-      "category": "Hiedra",
-      "npk": "Abono foliar equilibrado (p. ej., 10-10-10 diluido)",
-      "fertilizer": "Abono líquido para plantas de interior en casa; en exterior no necesita nada",
-      "schedule": "Mensual en interior durante la temporada de crecimiento; la hiedra de exterior no necesita abono",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "No abones la hiedra en pleno verano caluroso ni en invierno frío: entonces pausa su crecimiento",
-        "La hiedra de exterior abonada con regularidad se vuelve aún más invasora"
-      ]
-    },
-    "Hoya": {
-      "category": "Hoya (flor de cera)",
-      "npk": "Abonado equilibrado ligero; pasa a más fósforo cuando forme botones (p. ej., 5-10-5)",
-      "fertilizer": "Abono líquido diluido o abono para orquídeas",
-      "schedule": "Mensual durante el crecimiento; suspende en invierno",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Nunca elimines los espolones florales viejos: refloresce en el mismo punto",
-        "Las hoyas con las raíces algo apretadas florecen mejor"
-      ]
-    },
-    "Peperomia": {
-      "category": "Peperomia",
-      "npk": "Abonado equilibrado diluido (a un cuarto de dosis)",
-      "fertilizer": "Abono líquido para plantas de interior, bien diluido",
-      "schedule": "Mensual como mucho en la temporada de crecimiento",
-      "soil_ph": "6.0-6.6",
-      "tips": [
-        "Sistemas de raíces diminutos: comen poco por naturaleza",
-        "El exceso de riego es lo que las mata; el abonado es casi opcional"
-      ]
-    },
-    "Saintpaulia": {
-      "category": "Violeta africana",
-      "npk": "Abono específico para violetas (p. ej., 14-12-14) o equilibrado a un cuarto de dosis",
-      "fertilizer": "Fertilizante para violetas africanas, en cada riego a dosis baja",
-      "schedule": "Un cuarto de dosis en cada riego, o mensual a media dosis",
-      "soil_ph": "5.8-6.2",
-      "tips": [
-        "Riega desde abajo para mantener las hojas secas",
-        "Si no florece suele ser falta de luz, no falta de comida"
-      ]
-    },
-    "Phalaenopsis": {
-      "category": "Orquídea mariposa",
-      "npk": "Abono para orquídeas, poco y a menudo (p. ej., 20-20-20 a un cuarto de dosis)",
-      "fertilizer": "Fertilizante específico para orquídeas",
-      "schedule": "Un cuarto de dosis cada semana y agua sola cada cuarto riego para enjuagar",
-      "soil_ph": "5.5-6.5 (en sustrato de corteza)",
-      "tips": [
-        "Enjuaga con agua sola una vez al mes: las raíces de orquídea se queman con las sales fácilmente",
-        "Abona menos (o nada) en plena floración",
-        "Nunca uses sustrato normal de macetas para las orquídeas"
-      ]
-    },
-    "Aloe": {
-      "category": "Aloe (suculenta)",
-      "npk": "Poco y rara vez: abono para cactus (p. ej., 2-7-7) a media dosis",
-      "fertilizer": "Fertilizante para cactus/suculentas",
-      "schedule": "2-3 veces entre primavera y verano, nada el resto del año",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "El aloe sobrealimentado crece blando, caído y propenso a pudrirse",
-        "Un sustrato arenoso y el sol importan infinitamente más que el fertilizante"
-      ]
-    },
-    "Haworthia": {
-      "category": "Haworthia (suculenta pequeña)",
-      "npk": "Casi nada: abono para cactus a un cuarto de dosis",
-      "fertilizer": "Fertilizante para cactus/suculentas",
-      "schedule": "Una o dos veces al año en primavera/verano",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Crecen despacio y apenas comen: ante la duda, no abones",
-        "La etiolación (estiramiento) significa que quiere luz, no comida"
-      ]
-    },
-    "Echeveria": {
-      "category": "Echeveria (suculenta de roseta)",
-      "npk": "Abono para cactus bajo en nitrógeno (p. ej., 2-7-7) a media dosis",
-      "fertilizer": "Fertilizante para cactus/suculentas",
-      "schedule": "2-3 veces en primavera/verano",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "El exceso de abono arruina la forma compacta de la roseta",
-        "La forma apretada y el buen color vienen de la luz intensa y un sustrato pobre"
-      ]
-    },
-    "Crassula": {
-      "category": "Árbol de jade y parientes",
-      "npk": "Poco: abono para cactus a media dosis",
-      "fertilizer": "Fertilizante para cactus/suculentas",
-      "schedule": "Cada 2 meses, solo en primavera/verano",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Los jades viven décadas con casi nada: un abonado austero los mantiene robustos",
-        "Abona solo plantas establecidas y en crecimiento activo"
-      ]
-    },
-    "Kalanchoe": {
-      "category": "Kalanchoe",
-      "npk": "Abonado equilibrado mientras crece; más potasio para estimular la refloración",
-      "fertilizer": "Abono diluido equilibrado o para plantas de interior con flor",
-      "schedule": "Mensual en primavera/verano; suspende durante el reposo de días cortos que dispara la floración",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "La refloración necesita 6 semanas de noches largas, no más fertilizante",
-        "Se aplican las reglas de las suculentas: sustrato con buen drenaje y abonado moderado"
-      ]
-    },
-    "Sedum": {
-      "category": "Sedum / uña de gato",
-      "npk": "De nada a mínimo: prosperan en suelos pobres",
-      "fertilizer": "Como mucho, una capa fina de compost",
-      "schedule": "No lo necesitan; quizá una vez en primavera para las de maceta",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Los sedums fertilizados crecen altos, se desploman y se abren",
-        "Pobre, arenoso y soleado = perfecto"
-      ]
-    },
-    "Agave": {
-      "category": "Agave",
-      "npk": "Nada en plena tierra; abono para cactus diluido muy de vez en cuando en maceta",
-      "fertilizer": "Fertilizante para cactus solo en plantas de maceta",
-      "schedule": "1-2 veces al año en maceta; nunca en plantas de suelo",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Abonar un agave puede empujarlo a florecer, y los agaves mueren tras la floración",
-        "En serio: no fertilices los agaves que quieras conservar"
-      ]
-    },
-    "Nephrolepis": {
-      "category": "Helecho de Boston",
-      "npk": "Abonado equilibrado diluido (p. ej., 20-10-20 a un cuarto de dosis)",
-      "fertilizer": "Abono líquido para plantas de interior, bien diluido",
-      "schedule": "Mensual de primavera a comienzos de otoño",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Los helechos tienen raíces delicadas: peca siempre de quedarte corto",
-        "Frondas pálidas y lentas en verano = toca un abonado ligero"
-      ]
-    },
-    "Pinus": {
-      "category": "Pino",
-      "npk": "Rara vez necesario; abono ácido para coníferas (p. ej., 4-3-4 con azufre) si está débil",
-      "fertilizer": "Fertilizante ácido tipo Holly-tone, o simplemente acolchado de acículas de pino",
-      "schedule": "A comienzos de primavera, solo para árboles jóvenes o claramente debilitados",
-      "soil_ph": "5.0-6.5",
-      "tips": [
-        "Los pinos establecidos en el jardín casi nunca necesitan fertilizante",
-        "Deja las acículas caídas en el suelo: es el árbol alimentándose a sí mismo"
-      ]
-    },
-    "Juniperus": {
-      "category": "Enebro (junípero)",
-      "npk": "Abono ligero para coníferas (p. ej., 16-4-8 de liberación lenta) si el color es pobre",
-      "fertilizer": "Fertilizante de liberación lenta para coníferas",
-      "schedule": "A comienzos de primavera como mucho; los establecidos no suelen necesitar nada",
-      "soil_ph": "5.5-7.0",
-      "tips": [
-        "Los enebros toleran el suelo pobre por naturaleza",
-        "El amarilleo se debe más a menudo a araña roja o encharcamiento que al hambre"
-      ]
-    },
-    "Thuja": {
-      "category": "Tuya / seto de cedro",
-      "npk": "Abono para coníferas con tendencia al nitrógeno (p. ej., 18-6-12 de liberación lenta)",
-      "fertilizer": "Fertilizante de liberación lenta para coníferas/setos",
-      "schedule": "A comienzos de primavera; un seto que quieras hacer crecer puede recibir un segundo abonado a finales de primavera",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Abona los setos que aún quieres hacer crecer; las pantallas adultas necesitan poco",
-        "Riega a fondo después de abonar: las tuyas tienen raíces superficiales"
-      ]
-    }
-  },
-  "family": {
-    "Cactaceae": {
-      "category": "Cactus",
-      "npk": "Poco nitrógeno, más P-K (p. ej., 2-7-7), bien diluido",
-      "fertilizer": "Fertilizante para cactus/suculentas",
-      "schedule": "Mensual a media dosis durante el crecimiento de primavera/verano; nada durante el reposo invernal",
-      "soil_ph": "5.5-7.0",
-      "tips": [
-        "La dormancia invernal debe ser seca y sin abono: eso es lo que dispara la floración",
-        "Los cactus sobrealimentados crecen rápido, blandos y deformados"
-      ]
-    },
-    "Orchidaceae": {
-      "category": "Orquídea",
-      "npk": "Abono para orquídeas, poco y a menudo (20-20-20 a un cuarto de dosis)",
-      "fertilizer": "Fertilizante específico para orquídeas",
-      "schedule": "Un cuarto de dosis cada semana mientras crece; enjuaga con agua sola una vez al mes",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Las raíces de orquídea en corteza apenas reciben nutrientes de forma natural, pero se queman con facilidad",
-        "Reduce el abonado durante la floración"
-      ]
-    },
-    "Crassulaceae": {
-      "category": "Suculenta",
-      "npk": "Abono para cactus bajo en nitrógeno (p. ej., 2-7-7) a media dosis",
-      "fertilizer": "Fertilizante para cactus/suculentas",
-      "schedule": "2-3 veces, solo en primavera/verano",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Las suculentas prefieren una vida austera: el exceso de abono provoca estiramiento y podredumbre",
-        "Nunca abones plantas dormidas o recién trasplantadas"
-      ]
-    },
-    "Poaceae": {
-      "category": "Gramíneas (césped / ornamentales)",
-      "npk": "Césped: con predominio de nitrógeno (p. ej., 20-5-10). Gramíneas ornamentales: poco o nada",
-      "fertilizer": "Fertilizante de liberación lenta para césped; compost para las ornamentales",
-      "schedule": "Céspedes: finales de primavera y comienzos de otoño. Gramíneas ornamentales: una vez en primavera como mucho",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "El abonado de otoño construye raíces; el de primavera, trabajo de cortacésped",
-        "Las gramíneas ornamentales se desploman cuando se sobrealimentan"
-      ]
-    },
-    "Ericaceae": {
-      "category": "Familia de los brezos (acidófilas: brezo, pieris, etc.)",
-      "npk": "Abono de fórmula ácida (para azaleas/camelias), con mano ligera",
-      "fertilizer": "Holly-tone o un fertilizante ácido similar",
-      "schedule": "Una vez en primavera, tras la floración",
-      "soil_ph": "4.5-6.0",
-      "tips": [
-        "Toda la familia exige suelo ácido: primero el pH, luego el fertilizante",
-        "Raíces finas y superficiales: quédate corto y acolcha con corteza de pino"
-      ]
-    },
-    "Arecaceae": {
-      "category": "Palmera",
-      "npk": "Fórmula para palmeras con magnesio y manganeso (p. ej., 8-2-12 + Mg)",
-      "fertilizer": "Fertilizante específico para palmeras: tienen necesidades únicas de micronutrientes",
-      "schedule": "Cada 2-3 meses en la temporada de crecimiento",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Bandas amarillas en las frondas = carencia de magnesio, clásica en palmeras",
-        "Nunca cortes frondas verdes: las palmeras recuperan los nutrientes de las hojas viejas"
-      ]
-    },
-    "Lamiaceae": {
-      "category": "Hierba aromática de la familia de la menta",
-      "npk": "Abonado equilibrado ligero; la mayoría prefiere suelo pobre",
-      "fertilizer": "Compost; abono líquido diluido para hierbas en maceta",
-      "schedule": "Una o dos veces por temporada",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Sobrealimentar las hierbas cambia sabor por volumen",
-        "Cosecha a menudo: es mejor que el fertilizante para un crecimiento tupido"
-      ]
-    },
-    "Rosaceae": {
-      "category": "Familia de las rosáceas (arbustos y árboles de flor y fruto)",
-      "npk": "Abonado equilibrado, bajo en nitrógeno para los frutales (p. ej., 5-10-10)",
-      "fertilizer": "Granulado equilibrado o fertilizante para frutales",
-      "schedule": "A comienzos de primavera; los frutales, otra vez tras el cuajado",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Vigila el fuego bacteriano en esta familia: evita el exceso de nitrógeno",
-        "Evalúa los árboles por el crecimiento anual de los brotes antes de abonar"
-      ]
-    },
-    "Fabaceae": {
-      "category": "Familia de las leguminosas",
-      "npk": "Poco nitrógeno (fijan el suyo propio), P-K moderados",
-      "fertilizer": "Compost; evita los fertilizantes nitrogenados",
-      "schedule": "En la plantación; poco después",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Sus raíces fijadoras de nitrógeno hacen que la mayoría de las leguminosas se alimenten solas",
-        "El fósforo ayuda a la nodulación y la floración"
-      ]
-    },
-    "Asteraceae": {
-      "category": "Familia de las margaritas (asteres, zinnias, equináceas...)",
-      "npk": "Abonado equilibrado ligero (p. ej., 5-5-5); la mayoría florece mejor en suelo pobre",
-      "fertilizer": "Compost en la plantación más algún abono líquido ocasional",
-      "schedule": "En la plantación y una vez a mitad de temporada",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "La mayoría de las margaritas sobrealimentadas = altas, caídas y con pocas flores",
-        "Retira las flores marchitas para tener más floración, en vez de abonar más"
-      ]
-    },
-    "Cucurbitaceae": {
-      "category": "Familia de las calabazas y los pepinos",
-      "npk": "Equilibrado al principio, mucho potasio en la fructificación",
-      "fertilizer": "Suelo rico en compost más abono para hortalizas",
-      "schedule": "En la plantación, en la floración y mensualmente mientras fructifica",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Muy comilonas: planta en montículos de compost",
-        "Un riego constante evita los frutos amargos"
-      ]
-    },
-    "Solanaceae": {
-      "category": "Hortaliza de la familia de las solanáceas",
-      "npk": "Equilibrado al principio, bajo en N y alto en K en la floración (abono para tomates)",
-      "fertilizer": "Fertilizante para tomate/hortalizas con calcio",
-      "schedule": "Al trasplantar y luego cada 2 semanas desde las primeras flores",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Un riego uniforme previene la podredumbre apical",
-        "Modera el nitrógeno en cuanto empiece la floración"
-      ]
-    },
-    "Amaryllidaceae": {
-      "category": "Bulbo de la familia del amarilis y la cebolla",
-      "npk": "Abono para bulbos; equilibrado bajo en N (p. ej., 5-10-10)",
-      "fertilizer": "Fertilizante para bulbos",
-      "schedule": "En la plantación y cuando emerge el follaje",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Abona la fase de follaje: eso construye el bulbo del año siguiente",
-        "Deja que las hojas mueran de forma natural"
-      ]
-    },
-    "Pinaceae": {
-      "category": "Pino / pícea / abeto (conífera)",
-      "npk": "Rara vez necesario; abono ácido para coníferas si es joven o está débil",
-      "fertilizer": "Fertilizante ácido para coníferas o acolchado de acículas",
-      "schedule": "A comienzos de primavera, solo si hace falta",
-      "soil_ph": "5.0-6.5",
-      "tips": [
-        "Las coníferas establecidas rara vez se benefician del fertilizante",
-        "El pardeamiento suele deberse al agua, las sales o las plagas, no al hambre"
-      ]
-    }
-  },
-  "default": {
-    "category": "Recomendación general",
-    "npk": "Fertilizante equilibrado (p. ej., 10-10-10) a la mitad de la dosis de la etiqueta",
-    "fertilizer": "Abono equilibrado de uso general: granulado de liberación lenta en exterior, líquido para macetas",
-    "schedule": "Primavera y comienzos de verano para plantas de jardín; mensual en la temporada de crecimiento (nunca en invierno) para plantas de interior",
-    "soil_ph": "6.0-7.0 va bien a la mayoría de las plantas",
-    "tips": [
-      "Ante la duda, abona de menos: casi todas las plantas se recuperan antes del hambre que de una quemadura por fertilizante",
-      "Abona solo durante el crecimiento activo y sobre suelo húmedo (no seco)",
-      "Las hojas viejas amarillas suelen indicar hambre de nitrógeno; los bordes quemados suelen indicar exceso de abono"
-    ]
+  "Solanum tuberosum": {
+   "category": "Patata (papa)",
+   "npk": "Más fósforo y potasio, nitrógeno moderado (p. ej., 5-10-10)",
+   "fertilizer": "Fertilizante granulado para hortalizas incorporado al suelo en la plantación",
+   "schedule": "En la plantación, luego un aporte lateral cuando las plantas midan 15-20 cm y otra vez en la floración (formación de tubérculos)",
+   "soil_ph": "5.0-6.0 (un suelo ligeramente ácido reduce la sarna)",
+   "tips": [
+    "Evita el estiércol fresco y el exceso de nitrógeno: obtendrás hojas en lugar de tubérculos",
+    "El potasio es clave para el tamaño de los tubérculos y su conservación",
+    "Aporca tierra alrededor de los tallos a medida que crecen"
+   ],
+   "watering": "2-3 cm de agua por semana; lo más crítico es mientras se forman los tubérculos",
+   "temperature": "Crece mejor a 15-21 °C; la formación de tubérculos se detiene por encima de 27 °C",
+   "humidity": "Mantén el suelo uniformemente húmedo pero nunca encharcado; las rachas secas producen tubérculos deformes"
   }
+ },
+ "genus": {
+  "Solanum": {
+   "category": "Hortaliza de la familia del tomate y la berenjena",
+   "npk": "Empieza con fórmula equilibrada y, en la floración, pasa a poco nitrógeno y mucho fósforo-potasio (p. ej., 3-4-6 o abono para tomates)",
+   "fertilizer": "Fertilizante para tomate/hortalizas con calcio para prevenir la podredumbre apical",
+   "schedule": "Al trasplantar y luego cada 2 semanas desde que empieza la floración",
+   "soil_ph": "6.2-6.8",
+   "tips": [
+    "Demasiado nitrógeno = plantas grandes y frondosas, pocos frutos",
+    "Mantén el riego constante: la absorción de calcio depende de ello",
+    "El magnesio (sal de Epsom) ayuda si las hojas viejas amarillean entre los nervios"
+   ],
+   "watering": "Riego profundo 2-3 veces por semana en la base; nunca dejes que pase de seco total a empapado",
+   "temperature": "21-27 °C de día, más de 13 °C de noche; el cuajado del fruto falla por encima de 32 °C",
+   "humidity": "Moderada (40-70%); mantén las hojas secas; una humedad estable del suelo previene la podredumbre apical"
+  },
+  "Capsicum": {
+   "category": "Pimiento",
+   "npk": "Equilibrado al principio (5-5-5), luego más potasio en la fructificación (3-5-7)",
+   "fertilizer": "El fertilizante para tomate/hortalizas funciona de maravilla con los pimientos",
+   "schedule": "Al trasplantar y luego cada 2-3 semanas durante la fructificación",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Los pimientos comen menos que los tomates: a media dosis suele bastar",
+    "El exceso de nitrógeno retrasa la fructificación"
+   ],
+   "watering": "Cuando los 3 cm superiores del sustrato se sequen — más o menos cada 2-3 días en verano",
+   "temperature": "21-29 °C de día, 16-21 °C de noche; por debajo de 12 °C el crecimiento se detiene",
+   "humidity": "Moderada (50-70%); humedad constante; dejarlos secar un poco antes de la cosecha concentra el picante"
+  },
+  "Cucumis": {
+   "category": "Pepino / melón",
+   "npk": "Equilibrado en la plantación (5-5-5), más potasio cuando las guías empiecen a correr (p. ej., 3-4-6)",
+   "fertilizer": "Suelo rico en compost más un abono líquido para hortalizas",
+   "schedule": "En la plantación, cuando las guías empiezan a extenderse y al comenzar la floración",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Comen y beben mucho: no dejes que se sequen nunca",
+    "Aporta compost en superficie a mitad de temporada"
+   ],
+   "watering": "Abundante y frecuente — 3-5 cm por semana, a diario en olas de calor; siempre en la base",
+   "temperature": "24-29 °C; el crecimiento se detiene por debajo de 15 °C, la helada mata al instante",
+   "humidity": "Suelo muy húmedo en todo momento; las rachas secas vuelven amargos los pepinos"
+  },
+  "Cucurbita": {
+   "category": "Calabaza / zapallo / calabacín",
+   "npk": "Equilibrado al principio, luego mucho potasio para la fructificación (p. ej., 4-4-8)",
+   "fertilizer": "Compost o estiércol bien descompuesto en la plantación, más abono granulado para hortalizas",
+   "schedule": "En la plantación, con las primeras flores y mensualmente mientras fructifica",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Están entre las plantas más comilonas del huerto: plántalas en un montículo enriquecido con compost",
+    "Riega en la base para evitar el oídio"
+   ],
+   "watering": "Riego profundo 1-2 veces por semana (2-5 cm); riega por la mañana y solo en la base",
+   "temperature": "21-29 °C; muy sensible a las heladas",
+   "humidity": "Suelo húmedo, hojas secas — el follaje mojado invita al oídio"
+  },
+  "Lactuca": {
+   "category": "Lechuga (verdura de hoja)",
+   "npk": "Con predominio de nitrógeno para el crecimiento de la hoja (p. ej., 10-5-5 o emulsión de pescado)",
+   "fertilizer": "Emulsión de pescado líquida o abono soluble equilibrado a media dosis",
+   "schedule": "Abonado ligero cada 2 semanas; la lechuga crece rápido y tiene raíces superficiales",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "El nitrógeno de acción rápida mantiene las hojas tiernas y dulces",
+    "Deja de abonar una semana antes de la cosecha"
+   ],
+   "watering": "Ligero y frecuente — sus raíces superficiales piden humedad cada 1-2 días con calor",
+   "temperature": "Crujiente y dulce a 10-21 °C; espiga y amarga por encima de 24 °C",
+   "humidity": "Suelo constantemente húmedo (sin encharcar); el acolchado mantiene frescas las raíces"
+  },
+  "Spinacia": {
+   "category": "Espinaca (verdura de hoja)",
+   "npk": "Rica en nitrógeno (p. ej., 10-5-5)",
+   "fertilizer": "Emulsión de pescado, harina de sangre o abono soluble equilibrado",
+   "schedule": "En la siembra y de nuevo cuando las plantas tengan 4-6 hojas verdaderas",
+   "soil_ph": "6.5-7.5",
+   "tips": [
+    "La espinaca espiga con el estrés: nitrógeno y riego constantes la mantienen produciendo hoja",
+    "Prefiere un suelo más neutro que la mayoría de las hortalizas"
+   ],
+   "watering": "Mantén la humedad uniforme; 2-3 cm por semana, más en rachas cálidas",
+   "temperature": "Prospera a 10-21 °C; el calor por encima de 24 °C provoca la espigada",
+   "humidity": "Humedad constante del suelo; el estrés por sequía significa espigada inmediata"
+  },
+  "Brassica": {
+   "category": "Familia del repollo / brócoli / col rizada (kale)",
+   "npk": "Con predominio de nitrógeno y aporte constante de todo (p. ej., 8-4-4), más boro y calcio",
+   "fertilizer": "Granulado equilibrado en la plantación, aporte lateral de nitrógeno más adelante",
+   "schedule": "En la plantación, luego aporte lateral a las 3-4 semanas; el brócoli otra vez cuando empiezan a formarse las cabezas",
+   "soil_ph": "6.5-7.0 (un pH más alto también frena la hernia de la col)",
+   "tips": [
+    "Son muy comilonas: un suelo pobre da cabezas pequeñas y amargas",
+    "Encala el suelo ácido antes de plantar"
+   ],
+   "watering": "2-3 cm por semana, con constancia; las cabezas se agrietan si se empapan tras una racha seca",
+   "temperature": "Cultivo de estación fría: 15-21 °C es lo ideal; las plantas maduras aguantan heladas ligeras sin inmutarse",
+   "humidity": "Humedad uniforme del suelo en todo momento; acolcha generosamente"
+  },
+  "Allium": {
+   "category": "Cebolla / ajo / puerro",
+   "npk": "Nitrógeno al principio para las hojas (se convierten en las capas del bulbo), nada cuando empiece el engorde",
+   "fertilizer": "Aporte lateral de harina de sangre o sulfato amónico en primavera",
+   "schedule": "Cada 2-3 semanas hasta que los bulbos empiecen a engordar; después, suspende por completo",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Cada hoja equivale a una capa del bulbo: impulsa el crecimiento de hoja al principio",
+    "El nitrógeno tardío retrasa el engorde y perjudica la conservación"
+   ],
+   "watering": "Semanal mientras crecen las hojas; DEJA de regar cuando los bulbos maduren y las puntas se doblen",
+   "temperature": "Las hojas crecen a 13-24 °C; la formación del bulbo la dispara la duración del día, no el calor",
+   "humidity": "Primavera húmeda, final seco — el suelo mojado en la madurez pudre los bulbos almacenados"
+  },
+  "Daucus": {
+   "category": "Zanahoria (hortaliza de raíz)",
+   "npk": "Poco nitrógeno, más fósforo y potasio (p. ej., 1-2-2)",
+   "fertilizer": "Compost incorporado en profundidad; evita por completo el estiércol fresco",
+   "schedule": "Apenas necesita si el suelo es decente; un abonado ligero cuando las hojas midan 10 cm",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "El estiércol fresco y el suelo con terrones producen raíces bifurcadas y peludas",
+    "Un suelo suelto, profundo y sin piedras importa más que el fertilizante"
+   ],
+   "watering": "Humedad uniforme durante la germinación; luego 2-3 cm por semana — las raíces se parten con riegos de atracón y hambruna",
+   "temperature": "El mejor sabor se logra a 15-21 °C; se endulza tras una helada ligera de otoño",
+   "humidity": "Humedad moderada y constante en suelo profundo y suelto"
+  },
+  "Phaseolus": {
+   "category": "Judía / frijol (leguminosa)",
+   "npk": "Poco nitrógeno: los frijoles fijan el suyo. Solo fósforo y potasio (p. ej., 1-4-4)",
+   "fertilizer": "Compost en la plantación suele ser todo lo que necesitan",
+   "schedule": "En la plantación; opcionalmente una vez en la floración",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "El nitrógeno añadido vuelve perezosos a los frijoles: todo guía y pocas vainas",
+    "El inoculante en polvo ayuda en suelos donde nunca se han cultivado frijoles"
+   ],
+   "watering": "2-3 cm por semana, sobre todo durante la floración y el llenado de las vainas",
+   "temperature": "Siembra con el suelo por encima de 16 °C; crece mejor a 18-27 °C",
+   "humidity": "Moderada; no trabajes entre plantas mojadas — propaga enfermedades"
+  },
+  "Pisum": {
+   "category": "Guisante / arveja (leguminosa)",
+   "npk": "Poco nitrógeno, fósforo-potasio moderados (p. ej., 1-4-4)",
+   "fertilizer": "Compost en la plantación; los guisantes se alimentan casi solos",
+   "schedule": "Solo en la plantación, en la mayoría de los suelos",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Como los frijoles, los guisantes fijan nitrógeno: olvídate del abono nitrogenado",
+    "La ceniza de madera da un suave aporte de potasio"
+   ],
+   "watering": "Ligero hasta la floración, luego constante — 2-3 cm por semana durante el llenado de las vainas",
+   "temperature": "Cultivo de clima fresco: 13-18 °C; deja de producir por encima de 27 °C",
+   "humidity": "Humedad uniforme; acolcha para mantener frescas las raíces en primavera"
+  },
+  "Zea": {
+   "category": "Maíz",
+   "npk": "Muy exigente en nitrógeno (p. ej., 16-4-8 o aportes laterales regulares de nitrógeno)",
+   "fertilizer": "Equilibrado en la siembra y luego nitrógeno (harina de sangre, urea, emulsión de pescado)",
+   "schedule": "En la siembra, cuando llega a la altura de la rodilla y en la aparición de las panojas",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Las hojas verde pálido indican que quiere nitrógeno ya",
+    "Siembra en bloques, no en hileras, para favorecer la polinización"
+   ],
+   "watering": "2-3 cm por semana; crítico durante el espigado y el llenado de las mazorcas — la sequía entonces cuesta granos",
+   "temperature": "Germina por encima de 16 °C; crece más rápido a 24-30 °C",
+   "humidity": "Humedad profunda del suelo durante la formación de las sedas; los rociados superficiales diarios sirven de poco"
+  },
+  "Beta": {
+   "category": "Remolacha / acelga",
+   "npk": "Equilibrado con buen potasio (p. ej., 5-5-8), más boro",
+   "fertilizer": "Compost más abono granulado equilibrado",
+   "schedule": "En la siembra y una vez a mitad de temporada",
+   "soil_ph": "6.2-7.0",
+   "tips": [
+    "Las manchas negras muertas dentro de las remolachas suelen indicar carencia de boro",
+    "El exceso de nitrógeno desarrolla las hojas a costa de las raíces"
+   ],
+   "watering": "2-3 cm por semana, con constancia; las raíces leñosas son consecuencia del estrés por sequía",
+   "temperature": "15-21 °C es lo ideal; tolera heladas ligeras en ambos extremos de la temporada",
+   "humidity": "Humedad constante para raíces tiernas"
+  },
+  "Fragaria": {
+   "category": "Fresa / frutilla",
+   "npk": "Equilibrado (10-10-10) tras la cosecha; abonado ligero en primavera",
+   "fertilizer": "Abono para frutos del bosque o granulado equilibrado",
+   "schedule": "Abonado ligero a comienzos de primavera y el principal justo después de la cosecha (es cuando se forman las yemas del año siguiente)",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Mucho nitrógeno en primavera da fresas blandas e insípidas",
+    "Renueva y abona las variedades de junio inmediatamente después de recoger"
+   ],
+   "watering": "2-3 cm por semana; un poco a diario durante la fructificación con calor (raíces superficiales)",
+   "temperature": "15-26 °C; las flores son sensibles a las heladas — cúbrelas en noches frías",
+   "humidity": "Suelo húmedo, fresas secas: el acolchado de paja mantiene la fruta lejos del suelo mojado"
+  },
+  "Rubus": {
+   "category": "Frambuesa / zarzamora",
+   "npk": "Equilibrado (10-10-10) a comienzos de primavera",
+   "fertilizer": "Abono granulado equilibrado más acolchado de compost",
+   "schedule": "A comienzos de primavera, cuando arranca el crecimiento; las remontantes otra vez a comienzos de verano",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Abona las hileras, no las plantas: las raíces se extienden mucho",
+    "Acolcha en abundancia; las zarzas adoran una zona de raíces fresca y rica"
+   ],
+   "watering": "2-5 cm por semana desde la floración hasta la cosecha",
+   "temperature": "Las cañas resisten -20 °C o menos; la fruta madura mejor a 18-24 °C",
+   "humidity": "Zona de raíces fresca, húmeda y acolchada; buena circulación de aire entre las cañas"
+  },
+  "Vaccinium": {
+   "category": "Arándano (planta acidófila)",
+   "npk": "Fertilizante de fórmula ácida (p. ej., abono para azaleas, a base de sulfato amónico)",
+   "fertilizer": "Holly-tone / fertilizante para azaleas; nunca uses abonos a base de nitratos",
+   "schedule": "A comienzos de primavera y de nuevo 6 semanas después; nada a partir de julio",
+   "soil_ph": "4.5-5.5 (crítico: fracasan en suelo neutro)",
+   "tips": [
+    "Hojas amarillas con nervios verdes = suelo poco ácido, no falta de abono",
+    "Acidifica con azufre elemental meses antes de plantar",
+    "Acolcha con acículas o corteza de pino"
+   ],
+   "watering": "2-5 cm por semana; sus finas raíces superficiales se secan rápido — nunca lo permitas",
+   "temperature": "Resistente; fructifica mejor a 18-26 °C (consulta las horas de frío que necesita tu variedad)",
+   "humidity": "Suelo ácido constantemente húmedo (sin inundar); el acolchado de acículas de pino es ideal"
+  },
+  "Vitis": {
+   "category": "Vid (uva)",
+   "npk": "Poco y austero: abono equilibrado solo si el crecimiento es débil (p. ej., 10-10-10 ligero)",
+   "fertilizer": "Compost; las vides en suelo fértil no suelen necesitar nada",
+   "schedule": "Una vez a comienzos de primavera, solo si los sarmientos crecieron menos de 1 m el año pasado",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Las vides sobrealimentadas hacen una selva de follaje y mala fruta",
+    "La carencia de potasio se nota como bordes de hoja que se doran a mitad de verano"
+   ],
+   "watering": "Profundo y espaciado una vez establecida; reduce cerca de la cosecha para concentrar los azúcares",
+   "temperature": "Temporada de crecimiento a 15-32 °C; las vides en reposo aguantan heladas fuertes",
+   "humidity": "Prefiere aire seco — las copas húmedas sufren enfermedades fúngicas; poda para airear"
+  },
+  "Citrus": {
+   "category": "Cítricos (limón, naranja, lima)",
+   "npk": "Fórmula para cítricos rica en nitrógeno con micronutrientes (p. ej., 6-3-3 más hierro, zinc y manganeso)",
+   "fertilizer": "Abono específico para cítricos: son propensos a carencias de micronutrientes",
+   "schedule": "Cada 6 semanas de primavera a verano; mensual en árboles en maceta; muy poco en invierno",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Hojas amarillas con nervios verdes = carencia de hierro o manganeso, habitual en maceta",
+    "Los cítricos en maceta pierden nutrientes muy rápido: abona poco y a menudo",
+    "Riega a fondo antes de abonar; nunca abones sobre suelo seco"
+   ],
+   "watering": "Riego profundo cuando los 5 cm superiores se sequen; los árboles en maceta más o menos semanal, nunca con agua estancada",
+   "temperature": "13-30 °C; la mayoría se dañan por debajo de -2 °C — mete las macetas antes de las heladas",
+   "humidity": "Moderada a alta (50%+); el aire de interior en invierno es demasiado seco — pulveriza o usa una bandeja con guijarros"
+  },
+  "Malus": {
+   "category": "Manzano / manzano silvestre",
+   "npk": "Equilibrado (10-10-10) solo mientras son jóvenes; los árboles adultos suelen necesitar solo nitrógeno, según el crecimiento",
+   "fertilizer": "Abono granulado equilibrado repartido hasta la línea de goteo de la copa",
+   "schedule": "A comienzos de primavera, antes de la floración; no abones si los brotes crecieron más de 30 cm el año pasado",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "El exceso de abono provoca chupones y brotes tiernos propensos al fuego bacteriano",
+    "Nunca fertilices después de julio"
+   ],
+   "watering": "Árboles jóvenes: semanal y profundo; árboles establecidos solo en sequía",
+   "temperature": "Resistente al frío; necesita frío invernal (varía según la variedad) para fructificar bien",
+   "humidity": "Media; poda la copa abierta para que las hojas se sequen rápido"
+  },
+  "Prunus": {
+   "category": "Cerezo / ciruelo / melocotonero (duraznero) / albaricoquero",
+   "npk": "Abono equilibrado bajo en nitrógeno (p. ej., 5-10-10); los melocotoneros, algo más de nitrógeno",
+   "fertilizer": "Fertilizante granulado para frutales en la línea de goteo de la copa",
+   "schedule": "Una vez a comienzos de primavera; los árboles jóvenes, un segundo abonado ligero a finales de mayo",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Guíate por el crecimiento: 25-40 cm de brote nuevo al año es lo correcto en árboles adultos",
+    "El exceso de nitrógeno agrava la monilia (podredumbre parda) y los chancros"
+   ],
+   "watering": "Profundo cada 1-2 semanas en tiempo seco, sobre todo mientras engorda la fruta",
+   "temperature": "Resistente, pero las floraciones tempranas son vulnerables a las heladas; fructifica a 18-27 °C",
+   "humidity": "Media; evita mojar el follaje — esta familia se pudre con facilidad"
+  },
+  "Pyrus": {
+   "category": "Peral",
+   "npk": "Muy poco nitrógeno (p. ej., 5-10-10): los perales son imanes para el fuego bacteriano",
+   "fertilizer": "Abono granulado ligero, o simplemente acolchado de compost",
+   "schedule": "Una vez a comienzos de primavera, y solo si el crecimiento fue débil",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "El crecimiento exuberante alimentado con nitrógeno es justo lo que ataca el fuego bacteriano",
+    "Ante la duda, no abones un peral"
+   ],
+   "watering": "Profundo cada 1-2 semanas en sequía; los árboles establecidos son duros",
+   "temperature": "Resistente al frío; necesita algo de frío invernal; la fruta madura mejor a 18-24 °C",
+   "humidity": "Media; poda abierta para la circulación de aire"
+  },
+  "Persea": {
+   "category": "Aguacate (palta)",
+   "npk": "Fórmula para cítricos/aguacate con nitrógeno y zinc (p. ej., 6-3-3 + micronutrientes)",
+   "fertilizer": "Abono para cítricos y aguacate",
+   "schedule": "Cada 6-8 semanas durante la temporada de crecimiento; con moderación el primer año",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Extremadamente sensible a la acumulación de sales: enjuaga las macetas con regularidad",
+    "Necesita un drenaje perfecto; la podredumbre de raíz mata más aguacates que el hambre"
+   ],
+   "watering": "Profundo, y luego deja secar los 5-10 cm superiores — las raíces encharcadas son fatales para los aguacates",
+   "temperature": "18-29 °C; la mayoría de las variedades se dañan por debajo de 0 °C",
+   "humidity": "Moderada a alta; acolcha en abundancia pero sin tocar el tronco"
+  },
+  "Musa": {
+   "category": "Plátano (banano)",
+   "npk": "Gran consumidor de potasio (p. ej., 3-1-6 o 9-3-27)",
+   "fertilizer": "Abono rico en potasio o fertilizante específico para bananos/palmeras",
+   "schedule": "Mensual mientras haga calor; los bananos comen sin parar en verano",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Una de las plantas más hambrientas que puedes cultivar: aporta compost con generosidad",
+    "El potasio determina el tamaño de la fruta y la resistencia al frío"
+   ],
+   "watering": "Sed constante con calor — cada 1-2 días en verano; sus hojas enormes transpiran muchísimo",
+   "temperature": "Adora los 24-32 °C; el crecimiento se detiene por debajo de 14 °C, el follaje muere con la helada",
+   "humidity": "Alta (60%+); a los bananos de interior les sienta bien la pulverización y estar agrupados con otras plantas"
+  },
+  "Olea": {
+   "category": "Olivo",
+   "npk": "Nitrógeno moderado (p. ej., 10-5-5 ligero); los olivos toleran suelos pobres",
+   "fertilizer": "Abono granulado ligero o compost",
+   "schedule": "A comienzos de primavera y de verano, con mano ligera",
+   "soil_ph": "6.5-8.0 (tolera suelos alcalinos)",
+   "tips": [
+    "Los olivos fructifican mejor con algo de estrés que mimados",
+    "Un drenaje perfecto vale más que cualquier fertilizante"
+   ],
+   "watering": "Aguanta la sequía una vez establecido; remojo profundo mensual en veranos secos, semanal en maceta",
+   "temperature": "Mediterráneo: veranos calurosos y secos, inviernos frescos; se daña por debajo de unos -10 °C",
+   "humidity": "Baja a moderada; detesta las condiciones húmedas y encharcadas"
+  },
+  "Ocimum": {
+   "category": "Albahaca (hierba aromática)",
+   "npk": "Abonado equilibrado ligero (p. ej., 5-5-5 a media dosis)",
+   "fertilizer": "Abono líquido diluido o emulsión de pescado",
+   "schedule": "Cada 3-4 semanas; en maceta, cada 2 semanas",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "La albahaca sobrealimentada crece mucho pero pierde sabor: los aceites se concentran en plantas más austeras",
+    "Pellizca las flores para que siga sacando hojas"
+   ],
+   "watering": "Cuando la superficie se seque — cada 2-3 días en verano, a diario en macetas pequeñas",
+   "temperature": "Amante del calor: 18-30 °C; se enfurruña por debajo de 10 °C, se ennegrece con la helada",
+   "humidity": "Sustrato uniformemente húmedo; riego matutino en la base"
+  },
+  "Mentha": {
+   "category": "Menta (hierba aromática)",
+   "npk": "Casi nada: un abonado equilibrado ligero si las hojas palidecen",
+   "fertilizer": "Aporte superficial de compost una vez por temporada",
+   "schedule": "Una vez en primavera es más que suficiente",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "La menta prospera con el abandono; abonarla sobre todo la hace más invasora",
+    "Cultívala en maceta salvo que quieras un césped de menta"
+   ],
+   "watering": "Mantenla húmeda — la menta es la rara hierba a la que le gusta un poco tener los pies mojados",
+   "temperature": "Crece a 13-25 °C; muere con las heladas y rebrota desde las raíces",
+   "humidity": "Suelo húmedo y sombra parcial la mantienen frondosa"
+  },
+  "Salvia": {
+   "category": "Salvia (hierba mediterránea)",
+   "npk": "Muy ligero: un poco de compost en primavera",
+   "fertilizer": "Solo compost; evita el fertilizante comercial en plena tierra",
+   "schedule": "Una vez en primavera",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Las hierbas mediterráneas se espigan y pierden sabor cuando se sobrealimentan",
+    "Un buen drenaje importa mucho más que los nutrientes"
+   ],
+   "watering": "Solo cuando el suelo esté seco a 3-5 cm de profundidad; las plantas establecidas aguantan la sequía",
+   "temperature": "18-29 °C; la mayoría de las salvias de jardín resisten hasta unos -15 °C",
+   "humidity": "Baja; aire seco y drenaje impecable, al estilo mediterráneo"
+  },
+  "Rosmarinus": {
+   "category": "Romero (hierba mediterránea)",
+   "npk": "Mínimo: abonado equilibrado ligero solo para plantas en maceta",
+   "fertilizer": "Compost o abono líquido a un cuarto de dosis para macetas",
+   "schedule": "Solo en primavera; en maceta, 2-3 veces por temporada",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "El romero evolucionó en laderas rocosas: austero y seco es feliz",
+    "El exceso de riego lo mata mucho antes que la falta de abono"
+   ],
+   "watering": "Con moderación — deja que las macetas se sequen bien entre riegos; el exceso de agua es su asesino número 1",
+   "temperature": "18-29 °C; muchas variedades se dañan por debajo de -7 °C — en climas fríos, maceta y resguardo",
+   "humidity": "Baja; aborrece el aire húmedo y estancado y el suelo mojado en invierno"
+  },
+  "Thymus": {
+   "category": "Tomillo (hierba mediterránea)",
+   "npk": "Mínimo; nada en un suelo de jardín decente",
+   "fertilizer": "Como mucho, una pizca de compost en primavera",
+   "schedule": "Solo en primavera",
+   "soil_ph": "6.0-8.0",
+   "tips": [
+    "Un suelo rico vuelve al tomillo caído y de sabor flojo",
+    "Un sustrato arenoso y de drenaje rápido es el verdadero fertilizante"
+   ],
+   "watering": "Rara vez — solo una sequía prolongada molesta a un tomillo establecido",
+   "temperature": "Arbustillo resistente; prospera en veranos de 15-30 °C",
+   "humidity": "Baja; suelo seco y pedregoso, pleno sol"
+  },
+  "Petroselinum": {
+   "category": "Perejil (hierba aromática)",
+   "npk": "Abonado ligero con tendencia al nitrógeno (p. ej., emulsión de pescado)",
+   "fertilizer": "Emulsión de pescado o líquido equilibrado a media dosis",
+   "schedule": "Cada 3-4 semanas durante la temporada de cosecha",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "El perejil es más hambriento que la mayoría de las hierbas: se cultiva por su hoja frondosa",
+    "Corta primero los tallos exteriores para que siga produciendo"
+   ],
+   "watering": "Humedad uniforme — unos 2-3 cm por semana; se marchita con dramatismo pero se recupera",
+   "temperature": "Mejor a 10-24 °C; soporta heladas ligeras",
+   "humidity": "Humedad constante para hojas tiernas"
+  },
+  "Coriandrum": {
+   "category": "Cilantro / coriandro (hierba aromática)",
+   "npk": "Abonado ligero de nitrógeno",
+   "fertilizer": "Abono líquido a media dosis",
+   "schedule": "Una o dos veces durante su corta vida",
+   "soil_ph": "6.2-6.8",
+   "tips": [
+    "Lo que hace espigar al cilantro es el calor, no el hambre: haz siembras escalonadas en vez de sobrealimentarlo",
+    "Mantén el suelo uniformemente húmedo"
+   ],
+   "watering": "Mantén la humedad uniforme; seco + calor = espigada inmediata",
+   "temperature": "Amante del fresco: 10-24 °C; espiga rápido por encima de 27 °C",
+   "humidity": "Suelo húmedo, lugar fresco; siembra escalonada en vez de pelearte con el verano"
+  },
+  "Lavandula": {
+   "category": "Lavanda (arbusto mediterráneo)",
+   "npk": "Prácticamente nada: la lavanda prefiere suelos pobres",
+   "fertilizer": "Nada, o un poco de compost al plantar. Sin acolchado pegado al tallo",
+   "schedule": "No lo necesita una vez establecida",
+   "soil_ph": "6.5-7.5 (le gusta algo de cal)",
+   "tips": [
+    "El fertilizante reduce la fragancia y la resistencia al invierno",
+    "Añade cal al suelo ácido; el acolchado de grava supera al de corteza"
+   ],
+   "watering": "Muy poco una vez establecida; riega las plantas jóvenes hasta que arraiguen y luego déjala casi en paz",
+   "temperature": "Veranos de 15-30 °C; la lavanda inglesa resiste hasta unos -15 °C",
+   "humidity": "Baja — la humedad más el suelo mojado matan más lavandas que el frío jamás lo hará"
+  },
+  "Rosa": {
+   "category": "Rosal",
+   "npk": "Equilibrado con extra de fósforo y potasio (p. ej., 4-6-4 o abono específico para rosales)",
+   "fertilizer": "Abono para rosales o harina de alfalfa más compost; abono líquido entre tandas de floración",
+   "schedule": "Primer abonado cuando se abren las hojas en primavera, luego tras cada tanda de flores; suspende 6-8 semanas antes de la primera helada",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Los rosales reflorecientes son muy comilones",
+    "Las cáscaras de plátano y la alfalfa son los clásicos refuerzos de potasio",
+    "Abonar a final de temporada produce brotes sensibles a las heladas"
+   ],
+   "watering": "Profundo 1-2 veces por semana en la base (más en maceta); los rociados superficiales crían raíces superficiales",
+   "temperature": "Florece mejor a 15-26 °C; la resistencia varía — aporca acolchado sobre los injertos en inviernos fríos",
+   "humidity": "Media; riega por la mañana y mantén el follaje seco para frenar la mancha negra"
+  },
+  "Hydrangea": {
+   "category": "Hortensia",
+   "npk": "Equilibrado de liberación lenta (p. ej., 10-10-10); para flores azules usa un abono ácido bajo en fósforo",
+   "fertilizer": "Abono de liberación lenta para arbustos en primavera",
+   "schedule": "Una vez en primavera y, opcionalmente, otra a comienzos de verano; nada a partir de julio",
+   "soil_ph": "5.2-5.5 para flores azules, 6.0-6.5 para rosas",
+   "tips": [
+    "El color de la flor sigue al pH: sulfato de aluminio para azul, cal de jardín para rosa (solo las de hoja grande)",
+    "Mucho fósforo bloquea la absorción de aluminio y mantiene las flores rosas",
+    "El exceso de abono da hojas en lugar de flores"
+   ],
+   "watering": "Sedienta — riego profundo 2-3 veces por semana con calor; marchitarse por la tarde es su queja característica",
+   "temperature": "Feliz a 15-25 °C con sombra por la tarde; los botones de las de hoja grande se congelan por debajo de unos -15 °C",
+   "humidity": "Zona de raíces húmeda, acolchada y fresca; humedad ambiental moderada a alta"
+  },
+  "Rhododendron": {
+   "category": "Rododendro / azalea (planta acidófila)",
+   "npk": "Abono de fórmula ácida (p. ej., abono para azaleas/camelias, 4-3-4 con azufre)",
+   "fertilizer": "Holly-tone o un fertilizante ácido similar",
+   "schedule": "Justo después de la floración, con mano ligera; nada después de mediados de verano",
+   "soil_ph": "4.5-6.0",
+   "tips": [
+    "Sus raíces finas y superficiales se queman con facilidad: mejor quedarse corto que pasarse",
+    "El amarilleo entre los nervios indica que el pH es demasiado alto",
+    "Acolcha con corteza de pino en lugar de abonar más"
+   ],
+   "watering": "Mantén sus raíces superficiales uniformemente húmedas — riego profundo semanal más acolchado permanente",
+   "temperature": "Arbusto de clima fresco: 13-24 °C; la mayoría son bastante resistentes al frío",
+   "humidity": "Moderada a alta; odia el viento cálido y seco"
+  },
+  "Camellia": {
+   "category": "Camelia (planta acidófila)",
+   "npk": "Abono de fórmula ácida (abono para azaleas/camelias)",
+   "fertilizer": "Fertilizante ácido más acolchado de corteza de pino",
+   "schedule": "Al terminar la floración y de nuevo 6-8 semanas después; nunca mientras florece",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Abonar durante la formación de botones puede provocar su caída",
+    "Las camelias comen poco: la mitad de la dosis de la etiqueta es más segura"
+   ],
+   "watering": "Uniformemente húmeda, nunca empapada; cuida especialmente el riego mientras se forman los botones (verano-otoño)",
+   "temperature": "De clima templado: prefiere 7-21 °C; las flores se dañan por debajo de unos -5 °C",
+   "humidity": "Moderada a alta; protegida del viento desecante"
+  },
+  "Gardenia": {
+   "category": "Gardenia (planta acidófila)",
+   "npk": "Fórmula ácida con hierro (p. ej., abono ácido 3-1-2 + hierro quelatado)",
+   "fertilizer": "Abono para azaleas; pulverización de hierro quelatado si las hojas amarillean",
+   "schedule": "Cada 4-6 semanas desde primavera hasta finales de verano",
+   "soil_ph": "5.0-6.0",
+   "tips": [
+    "Las gardenias son las divas de las acidófilas: las hojas amarillas suelen deberse a hierro bloqueado por un pH alto",
+    "La caída de botones se debe a cambios de temperatura y riego, no al hambre"
+   ],
+   "watering": "Uniformemente húmeda con agua a temperatura ambiente (idealmente blanda); nunca seca del todo",
+   "temperature": "Exigente: 18-24 °C de día y, crucialmente, noches de 15-18 °C para formar botones",
+   "humidity": "Alta (50-60%+); aire seco de interior = hojas amarillas y botones caídos"
+  },
+  "Paeonia": {
+   "category": "Peonía",
+   "npk": "Poco nitrógeno, buen fósforo-potasio (p. ej., 5-10-10)",
+   "fertilizer": "Abono para bulbos o granulado bajo en N alrededor de la corona (no encima)",
+   "schedule": "A comienzos de primavera, cuando los brotes miden 10 cm, y de nuevo tras la floración",
+   "soil_ph": "6.5-7.0",
+   "tips": [
+    "Las peonías cebadas de nitrógeno se desploman y se saltan la floración",
+    "La profundidad de plantación (yemas a 3-5 cm como máximo) influye en la floración más que cualquier fertilizante"
+   ],
+   "watering": "Profundo cada 10-14 días en tiempo seco; las peonías establecidas toleran la sequía",
+   "temperature": "Necesita inviernos fríos (horas de frío) para florecer; crece a 15-26 °C",
+   "humidity": "Media; la circulación de aire alrededor de los tallos previene la botritis"
+  },
+  "Dahlia": {
+   "category": "Dalia",
+   "npk": "Poco nitrógeno, mucho potasio (p. ej., 5-10-10 o abono para tomates)",
+   "fertilizer": "El fertilizante para tomates es el abono clásico de las dalias",
+   "schedule": "Mensual desde un mes después de la plantación hasta comienzos de otoño",
+   "soil_ph": "6.2-6.8",
+   "tips": [
+    "Mucho nitrógeno da plantas gigantes, tallos débiles, pocas flores y tubérculos propensos a pudrirse",
+    "Deja de abonar en septiembre para ayudar a curar los tubérculos"
+   ],
+   "watering": "Nada hasta que asomen los brotes, luego profundo 2-3 veces por semana en floración",
+   "temperature": "Crece a 16-24 °C; los tubérculos mueren en suelo congelado — desentiérralos en climas fríos",
+   "humidity": "Moderada; riego matutino, follaje seco"
+  },
+  "Tulipa": {
+   "category": "Tulipán (bulbo)",
+   "npk": "Abono para bulbos / harina de huesos al plantar; abonado equilibrado cuando emergen las hojas",
+   "fertilizer": "Fertilizante para bulbos incorporado en el hoyo de plantación",
+   "schedule": "En la plantación de otoño y una vez cuando los brotes emergen en primavera",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Abona las hojas después de la floración: ahí se está formando la flor del año que viene",
+    "Nunca cortes las hojas hasta que amarilleen de forma natural"
+   ],
+   "watering": "Riega al plantar y en primaveras secas; mantenlos SECOS durante el reposo veraniego",
+   "temperature": "Necesita 12-16 semanas por debajo de 10 °C en invierno; florece a 10-18 °C",
+   "humidity": "Buen drenaje siempre — el suelo mojado en verano pudre los bulbos"
+  },
+  "Narcissus": {
+   "category": "Narciso (bulbo)",
+   "npk": "Abono para bulbos al plantar, abono bajo en N (p. ej., 5-10-12) cuando emerge el follaje",
+   "fertilizer": "Fertilizante para bulbos",
+   "schedule": "En la plantación de otoño y en la brotación de primavera; un abonado tras la floración ayuda a naturalizarlos",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Deja que el follaje muera de forma natural durante 6 semanas tras la floración",
+    "Mucho nitrógeno favorece la podredumbre del bulbo"
+   ],
+   "watering": "Húmedo de otoño a primavera; descanso seco en verano",
+   "temperature": "Resistente al frío; necesita frío invernal; florece a 10-18 °C",
+   "humidity": "Humedad primaveral media, veranos secos"
+  },
+  "Lilium": {
+   "category": "Azucena / lirio (bulbo verdadero)",
+   "npk": "Equilibrado a bajo en N (p. ej., 5-10-10)",
+   "fertilizer": "Fertilizante para bulbos o para tomates",
+   "schedule": "Cuando emergen los brotes y de nuevo en la floración",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "A los lirios les gusta la cabeza al sol y los pies en suelo fresco y acolchado",
+    "Deja los tallos en pie tras la floración para alimentar el bulbo"
+   ],
+   "watering": "2-3 cm por semana durante el crecimiento; los bulbos nunca quieren quedarse en remojo",
+   "temperature": "Florece a 18-24 °C; le gustan las raíces frescas y acolchadas y la copa al sol",
+   "humidity": "Moderada; el drenaje impecable no es negociable"
+  },
+  "Chrysanthemum": {
+   "category": "Crisantemo",
+   "npk": "Abonado equilibrado (p. ej., 5-5-5) hasta que los botones muestren color; luego suspende",
+   "fertilizer": "Abono líquido equilibrado",
+   "schedule": "Mensual desde primavera hasta que los botones tomen color",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Pellizca las puntas hasta comienzos de julio para plantas más compactas",
+    "Abonar durante la floración acorta la vida de las flores"
+   ],
+   "watering": "Uniformemente húmedo — sus raíces superficiales se marchitan rápido en maceta; revisión diaria con calor otoñal",
+   "temperature": "15-24 °C; la floración la disparan las noches largas, no la temperatura",
+   "humidity": "Moderada; riega el sustrato, no la densa cubierta de flores"
+  },
+  "Petunia": {
+   "category": "Petunia (anual de flor)",
+   "npk": "Abonado equilibrado constante con hierro (p. ej., 20-10-20); son famosas por su apetito",
+   "fertilizer": "Abono hidrosoluble; gránulos de liberación lenta como base en las cestas",
+   "schedule": "Cada 1-2 semanas en macizos, semanal en cestas y macetas",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "El amarilleo de los brotes nuevos indica carencia de hierro, habitual en las petunias",
+    "Las cestas colgantes pierden nutrientes con cada riego, así que abona a menudo"
+   ],
+   "watering": "En arriate: profundo semanal. En cesta colgante: a diario en verano, dos veces en días abrasadores",
+   "temperature": "16-27 °C; una helada ligera pone fin al espectáculo",
+   "humidity": "Moderada; las cestas se secan brutalmente rápido con viento"
+  },
+  "Pelargonium": {
+   "category": "Geranio (planta de temporada)",
+   "npk": "Abonado equilibrado (p. ej., 10-10-10 o 20-20-20 diluido)",
+   "fertilizer": "Abono equilibrado hidrosoluble",
+   "schedule": "Cada 2-3 semanas durante la temporada de floración",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Los geranios sobrealimentados hacen hojas, no flores",
+    "Retira las flores marchitas con constancia para una floración continua"
+   ],
+   "watering": "Deja secar los primeros cm entre riegos — mejor algo seco que empapado",
+   "temperature": "16-27 °C de día; mételos dentro antes de las heladas (pasan el invierno sin problema)",
+   "humidity": "Baja a moderada; tolera bien el aire seco"
+  },
+  "Tagetes": {
+   "category": "Tagete / cempasúchil (anual)",
+   "npk": "Abonado equilibrado ligero; los tagetes prefieren suelo pobre",
+   "fertilizer": "Compost en la plantación suele bastar",
+   "schedule": "Un abonado ligero un mes después de plantar, si acaso",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Un suelo rico da follaje exuberante y pocas flores",
+    "De verdad rinden mejor pasando un poco de hambre"
+   ],
+   "watering": "Riego profundo semanal; los claveles de moro establecidos aguantan las rachas secas",
+   "temperature": "18-30 °C; sensibles a las heladas pero por lo demás impasibles ante el calor",
+   "humidity": "Baja a moderada; el riego por encima estropea las flores"
+  },
+  "Helianthus": {
+   "category": "Girasol",
+   "npk": "Equilibrado en la siembra, nitrógeno durante el crecimiento, potasio al formarse los botones",
+   "fertilizer": "Suelo rico en compost más un abono granulado equilibrado",
+   "schedule": "En la siembra y una vez a media altura",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Las variedades gigantes comen y beben mucho",
+    "Demasiado nitrógeno tardío = tallos débiles que se parten"
+   ],
+   "watering": "Profundo y semanal — sus raíces pivotantes llegan lejos, pero los gigantes beben mucho cerca de la floración",
+   "temperature": "21-29 °C; las plántulas toleran heladas ligeras, las plantas maduras se ríen del calor",
+   "humidity": "Humedad moderada del suelo; tutor + suelo mojado + viento = gigantes por los suelos"
+  },
+  "Viola": {
+   "category": "Pensamiento / violeta",
+   "npk": "Abono líquido equilibrado (p. ej., 15-15-15 diluido)",
+   "fertilizer": "Abono hidrosoluble",
+   "schedule": "Cada 2-3 semanas mientras florecen; mensual con tiempo fresco",
+   "soil_ph": "5.5-6.2",
+   "tips": [
+    "Los pensamientos comen y florecen incluso en estaciones frescas: no pares en otoño",
+    "Retira las flores marchitas para que sigan saliendo"
+   ],
+   "watering": "Uniformemente húmedo; riego matutino cada 2-3 días en clima templado",
+   "temperature": "Amantes del fresco: 7-18 °C; florecen entre heladas y se derriten con el calor del verano",
+   "humidity": "Suelo húmedo y fresco; acolcha en rachas cálidas"
+  },
+  "Impatiens": {
+   "category": "Alegría / impatiens (anual de sombra)",
+   "npk": "Abonado equilibrado ligero (p. ej., 10-10-10 a media dosis)",
+   "fertilizer": "Abono hidrosoluble diluido",
+   "schedule": "Cada 2 semanas en maceta, mensual en macizos",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "El exceso de abono da plantas altas y frondosas con pocas flores",
+    "Una humedad constante importa más que la comida"
+   ],
+   "watering": "Con frecuencia — se marchita con mucho teatro cuando tiene sed; a diario en macetas de sombra cálida",
+   "temperature": "18-24 °C; de las primeras en morir con la helada",
+   "humidity": "Moderada a alta; sustrato constantemente húmedo"
+  },
+  "Fuchsia": {
+   "category": "Fucsia",
+   "npk": "Abonado equilibrado, constante y diluido (p. ej., un cuarto de dosis en cada riego)",
+   "fertilizer": "Abono hidrosoluble equilibrado o algo rico en potasio",
+   "schedule": "Poco y cada semana: la regla clásica de la fucsia",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Un abonado ligero y constante supera a las dosis fuertes ocasionales",
+    "Reduce mucho el abono en otoño para que la planta descanse"
+   ],
+   "watering": "Mantén las cestas uniformemente húmedas — a diario en verano; nunca secas del todo",
+   "temperature": "Rinde con fresco: 13-24 °C; deja caer los botones con calor por encima de 27 °C",
+   "humidity": "Alta; adora la sombra luminosa, fresca y húmeda"
+  },
+  "Begonia": {
+   "category": "Begonia",
+   "npk": "Abonado equilibrado diluido (p. ej., 10-10-10 a un cuarto de dosis)",
+   "fertilizer": "Abono hidrosoluble, bien diluido",
+   "schedule": "Cada 2 semanas en crecimiento activo",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Las raíces de la begonia se queman con facilidad: diluye siempre más de lo que dice la etiqueta",
+    "Las tuberosas: deja de abonar a finales de verano"
+   ],
+   "watering": "Cuando la superficie se seque; riega en la base — sus tallos carnosos se pudren con las salpicaduras",
+   "temperature": "18-24 °C; los tipos tuberosos hay que desenterrarlos antes de las heladas",
+   "humidity": "Humedad ambiental moderada a alta, pero el sustrato en el lado más seco de lo húmedo"
+  },
+  "Hibiscus": {
+   "category": "Hibisco",
+   "npk": "Mucho potasio, nitrógeno moderado y POCO fósforo (p. ej., 12-4-18 o 10-4-12)",
+   "fertilizer": "Abono para hibiscos o rico en potasio; evita los potenciadores de floración",
+   "schedule": "Cada 2 semanas en verano, mensual en primavera/otoño, nada en invierno",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "El hibisco es peculiar: el fósforo se acumula y lo envenena con el tiempo",
+    "Evita por completo los fertilizantes de floración ricos en fósforo"
+   ],
+   "watering": "A diario con calor en maceta — bebe muchísimo en floración; menos en invierno",
+   "temperature": "Tipos tropicales: 16-32 °C, dentro de casa por debajo de 10 °C; los resistentes aguantan -20 °C",
+   "humidity": "Moderada a alta; aire seco más sustrato seco = caída de botones"
+  },
+  "Bougainvillea": {
+   "category": "Buganvilla (bugambilia)",
+   "npk": "Equilibrado con micronutrientes (p. ej., 6-8-10 + hierro); un abonado austero favorece la floración",
+   "fertilizer": "Abono para buganvillas o hibiscos",
+   "schedule": "Mensual en la temporada de crecimiento, con mano ligera",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Florece mejor con algo de estrés: un poco de hambre y sequía dispara el color",
+    "Exceso de riego más exceso de abono = todo verde y nada de brácteas"
+   ],
+   "watering": "Profundo, y luego déjala secar de verdad — una sequía suave dispara el espectáculo de color",
+   "temperature": "Adora los 18-35 °C; pierde las hojas por debajo de 5 °C, la helada la mata",
+   "humidity": "Baja a moderada; florece mejor si la tratas con un poco de mano dura"
+  },
+  "Jasminum": {
+   "category": "Jazmín",
+   "npk": "Abonado equilibrado con tendencia al potasio (p. ej., 7-9-5)",
+   "fertilizer": "Abono líquido equilibrado",
+   "schedule": "Cada 2-4 semanas durante la temporada de crecimiento",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "El potasio sostiene la floración y la fragancia",
+    "El jazmín en maceta con raíces apretadas florece mejor: no lo pases a una maceta demasiado grande"
+   ],
+   "watering": "Uniformemente húmedo en crecimiento y floración; algo más seco en el reposo invernal",
+   "temperature": "16-27 °C; muchos necesitan noches frescas (10-13 °C) de otoño para formar botones",
+   "humidity": "Moderada a alta; pulveriza las plantas de interior en invierno"
+  },
+  "Clematis": {
+   "category": "Clemátide",
+   "npk": "Abono de floración bajo en nitrógeno (p. ej., 5-10-10 o abono para rosales/tomates)",
+   "fertilizer": "Fertilizante para rosales o tomates",
+   "schedule": "En primavera cuando engordan las yemas, luego mensual; haz una pausa mientras está en plena flor",
+   "soil_ph": "6.5-7.0",
+   "tips": [
+    "La vieja regla se cumple: la cabeza al sol y los pies a la sombra; acolcha las raíces",
+    "Abonar durante la floración puede acortar el espectáculo"
+   ],
+   "watering": "Profundo y semanal — eso de 'la cabeza al sol y los pies a la sombra' incluye raíces húmedas y acolchadas",
+   "temperature": "Resistente; crece mejor a 15-25 °C con las raíces frescas",
+   "humidity": "Moderada; acolcha o planta algo debajo para sombrear la zona de raíces"
+  },
+  "Hosta": {
+   "category": "Hosta (perenne de sombra)",
+   "npk": "Equilibrado de liberación lenta (p. ej., 10-10-10) en primavera",
+   "fertilizer": "Granulado de liberación lenta más compost",
+   "schedule": "Una vez en primavera cuando se despliegan las hojas; abonado ligero opcional a comienzos de verano; nada a partir de julio",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Las hostas se alimentan sobre todo de un suelo rico y húmedo: el compost supera al fertilizante",
+    "Abonar tarde retrasa la dormancia e invita a los daños por heladas"
+   ],
+   "watering": "2-3 cm por semana; las variedades de hoja grande en sombra seca necesitan más de lo que crees",
+   "temperature": "Planta de sombra fresca: 10-24 °C; totalmente resistente, necesita el frío invernal para descansar",
+   "humidity": "Suelo húmedo y rico; los bordes crujientes significan sed o demasiado sol"
+  },
+  "Syringa": {
+   "category": "Lilo (lila)",
+   "npk": "Mínimo: un poco de abono equilibrado solo en suelo pobre; le gusta la cal",
+   "fertilizer": "Compost; un puñado de cal de jardín en suelo ácido",
+   "schedule": "A comienzos de primavera, como mucho",
+   "soil_ph": "6.5-7.5",
+   "tips": [
+    "Los lilos fertilizados a menudo se niegan a florecer: suelo austero y pleno sol funcionan mejor",
+    "Poda justo después de la floración, no más tarde"
+   ],
+   "watering": "Solo en sequía de verdad una vez establecida; los arbustos nuevos, semanal durante una temporada",
+   "temperature": "Arbusto de clima frío — necesita inviernos con heladas para florecer bien",
+   "humidity": "Media; la circulación de aire mantiene a raya el oídio"
+  },
+  "Magnolia": {
+   "category": "Magnolia",
+   "npk": "Abono equilibrado de liberación lenta para árboles (p. ej., 10-10-10), con mano ligera",
+   "fertilizer": "Granulado de liberación lenta bajo la copa",
+   "schedule": "A comienzos de primavera para árboles jóvenes; los establecidos rara vez necesitan abono",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Raíces carnosas y superficiales: nunca entierres el fertilizante, repártelo en superficie y riega",
+    "Acolcha en extensión, no en grosor"
+   ],
+   "watering": "Árboles jóvenes: profundo y semanal durante 2 temporadas; los maduros solo en sequía",
+   "temperature": "Varía según la especie; las de floración temprana pierden las flores con heladas tardías — elige bien el sitio",
+   "humidity": "Zona de raíces húmeda y acolchada; sus raíces superficiales no perdonan que las molesten"
+  },
+  "Acer": {
+   "category": "Arce (incl. arce japonés)",
+   "npk": "Poco y despacio: liberación lenta ligera en primavera si el crecimiento es débil (p. ej., 10-10-10 a media dosis)",
+   "fertilizer": "Un acolchado de compost suele ser todo lo que un arce quiere",
+   "schedule": "Solo a comienzos de primavera, y solo árboles jóvenes o debilitados",
+   "soil_ph": "5.5-6.5 (los arces japoneses prefieren un suelo ligeramente ácido)",
+   "tips": [
+    "Los arces japoneses detestan el abonado fuerte: provoca crecimiento basto y hojas quemadas",
+    "Nunca fertilices un arce recién plantado en su primer año"
+   ],
+   "watering": "Arces japoneses: uniformemente húmedos, nunca encharcados; arces grandes: solo los jóvenes necesitan ayuda",
+   "temperature": "Resistente; las hojas del arce japonés se queman por encima de 32 °C con sol y viento",
+   "humidity": "Moderada; resguardado del viento cálido y seco para mantener verdes las puntas de las hojas"
+  },
+  "Buxus": {
+   "category": "Boj",
+   "npk": "Abonado equilibrado con tendencia al nitrógeno (p. ej., 10-6-4)",
+   "fertilizer": "Abono granulado para arbustos en la línea de goteo",
+   "schedule": "A comienzos de primavera; un segundo abonado ligero en otoño es aceptable en climas suaves",
+   "soil_ph": "6.5-7.2",
+   "tips": [
+    "El follaje bronceado en invierno suele señalar hambre de nitrógeno",
+    "Raíces superficiales: abona en superficie, nunca lo entierres"
+   ],
+   "watering": "Profundo cada 1-2 semanas en rachas secas; raíces superficiales bajo acolchado",
+   "temperature": "Resistente; el sol de invierno con el suelo congelado provoca el bronceado de las hojas",
+   "humidity": "Media; buen drenaje siempre"
+  },
+  "Ficus": {
+   "category": "Ficus (árbol del caucho, ficus lira, ficus benjamina)",
+   "npk": "Abono foliar con tendencia al nitrógeno (p. ej., proporción 3-1-2 para plantas de interior)",
+   "fertilizer": "Fertilizante líquido para plantas de interior a media dosis",
+   "schedule": "Mensual de primavera a comienzos de otoño; nada en invierno",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Los ficus lira prefieren la constancia: mismo sitio, misma rutina",
+    "Enjuaga la maceta con agua sola cada pocos meses para eliminar la acumulación de sales"
+   ],
+   "watering": "Cuando los 3-5 cm superiores se sequen — normalmente semanal en interior; menos en invierno",
+   "temperature": "16-27 °C; odia las corrientes frías y las mudanzas repentinas (y lo anuncia tirando hojas)",
+   "humidity": "Moderada (40-60%); limpia las hojas polvorientas para que puedan respirar"
+  },
+  "Monstera": {
+   "category": "Costilla de Adán (planta de interior)",
+   "npk": "Equilibrado a con tendencia al nitrógeno (p. ej., 3-1-2 o 20-20-20 diluido)",
+   "fertilizer": "Abono líquido para plantas de interior a media dosis",
+   "schedule": "Mensual durante el crecimiento de primavera/verano; cada 2 meses o nada en invierno",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Las hojas grandes y fenestradas vienen de la luz y la edad más que del fertilizante",
+    "Hojas nuevas pálidas = abona; bordes marrones y crujientes = probablemente exceso de abono o aire seco"
+   ],
+   "watering": "Cuando los 5 cm superiores se sequen — más o menos cada 1-2 semanas; menos en invierno",
+   "temperature": "18-29 °C; el crecimiento se frena por debajo de 15 °C",
+   "humidity": "Feliz al 60%+, tolera el 40%; adora un tutor de musgo y una ducha de vez en cuando"
+  },
+  "Epipremnum": {
+   "category": "Potos (planta de interior)",
+   "npk": "Cualquier abono equilibrado para plantas de interior, diluido (p. ej., 10-10-10 a media dosis)",
+   "fertilizer": "Fertilizante líquido para plantas de interior",
+   "schedule": "Mensual en la temporada de crecimiento; el potos tolera el descuido",
+   "soil_ph": "6.1-6.8",
+   "tips": [
+    "Una de las plantas más difíciles de subalimentar: ante la duda, sáltate el abonado",
+    "Abona solo cuando esté sacando hojas nuevas activamente"
+   ],
+   "watering": "Deja secar la mitad superior de la maceta; las hojas caídas te avisan de que ya toca",
+   "temperature": "18-29 °C; tolera cualquier cosa habitable en interior",
+   "humidity": "Nada exigente — la humedad media de una habitación le basta"
+  },
+  "Philodendron": {
+   "category": "Filodendro (planta de interior)",
+   "npk": "Abono foliar con tendencia al nitrógeno (p. ej., proporción 3-1-2)",
+   "fertilizer": "Abono líquido para plantas de interior a media dosis",
+   "schedule": "Mensual en primavera-verano, cada 6-8 semanas en invierno si sigue creciendo",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Hojas nuevas pequeñas en una planta adulta suelen significar que tiene hambre",
+    "Sensible a las sales: enjuaga la maceta de vez en cuando"
+   ],
+   "watering": "Cuando los 3-5 cm superiores se sequen; las hojas amarillas suelen significar demasiada agua",
+   "temperature": "18-28 °C; mantenlo por encima de 13 °C",
+   "humidity": "40-60%; a más humedad, hojas más grandes"
+  },
+  "Dracaena": {
+   "category": "Drácena / grupo de la lengua de suegra",
+   "npk": "Abonado equilibrado ligero (p. ej., 10-10-10 a un cuarto de dosis)",
+   "fertilizer": "Abono líquido para plantas de interior diluido",
+   "schedule": "Cada 1-2 meses, solo en la temporada de crecimiento",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Muy sensible al flúor: las puntas marrones suelen venir del agua del grifo y la perlita, no del hambre",
+    "El exceso de abono se nota en puntas quemadas y vetas pálidas"
+   ],
+   "watering": "Cada 10-14 días — deja secar la mitad superior; usa agua filtrada o de lluvia si las puntas se ponen marrones",
+   "temperature": "18-27 °C; mantenla por encima de 12 °C",
+   "humidity": "La humedad media de una habitación le basta; las puntas marrones suelen ser cosa de la calidad del agua, no de sequedad"
+  },
+  "Sansevieria": {
+   "category": "Lengua de suegra (sansevieria)",
+   "npk": "Mínimo: abono para cactus a media dosis (p. ej., 2-7-7 diluido)",
+   "fertilizer": "Fertilizante para cactus/suculentas",
+   "schedule": "2-3 veces al año durante los meses cálidos es más que suficiente",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Las sansevierias lo almacenan todo: abonar de más solo arriesga quemar las raíces",
+    "Nunca abones en invierno ni justo después de trasplantar"
+   ],
+   "watering": "Cada 2-6 semanas — solo cuando el sustrato esté completamente seco; mensual o menos en invierno",
+   "temperature": "18-29 °C; sobrevive a cualquier cosa por encima de 10 °C",
+   "humidity": "Baja; prospera en aire seco donde otras plantas se enfurruñan"
+  },
+  "Chlorophytum": {
+   "category": "Cinta (mala madre)",
+   "npk": "Abonado equilibrado diluido (p. ej., 10-10-10 a un cuarto o la mitad de dosis)",
+   "fertilizer": "Abono líquido para plantas de interior",
+   "schedule": "Mensual en primavera/verano",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Las puntas marrones suelen deberse al flúor y las sales: usa agua de lluvia o destilada y abona con moderación",
+    "Las cintas sobrealimentadas dejan de producir hijuelos"
+   ],
+   "watering": "Más o menos semanal, dejando secar los primeros cm; sus raíces carnosas guardan una reserva",
+   "temperature": "13-27 °C; muy tolerante",
+   "humidity": "Media; las puntas marrones señalan al flúor del agua del grifo antes que a la sequedad"
+  },
+  "Spathiphyllum": {
+   "category": "Espatifilo (cuna de Moisés)",
+   "npk": "Abonado equilibrado diluido (p. ej., 20-20-20 a un cuarto de dosis)",
+   "fertilizer": "Abono líquido para plantas de interior, bien diluido",
+   "schedule": "Cada 6 semanas de primavera a verano",
+   "soil_ph": "5.8-6.5",
+   "tips": [
+    "Las flores verdes indican demasiado fertilizante",
+    "Las puntas marrones indican sales o agua clorada: enjuaga la maceta"
+   ],
+   "watering": "Cuando se incline un poco o los 3 cm superiores se sequen — más o menos semanal; se reanima en cuestión de horas",
+   "temperature": "18-27 °C; por debajo de 12 °C sufre daños",
+   "humidity": "Moderada a alta; puntas marrones en habitaciones secas"
+  },
+  "Zamioculcas": {
+   "category": "Planta ZZ (zamioculca)",
+   "npk": "Mínimo: abono equilibrado a un cuarto de dosis",
+   "fertilizer": "Abono líquido para plantas de interior diluido",
+   "schedule": "2-3 veces al año, solo en la temporada de crecimiento",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Las plantas ZZ funcionan con la energía almacenada en sus rizomas: apenas te necesitan",
+    "El exceso de abono y de riego son las únicas formas reales de matar una"
+   ],
+   "watering": "Cada 2-4 semanas, completamente seco entre riegos; en caso de duda, espera una semana",
+   "temperature": "18-27 °C; bien por encima de 10 °C",
+   "humidity": "Baja; el aire seco no le supone problema alguno"
+  },
+  "Goeppertia": {
+   "category": "Calatea / grupo de las plantas de la oración",
+   "npk": "Abono muy diluido con tendencia al nitrógeno (a un cuarto de dosis)",
+   "fertilizer": "Abono líquido suave; son unas divas sensibles a las sales",
+   "schedule": "Mensual en la temporada de crecimiento, a un cuarto de dosis",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Las calateas se queman fácilmente con las sales del fertilizante: menos es más",
+    "Los bordes crujientes casi siempre son por la calidad del agua o la humedad, no por hambre"
+   ],
+   "watering": "Mantenla ligeramente húmeda (nunca empapada) con agua de lluvia o destilada; sorbitos pequeños y frecuentes",
+   "temperature": "18-27 °C; las corrientes frías le enroscan las hojas al instante",
+   "humidity": "Alta (60%+) — la parte no negociable de tener una calathea"
+  },
+  "Calathea": {
+   "category": "Calatea / grupo de las plantas de la oración",
+   "npk": "Abono muy diluido con tendencia al nitrógeno (a un cuarto de dosis)",
+   "fertilizer": "Abono líquido suave; son unas divas sensibles a las sales",
+   "schedule": "Mensual en la temporada de crecimiento, a un cuarto de dosis",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Las calateas se queman fácilmente con las sales del fertilizante: menos es más",
+    "Los bordes crujientes casi siempre son por la calidad del agua o la humedad, no por hambre"
+   ],
+   "watering": "Mantenla ligeramente húmeda (nunca empapada) con agua de lluvia o destilada; sorbitos pequeños y frecuentes",
+   "temperature": "18-27 °C; las corrientes frías le enroscan las hojas al instante",
+   "humidity": "Alta (60%+) — la parte no negociable de tener una calathea"
+  },
+  "Hedera": {
+   "category": "Hiedra",
+   "npk": "Abono foliar equilibrado (p. ej., 10-10-10 diluido)",
+   "fertilizer": "Abono líquido para plantas de interior en casa; en exterior no necesita nada",
+   "schedule": "Mensual en interior durante la temporada de crecimiento; la hiedra de exterior no necesita abono",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "No abones la hiedra en pleno verano caluroso ni en invierno frío: entonces pausa su crecimiento",
+    "La hiedra de exterior abonada con regularidad se vuelve aún más invasora"
+   ],
+   "watering": "Cuando los 3 cm superiores se sequen; la hiedra prefiere algo seco a algo mojado",
+   "temperature": "10-21 °C — más fresco de lo que gusta a la mayoría de plantas de interior; resistente en exterior",
+   "humidity": "Moderada; las habitaciones calurosas y secas invitan a la araña roja"
+  },
+  "Hoya": {
+   "category": "Hoya (flor de cera)",
+   "npk": "Abonado equilibrado ligero; pasa a más fósforo cuando forme botones (p. ej., 5-10-5)",
+   "fertilizer": "Abono líquido diluido o abono para orquídeas",
+   "schedule": "Mensual durante el crecimiento; suspende en invierno",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Nunca elimines los espolones florales viejos: refloresce en el mismo punto",
+    "Las hoyas con las raíces algo apretadas florecen mejor"
+   ],
+   "watering": "Déjala secar bien entre riegos — sus hojas semisuculentas guardan reservas",
+   "temperature": "16-29 °C; mantenla por encima de 10 °C",
+   "humidity": "Moderada (40-60%); más alta mientras forma botones"
+  },
+  "Peperomia": {
+   "category": "Peperomia",
+   "npk": "Abonado equilibrado diluido (a un cuarto de dosis)",
+   "fertilizer": "Abono líquido para plantas de interior, bien diluido",
+   "schedule": "Mensual como mucho en la temporada de crecimiento",
+   "soil_ph": "6.0-6.6",
+   "tips": [
+    "Sistemas de raíces diminutos: comen poco por naturaleza",
+    "El exceso de riego es lo que las mata; el abonado es casi opcional"
+   ],
+   "watering": "Cuando la mitad superior se seque — cada 10 días aproximadamente; el exceso de riego es su principal asesino",
+   "temperature": "18-27 °C; siempre por encima de 13 °C",
+   "humidity": "Las habitaciones normales les van bien; sus hojas gruesas amortiguan las rachas secas"
+  },
+  "Saintpaulia": {
+   "category": "Violeta africana",
+   "npk": "Abono específico para violetas (p. ej., 14-12-14) o equilibrado a un cuarto de dosis",
+   "fertilizer": "Fertilizante para violetas africanas, en cada riego a dosis baja",
+   "schedule": "Un cuarto de dosis en cada riego, o mensual a media dosis",
+   "soil_ph": "5.8-6.2",
+   "tips": [
+    "Riega desde abajo para mantener las hojas secas",
+    "Si no florece suele ser falta de luz, no falta de comida"
+   ],
+   "watering": "Por abajo cuando la superficie se seque; agua a temperatura ambiente, nunca sobre las hojas",
+   "temperature": "Estable a 18-24 °C; los alféizares fríos le manchan las hojas",
+   "humidity": "Moderada a alta (50%+); bandeja con guijarros, no pulverización"
+  },
+  "Phalaenopsis": {
+   "category": "Orquídea mariposa",
+   "npk": "Abono para orquídeas, poco y a menudo (p. ej., 20-20-20 a un cuarto de dosis)",
+   "fertilizer": "Fertilizante específico para orquídeas",
+   "schedule": "Un cuarto de dosis cada semana y agua sola cada cuarto riego para enjuagar",
+   "soil_ph": "5.5-6.5 (en sustrato de corteza)",
+   "tips": [
+    "Enjuaga con agua sola una vez al mes: las raíces de orquídea se queman con las sales fácilmente",
+    "Abona menos (o nada) en plena floración",
+    "Nunca uses sustrato normal de macetas para las orquídeas"
+   ],
+   "watering": "Más o menos semanal: cuando las raíces se vean plateadas, remoja y escurre del todo; nunca dejes agua en el centro de la roseta",
+   "temperature": "18-29 °C de día; unas semanas de noches a 16-18 °C disparan una nueva vara floral",
+   "humidity": "50-70%; las ventanas del baño y la cocina son terreno de lujo para las orquídeas"
+  },
+  "Aloe": {
+   "category": "Aloe (suculenta)",
+   "npk": "Poco y rara vez: abono para cactus (p. ej., 2-7-7) a media dosis",
+   "fertilizer": "Fertilizante para cactus/suculentas",
+   "schedule": "2-3 veces entre primavera y verano, nada el resto del año",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "El aloe sobrealimentado crece blando, caído y propenso a pudrirse",
+    "Un sustrato arenoso y el sol importan infinitamente más que el fertilizante"
+   ],
+   "watering": "Profundo, y luego seco del todo — cada 2-3 semanas en verano, mensual o menos en invierno",
+   "temperature": "13-27 °C; se daña por debajo de 4 °C",
+   "humidity": "Baja; aire seco y sustrato pedregoso"
+  },
+  "Haworthia": {
+   "category": "Haworthia (suculenta pequeña)",
+   "npk": "Casi nada: abono para cactus a un cuarto de dosis",
+   "fertilizer": "Fertilizante para cactus/suculentas",
+   "schedule": "Una o dos veces al año en primavera/verano",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Crecen despacio y apenas comen: ante la duda, no abones",
+    "La etiolación (estiramiento) significa que quiere luz, no comida"
+   ],
+   "watering": "Cada 2-3 semanas en crecimiento, apenas en invierno; hojas arrugadas = por fin toca",
+   "temperature": "15-26 °C; protégela por debajo de 5 °C",
+   "humidity": "Baja; tolera habitaciones demasiado oscuras y secas para la mayoría de las suculentas"
+  },
+  "Echeveria": {
+   "category": "Echeveria (suculenta de roseta)",
+   "npk": "Abono para cactus bajo en nitrógeno (p. ej., 2-7-7) a media dosis",
+   "fertilizer": "Fertilizante para cactus/suculentas",
+   "schedule": "2-3 veces en primavera/verano",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "El exceso de abono arruina la forma compacta de la roseta",
+    "La forma apretada y el buen color vienen de la luz intensa y un sustrato pobre"
+   ],
+   "watering": "Remoja y deja secar — cada 10-14 días en verano, mensual en invierno; nunca riegues la roseta",
+   "temperature": "18-27 °C; protégela por debajo de 5 °C",
+   "humidity": "Baja; el aire húmedo y estancado pudre la roseta"
+  },
+  "Crassula": {
+   "category": "Árbol de jade y parientes",
+   "npk": "Poco: abono para cactus a media dosis",
+   "fertilizer": "Fertilizante para cactus/suculentas",
+   "schedule": "Cada 2 meses, solo en primavera/verano",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Los jades viven décadas con casi nada: un abonado austero los mantiene robustos",
+    "Abona solo plantas establecidas y en crecimiento activo"
+   ],
+   "watering": "Cuando las hojas pierdan el brillo o el sustrato lleve tiempo seco — cada 2-3 semanas, menos en invierno",
+   "temperature": "18-24 °C; tolera hasta unos 7 °C",
+   "humidity": "Baja; la clásica planta de alféizar seco"
+  },
+  "Kalanchoe": {
+   "category": "Kalanchoe",
+   "npk": "Abonado equilibrado mientras crece; más potasio para estimular la refloración",
+   "fertilizer": "Abono diluido equilibrado o para plantas de interior con flor",
+   "schedule": "Mensual en primavera/verano; suspende durante el reposo de días cortos que dispara la floración",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "La refloración necesita 6 semanas de noches largas, no más fertilizante",
+    "Se aplican las reglas de las suculentas: sustrato con buen drenaje y abonado moderado"
+   ],
+   "watering": "Cada 1-2 semanas, dejando secar entre riegos; menos durante el oscuro reposo invernal",
+   "temperature": "16-24 °C; protégela por debajo de 7 °C",
+   "humidity": "Baja a moderada"
+  },
+  "Sedum": {
+   "category": "Sedum / uña de gato",
+   "npk": "De nada a mínimo: prosperan en suelos pobres",
+   "fertilizer": "Como mucho, una capa fina de compost",
+   "schedule": "No lo necesitan; quizá una vez en primavera para las de maceta",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Los sedums fertilizados crecen altos, se desploman y se abren",
+    "Pobre, arenoso y soleado = perfecto"
+   ],
+   "watering": "Casi nunca una vez establecido en exterior; las macetas, mensual en verano",
+   "temperature": "Resistente a fríos intensos; se asa feliz por encima de 30 °C",
+   "humidity": "Baja; el suelo mojado en invierno es su único enemigo de verdad"
+  },
+  "Agave": {
+   "category": "Agave",
+   "npk": "Nada en plena tierra; abono para cactus diluido muy de vez en cuando en maceta",
+   "fertilizer": "Fertilizante para cactus solo en plantas de maceta",
+   "schedule": "1-2 veces al año en maceta; nunca en plantas de suelo",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Abonar un agave puede empujarlo a florecer, y los agaves mueren tras la floración",
+    "En serio: no fertilices los agaves que quieras conservar"
+   ],
+   "watering": "Remojo profundo mensual en verano para macetas; los ejemplares en el suelo viven de la lluvia",
+   "temperature": "Adora el calor; la resistencia varía una barbaridad según la especie (de -20 °C a sensible a la helada)",
+   "humidity": "Baja; condiciones de desierto"
+  },
+  "Nephrolepis": {
+   "category": "Helecho de Boston",
+   "npk": "Abonado equilibrado diluido (p. ej., 20-10-20 a un cuarto de dosis)",
+   "fertilizer": "Abono líquido para plantas de interior, bien diluido",
+   "schedule": "Mensual de primavera a comienzos de otoño",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Los helechos tienen raíces delicadas: peca siempre de quedarte corto",
+    "Frondas pálidas y lentas en verano = toca un abonado ligero"
+   ],
+   "watering": "Mantenlo uniformemente húmedo siempre — un helecho de Boston seco suelta foliolos como confeti",
+   "temperature": "16-24 °C; por debajo de 10 °C las frondas se dañan",
+   "humidity": "Alta (60%+); el clásico helecho de porche húmedo y de baño"
+  },
+  "Pinus": {
+   "category": "Pino",
+   "npk": "Rara vez necesario; abono ácido para coníferas (p. ej., 4-3-4 con azufre) si está débil",
+   "fertilizer": "Fertilizante ácido tipo Holly-tone, o simplemente acolchado de acículas de pino",
+   "schedule": "A comienzos de primavera, solo para árboles jóvenes o claramente debilitados",
+   "soil_ph": "5.0-6.5",
+   "tips": [
+    "Los pinos establecidos en el jardín casi nunca necesitan fertilizante",
+    "Deja las acículas caídas en el suelo: es el árbol alimentándose a sí mismo"
+   ],
+   "watering": "Solo los árboles jóvenes: profundo cada 1-2 semanas durante sus dos primeros veranos",
+   "temperature": "Resistente en un rango enorme; los pinos establecidos ignoran el clima",
+   "humidity": "Baja a media; necesita suelo con drenaje libre"
+  },
+  "Juniperus": {
+   "category": "Enebro (junípero)",
+   "npk": "Abono ligero para coníferas (p. ej., 16-4-8 de liberación lenta) si el color es pobre",
+   "fertilizer": "Fertilizante de liberación lenta para coníferas",
+   "schedule": "A comienzos de primavera como mucho; los establecidos no suelen necesitar nada",
+   "soil_ph": "5.5-7.0",
+   "tips": [
+    "Los enebros toleran el suelo pobre por naturaleza",
+    "El amarilleo se debe más a menudo a araña roja o encharcamiento que al hambre"
+   ],
+   "watering": "Los enebros establecidos rara vez necesitan riego; las plantas nuevas, profundo y semanal durante una temporada",
+   "temperature": "Extremadamente resistente, y también tolera el calor",
+   "humidity": "Baja; la sombra húmeda es lo único que los enebros odian"
+  },
+  "Thuja": {
+   "category": "Tuya / seto de cedro",
+   "npk": "Abono para coníferas con tendencia al nitrógeno (p. ej., 18-6-12 de liberación lenta)",
+   "fertilizer": "Fertilizante de liberación lenta para coníferas/setos",
+   "schedule": "A comienzos de primavera; un seto que quieras hacer crecer puede recibir un segundo abonado a finales de primavera",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Abona los setos que aún quieres hacer crecer; las pantallas adultas necesitan poco",
+    "Riega a fondo después de abonar: las tuyas tienen raíces superficiales"
+   ],
+   "watering": "Remojo profundo semanal para setos en rachas secas — sus raíces superficiales se ponen marrones rápido con la sequía",
+   "temperature": "Resistente al frío; el pardeado por viento invernal es común y suele recuperarse",
+   "humidity": "Moderada; acolcha la zona de raíces superficiales"
+  }
+ },
+ "family": {
+  "Cactaceae": {
+   "category": "Cactus",
+   "npk": "Poco nitrógeno, más P-K (p. ej., 2-7-7), bien diluido",
+   "fertilizer": "Fertilizante para cactus/suculentas",
+   "schedule": "Mensual a media dosis durante el crecimiento de primavera/verano; nada durante el reposo invernal",
+   "soil_ph": "5.5-7.0",
+   "tips": [
+    "La dormancia invernal debe ser seca y sin abono: eso es lo que dispara la floración",
+    "Los cactus sobrealimentados crecen rápido, blandos y deformados"
+   ],
+   "watering": "Cada 2-4 semanas en verano (remoja y deja secar); casi nada durante el reposo invernal",
+   "temperature": "Veranos cálidos; la mayoría quieren un invierno fresco (8-13 °C) y seco para animarse a florecer",
+   "humidity": "Muy baja; humedad + frío = podredumbre"
+  },
+  "Orchidaceae": {
+   "category": "Orquídea",
+   "npk": "Abono para orquídeas, poco y a menudo (20-20-20 a un cuarto de dosis)",
+   "fertilizer": "Fertilizante específico para orquídeas",
+   "schedule": "Un cuarto de dosis cada semana mientras crece; enjuaga con agua sola una vez al mes",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Las raíces de orquídea en corteza apenas reciben nutrientes de forma natural, pero se queman con facilidad",
+    "Reduce el abonado durante la floración"
+   ],
+   "watering": "Remoja y escurre cuando el sustrato esté casi seco — más o menos semanal; la corteza nunca empapada",
+   "temperature": "La mayoría: días de 18-29 °C; las noches más frescas animan la floración",
+   "humidity": "50-70% con aire en movimiento"
+  },
+  "Crassulaceae": {
+   "category": "Suculenta",
+   "npk": "Abono para cactus bajo en nitrógeno (p. ej., 2-7-7) a media dosis",
+   "fertilizer": "Fertilizante para cactus/suculentas",
+   "schedule": "2-3 veces, solo en primavera/verano",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Las suculentas prefieren una vida austera: el exceso de abono provoca estiramiento y podredumbre",
+    "Nunca abones plantas dormidas o recién trasplantadas"
+   ],
+   "watering": "Remoja a fondo y deja secar a fondo — cada 2-3 semanas en crecimiento, apenas en invierno",
+   "temperature": "18-27 °C; la mayoría necesitan protección por debajo de 5 °C",
+   "humidity": "Baja; el aire seco previene la podredumbre"
+  },
+  "Poaceae": {
+   "category": "Gramíneas (césped / ornamentales)",
+   "npk": "Césped: con predominio de nitrógeno (p. ej., 20-5-10). Gramíneas ornamentales: poco o nada",
+   "fertilizer": "Fertilizante de liberación lenta para césped; compost para las ornamentales",
+   "schedule": "Céspedes: finales de primavera y comienzos de otoño. Gramíneas ornamentales: una vez en primavera como mucho",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "El abonado de otoño construye raíces; el de primavera, trabajo de cortacésped",
+    "Las gramíneas ornamentales se desploman cuando se sobrealimentan"
+   ],
+   "watering": "Césped: 2-3 cm por semana en una o dos sesiones profundas; gramíneas ornamentales: rara vez una vez establecidas",
+   "temperature": "Las gramíneas de estación fría prosperan a 15-24 °C; las de estación cálida a 24-35 °C",
+   "humidity": "El riego profundo y espaciado cría raíces profundas; los rociados nocturnos crían hongos"
+  },
+  "Ericaceae": {
+   "category": "Familia de los brezos (acidófilas: brezo, pieris, etc.)",
+   "npk": "Abono de fórmula ácida (para azaleas/camelias), con mano ligera",
+   "fertilizer": "Holly-tone o un fertilizante ácido similar",
+   "schedule": "Una vez en primavera, tras la floración",
+   "soil_ph": "4.5-6.0",
+   "tips": [
+    "Toda la familia exige suelo ácido: primero el pH, luego el fertilizante",
+    "Raíces finas y superficiales: quédate corto y acolcha con corteza de pino"
+   ],
+   "watering": "Sus raíces superficiales quieren una humedad ligera y constante — riego profundo semanal más acolchado",
+   "temperature": "Familia de clima fresco: 13-24 °C; la mayoría son resistentes al frío",
+   "humidity": "Moderada a alta; el viento cálido y seco los quema"
+  },
+  "Arecaceae": {
+   "category": "Palmera",
+   "npk": "Fórmula para palmeras con magnesio y manganeso (p. ej., 8-2-12 + Mg)",
+   "fertilizer": "Fertilizante específico para palmeras: tienen necesidades únicas de micronutrientes",
+   "schedule": "Cada 2-3 meses en la temporada de crecimiento",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Bandas amarillas en las frondas = carencia de magnesio, clásica en palmeras",
+    "Nunca cortes frondas verdes: las palmeras recuperan los nutrientes de las hojas viejas"
+   ],
+   "watering": "Cuando los 3-5 cm superiores se sequen — semanal en interior; más para palmeras de exterior en arena",
+   "temperature": "La mayoría de las palmeras de interior: 18-29 °C, siempre por encima de 13 °C",
+   "humidity": "Moderada a alta; las puntas marrones delatan el aire seco"
+  },
+  "Lamiaceae": {
+   "category": "Hierba aromática de la familia de la menta",
+   "npk": "Abonado equilibrado ligero; la mayoría prefiere suelo pobre",
+   "fertilizer": "Compost; abono líquido diluido para hierbas en maceta",
+   "schedule": "Una o dos veces por temporada",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Sobrealimentar las hierbas cambia sabor por volumen",
+    "Cosecha a menudo: es mejor que el fertilizante para un crecimiento tupido"
+   ],
+   "watering": "La mayoría (los tipos mediterráneos) quieren secarse entre riegos; la menta es la excepción amante del agua",
+   "temperature": "Temporada de crecimiento a 18-29 °C",
+   "humidity": "Baja a moderada; la circulación de aire mantiene sanas las hojas"
+  },
+  "Rosaceae": {
+   "category": "Familia de las rosáceas (arbustos y árboles de flor y fruto)",
+   "npk": "Abonado equilibrado, bajo en nitrógeno para los frutales (p. ej., 5-10-10)",
+   "fertilizer": "Granulado equilibrado o fertilizante para frutales",
+   "schedule": "A comienzos de primavera; los frutales, otra vez tras el cuajado",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Vigila el fuego bacteriano en esta familia: evita el exceso de nitrógeno",
+    "Evalúa los árboles por el crecimiento anual de los brotes antes de abonar"
+   ],
+   "watering": "Profundo y semanal para plantas jóvenes y durante el desarrollo de la fruta",
+   "temperature": "En su mayoría resistentes; la helada en plena floración es la ventana de peligro",
+   "humidity": "Media, con poda para airear — esta familia pilla todos los hongos que pasan"
+  },
+  "Fabaceae": {
+   "category": "Familia de las leguminosas",
+   "npk": "Poco nitrógeno (fijan el suyo propio), P-K moderados",
+   "fertilizer": "Compost; evita los fertilizantes nitrogenados",
+   "schedule": "En la plantación; poco después",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Sus raíces fijadoras de nitrógeno hacen que la mayoría de las leguminosas se alimenten solas",
+    "El fósforo ayuda a la nodulación y la floración"
+   ],
+   "watering": "2-3 cm por semana, sobre todo en la floración y el cuajado de las vainas",
+   "temperature": "Los guisantes con fresco (13-18 °C), las judías con calor (18-27 °C)",
+   "humidity": "Moderada; el follaje mojado propaga las enfermedades de las judías — riega en la base"
+  },
+  "Asteraceae": {
+   "category": "Familia de las margaritas (asteres, zinnias, equináceas...)",
+   "npk": "Abonado equilibrado ligero (p. ej., 5-5-5); la mayoría florece mejor en suelo pobre",
+   "fertilizer": "Compost en la plantación más algún abono líquido ocasional",
+   "schedule": "En la plantación y una vez a mitad de temporada",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "La mayoría de las margaritas sobrealimentadas = altas, caídas y con pocas flores",
+    "Retira las flores marchitas para tener más floración, en vez de abonar más"
+   ],
+   "watering": "Riego profundo semanal; la mayoría se vuelven duras una vez establecidas",
+   "temperature": "Rango amplio; la mayoría florecen mejor a 15-26 °C",
+   "humidity": "Baja a moderada; los arriates apretados y húmedos invitan al mildiu"
+  },
+  "Cucurbitaceae": {
+   "category": "Familia de las calabazas y los pepinos",
+   "npk": "Equilibrado al principio, mucho potasio en la fructificación",
+   "fertilizer": "Suelo rico en compost más abono para hortalizas",
+   "schedule": "En la plantación, en la floración y mensualmente mientras fructifica",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Muy comilonas: planta en montículos de compost",
+    "Un riego constante evita los frutos amargos"
+   ],
+   "watering": "Abundante: 2-5 cm por semana en la base, a diario en olas de calor",
+   "temperature": "Amantes del calor: 21-29 °C; todo se detiene por debajo de 15 °C",
+   "humidity": "Suelo húmedo, hojas secas"
+  },
+  "Solanaceae": {
+   "category": "Hortaliza de la familia de las solanáceas",
+   "npk": "Equilibrado al principio, bajo en N y alto en K en la floración (abono para tomates)",
+   "fertilizer": "Fertilizante para tomate/hortalizas con calcio",
+   "schedule": "Al trasplantar y luego cada 2 semanas desde las primeras flores",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Un riego uniforme previene la podredumbre apical",
+    "Modera el nitrógeno en cuanto empiece la floración"
+   ],
+   "watering": "Profundo y uniforme — 2-3 veces por semana; las fluctuaciones causan frutos agrietados y podredumbre apical",
+   "temperature": "Días de 21-29 °C, noches por encima de 13 °C",
+   "humidity": "Moderada; riega siempre en la base"
+  },
+  "Amaryllidaceae": {
+   "category": "Bulbo de la familia del amarilis y la cebolla",
+   "npk": "Abono para bulbos; equilibrado bajo en N (p. ej., 5-10-10)",
+   "fertilizer": "Fertilizante para bulbos",
+   "schedule": "En la plantación y cuando emerge el follaje",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Abona la fase de follaje: eso construye el bulbo del año siguiente",
+    "Deja que las hojas mueran de forma natural"
+   ],
+   "watering": "Húmedo durante el crecimiento de las hojas, reduciendo hasta un reposo seco",
+   "temperature": "Los bulbos resistentes necesitan frío invernal; los delicados (amarilis) 18-24 °C",
+   "humidity": "Media; respeta su periodo de descanso seco"
+  },
+  "Pinaceae": {
+   "category": "Pino / pícea / abeto (conífera)",
+   "npk": "Rara vez necesario; abono ácido para coníferas si es joven o está débil",
+   "fertilizer": "Fertilizante ácido para coníferas o acolchado de acículas",
+   "schedule": "A comienzos de primavera, solo si hace falta",
+   "soil_ph": "5.0-6.5",
+   "tips": [
+    "Las coníferas establecidas rara vez se benefician del fertilizante",
+    "El pardeamiento suele deberse al agua, las sales o las plagas, no al hambre"
+   ],
+   "watering": "Coníferas jóvenes: profundo cada 1-2 semanas; las establecidas solo en sequía extrema",
+   "temperature": "Resistentes en rangos enormes",
+   "humidity": "Media; lo que más importa es un buen drenaje"
+  }
+ },
+ "default": {
+  "category": "Recomendación general",
+  "npk": "Fertilizante equilibrado (p. ej., 10-10-10) a la mitad de la dosis de la etiqueta",
+  "fertilizer": "Abono equilibrado de uso general: granulado de liberación lenta en exterior, líquido para macetas",
+  "schedule": "Primavera y comienzos de verano para plantas de jardín; mensual en la temporada de crecimiento (nunca en invierno) para plantas de interior",
+  "soil_ph": "6.0-7.0 va bien a la mayoría de las plantas",
+  "tips": [
+   "Ante la duda, abona de menos: casi todas las plantas se recuperan antes del hambre que de una quemadura por fertilizante",
+   "Abona solo durante el crecimiento activo y sobre suelo húmedo (no seco)",
+   "Las hojas viejas amarillas suelen indicar hambre de nitrógeno; los bordes quemados suelen indicar exceso de abono"
+  ],
+  "watering": "Riega a fondo cuando los 2-3 cm superiores del sustrato se sientan secos; la mayoría de las plantas prefieren riego profundo y espaciado a poquitos frecuentes",
+  "temperature": "La mayoría de las plantas de jardín y de interior están a gusto a 18-24 °C; protégelas de las heladas salvo que sepas que son resistentes",
+  "humidity": "La humedad ambiental media les va bien a la mayoría; mantén el sustrato húmedo pero nunca encharcado, y siempre con agujeros de drenaje"
+ }
 }

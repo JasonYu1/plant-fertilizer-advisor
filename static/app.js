@@ -208,6 +208,9 @@ function renderResults(data) {
           <div class="fert-row"><span class="label">${esc(t("labelUse"))}</span>${esc(fert.fertilizer)}</div>
           <div class="fert-row"><span class="label">${esc(t("labelWhen"))}</span>${esc(fert.schedule)}</div>
           <div class="fert-row"><span class="label">${esc(t("labelPh"))}</span>${esc(fert.soil_ph)}</div>
+          ${fert.watering ? `<div class="fert-row"><span class="label">💧 ${esc(t("labelWater"))}</span>${esc(fert.watering)}</div>` : ""}
+          ${fert.temperature ? `<div class="fert-row"><span class="label">🌡️ ${esc(t("labelTemp"))}</span>${esc(fert.temperature)}</div>` : ""}
+          ${fert.humidity ? `<div class="fert-row"><span class="label">💨 ${esc(t("labelHumidity"))}</span>${esc(fert.humidity)}</div>` : ""}
         </div>
         <ul class="tips">${fert.tips.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
         ${matchNote(fert)}

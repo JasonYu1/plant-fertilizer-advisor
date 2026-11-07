@@ -1,1162 +1,1474 @@
 {
-  "species": {
-    "Ficus carica": {
-      "category": "Common fig (fruit tree)",
-      "npk": "Balanced 8-8-8 or 10-10-10; switch to lower nitrogen once fruit sets",
-      "fertilizer": "Granular balanced fertilizer; compost top-dressing works well",
-      "schedule": "3 times a year: early spring, early summer, midsummer. Stop by August so new growth hardens off",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Too much nitrogen gives lush leaves but little fruit",
-        "Potted figs need feeding monthly during the growing season",
-        "Mulch with compost each spring"
-      ]
-    },
-    "Solanum tuberosum": {
-      "category": "Potato",
-      "npk": "Higher phosphorus and potassium, moderate nitrogen (e.g., 5-10-10)",
-      "fertilizer": "Granular vegetable fertilizer worked into the soil at planting",
-      "schedule": "At planting, then side-dress when plants are 15-20 cm tall and again at flowering (tuber set)",
-      "soil_ph": "5.0-6.0 (slightly acidic reduces scab)",
-      "tips": [
-        "Avoid fresh manure and excess nitrogen - you get leaves instead of tubers",
-        "Potassium is key for tuber size and storage quality",
-        "Hill soil around stems as plants grow"
-      ]
-    }
+ "species": {
+  "Ficus carica": {
+   "category": "Common fig (fruit tree)",
+   "npk": "Balanced 8-8-8 or 10-10-10; switch to lower nitrogen once fruit sets",
+   "fertilizer": "Granular balanced fertilizer; compost top-dressing works well",
+   "schedule": "3 times a year: early spring, early summer, midsummer. Stop by August so new growth hardens off",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Too much nitrogen gives lush leaves but little fruit",
+    "Potted figs need feeding monthly during the growing season",
+    "Mulch with compost each spring"
+   ],
+   "watering": "Deeply once a week in summer; potted figs every 2-3 days in heat",
+   "temperature": "Fruits best at 20-30 °C; hardy to about -10 °C when dormant",
+   "humidity": "Tolerates dry air well; soil should dry slightly between waterings"
   },
-  "genus": {
-    "Solanum": {
-      "category": "Tomato / eggplant family vegetable",
-      "npk": "Start balanced, then low nitrogen and high phosphorus-potassium at flowering (e.g., 3-4-6 or tomato food)",
-      "fertilizer": "Tomato/vegetable fertilizer with calcium to prevent blossom end rot",
-      "schedule": "At transplant, then every 2 weeks once flowering starts",
-      "soil_ph": "6.2-6.8",
-      "tips": [
-        "Too much nitrogen = big leafy plants, few fruits",
-        "Keep watering even - calcium uptake depends on it",
-        "Magnesium (Epsom salt) helps if older leaves yellow between veins"
-      ]
-    },
-    "Capsicum": {
-      "category": "Pepper",
-      "npk": "Balanced early (5-5-5), then higher potassium at fruiting (3-5-7)",
-      "fertilizer": "Tomato/vegetable fertilizer works perfectly for peppers",
-      "schedule": "At transplant, then every 2-3 weeks during fruiting",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Peppers are lighter feeders than tomatoes - half strength is often enough",
-        "Excess nitrogen delays fruiting"
-      ]
-    },
-    "Cucumis": {
-      "category": "Cucumber / melon",
-      "npk": "Balanced at planting (5-5-5), higher potassium once vines run (e.g., 3-4-6)",
-      "fertilizer": "Compost-rich soil plus liquid vegetable feed",
-      "schedule": "At planting, when vines start to run, and when flowering begins",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Heavy feeders and heavy drinkers - never let them dry out",
-        "Side-dress with compost mid-season"
-      ]
-    },
-    "Cucurbita": {
-      "category": "Squash / pumpkin / zucchini",
-      "npk": "Balanced early, then high potassium for fruiting (e.g., 4-4-8)",
-      "fertilizer": "Compost or well-rotted manure at planting plus granular vegetable feed",
-      "schedule": "At planting, at first flowers, and monthly while fruiting",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Among the heaviest feeders in the garden - plant into a compost-enriched mound",
-        "Water at the base to avoid powdery mildew"
-      ]
-    },
-    "Lactuca": {
-      "category": "Lettuce (leafy green)",
-      "npk": "Nitrogen-forward for leafy growth (e.g., 10-5-5 or fish emulsion)",
-      "fertilizer": "Liquid fish emulsion or balanced soluble feed at half strength",
-      "schedule": "Light feed every 2 weeks; lettuce grows fast and shallow",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Fast nitrogen keeps leaves tender and sweet",
-        "Stop feeding a week before harvest"
-      ]
-    },
-    "Spinacia": {
-      "category": "Spinach (leafy green)",
-      "npk": "Nitrogen-rich (e.g., 10-5-5)",
-      "fertilizer": "Fish emulsion, blood meal, or balanced soluble feed",
-      "schedule": "At planting and again when plants have 4-6 true leaves",
-      "soil_ph": "6.5-7.5",
-      "tips": [
-        "Spinach bolts under stress - steady nitrogen and water keep it leafy",
-        "Likes more neutral soil than most vegetables"
-      ]
-    },
-    "Brassica": {
-      "category": "Cabbage / broccoli / kale family",
-      "npk": "Nitrogen-forward with steady everything (e.g., 8-4-4), plus boron and calcium",
-      "fertilizer": "Balanced granular at planting, nitrogen side-dress later",
-      "schedule": "At planting, then side-dress 3-4 weeks in; broccoli again when heads start forming",
-      "soil_ph": "6.5-7.0 (higher pH also suppresses clubroot)",
-      "tips": [
-        "Heavy feeders - poor soil gives small, bitter heads",
-        "Lime acidic soil before planting"
-      ]
-    },
-    "Allium": {
-      "category": "Onion / garlic / leek",
-      "npk": "Nitrogen early for leaves (they become bulb layers), none after bulbing starts",
-      "fertilizer": "Blood meal or ammonium sulfate side-dress in spring",
-      "schedule": "Every 2-3 weeks until bulbs begin to swell, then stop completely",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Every leaf equals a ring on the bulb - push leafy growth early",
-        "Late nitrogen delays bulbing and hurts storage"
-      ]
-    },
-    "Daucus": {
-      "category": "Carrot (root vegetable)",
-      "npk": "Low nitrogen, higher phosphorus and potassium (e.g., 1-2-2)",
-      "fertilizer": "Compost worked deep; avoid fresh manure entirely",
-      "schedule": "Little needed if soil is decent; one light feed when tops are 10 cm",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Fresh manure and lumpy soil cause forked, hairy roots",
-        "Loose, deep, stone-free soil matters more than fertilizer"
-      ]
-    },
-    "Phaseolus": {
-      "category": "Bean (legume)",
-      "npk": "Low nitrogen - beans fix their own. Phosphorus and potassium only (e.g., 1-4-4)",
-      "fertilizer": "Compost at planting is usually all they need",
-      "schedule": "At planting; optionally once at flowering",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Added nitrogen makes beans lazy - all vine, few pods",
-        "Inoculant powder helps in soil that has never grown beans"
-      ]
-    },
-    "Pisum": {
-      "category": "Pea (legume)",
-      "npk": "Low nitrogen, modest phosphorus-potassium (e.g., 1-4-4)",
-      "fertilizer": "Compost at planting; peas largely feed themselves",
-      "schedule": "At planting only, in most soils",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Like beans, peas fix nitrogen - skip the nitrogen fertilizer",
-        "Wood ash gives a gentle potassium boost"
-      ]
-    },
-    "Zea": {
-      "category": "Corn / maize",
-      "npk": "Very nitrogen-hungry (e.g., 16-4-8 or regular nitrogen side-dressing)",
-      "fertilizer": "Balanced at planting, then nitrogen (blood meal, urea, fish emulsion) later",
-      "schedule": "At planting, when knee-high, and at tasseling",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Pale green leaves mean it wants nitrogen now",
-        "Plant in blocks, not rows, for pollination"
-      ]
-    },
-    "Beta": {
-      "category": "Beet / chard",
-      "npk": "Balanced with decent potassium (e.g., 5-5-8), plus boron",
-      "fertilizer": "Compost plus balanced granular feed",
-      "schedule": "At planting and once mid-season",
-      "soil_ph": "6.2-7.0",
-      "tips": [
-        "Black dead spots inside beets usually mean boron deficiency",
-        "Excess nitrogen makes tops at the expense of roots"
-      ]
-    },
-    "Fragaria": {
-      "category": "Strawberry",
-      "npk": "Balanced (10-10-10) after harvest; light feeding in spring",
-      "fertilizer": "Berry food or balanced granular",
-      "schedule": "Light feed in early spring, main feed right after harvest (that's when next year's buds form)",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Heavy spring nitrogen gives soft, bland berries",
-        "Renovate and feed June-bearers immediately after picking"
-      ]
-    },
-    "Rubus": {
-      "category": "Raspberry / blackberry",
-      "npk": "Balanced (10-10-10) in early spring",
-      "fertilizer": "Granular balanced feed plus compost mulch",
-      "schedule": "Early spring as growth starts; everbearers again in early summer",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Feed the rows, not the plants - roots spread widely",
-        "Mulch heavily; brambles love cool, rich root zones"
-      ]
-    },
-    "Vaccinium": {
-      "category": "Blueberry (acid-loving)",
-      "npk": "Acid-formula fertilizer (e.g., azalea food, ammonium sulfate based)",
-      "fertilizer": "Holly-tone / azalea fertilizer; never use nitrate-based feeds",
-      "schedule": "Early spring and again 6 weeks later; nothing after July",
-      "soil_ph": "4.5-5.5 (critical - they fail in neutral soil)",
-      "tips": [
-        "Yellow leaves with green veins = soil not acidic enough, not lack of feed",
-        "Acidify with elemental sulfur months before planting",
-        "Mulch with pine needles or pine bark"
-      ]
-    },
-    "Vitis": {
-      "category": "Grape",
-      "npk": "Low and lean - balanced feed only if growth is weak (e.g., light 10-10-10)",
-      "fertilizer": "Compost; grapes on fertile soil usually need nothing",
-      "schedule": "Once in early spring, only if shoots grew under 1 m last year",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Overfed vines make jungle canopy and poor fruit",
-        "Potassium deficiency shows as browning leaf edges mid-summer"
-      ]
-    },
-    "Citrus": {
-      "category": "Citrus (lemon, orange, lime)",
-      "npk": "Nitrogen-rich citrus formula with micronutrients (e.g., 6-3-3 plus iron, zinc, manganese)",
-      "fertilizer": "Dedicated citrus food - citrus are prone to micronutrient deficiencies",
-      "schedule": "Every 6 weeks spring through summer; monthly for potted trees; little in winter",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Yellow leaves with green veins = iron or manganese deficiency, common in pots",
-        "Potted citrus leach nutrients fast - feed little and often",
-        "Water deeply before feeding, never feed dry soil"
-      ]
-    },
-    "Malus": {
-      "category": "Apple / crabapple",
-      "npk": "Balanced (10-10-10) only while young; mature trees often need just nitrogen, judged by growth",
-      "fertilizer": "Granular balanced feed spread to the drip line",
-      "schedule": "Early spring before bloom; skip feeding if shoots grew more than 30 cm last year",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Overfeeding causes watersprouts and fire-blight-prone soft growth",
-        "Never fertilize after July"
-      ]
-    },
-    "Prunus": {
-      "category": "Cherry / plum / peach / apricot",
-      "npk": "Low nitrogen balanced feed (e.g., 5-10-10); peaches slightly more nitrogen",
-      "fertilizer": "Granular fruit tree fertilizer at the drip line",
-      "schedule": "Once in early spring; young trees a second light feed in late May",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Judge by growth: 25-40 cm of new shoot per year is right for mature trees",
-        "Excess nitrogen worsens brown rot and canker"
-      ]
-    },
-    "Pyrus": {
-      "category": "Pear",
-      "npk": "Very low nitrogen (e.g., 5-10-10) - pears are fire blight magnets",
-      "fertilizer": "Light granular feed, or just compost mulch",
-      "schedule": "Once in early spring, and only if growth was weak",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Lush nitrogen-fed growth is exactly what fire blight attacks",
-        "When in doubt, don't feed a pear"
-      ]
-    },
-    "Persea": {
-      "category": "Avocado",
-      "npk": "Citrus/avocado formula with nitrogen and zinc (e.g., 6-3-3 + micros)",
-      "fertilizer": "Citrus & avocado food",
-      "schedule": "Every 6-8 weeks during the growing season; sparingly the first year",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Extremely sensitive to salt buildup - flush pots regularly",
-        "Needs perfect drainage; root rot kills more avocados than hunger"
-      ]
-    },
-    "Musa": {
-      "category": "Banana",
-      "npk": "Very heavy potassium feeder (e.g., 3-1-6 or 9-3-27)",
-      "fertilizer": "High-potassium feed or dedicated banana/palm fertilizer",
-      "schedule": "Monthly while warm; bananas eat constantly in summer",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "One of the hungriest plants you can grow - compost generously",
-        "Potassium drives fruit size and cold resilience"
-      ]
-    },
-    "Olea": {
-      "category": "Olive",
-      "npk": "Modest nitrogen (e.g., light 10-5-5); olives tolerate lean soil",
-      "fertilizer": "Light granular feed or compost",
-      "schedule": "Early spring and early summer, lightly",
-      "soil_ph": "6.5-8.0 (tolerates alkaline)",
-      "tips": [
-        "Olives fruit better slightly stressed than pampered",
-        "Perfect drainage beats any fertilizer"
-      ]
-    },
-    "Ocimum": {
-      "category": "Basil (herb)",
-      "npk": "Light balanced feed (e.g., 5-5-5 at half strength)",
-      "fertilizer": "Diluted liquid feed or fish emulsion",
-      "schedule": "Every 3-4 weeks; potted basil every 2 weeks",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Overfed basil grows big but loses flavor - oils concentrate in leaner plants",
-        "Pinch flowers to keep leaves coming"
-      ]
-    },
-    "Mentha": {
-      "category": "Mint (herb)",
-      "npk": "Barely any - light balanced feed if leaves pale",
-      "fertilizer": "Compost top-dress once a season",
-      "schedule": "Once in spring is plenty",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Mint thrives on neglect; feeding mostly makes it more invasive",
-        "Grow in a pot unless you want a mint lawn"
-      ]
-    },
-    "Salvia": {
-      "category": "Sage / salvia (herb, Mediterranean)",
-      "npk": "Very light - a little compost in spring",
-      "fertilizer": "Compost only; skip commercial fertilizer in the ground",
-      "schedule": "Once in spring",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Mediterranean herbs get leggy and bland when overfed",
-        "Sharp drainage matters far more than nutrients"
-      ]
-    },
-    "Rosmarinus": {
-      "category": "Rosemary (Mediterranean herb)",
-      "npk": "Minimal - light balanced feed for potted plants only",
-      "fertilizer": "Compost or quarter-strength liquid feed for pots",
-      "schedule": "Spring only; potted plants 2-3 times a season",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Rosemary evolved on rocky hillsides - lean and dry is happy",
-        "Overwatering kills it long before underfeeding does"
-      ]
-    },
-    "Thymus": {
-      "category": "Thyme (Mediterranean herb)",
-      "npk": "Minimal; none in decent garden soil",
-      "fertilizer": "A dusting of compost in spring at most",
-      "schedule": "Spring only",
-      "soil_ph": "6.0-8.0",
-      "tips": [
-        "Rich soil makes thyme floppy and weak-flavored",
-        "Gritty, fast-draining soil is the real fertilizer"
-      ]
-    },
-    "Petroselinum": {
-      "category": "Parsley (herb)",
-      "npk": "Nitrogen-leaning light feed (e.g., fish emulsion)",
-      "fertilizer": "Fish emulsion or half-strength balanced liquid",
-      "schedule": "Every 3-4 weeks during harvest season",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Parsley is hungrier than most herbs - it's grown for lush leaves",
-        "Cut outer stems first to keep it producing"
-      ]
-    },
-    "Coriandrum": {
-      "category": "Cilantro / coriander (herb)",
-      "npk": "Light nitrogen feed",
-      "fertilizer": "Half-strength liquid feed",
-      "schedule": "Once or twice during its short life",
-      "soil_ph": "6.2-6.8",
-      "tips": [
-        "Heat, not hunger, makes cilantro bolt - succession sow instead of overfeeding",
-        "Keep soil evenly moist"
-      ]
-    },
-    "Lavandula": {
-      "category": "Lavender (Mediterranean shrub)",
-      "npk": "Essentially none - lavender prefers poor soil",
-      "fertilizer": "None, or a little compost at planting. No mulch against the stem",
-      "schedule": "Not needed once established",
-      "soil_ph": "6.5-7.5 (likes some lime)",
-      "tips": [
-        "Fertilizer reduces fragrance and winter hardiness",
-        "Add lime to acidic soil; gravel mulch beats bark"
-      ]
-    },
-    "Rosa": {
-      "category": "Rose",
-      "npk": "Balanced with extra phosphorus and potassium (e.g., 4-6-4 or dedicated rose food)",
-      "fertilizer": "Rose food or alfalfa meal plus compost; liquid feed between flushes of bloom",
-      "schedule": "First feed when leaves open in spring, then after each bloom flush; stop 6-8 weeks before first frost",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Repeat-blooming roses are heavy feeders",
-        "Banana peels and alfalfa are classic potassium boosters",
-        "Late-season feeding produces frost-tender growth"
-      ]
-    },
-    "Hydrangea": {
-      "category": "Hydrangea",
-      "npk": "Balanced slow-release (e.g., 10-10-10); for blue flowers use low-phosphorus acid feed",
-      "fertilizer": "Slow-release shrub food in spring",
-      "schedule": "Once in spring, optionally again in early summer; nothing after July",
-      "soil_ph": "5.2-5.5 for blue flowers, 6.0-6.5 for pink",
-      "tips": [
-        "Flower color follows pH: aluminum sulfate for blue, garden lime for pink (bigleaf types only)",
-        "High phosphorus blocks aluminum uptake and keeps flowers pink",
-        "Overfeeding gives leaves instead of blooms"
-      ]
-    },
-    "Rhododendron": {
-      "category": "Rhododendron / azalea (acid-loving)",
-      "npk": "Acid-formula feed (e.g., azalea/camellia food, 4-3-4 with sulfur)",
-      "fertilizer": "Holly-tone or similar acid fertilizer",
-      "schedule": "Right after flowering, lightly; nothing after mid-summer",
-      "soil_ph": "4.5-6.0",
-      "tips": [
-        "Shallow fine roots burn easily - always underfeed rather than overfeed",
-        "Yellowing between veins means pH is too high",
-        "Mulch with pine bark instead of feeding more"
-      ]
-    },
-    "Camellia": {
-      "category": "Camellia (acid-loving)",
-      "npk": "Acid-formula feed (azalea/camellia food)",
-      "fertilizer": "Acid fertilizer plus pine bark mulch",
-      "schedule": "After bloom ends, then 6-8 weeks later; never while flowering",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Feeding during bud set can cause bud drop",
-        "Camellias are light feeders - half the label rate is safer"
-      ]
-    },
-    "Gardenia": {
-      "category": "Gardenia (acid-loving)",
-      "npk": "Acid formula with iron (e.g., 3-1-2 acid feed + chelated iron)",
-      "fertilizer": "Azalea food; chelated iron spray for yellowing leaves",
-      "schedule": "Every 4-6 weeks spring to late summer",
-      "soil_ph": "5.0-6.0",
-      "tips": [
-        "Gardenias are the drama queens of acid-lovers - yellow leaves usually mean iron lockout from high pH",
-        "Bud drop is from temperature and water swings, not hunger"
-      ]
-    },
-    "Paeonia": {
-      "category": "Peony",
-      "npk": "Low nitrogen, good phosphorus-potassium (e.g., 5-10-10)",
-      "fertilizer": "Bulb food or low-N granular around (not on) the crown",
-      "schedule": "Early spring when shoots are 10 cm, and again after flowering",
-      "soil_ph": "6.5-7.0",
-      "tips": [
-        "Nitrogen-fed peonies flop and skip blooming",
-        "Planting depth (eyes 3-5 cm deep max) affects bloom more than any fertilizer"
-      ]
-    },
-    "Dahlia": {
-      "category": "Dahlia",
-      "npk": "Low nitrogen, high potassium (e.g., 5-10-10 or tomato food)",
-      "fertilizer": "Tomato fertilizer is the classic dahlia feed",
-      "schedule": "Monthly from a month after planting until early autumn",
-      "soil_ph": "6.2-6.8",
-      "tips": [
-        "High nitrogen gives giant plants, weak stems, few flowers, and rot-prone tubers",
-        "Stop feeding in September to help tubers cure"
-      ]
-    },
-    "Tulipa": {
-      "category": "Tulip (bulb)",
-      "npk": "Bulb food / bone meal at planting; balanced feed as leaves emerge",
-      "fertilizer": "Bulb fertilizer worked into the planting hole",
-      "schedule": "At fall planting, then once when shoots emerge in spring",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Feed the leaves after bloom - that's next year's flower being built",
-        "Never cut leaves until they yellow naturally"
-      ]
-    },
-    "Narcissus": {
-      "category": "Daffodil (bulb)",
-      "npk": "Bulb food at planting, low-N feed (e.g., 5-10-12) as foliage emerges",
-      "fertilizer": "Bulb fertilizer",
-      "schedule": "At fall planting and at spring emergence; after-bloom feed helps naturalizing",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Let foliage die back naturally for 6 weeks after bloom",
-        "High nitrogen encourages bulb rot"
-      ]
-    },
-    "Lilium": {
-      "category": "Lily (true lily bulb)",
-      "npk": "Balanced to low-N (e.g., 5-10-10)",
-      "fertilizer": "Bulb or tomato fertilizer",
-      "schedule": "When shoots emerge and again at flowering",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Lilies like their heads in sun and feet in cool, mulched soil",
-        "Leave stems standing after bloom to feed the bulb"
-      ]
-    },
-    "Chrysanthemum": {
-      "category": "Chrysanthemum",
-      "npk": "Balanced feed (e.g., 5-5-5) until buds show color, then stop",
-      "fertilizer": "Liquid balanced feed",
-      "schedule": "Monthly from spring until buds color up",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Pinch tips until early July for bushy plants",
-        "Feeding while blooming shortens flower life"
-      ]
-    },
-    "Petunia": {
-      "category": "Petunia (flowering annual)",
-      "npk": "Steady balanced feed with iron (e.g., 20-10-20); they are famously hungry",
-      "fertilizer": "Water-soluble feed; slow-release pellets in baskets as a base",
-      "schedule": "Every 1-2 weeks in beds, weekly in baskets and pots",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Yellowing new growth means iron deficiency - common in petunias",
-        "Hanging baskets wash nutrients out with every watering, so feed often"
-      ]
-    },
-    "Pelargonium": {
-      "category": "Geranium (bedding)",
-      "npk": "Balanced feed (e.g., 10-10-10 or 20-20-20 diluted)",
-      "fertilizer": "Water-soluble balanced feed",
-      "schedule": "Every 2-3 weeks during bloom season",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Overfed geraniums make leaves, not flowers",
-        "Deadhead religiously for continuous bloom"
-      ]
-    },
-    "Tagetes": {
-      "category": "Marigold (annual)",
-      "npk": "Light balanced feed; marigolds prefer lean soil",
-      "fertilizer": "Compost at planting is usually enough",
-      "schedule": "One light feed a month after planting, if at all",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Rich soil gives lush foliage and few flowers",
-        "They genuinely do better slightly starved"
-      ]
-    },
-    "Helianthus": {
-      "category": "Sunflower",
-      "npk": "Balanced at planting, nitrogen while growing, potassium at bud stage",
-      "fertilizer": "Compost-rich soil plus a granular balanced feed",
-      "schedule": "At planting and once when half grown",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Giant varieties are heavy feeders and drinkers",
-        "Too much nitrogen late = weak stems that snap"
-      ]
-    },
-    "Viola": {
-      "category": "Pansy / viola",
-      "npk": "Balanced liquid feed (e.g., 15-15-15 diluted)",
-      "fertilizer": "Water-soluble feed",
-      "schedule": "Every 2-3 weeks while blooming; monthly in cool weather",
-      "soil_ph": "5.5-6.2",
-      "tips": [
-        "Pansies feed and bloom even in cool seasons - don't stop in fall",
-        "Deadhead to keep flowers coming"
-      ]
-    },
-    "Impatiens": {
-      "category": "Impatiens (shade annual)",
-      "npk": "Light balanced feed (e.g., 10-10-10 at half strength)",
-      "fertilizer": "Diluted water-soluble feed",
-      "schedule": "Every 2 weeks in pots, monthly in beds",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Overfeeding gives tall leafy plants with sparse flowers",
-        "Consistent moisture matters more than food"
-      ]
-    },
-    "Fuchsia": {
-      "category": "Fuchsia",
-      "npk": "Steady dilute balanced feed (e.g., quarter-strength every watering)",
-      "fertilizer": "Water-soluble balanced or slightly high-K feed",
-      "schedule": "Weakly, weekly - the classic fuchsia rule",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Constant light feeding beats occasional heavy doses",
-        "Stop feeding hard in autumn to let plants rest"
-      ]
-    },
-    "Begonia": {
-      "category": "Begonia",
-      "npk": "Dilute balanced feed (e.g., 10-10-10 at quarter strength)",
-      "fertilizer": "Water-soluble feed, well diluted",
-      "schedule": "Every 2 weeks in active growth",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Begonia roots burn easily - always dilute more than the label says",
-        "Tuberous types: stop feeding in late summer"
-      ]
-    },
-    "Hibiscus": {
-      "category": "Hibiscus",
-      "npk": "High potassium, moderate nitrogen, LOW phosphorus (e.g., 12-4-18 or 10-4-12)",
-      "fertilizer": "Hibiscus food or high-K feed; avoid bloom boosters",
-      "schedule": "Every 2 weeks in summer, monthly in spring/fall, none in winter",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Hibiscus is unusual: phosphorus actually builds up and poisons it over time",
-        "Skip the 'super bloom' high-P fertilizers entirely"
-      ]
-    },
-    "Bougainvillea": {
-      "category": "Bougainvillea",
-      "npk": "Balanced with micronutrients (e.g., 6-8-10 + iron); lean feeding promotes bloom",
-      "fertilizer": "Bougainvillea or hibiscus food",
-      "schedule": "Monthly in growing season, lightly",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Blooms best slightly stressed - a little hunger and drought triggers color",
-        "Overwatering plus overfeeding = all green, no bracts"
-      ]
-    },
-    "Jasminum": {
-      "category": "Jasmine",
-      "npk": "Balanced feed with a potassium lean (e.g., 7-9-5)",
-      "fertilizer": "Balanced liquid feed",
-      "schedule": "Every 2-4 weeks during the growing season",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Potassium supports flowering and fragrance",
-        "Root-bound potted jasmine blooms better - don't over-pot"
-      ]
-    },
-    "Clematis": {
-      "category": "Clematis",
-      "npk": "Low nitrogen bloom feed (e.g., 5-10-10 or rose/tomato food)",
-      "fertilizer": "Rose or tomato fertilizer",
-      "schedule": "Spring when buds swell, then monthly; pause while actually flowering",
-      "soil_ph": "6.5-7.0",
-      "tips": [
-        "The old rule holds: head in the sun, feet in the shade - mulch the roots",
-        "Feeding during bloom can shorten the display"
-      ]
-    },
-    "Hosta": {
-      "category": "Hosta (shade perennial)",
-      "npk": "Balanced slow-release (e.g., 10-10-10) in spring",
-      "fertilizer": "Slow-release granular plus compost",
-      "schedule": "Once in spring as leaves unfurl; optional light feed in early summer; none after July",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Hostas are mostly fed by rich, moist soil - compost beats fertilizer",
-        "Late feeding delays dormancy and invites frost damage"
-      ]
-    },
-    "Syringa": {
-      "category": "Lilac",
-      "npk": "Minimal - a little balanced feed only in poor soil; likes lime",
-      "fertilizer": "Compost; a handful of garden lime in acidic soil",
-      "schedule": "Early spring at most",
-      "soil_ph": "6.5-7.5",
-      "tips": [
-        "Fertilized lilacs often refuse to bloom - lean soil and full sun work better",
-        "Prune right after flowering, not later"
-      ]
-    },
-    "Magnolia": {
-      "category": "Magnolia",
-      "npk": "Slow-release balanced tree food (e.g., 10-10-10), lightly",
-      "fertilizer": "Slow-release granular under the canopy",
-      "schedule": "Early spring for young trees; established trees rarely need feeding",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Shallow fleshy roots - never dig fertilizer in, just surface-spread and water",
-        "Mulch wide, not deep"
-      ]
-    },
-    "Acer": {
-      "category": "Maple (incl. Japanese maple)",
-      "npk": "Low and slow - light slow-release in spring if growth is weak (e.g., half-rate 10-10-10)",
-      "fertilizer": "Compost mulch is usually all a maple wants",
-      "schedule": "Early spring only, and only young or weak trees",
-      "soil_ph": "5.5-6.5 (Japanese maples prefer slightly acidic)",
-      "tips": [
-        "Japanese maples hate heavy feeding - it causes coarse growth and leaf scorch",
-        "Never fertilize a newly planted maple its first year"
-      ]
-    },
-    "Buxus": {
-      "category": "Boxwood",
-      "npk": "Nitrogen-leaning balanced feed (e.g., 10-6-4)",
-      "fertilizer": "Granular shrub feed at the drip line",
-      "schedule": "Early spring; a second light feed in fall is okay in mild climates",
-      "soil_ph": "6.5-7.2",
-      "tips": [
-        "Bronze winter foliage often signals nitrogen hunger",
-        "Shallow roots: surface feed, never dig it in"
-      ]
-    },
-    "Ficus": {
-      "category": "Ficus (rubber plant, fiddle-leaf fig, weeping fig)",
-      "npk": "Nitrogen-leaning foliage feed (e.g., 3-1-2 ratio houseplant food)",
-      "fertilizer": "Liquid houseplant fertilizer at half strength",
-      "schedule": "Monthly spring through early fall; nothing in winter",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Fiddle-leaf figs prefer consistency - same spot, same schedule",
-        "Flush the pot with plain water every few months to clear salt buildup"
-      ]
-    },
-    "Monstera": {
-      "category": "Monstera (houseplant)",
-      "npk": "Balanced to nitrogen-leaning (e.g., 3-1-2 or 20-20-20 diluted)",
-      "fertilizer": "Liquid houseplant feed at half strength",
-      "schedule": "Monthly during spring/summer growth; every 2 months or none in winter",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Big fenestrated leaves come from light and age more than fertilizer",
-        "Pale new leaves = feed; brown crispy edges = probably overfed or dry air"
-      ]
-    },
-    "Epipremnum": {
-      "category": "Pothos (houseplant)",
-      "npk": "Any balanced houseplant feed, diluted (e.g., 10-10-10 at half strength)",
-      "fertilizer": "Liquid houseplant fertilizer",
-      "schedule": "Monthly in growing season; pothos tolerates neglect",
-      "soil_ph": "6.1-6.8",
-      "tips": [
-        "One of the hardest plants to underfeed - when in doubt, skip it",
-        "Feed only when actively putting out new leaves"
-      ]
-    },
-    "Philodendron": {
-      "category": "Philodendron (houseplant)",
-      "npk": "Nitrogen-leaning foliage feed (e.g., 3-1-2 ratio)",
-      "fertilizer": "Liquid houseplant feed at half strength",
-      "schedule": "Monthly spring-summer, every 6-8 weeks in winter if growing",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Small new leaves on a mature plant usually mean it's hungry",
-        "Salt-sensitive - flush the pot occasionally"
-      ]
-    },
-    "Dracaena": {
-      "category": "Dracaena / snake plant group",
-      "npk": "Light balanced feed (e.g., 10-10-10 at quarter strength)",
-      "fertilizer": "Diluted liquid houseplant feed",
-      "schedule": "Every 1-2 months in growing season only",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Very fluoride-sensitive: brown leaf tips often come from tap water and perlite, not hunger",
-        "Overfeeding shows as burnt tips and pale streaks"
-      ]
-    },
-    "Sansevieria": {
-      "category": "Snake plant",
-      "npk": "Minimal - cactus feed at half strength (e.g., 2-7-7 diluted)",
-      "fertilizer": "Cactus/succulent fertilizer",
-      "schedule": "2-3 times a year during warm months is plenty",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Snake plants store everything - feeding more does nothing but risk root burn",
-        "Never feed in winter or right after repotting"
-      ]
-    },
-    "Chlorophytum": {
-      "category": "Spider plant",
-      "npk": "Dilute balanced feed (e.g., 10-10-10 at quarter to half strength)",
-      "fertilizer": "Liquid houseplant feed",
-      "schedule": "Monthly in spring/summer",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Brown tips are usually fluoride/salts - use rainwater or distilled, and go easy on feed",
-        "Overfed spider plants stop making babies"
-      ]
-    },
-    "Spathiphyllum": {
-      "category": "Peace lily",
-      "npk": "Dilute balanced feed (e.g., 20-20-20 at quarter strength)",
-      "fertilizer": "Liquid houseplant feed, well diluted",
-      "schedule": "Every 6 weeks spring through summer",
-      "soil_ph": "5.8-6.5",
-      "tips": [
-        "Green flowers mean too much fertilizer",
-        "Brown tips mean salts or chlorinated water - flush the pot"
-      ]
-    },
-    "Zamioculcas": {
-      "category": "ZZ plant",
-      "npk": "Minimal - balanced feed at quarter strength",
-      "fertilizer": "Diluted liquid houseplant feed",
-      "schedule": "2-3 times a year, growing season only",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "ZZ plants run on stored energy in their rhizomes - they barely need you",
-        "Overfeeding and overwatering are the only real ways to kill one"
-      ]
-    },
-    "Goeppertia": {
-      "category": "Calathea / prayer plant group",
-      "npk": "Very dilute nitrogen-leaning feed (quarter strength)",
-      "fertilizer": "Gentle liquid feed; they are salt-sensitive divas",
-      "schedule": "Monthly in growing season at quarter strength",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Calatheas burn from fertilizer salts easily - less is more",
-        "Crispy edges are almost always water quality or humidity, not hunger"
-      ]
-    },
-    "Calathea": {
-      "category": "Calathea / prayer plant group",
-      "npk": "Very dilute nitrogen-leaning feed (quarter strength)",
-      "fertilizer": "Gentle liquid feed; they are salt-sensitive divas",
-      "schedule": "Monthly in growing season at quarter strength",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Calatheas burn from fertilizer salts easily - less is more",
-        "Crispy edges are almost always water quality or humidity, not hunger"
-      ]
-    },
-    "Hedera": {
-      "category": "Ivy",
-      "npk": "Balanced foliage feed (e.g., 10-10-10 diluted)",
-      "fertilizer": "Liquid houseplant feed indoors; nothing needed outdoors",
-      "schedule": "Monthly indoors in growing season; outdoor ivy needs none",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Don't feed ivy in hot midsummer or cold winter - it pauses growth then",
-        "Outdoor ivy fed regularly becomes even more invasive"
-      ]
-    },
-    "Hoya": {
-      "category": "Hoya (wax plant)",
-      "npk": "Light balanced feed, switch to higher phosphorus when budding (e.g., 5-10-5)",
-      "fertilizer": "Dilute liquid feed or orchid food",
-      "schedule": "Monthly in growth; stop in winter",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Never remove the old flower spurs - they rebloom from the same spot",
-        "Slightly root-bound hoyas flower best"
-      ]
-    },
-    "Peperomia": {
-      "category": "Peperomia",
-      "npk": "Dilute balanced feed (quarter strength)",
-      "fertilizer": "Liquid houseplant feed, well diluted",
-      "schedule": "Monthly at most in growing season",
-      "soil_ph": "6.0-6.6",
-      "tips": [
-        "Tiny root systems - they feed lightly by design",
-        "Overwatering is the killer; feeding is almost optional"
-      ]
-    },
-    "Saintpaulia": {
-      "category": "African violet",
-      "npk": "Dedicated violet food (e.g., 14-12-14) or balanced feed at quarter strength",
-      "fertilizer": "African violet fertilizer, every watering at low dose",
-      "schedule": "Quarter strength with each watering, or monthly at half strength",
-      "soil_ph": "5.8-6.2",
-      "tips": [
-        "Water from below to keep leaves dry",
-        "No blooms usually means not enough light, not too little food"
-      ]
-    },
-    "Phalaenopsis": {
-      "category": "Moth orchid",
-      "npk": "Orchid food, 'weakly weekly' (e.g., 20-20-20 at quarter strength)",
-      "fertilizer": "Dedicated orchid fertilizer",
-      "schedule": "Quarter strength weekly, plain water every 4th watering to flush",
-      "soil_ph": "5.5-6.5 (in bark medium)",
-      "tips": [
-        "Flush with plain water monthly - orchid roots burn from salt easily",
-        "Feed less (or not at all) while in full bloom",
-        "Never use regular potting soil for orchids"
-      ]
-    },
-    "Aloe": {
-      "category": "Aloe (succulent)",
-      "npk": "Low and rare - cactus feed (e.g., 2-7-7) at half strength",
-      "fertilizer": "Cactus/succulent fertilizer",
-      "schedule": "2-3 times during spring and summer, none otherwise",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Overfed aloe grows soft, floppy, and prone to rot",
-        "Gritty soil and sun matter infinitely more than fertilizer"
-      ]
-    },
-    "Haworthia": {
-      "category": "Haworthia (small succulent)",
-      "npk": "Almost none - cactus feed at quarter strength",
-      "fertilizer": "Cactus/succulent fertilizer",
-      "schedule": "Once or twice a year in spring/summer",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Slow growers that barely eat - when in doubt, don't feed",
-        "Etiolation (stretching) means it wants light, not food"
-      ]
-    },
-    "Echeveria": {
-      "category": "Echeveria (rosette succulent)",
-      "npk": "Low nitrogen cactus feed (e.g., 2-7-7) at half strength",
-      "fertilizer": "Cactus/succulent fertilizer",
-      "schedule": "2-3 times in spring/summer",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Overfeeding ruins the compact rosette shape",
-        "Tight form and good color come from bright light and lean soil"
-      ]
-    },
-    "Crassula": {
-      "category": "Jade plant and relatives",
-      "npk": "Low - cactus feed at half strength",
-      "fertilizer": "Cactus/succulent fertilizer",
-      "schedule": "Every 2 months in spring/summer only",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Jades live decades on almost nothing - lean feeding keeps them sturdy",
-        "Feed only established, actively growing plants"
-      ]
-    },
-    "Kalanchoe": {
-      "category": "Kalanchoe",
-      "npk": "Balanced feed while growing; higher potassium to encourage rebloom",
-      "fertilizer": "Diluted balanced or flowering houseplant feed",
-      "schedule": "Monthly in spring/summer; stop during the short-day rest that triggers blooming",
-      "soil_ph": "6.0-6.5",
-      "tips": [
-        "Rebloom needs 6 weeks of long nights, not more fertilizer",
-        "Succulent rules apply: well-drained soil, modest feeding"
-      ]
-    },
-    "Sedum": {
-      "category": "Sedum / stonecrop",
-      "npk": "None to minimal - these thrive in poor soil",
-      "fertilizer": "A thin layer of compost at most",
-      "schedule": "Not needed; maybe once in spring for container plants",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Fertilized sedums grow tall, floppy, and split open",
-        "Lean, gritty, sunny = perfect"
-      ]
-    },
-    "Agave": {
-      "category": "Agave",
-      "npk": "None in the ground; rare dilute cactus feed in pots",
-      "fertilizer": "Cactus fertilizer for potted plants only",
-      "schedule": "1-2 times a year for pots; never for in-ground plants",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Feeding an agave can push it to flower - and agaves die after flowering",
-        "Seriously: don't fertilize agaves you want to keep"
-      ]
-    },
-    "Nephrolepis": {
-      "category": "Boston fern",
-      "npk": "Dilute balanced feed (e.g., 20-10-20 at quarter strength)",
-      "fertilizer": "Liquid houseplant feed, well diluted",
-      "schedule": "Monthly spring through early fall",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Ferns have delicate roots - always err on the weak side",
-        "Pale, slow fronds in summer = time for a light feed"
-      ]
-    },
-    "Pinus": {
-      "category": "Pine",
-      "npk": "Rarely needed; acid evergreen feed (e.g., 4-3-4 with sulfur) if weak",
-      "fertilizer": "Holly-tone type acid fertilizer, or just pine needle mulch",
-      "schedule": "Early spring, only for young or clearly struggling trees",
-      "soil_ph": "5.0-6.5",
-      "tips": [
-        "Established pines in the landscape almost never need fertilizer",
-        "Let fallen needles stay - they are the tree feeding itself"
-      ]
-    },
-    "Juniperus": {
-      "category": "Juniper",
-      "npk": "Light evergreen feed (e.g., 16-4-8 slow release) if color is poor",
-      "fertilizer": "Slow-release evergreen fertilizer",
-      "schedule": "Early spring at most; established plants usually need none",
-      "soil_ph": "5.5-7.0",
-      "tips": [
-        "Junipers tolerate poor soil by design",
-        "Yellowing is more often spider mites or wet feet than hunger"
-      ]
-    },
-    "Thuja": {
-      "category": "Arborvitae / cedar hedge",
-      "npk": "Nitrogen-leaning evergreen feed (e.g., 18-6-12 slow release)",
-      "fertilizer": "Slow-release evergreen/hedge fertilizer",
-      "schedule": "Early spring; a hedge being pushed for growth can get a second feed in late spring",
-      "soil_ph": "6.0-7.5",
-      "tips": [
-        "Feed hedges you're still growing; mature screens need little",
-        "Water deeply after feeding - thujas are shallow-rooted"
-      ]
-    }
-  },
-  "family": {
-    "Cactaceae": {
-      "category": "Cactus",
-      "npk": "Low nitrogen, higher P-K (e.g., 2-7-7), well diluted",
-      "fertilizer": "Cactus/succulent fertilizer",
-      "schedule": "Monthly at half strength during spring/summer growth; none in winter rest",
-      "soil_ph": "5.5-7.0",
-      "tips": [
-        "Winter dormancy must be dry and unfed - that's what triggers flowers",
-        "Overfed cacti grow fast, soft, and out of character"
-      ]
-    },
-    "Orchidaceae": {
-      "category": "Orchid",
-      "npk": "Orchid food 'weakly weekly' (quarter-strength 20-20-20)",
-      "fertilizer": "Dedicated orchid fertilizer",
-      "schedule": "Quarter strength weekly while growing; flush with plain water monthly",
-      "soil_ph": "5.5-6.5",
-      "tips": [
-        "Orchid roots in bark get almost no nutrients naturally - but burn easily",
-        "Ease off while blooming"
-      ]
-    },
-    "Crassulaceae": {
-      "category": "Succulent",
-      "npk": "Low nitrogen cactus feed (e.g., 2-7-7) at half strength",
-      "fertilizer": "Cactus/succulent fertilizer",
-      "schedule": "2-3 times in spring/summer only",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Succulents prefer lean living - overfeeding causes stretching and rot",
-        "Never feed dormant or freshly repotted plants"
-      ]
-    },
-    "Poaceae": {
-      "category": "Grass (lawn / ornamental)",
-      "npk": "Lawn: nitrogen-forward (e.g., 20-5-10). Ornamental grasses: little to none",
-      "fertilizer": "Slow-release lawn fertilizer; compost for ornamentals",
-      "schedule": "Lawns: late spring and early fall. Ornamental grasses: once in spring at most",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Fall feeding builds roots; spring feeding builds mowing work",
-        "Ornamental grasses flop when overfed"
-      ]
-    },
-    "Ericaceae": {
-      "category": "Heath family (acid-loving: heather, pieris, etc.)",
-      "npk": "Acid-formula feed (azalea/camellia food), lightly",
-      "fertilizer": "Holly-tone or similar acid fertilizer",
-      "schedule": "Once in spring after flowering",
-      "soil_ph": "4.5-6.0",
-      "tips": [
-        "The whole family demands acidic soil - pH first, fertilizer second",
-        "Fine shallow roots: underfeed, and mulch with pine bark"
-      ]
-    },
-    "Arecaceae": {
-      "category": "Palm",
-      "npk": "Palm formula with magnesium and manganese (e.g., 8-2-12 + Mg)",
-      "fertilizer": "Dedicated palm fertilizer - palms have unique micronutrient needs",
-      "schedule": "Every 2-3 months in the growing season",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Yellow banding on fronds = magnesium deficiency, classic in palms",
-        "Never cut green fronds - palms pull nutrients back from old leaves"
-      ]
-    },
-    "Lamiaceae": {
-      "category": "Mint family herb",
-      "npk": "Light balanced feed; most prefer lean soil",
-      "fertilizer": "Compost; dilute liquid feed for potted herbs",
-      "schedule": "Once or twice a season",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Overfeeding herbs trades flavor for bulk",
-        "Harvest often - it's better than fertilizer for bushy growth"
-      ]
-    },
-    "Rosaceae": {
-      "category": "Rose family (flowering/fruiting shrubs and trees)",
-      "npk": "Balanced feed, low nitrogen for fruiting types (e.g., 5-10-10)",
-      "fertilizer": "Granular balanced or fruit tree fertilizer",
-      "schedule": "Early spring; fruiting types again after fruit set",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Watch for fire blight in this family - avoid overfeeding nitrogen",
-        "Judge trees by annual shoot growth before feeding"
-      ]
-    },
-    "Fabaceae": {
-      "category": "Legume family",
-      "npk": "Low nitrogen (they fix their own), modest P-K",
-      "fertilizer": "Compost; skip nitrogen fertilizers",
-      "schedule": "At planting; little after",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Nitrogen-fixing roots mean most legumes feed themselves",
-        "Phosphorus helps nodulation and flowering"
-      ]
-    },
-    "Asteraceae": {
-      "category": "Daisy family (asters, zinnias, coneflowers...)",
-      "npk": "Light balanced feed (e.g., 5-5-5); most bloom better lean",
-      "fertilizer": "Compost at planting plus occasional liquid feed",
-      "schedule": "At planting and once mid-season",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Most daisies overfed = tall, floppy, flower-shy",
-        "Deadhead for more blooms instead of feeding more"
-      ]
-    },
-    "Cucurbitaceae": {
-      "category": "Squash/cucumber family",
-      "npk": "Balanced early, high potassium at fruiting",
-      "fertilizer": "Compost-rich soil plus vegetable feed",
-      "schedule": "At planting, at flowering, and monthly while fruiting",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Heavy feeders - plant into compost mounds",
-        "Steady water prevents bitter fruit"
-      ]
-    },
-    "Solanaceae": {
-      "category": "Nightshade family vegetable",
-      "npk": "Balanced early, low-N high-K at flowering (tomato food)",
-      "fertilizer": "Tomato/vegetable fertilizer with calcium",
-      "schedule": "At transplant, then every 2 weeks from first flowers",
-      "soil_ph": "6.0-6.8",
-      "tips": [
-        "Even watering prevents blossom end rot",
-        "Go easy on nitrogen once flowering starts"
-      ]
-    },
-    "Amaryllidaceae": {
-      "category": "Amaryllis/onion family bulb",
-      "npk": "Bulb food; low-N balanced (e.g., 5-10-10)",
-      "fertilizer": "Bulb fertilizer",
-      "schedule": "At planting and as foliage emerges",
-      "soil_ph": "6.0-7.0",
-      "tips": [
-        "Feed the foliage phase - that builds next year's bulb",
-        "Let leaves die back naturally"
-      ]
-    },
-    "Pinaceae": {
-      "category": "Pine/spruce/fir (conifer)",
-      "npk": "Rarely needed; acid evergreen feed if young or weak",
-      "fertilizer": "Acid-formula evergreen fertilizer or needle mulch",
-      "schedule": "Early spring, only if needed",
-      "soil_ph": "5.0-6.5",
-      "tips": [
-        "Established conifers rarely benefit from fertilizer",
-        "Browning is usually water, salt, or pests - not hunger"
-      ]
-    }
-  },
-  "default": {
-    "category": "General recommendation",
-    "npk": "Balanced fertilizer (e.g., 10-10-10) at half the label strength",
-    "fertilizer": "All-purpose balanced feed: granular slow-release outdoors, liquid for pots",
-    "schedule": "Spring and early summer for garden plants; monthly in the growing season (never winter) for houseplants",
-    "soil_ph": "6.0-7.0 suits most plants",
-    "tips": [
-      "When unsure, underfeed: almost every plant recovers from hunger faster than from fertilizer burn",
-      "Feed only during active growth, onto moist (not dry) soil",
-      "Yellow older leaves often mean nitrogen hunger; scorched leaf edges often mean overfeeding"
-    ]
+  "Solanum tuberosum": {
+   "category": "Potato",
+   "npk": "Higher phosphorus and potassium, moderate nitrogen (e.g., 5-10-10)",
+   "fertilizer": "Granular vegetable fertilizer worked into the soil at planting",
+   "schedule": "At planting, then side-dress when plants are 15-20 cm tall and again at flowering (tuber set)",
+   "soil_ph": "5.0-6.0 (slightly acidic reduces scab)",
+   "tips": [
+    "Avoid fresh manure and excess nitrogen - you get leaves instead of tubers",
+    "Potassium is key for tuber size and storage quality",
+    "Hill soil around stems as plants grow"
+   ],
+   "watering": "2-3 cm of water per week; most critical while tubers are forming",
+   "temperature": "Grows best at 15-21 °C; tuber formation stalls above 27 °C",
+   "humidity": "Keep soil evenly moist but never waterlogged; dry spells cause knobby tubers"
   }
+ },
+ "genus": {
+  "Solanum": {
+   "category": "Tomato / eggplant family vegetable",
+   "npk": "Start balanced, then low nitrogen and high phosphorus-potassium at flowering (e.g., 3-4-6 or tomato food)",
+   "fertilizer": "Tomato/vegetable fertilizer with calcium to prevent blossom end rot",
+   "schedule": "At transplant, then every 2 weeks once flowering starts",
+   "soil_ph": "6.2-6.8",
+   "tips": [
+    "Too much nitrogen = big leafy plants, few fruits",
+    "Keep watering even - calcium uptake depends on it",
+    "Magnesium (Epsom salt) helps if older leaves yellow between veins"
+   ],
+   "watering": "Deeply 2-3× a week at the base; never let it swing between bone-dry and soaked",
+   "temperature": "21-27 °C day, above 13 °C at night; fruit set fails over 32 °C",
+   "humidity": "Moderate (40-70%); keep leaves dry, steady soil moisture prevents blossom end rot"
+  },
+  "Capsicum": {
+   "category": "Pepper",
+   "npk": "Balanced early (5-5-5), then higher potassium at fruiting (3-5-7)",
+   "fertilizer": "Tomato/vegetable fertilizer works perfectly for peppers",
+   "schedule": "At transplant, then every 2-3 weeks during fruiting",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Peppers are lighter feeders than tomatoes - half strength is often enough",
+    "Excess nitrogen delays fruiting"
+   ],
+   "watering": "When the top 3 cm of soil dries — roughly every 2-3 days in summer",
+   "temperature": "21-29 °C day, 16-21 °C night; drops below 12 °C stop growth",
+   "humidity": "Moderate (50-70%); even moisture, slight drying before harvest concentrates heat"
+  },
+  "Cucumis": {
+   "category": "Cucumber / melon",
+   "npk": "Balanced at planting (5-5-5), higher potassium once vines run (e.g., 3-4-6)",
+   "fertilizer": "Compost-rich soil plus liquid vegetable feed",
+   "schedule": "At planting, when vines start to run, and when flowering begins",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Heavy feeders and heavy drinkers - never let them dry out",
+    "Side-dress with compost mid-season"
+   ],
+   "watering": "Heavy and frequent — 3-5 cm per week, daily in hot spells; always at the base",
+   "temperature": "24-29 °C; growth stops below 15 °C, frost kills instantly",
+   "humidity": "High soil moisture at all times; dry spells make cucumbers bitter"
+  },
+  "Cucurbita": {
+   "category": "Squash / pumpkin / zucchini",
+   "npk": "Balanced early, then high potassium for fruiting (e.g., 4-4-8)",
+   "fertilizer": "Compost or well-rotted manure at planting plus granular vegetable feed",
+   "schedule": "At planting, at first flowers, and monthly while fruiting",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Among the heaviest feeders in the garden - plant into a compost-enriched mound",
+    "Water at the base to avoid powdery mildew"
+   ],
+   "watering": "Deeply 1-2× a week (2-5 cm); morning watering at the base only",
+   "temperature": "21-29 °C; very frost-tender",
+   "humidity": "Moist soil, dry leaves — wet foliage invites powdery mildew"
+  },
+  "Lactuca": {
+   "category": "Lettuce (leafy green)",
+   "npk": "Nitrogen-forward for leafy growth (e.g., 10-5-5 or fish emulsion)",
+   "fertilizer": "Liquid fish emulsion or balanced soluble feed at half strength",
+   "schedule": "Light feed every 2 weeks; lettuce grows fast and shallow",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Fast nitrogen keeps leaves tender and sweet",
+    "Stop feeding a week before harvest"
+   ],
+   "watering": "Light and frequent — shallow roots want moisture every 1-2 days in warmth",
+   "temperature": "Crisp and sweet at 10-21 °C; bolts bitter above 24 °C",
+   "humidity": "Constantly moist (not soggy) soil; mulch keeps roots cool"
+  },
+  "Spinacia": {
+   "category": "Spinach (leafy green)",
+   "npk": "Nitrogen-rich (e.g., 10-5-5)",
+   "fertilizer": "Fish emulsion, blood meal, or balanced soluble feed",
+   "schedule": "At planting and again when plants have 4-6 true leaves",
+   "soil_ph": "6.5-7.5",
+   "tips": [
+    "Spinach bolts under stress - steady nitrogen and water keep it leafy",
+    "Likes more neutral soil than most vegetables"
+   ],
+   "watering": "Keep evenly moist; 2-3 cm per week, more in warm spells",
+   "temperature": "Thrives at 10-21 °C; heat above 24 °C triggers bolting",
+   "humidity": "Steady soil moisture; drought stress means instant bolting"
+  },
+  "Brassica": {
+   "category": "Cabbage / broccoli / kale family",
+   "npk": "Nitrogen-forward with steady everything (e.g., 8-4-4), plus boron and calcium",
+   "fertilizer": "Balanced granular at planting, nitrogen side-dress later",
+   "schedule": "At planting, then side-dress 3-4 weeks in; broccoli again when heads start forming",
+   "soil_ph": "6.5-7.0 (higher pH also suppresses clubroot)",
+   "tips": [
+    "Heavy feeders - poor soil gives small, bitter heads",
+    "Lime acidic soil before planting"
+   ],
+   "watering": "2-3 cm per week, consistent; heads crack if soaked after a dry spell",
+   "temperature": "Cool-season crop: 15-21 °C ideal; mature plants shrug off light frost",
+   "humidity": "Even soil moisture throughout; mulch heavily"
+  },
+  "Allium": {
+   "category": "Onion / garlic / leek",
+   "npk": "Nitrogen early for leaves (they become bulb layers), none after bulbing starts",
+   "fertilizer": "Blood meal or ammonium sulfate side-dress in spring",
+   "schedule": "Every 2-3 weeks until bulbs begin to swell, then stop completely",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Every leaf equals a ring on the bulb - push leafy growth early",
+    "Late nitrogen delays bulbing and hurts storage"
+   ],
+   "watering": "Weekly while leaves grow; STOP watering once bulbs mature and tops flop",
+   "temperature": "Leaves grow at 13-24 °C; bulbing is triggered by day length, not heat",
+   "humidity": "Moist spring, dry finish — wet soil at maturity rots stored bulbs"
+  },
+  "Daucus": {
+   "category": "Carrot (root vegetable)",
+   "npk": "Low nitrogen, higher phosphorus and potassium (e.g., 1-2-2)",
+   "fertilizer": "Compost worked deep; avoid fresh manure entirely",
+   "schedule": "Little needed if soil is decent; one light feed when tops are 10 cm",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Fresh manure and lumpy soil cause forked, hairy roots",
+    "Loose, deep, stone-free soil matters more than fertilizer"
+   ],
+   "watering": "Evenly moist while germinating; then 2-3 cm per week — splitting follows feast-or-famine watering",
+   "temperature": "Best flavor grown at 15-21 °C; sweetens after light fall frost",
+   "humidity": "Steady moderate moisture in deep, loose soil"
+  },
+  "Phaseolus": {
+   "category": "Bean (legume)",
+   "npk": "Low nitrogen - beans fix their own. Phosphorus and potassium only (e.g., 1-4-4)",
+   "fertilizer": "Compost at planting is usually all they need",
+   "schedule": "At planting; optionally once at flowering",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Added nitrogen makes beans lazy - all vine, few pods",
+    "Inoculant powder helps in soil that has never grown beans"
+   ],
+   "watering": "2-3 cm per week, most important during flowering and pod fill",
+   "temperature": "Sow in soil above 16 °C; grows best at 18-27 °C",
+   "humidity": "Moderate; don't work among wet plants — it spreads disease"
+  },
+  "Pisum": {
+   "category": "Pea (legume)",
+   "npk": "Low nitrogen, modest phosphorus-potassium (e.g., 1-4-4)",
+   "fertilizer": "Compost at planting; peas largely feed themselves",
+   "schedule": "At planting only, in most soils",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Like beans, peas fix nitrogen - skip the nitrogen fertilizer",
+    "Wood ash gives a gentle potassium boost"
+   ],
+   "watering": "Light until flowering, then steady — 2-3 cm per week during pod fill",
+   "temperature": "A cool-weather crop: 13-18 °C; quits producing above 27 °C",
+   "humidity": "Even moisture; mulch to keep spring roots cool"
+  },
+  "Zea": {
+   "category": "Corn / maize",
+   "npk": "Very nitrogen-hungry (e.g., 16-4-8 or regular nitrogen side-dressing)",
+   "fertilizer": "Balanced at planting, then nitrogen (blood meal, urea, fish emulsion) later",
+   "schedule": "At planting, when knee-high, and at tasseling",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Pale green leaves mean it wants nitrogen now",
+    "Plant in blocks, not rows, for pollination"
+   ],
+   "watering": "2-3 cm per week; critical at tasseling and ear fill — drought then costs kernels",
+   "temperature": "Germinates above 16 °C; grows fastest at 24-30 °C",
+   "humidity": "Deep soil moisture during silking; shallow daily sprinkles do little"
+  },
+  "Beta": {
+   "category": "Beet / chard",
+   "npk": "Balanced with decent potassium (e.g., 5-5-8), plus boron",
+   "fertilizer": "Compost plus balanced granular feed",
+   "schedule": "At planting and once mid-season",
+   "soil_ph": "6.2-7.0",
+   "tips": [
+    "Black dead spots inside beets usually mean boron deficiency",
+    "Excess nitrogen makes tops at the expense of roots"
+   ],
+   "watering": "2-3 cm per week, steady; woody roots follow drought stress",
+   "temperature": "15-21 °C ideal; tolerates light frost both ends of the season",
+   "humidity": "Consistent moisture for tender roots"
+  },
+  "Fragaria": {
+   "category": "Strawberry",
+   "npk": "Balanced (10-10-10) after harvest; light feeding in spring",
+   "fertilizer": "Berry food or balanced granular",
+   "schedule": "Light feed in early spring, main feed right after harvest (that's when next year's buds form)",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Heavy spring nitrogen gives soft, bland berries",
+    "Renovate and feed June-bearers immediately after picking"
+   ],
+   "watering": "2-3 cm per week; daily lightly during fruiting in heat (shallow roots)",
+   "temperature": "15-26 °C; flowers are frost-tender — cover on cold nights",
+   "humidity": "Moist soil, dry berries: straw mulch keeps fruit off wet ground"
+  },
+  "Rubus": {
+   "category": "Raspberry / blackberry",
+   "npk": "Balanced (10-10-10) in early spring",
+   "fertilizer": "Granular balanced feed plus compost mulch",
+   "schedule": "Early spring as growth starts; everbearers again in early summer",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Feed the rows, not the plants - roots spread widely",
+    "Mulch heavily; brambles love cool, rich root zones"
+   ],
+   "watering": "2-5 cm per week from bloom through harvest",
+   "temperature": "Canes hardy to -20 °C or lower; fruit best at 18-24 °C",
+   "humidity": "Cool, moist, mulched root zone; good airflow through the canes"
+  },
+  "Vaccinium": {
+   "category": "Blueberry (acid-loving)",
+   "npk": "Acid-formula fertilizer (e.g., azalea food, ammonium sulfate based)",
+   "fertilizer": "Holly-tone / azalea fertilizer; never use nitrate-based feeds",
+   "schedule": "Early spring and again 6 weeks later; nothing after July",
+   "soil_ph": "4.5-5.5 (critical - they fail in neutral soil)",
+   "tips": [
+    "Yellow leaves with green veins = soil not acidic enough, not lack of feed",
+    "Acidify with elemental sulfur months before planting",
+    "Mulch with pine needles or pine bark"
+   ],
+   "watering": "2-5 cm per week; shallow fine roots dry out fast — never let them",
+   "temperature": "Hardy; fruits best at 18-26 °C (check chill-hour needs for your variety)",
+   "humidity": "Constantly moist (not flooded) acidic soil; pine-needle mulch is ideal"
+  },
+  "Vitis": {
+   "category": "Grape",
+   "npk": "Low and lean - balanced feed only if growth is weak (e.g., light 10-10-10)",
+   "fertilizer": "Compost; grapes on fertile soil usually need nothing",
+   "schedule": "Once in early spring, only if shoots grew under 1 m last year",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Overfed vines make jungle canopy and poor fruit",
+    "Potassium deficiency shows as browning leaf edges mid-summer"
+   ],
+   "watering": "Deep and infrequent once established; ease off near harvest to concentrate sugars",
+   "temperature": "Growing season at 15-32 °C; dormant vines take hard frost",
+   "humidity": "Prefers dry air — humid canopies get fungal disease; prune for airflow"
+  },
+  "Citrus": {
+   "category": "Citrus (lemon, orange, lime)",
+   "npk": "Nitrogen-rich citrus formula with micronutrients (e.g., 6-3-3 plus iron, zinc, manganese)",
+   "fertilizer": "Dedicated citrus food - citrus are prone to micronutrient deficiencies",
+   "schedule": "Every 6 weeks spring through summer; monthly for potted trees; little in winter",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Yellow leaves with green veins = iron or manganese deficiency, common in pots",
+    "Potted citrus leach nutrients fast - feed little and often",
+    "Water deeply before feeding, never feed dry soil"
+   ],
+   "watering": "Deeply when the top 5 cm dries; potted trees roughly weekly, never standing in water",
+   "temperature": "13-30 °C; most types damaged below -2 °C — bring pots in before frost",
+   "humidity": "Moderate to high (50%+); indoor winter air is too dry — mist or use a pebble tray"
+  },
+  "Malus": {
+   "category": "Apple / crabapple",
+   "npk": "Balanced (10-10-10) only while young; mature trees often need just nitrogen, judged by growth",
+   "fertilizer": "Granular balanced feed spread to the drip line",
+   "schedule": "Early spring before bloom; skip feeding if shoots grew more than 30 cm last year",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Overfeeding causes watersprouts and fire-blight-prone soft growth",
+    "Never fertilize after July"
+   ],
+   "watering": "Young trees weekly and deeply; established trees only in drought",
+   "temperature": "Cold-hardy; needs winter chill (varies by variety) to fruit well",
+   "humidity": "Average; prune the crown open so leaves dry quickly"
+  },
+  "Prunus": {
+   "category": "Cherry / plum / peach / apricot",
+   "npk": "Low nitrogen balanced feed (e.g., 5-10-10); peaches slightly more nitrogen",
+   "fertilizer": "Granular fruit tree fertilizer at the drip line",
+   "schedule": "Once in early spring; young trees a second light feed in late May",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Judge by growth: 25-40 cm of new shoot per year is right for mature trees",
+    "Excess nitrogen worsens brown rot and canker"
+   ],
+   "watering": "Deeply every 1-2 weeks in dry weather, especially while fruit swells",
+   "temperature": "Hardy, but early blooms are frost-vulnerable; fruits at 18-27 °C",
+   "humidity": "Average; avoid wetting foliage — this family rots easily"
+  },
+  "Pyrus": {
+   "category": "Pear",
+   "npk": "Very low nitrogen (e.g., 5-10-10) - pears are fire blight magnets",
+   "fertilizer": "Light granular feed, or just compost mulch",
+   "schedule": "Once in early spring, and only if growth was weak",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Lush nitrogen-fed growth is exactly what fire blight attacks",
+    "When in doubt, don't feed a pear"
+   ],
+   "watering": "Deeply every 1-2 weeks in drought; established trees are tough",
+   "temperature": "Cold-hardy; needs some winter chill; fruit ripens best at 18-24 °C",
+   "humidity": "Average; open pruning for airflow"
+  },
+  "Persea": {
+   "category": "Avocado",
+   "npk": "Citrus/avocado formula with nitrogen and zinc (e.g., 6-3-3 + micros)",
+   "fertilizer": "Citrus & avocado food",
+   "schedule": "Every 6-8 weeks during the growing season; sparingly the first year",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Extremely sensitive to salt buildup - flush pots regularly",
+    "Needs perfect drainage; root rot kills more avocados than hunger"
+   ],
+   "watering": "Deeply, then let the top 5-10 cm dry — soggy roots are fatal to avocados",
+   "temperature": "18-29 °C; most varieties damaged below 0 °C",
+   "humidity": "Moderate to high; mulch thickly but keep it off the trunk"
+  },
+  "Musa": {
+   "category": "Banana",
+   "npk": "Very heavy potassium feeder (e.g., 3-1-6 or 9-3-27)",
+   "fertilizer": "High-potassium feed or dedicated banana/palm fertilizer",
+   "schedule": "Monthly while warm; bananas eat constantly in summer",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "One of the hungriest plants you can grow - compost generously",
+    "Potassium drives fruit size and cold resilience"
+   ],
+   "watering": "Constantly thirsty in warmth — every 1-2 days in summer; huge leaves transpire a lot",
+   "temperature": "Loves 24-32 °C; growth stops below 14 °C, foliage dies at frost",
+   "humidity": "High (60%+); indoor bananas appreciate misting and grouped plants"
+  },
+  "Olea": {
+   "category": "Olive",
+   "npk": "Modest nitrogen (e.g., light 10-5-5); olives tolerate lean soil",
+   "fertilizer": "Light granular feed or compost",
+   "schedule": "Early spring and early summer, lightly",
+   "soil_ph": "6.5-8.0 (tolerates alkaline)",
+   "tips": [
+    "Olives fruit better slightly stressed than pampered",
+    "Perfect drainage beats any fertilizer"
+   ],
+   "watering": "Drought-tough once established; deep soak monthly in dry summers, weekly for pots",
+   "temperature": "Mediterranean: hot dry summers, cool winters; damaged below about -10 °C",
+   "humidity": "Low to moderate; hates humid, waterlogged conditions"
+  },
+  "Ocimum": {
+   "category": "Basil (herb)",
+   "npk": "Light balanced feed (e.g., 5-5-5 at half strength)",
+   "fertilizer": "Diluted liquid feed or fish emulsion",
+   "schedule": "Every 3-4 weeks; potted basil every 2 weeks",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Overfed basil grows big but loses flavor - oils concentrate in leaner plants",
+    "Pinch flowers to keep leaves coming"
+   ],
+   "watering": "When the surface dries — every 2-3 days in summer, daily for small pots",
+   "temperature": "Warmth-lover: 18-30 °C; sulks below 10 °C, blackens at frost",
+   "humidity": "Evenly moist soil; morning watering at the base"
+  },
+  "Mentha": {
+   "category": "Mint (herb)",
+   "npk": "Barely any - light balanced feed if leaves pale",
+   "fertilizer": "Compost top-dress once a season",
+   "schedule": "Once in spring is plenty",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Mint thrives on neglect; feeding mostly makes it more invasive",
+    "Grow in a pot unless you want a mint lawn"
+   ],
+   "watering": "Keep moist — mint is the rare herb that likes wet feet a little",
+   "temperature": "Grows at 13-25 °C; dies back in frost, returns from roots",
+   "humidity": "Moist soil and partial shade keep it lush"
+  },
+  "Salvia": {
+   "category": "Sage / salvia (herb, Mediterranean)",
+   "npk": "Very light - a little compost in spring",
+   "fertilizer": "Compost only; skip commercial fertilizer in the ground",
+   "schedule": "Once in spring",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Mediterranean herbs get leggy and bland when overfed",
+    "Sharp drainage matters far more than nutrients"
+   ],
+   "watering": "Only when soil is dry 3-5 cm down; established plants handle drought",
+   "temperature": "18-29 °C; most garden sages are hardy to around -15 °C",
+   "humidity": "Low; dry air and sharp drainage, Mediterranean style"
+  },
+  "Rosmarinus": {
+   "category": "Rosemary (Mediterranean herb)",
+   "npk": "Minimal - light balanced feed for potted plants only",
+   "fertilizer": "Compost or quarter-strength liquid feed for pots",
+   "schedule": "Spring only; potted plants 2-3 times a season",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Rosemary evolved on rocky hillsides - lean and dry is happy",
+    "Overwatering kills it long before underfeeding does"
+   ],
+   "watering": "Sparingly — let pots dry well between waterings; overwatering is the #1 killer",
+   "temperature": "18-29 °C; many varieties damaged below -7 °C — pot and shelter in cold climates",
+   "humidity": "Low; loathes humid stagnant air and wet winter soil"
+  },
+  "Thymus": {
+   "category": "Thyme (Mediterranean herb)",
+   "npk": "Minimal; none in decent garden soil",
+   "fertilizer": "A dusting of compost in spring at most",
+   "schedule": "Spring only",
+   "soil_ph": "6.0-8.0",
+   "tips": [
+    "Rich soil makes thyme floppy and weak-flavored",
+    "Gritty, fast-draining soil is the real fertilizer"
+   ],
+   "watering": "Rarely — only prolonged drought bothers established thyme",
+   "temperature": "Hardy little shrub; thrives in 15-30 °C summers",
+   "humidity": "Low; gritty dry soil, full sun"
+  },
+  "Petroselinum": {
+   "category": "Parsley (herb)",
+   "npk": "Nitrogen-leaning light feed (e.g., fish emulsion)",
+   "fertilizer": "Fish emulsion or half-strength balanced liquid",
+   "schedule": "Every 3-4 weeks during harvest season",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Parsley is hungrier than most herbs - it's grown for lush leaves",
+    "Cut outer stems first to keep it producing"
+   ],
+   "watering": "Evenly moist — about 2-3 cm per week; wilts dramatically but recovers",
+   "temperature": "Best at 10-24 °C; handles light frost",
+   "humidity": "Steady moisture for tender leaves"
+  },
+  "Coriandrum": {
+   "category": "Cilantro / coriander (herb)",
+   "npk": "Light nitrogen feed",
+   "fertilizer": "Half-strength liquid feed",
+   "schedule": "Once or twice during its short life",
+   "soil_ph": "6.2-6.8",
+   "tips": [
+    "Heat, not hunger, makes cilantro bolt - succession sow instead of overfeeding",
+    "Keep soil evenly moist"
+   ],
+   "watering": "Keep evenly moist; dry + hot = instant bolting",
+   "temperature": "Cool-lover: 10-24 °C; bolts fast above 27 °C",
+   "humidity": "Moist soil, cool position; succession-sow rather than fight summer"
+  },
+  "Lavandula": {
+   "category": "Lavender (Mediterranean shrub)",
+   "npk": "Essentially none - lavender prefers poor soil",
+   "fertilizer": "None, or a little compost at planting. No mulch against the stem",
+   "schedule": "Not needed once established",
+   "soil_ph": "6.5-7.5 (likes some lime)",
+   "tips": [
+    "Fertilizer reduces fragrance and winter hardiness",
+    "Add lime to acidic soil; gravel mulch beats bark"
+   ],
+   "watering": "Very little once established; water young plants until rooted, then mostly leave alone",
+   "temperature": "15-30 °C summers; English lavender hardy to about -15 °C",
+   "humidity": "Low — humidity plus wet soil kills more lavender than cold ever does"
+  },
+  "Rosa": {
+   "category": "Rose",
+   "npk": "Balanced with extra phosphorus and potassium (e.g., 4-6-4 or dedicated rose food)",
+   "fertilizer": "Rose food or alfalfa meal plus compost; liquid feed between flushes of bloom",
+   "schedule": "First feed when leaves open in spring, then after each bloom flush; stop 6-8 weeks before first frost",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Repeat-blooming roses are heavy feeders",
+    "Banana peels and alfalfa are classic potassium boosters",
+    "Late-season feeding produces frost-tender growth"
+   ],
+   "watering": "Deeply 1-2× a week at the base (more in pots); shallow sprinkles grow shallow roots",
+   "temperature": "Blooms best at 15-26 °C; hardiness varies — mound mulch over grafts in cold winters",
+   "humidity": "Average; water in the morning and keep foliage dry to hold off black spot"
+  },
+  "Hydrangea": {
+   "category": "Hydrangea",
+   "npk": "Balanced slow-release (e.g., 10-10-10); for blue flowers use low-phosphorus acid feed",
+   "fertilizer": "Slow-release shrub food in spring",
+   "schedule": "Once in spring, optionally again in early summer; nothing after July",
+   "soil_ph": "5.2-5.5 for blue flowers, 6.0-6.5 for pink",
+   "tips": [
+    "Flower color follows pH: aluminum sulfate for blue, garden lime for pink (bigleaf types only)",
+    "High phosphorus blocks aluminum uptake and keeps flowers pink",
+    "Overfeeding gives leaves instead of blooms"
+   ],
+   "watering": "Thirsty — deeply 2-3× a week in heat; wilting by afternoon is its signature complaint",
+   "temperature": "Happiest at 15-25 °C with afternoon shade; buds of bigleaf types freeze below about -15 °C",
+   "humidity": "Moist, mulched, cool root zone; moderate to high air humidity"
+  },
+  "Rhododendron": {
+   "category": "Rhododendron / azalea (acid-loving)",
+   "npk": "Acid-formula feed (e.g., azalea/camellia food, 4-3-4 with sulfur)",
+   "fertilizer": "Holly-tone or similar acid fertilizer",
+   "schedule": "Right after flowering, lightly; nothing after mid-summer",
+   "soil_ph": "4.5-6.0",
+   "tips": [
+    "Shallow fine roots burn easily - always underfeed rather than overfeed",
+    "Yellowing between veins means pH is too high",
+    "Mulch with pine bark instead of feeding more"
+   ],
+   "watering": "Keep shallow roots evenly moist — weekly deep watering plus permanent mulch",
+   "temperature": "Cool-climate shrub: 13-24 °C; most are quite cold-hardy",
+   "humidity": "Moderate to high; hates hot dry wind"
+  },
+  "Camellia": {
+   "category": "Camellia (acid-loving)",
+   "npk": "Acid-formula feed (azalea/camellia food)",
+   "fertilizer": "Acid fertilizer plus pine bark mulch",
+   "schedule": "After bloom ends, then 6-8 weeks later; never while flowering",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Feeding during bud set can cause bud drop",
+    "Camellias are light feeders - half the label rate is safer"
+   ],
+   "watering": "Evenly moist, never soggy; extra care with water while buds are forming (summer-fall)",
+   "temperature": "Mild-climate: 7-21 °C preferred; flowers damaged below about -5 °C",
+   "humidity": "Moderate to high; sheltered from drying wind"
+  },
+  "Gardenia": {
+   "category": "Gardenia (acid-loving)",
+   "npk": "Acid formula with iron (e.g., 3-1-2 acid feed + chelated iron)",
+   "fertilizer": "Azalea food; chelated iron spray for yellowing leaves",
+   "schedule": "Every 4-6 weeks spring to late summer",
+   "soil_ph": "5.0-6.0",
+   "tips": [
+    "Gardenias are the drama queens of acid-lovers - yellow leaves usually mean iron lockout from high pH",
+    "Bud drop is from temperature and water swings, not hunger"
+   ],
+   "watering": "Evenly moist with room-temperature (ideally soft) water; never bone-dry",
+   "temperature": "Fussy: 18-24 °C day and crucially 15-18 °C nights to set buds",
+   "humidity": "High (50-60%+); dry indoor air = yellow leaves and dropped buds"
+  },
+  "Paeonia": {
+   "category": "Peony",
+   "npk": "Low nitrogen, good phosphorus-potassium (e.g., 5-10-10)",
+   "fertilizer": "Bulb food or low-N granular around (not on) the crown",
+   "schedule": "Early spring when shoots are 10 cm, and again after flowering",
+   "soil_ph": "6.5-7.0",
+   "tips": [
+    "Nitrogen-fed peonies flop and skip blooming",
+    "Planting depth (eyes 3-5 cm deep max) affects bloom more than any fertilizer"
+   ],
+   "watering": "Deeply every 10-14 days in dry weather; established peonies are drought-tolerant",
+   "temperature": "Needs cold winters (chilling) to bloom; grows at 15-26 °C",
+   "humidity": "Average; airflow around stems prevents botrytis"
+  },
+  "Dahlia": {
+   "category": "Dahlia",
+   "npk": "Low nitrogen, high potassium (e.g., 5-10-10 or tomato food)",
+   "fertilizer": "Tomato fertilizer is the classic dahlia feed",
+   "schedule": "Monthly from a month after planting until early autumn",
+   "soil_ph": "6.2-6.8",
+   "tips": [
+    "High nitrogen gives giant plants, weak stems, few flowers, and rot-prone tubers",
+    "Stop feeding in September to help tubers cure"
+   ],
+   "watering": "None until sprouts show, then deeply 2-3× a week in bloom",
+   "temperature": "Grows at 16-24 °C; tubers die in frozen ground — lift them in cold climates",
+   "humidity": "Moderate; morning watering, dry foliage"
+  },
+  "Tulipa": {
+   "category": "Tulip (bulb)",
+   "npk": "Bulb food / bone meal at planting; balanced feed as leaves emerge",
+   "fertilizer": "Bulb fertilizer worked into the planting hole",
+   "schedule": "At fall planting, then once when shoots emerge in spring",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Feed the leaves after bloom - that's next year's flower being built",
+    "Never cut leaves until they yellow naturally"
+   ],
+   "watering": "Water at planting and in dry springs; keep DRY in summer dormancy",
+   "temperature": "Needs 12-16 weeks below 10 °C in winter; blooms at 10-18 °C",
+   "humidity": "Well-drained always — wet summer soil rots bulbs"
+  },
+  "Narcissus": {
+   "category": "Daffodil (bulb)",
+   "npk": "Bulb food at planting, low-N feed (e.g., 5-10-12) as foliage emerges",
+   "fertilizer": "Bulb fertilizer",
+   "schedule": "At fall planting and at spring emergence; after-bloom feed helps naturalizing",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Let foliage die back naturally for 6 weeks after bloom",
+    "High nitrogen encourages bulb rot"
+   ],
+   "watering": "Moist fall through spring; dry rest in summer",
+   "temperature": "Cold-hardy; needs winter chill; blooms at 10-18 °C",
+   "humidity": "Average spring moisture, dry summers"
+  },
+  "Lilium": {
+   "category": "Lily (true lily bulb)",
+   "npk": "Balanced to low-N (e.g., 5-10-10)",
+   "fertilizer": "Bulb or tomato fertilizer",
+   "schedule": "When shoots emerge and again at flowering",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Lilies like their heads in sun and feet in cool, mulched soil",
+    "Leave stems standing after bloom to feed the bulb"
+   ],
+   "watering": "2-3 cm per week while growing; bulbs never want to sit in water",
+   "temperature": "Blooms at 18-24 °C; likes cool mulched roots and sunny tops",
+   "humidity": "Moderate; sharp drainage is non-negotiable"
+  },
+  "Chrysanthemum": {
+   "category": "Chrysanthemum",
+   "npk": "Balanced feed (e.g., 5-5-5) until buds show color, then stop",
+   "fertilizer": "Liquid balanced feed",
+   "schedule": "Monthly from spring until buds color up",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Pinch tips until early July for bushy plants",
+    "Feeding while blooming shortens flower life"
+   ],
+   "watering": "Evenly moist — shallow roots wilt fast in pots; daily checks in fall heat",
+   "temperature": "15-24 °C; blooming is triggered by long nights, not temperature",
+   "humidity": "Moderate; water the soil, not the dense flower canopy"
+  },
+  "Petunia": {
+   "category": "Petunia (flowering annual)",
+   "npk": "Steady balanced feed with iron (e.g., 20-10-20); they are famously hungry",
+   "fertilizer": "Water-soluble feed; slow-release pellets in baskets as a base",
+   "schedule": "Every 1-2 weeks in beds, weekly in baskets and pots",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Yellowing new growth means iron deficiency - common in petunias",
+    "Hanging baskets wash nutrients out with every watering, so feed often"
+   ],
+   "watering": "Beds: weekly deep. Baskets: daily in summer, twice on scorchers",
+   "temperature": "16-27 °C; light frost ends the show",
+   "humidity": "Moderate; baskets dry brutally fast in wind"
+  },
+  "Pelargonium": {
+   "category": "Geranium (bedding)",
+   "npk": "Balanced feed (e.g., 10-10-10 or 20-20-20 diluted)",
+   "fertilizer": "Water-soluble balanced feed",
+   "schedule": "Every 2-3 weeks during bloom season",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Overfed geraniums make leaves, not flowers",
+    "Deadhead religiously for continuous bloom"
+   ],
+   "watering": "Let the top few cm dry between waterings — slightly dry beats soggy",
+   "temperature": "16-27 °C day; bring indoors before frost (they overwinter easily)",
+   "humidity": "Low to moderate; tolerates dry air well"
+  },
+  "Tagetes": {
+   "category": "Marigold (annual)",
+   "npk": "Light balanced feed; marigolds prefer lean soil",
+   "fertilizer": "Compost at planting is usually enough",
+   "schedule": "One light feed a month after planting, if at all",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Rich soil gives lush foliage and few flowers",
+    "They genuinely do better slightly starved"
+   ],
+   "watering": "Weekly deep watering; established marigolds handle dry spells",
+   "temperature": "18-30 °C; frost-tender but otherwise unbothered by heat",
+   "humidity": "Low to moderate; overhead water spoils the blooms"
+  },
+  "Helianthus": {
+   "category": "Sunflower",
+   "npk": "Balanced at planting, nitrogen while growing, potassium at bud stage",
+   "fertilizer": "Compost-rich soil plus a granular balanced feed",
+   "schedule": "At planting and once when half grown",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Giant varieties are heavy feeders and drinkers",
+    "Too much nitrogen late = weak stems that snap"
+   ],
+   "watering": "Deeply weekly — taproots reach far, but giants drink heavily near bloom",
+   "temperature": "21-29 °C; seedlings take light frost, mature plants shrug off heat",
+   "humidity": "Moderate soil moisture; staking + wet soil + wind = toppled giants"
+  },
+  "Viola": {
+   "category": "Pansy / viola",
+   "npk": "Balanced liquid feed (e.g., 15-15-15 diluted)",
+   "fertilizer": "Water-soluble feed",
+   "schedule": "Every 2-3 weeks while blooming; monthly in cool weather",
+   "soil_ph": "5.5-6.2",
+   "tips": [
+    "Pansies feed and bloom even in cool seasons - don't stop in fall",
+    "Deadhead to keep flowers coming"
+   ],
+   "watering": "Evenly moist; morning watering every 2-3 days in mild weather",
+   "temperature": "Cool-lovers: 7-18 °C; flower through frosts, melt in summer heat",
+   "humidity": "Moist cool soil; mulch in warm spells"
+  },
+  "Impatiens": {
+   "category": "Impatiens (shade annual)",
+   "npk": "Light balanced feed (e.g., 10-10-10 at half strength)",
+   "fertilizer": "Diluted water-soluble feed",
+   "schedule": "Every 2 weeks in pots, monthly in beds",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Overfeeding gives tall leafy plants with sparse flowers",
+    "Consistent moisture matters more than food"
+   ],
+   "watering": "Frequently — wilts theatrically when thirsty; daily in warm shade pots",
+   "temperature": "18-24 °C; among the first killed by frost",
+   "humidity": "Moderate to high; consistently moist soil"
+  },
+  "Fuchsia": {
+   "category": "Fuchsia",
+   "npk": "Steady dilute balanced feed (e.g., quarter-strength every watering)",
+   "fertilizer": "Water-soluble balanced or slightly high-K feed",
+   "schedule": "Weakly, weekly - the classic fuchsia rule",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Constant light feeding beats occasional heavy doses",
+    "Stop feeding hard in autumn to let plants rest"
+   ],
+   "watering": "Keep baskets evenly moist — daily in summer; never bone-dry",
+   "temperature": "Cool performer: 13-24 °C; drops buds in heat above 27 °C",
+   "humidity": "High; loves cool, humid, bright shade"
+  },
+  "Begonia": {
+   "category": "Begonia",
+   "npk": "Dilute balanced feed (e.g., 10-10-10 at quarter strength)",
+   "fertilizer": "Water-soluble feed, well diluted",
+   "schedule": "Every 2 weeks in active growth",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Begonia roots burn easily - always dilute more than the label says",
+    "Tuberous types: stop feeding in late summer"
+   ],
+   "watering": "When the surface dries; water at the base — fleshy stems rot when splashed",
+   "temperature": "18-24 °C; tuberous types need lifting before frost",
+   "humidity": "Moderate to high air humidity, but soil on the drier side of moist"
+  },
+  "Hibiscus": {
+   "category": "Hibiscus",
+   "npk": "High potassium, moderate nitrogen, LOW phosphorus (e.g., 12-4-18 or 10-4-12)",
+   "fertilizer": "Hibiscus food or high-K feed; avoid bloom boosters",
+   "schedule": "Every 2 weeks in summer, monthly in spring/fall, none in winter",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Hibiscus is unusual: phosphorus actually builds up and poisons it over time",
+    "Skip the 'super bloom' high-P fertilizers entirely"
+   ],
+   "watering": "Daily in hot weather for pots — huge drinker in bloom; less in winter",
+   "temperature": "Tropical types: 16-32 °C, indoors below 10 °C; hardy types take -20 °C",
+   "humidity": "Moderate to high; dry air plus dry soil = bud drop"
+  },
+  "Bougainvillea": {
+   "category": "Bougainvillea",
+   "npk": "Balanced with micronutrients (e.g., 6-8-10 + iron); lean feeding promotes bloom",
+   "fertilizer": "Bougainvillea or hibiscus food",
+   "schedule": "Monthly in growing season, lightly",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Blooms best slightly stressed - a little hunger and drought triggers color",
+    "Overwatering plus overfeeding = all green, no bracts"
+   ],
+   "watering": "Deeply, then let it dry properly — mild drought triggers the color show",
+   "temperature": "Loves 18-35 °C; leaves drop below 5 °C, frost kills",
+   "humidity": "Low to moderate; blooms best treated a little mean"
+  },
+  "Jasminum": {
+   "category": "Jasmine",
+   "npk": "Balanced feed with a potassium lean (e.g., 7-9-5)",
+   "fertilizer": "Balanced liquid feed",
+   "schedule": "Every 2-4 weeks during the growing season",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Potassium supports flowering and fragrance",
+    "Root-bound potted jasmine blooms better - don't over-pot"
+   ],
+   "watering": "Evenly moist in growth and bloom; slightly drier in winter rest",
+   "temperature": "16-27 °C; many need cool (10-13 °C) autumn nights to set buds",
+   "humidity": "Moderate to high; mist indoor plants in winter"
+  },
+  "Clematis": {
+   "category": "Clematis",
+   "npk": "Low nitrogen bloom feed (e.g., 5-10-10 or rose/tomato food)",
+   "fertilizer": "Rose or tomato fertilizer",
+   "schedule": "Spring when buds swell, then monthly; pause while actually flowering",
+   "soil_ph": "6.5-7.0",
+   "tips": [
+    "The old rule holds: head in the sun, feet in the shade - mulch the roots",
+    "Feeding during bloom can shorten the display"
+   ],
+   "watering": "Deeply weekly — 'head in the sun, feet in the shade' includes moist, mulched roots",
+   "temperature": "Hardy; grows best at 15-25 °C with cool roots",
+   "humidity": "Moderate; mulch or underplant to shade the root zone"
+  },
+  "Hosta": {
+   "category": "Hosta (shade perennial)",
+   "npk": "Balanced slow-release (e.g., 10-10-10) in spring",
+   "fertilizer": "Slow-release granular plus compost",
+   "schedule": "Once in spring as leaves unfurl; optional light feed in early summer; none after July",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Hostas are mostly fed by rich, moist soil - compost beats fertilizer",
+    "Late feeding delays dormancy and invites frost damage"
+   ],
+   "watering": "2-3 cm per week; big-leaved varieties in dry shade need more than you think",
+   "temperature": "Cool shade plant: 10-24 °C; fully hardy, needs winter cold to rest",
+   "humidity": "Moist rich soil; crispy edges mean thirst or too much sun"
+  },
+  "Syringa": {
+   "category": "Lilac",
+   "npk": "Minimal - a little balanced feed only in poor soil; likes lime",
+   "fertilizer": "Compost; a handful of garden lime in acidic soil",
+   "schedule": "Early spring at most",
+   "soil_ph": "6.5-7.5",
+   "tips": [
+    "Fertilized lilacs often refuse to bloom - lean soil and full sun work better",
+    "Prune right after flowering, not later"
+   ],
+   "watering": "Only in real drought once established; new shrubs weekly for a season",
+   "temperature": "Cold-climate shrub — needs freezing winters to bloom well",
+   "humidity": "Average; airflow fends off powdery mildew"
+  },
+  "Magnolia": {
+   "category": "Magnolia",
+   "npk": "Slow-release balanced tree food (e.g., 10-10-10), lightly",
+   "fertilizer": "Slow-release granular under the canopy",
+   "schedule": "Early spring for young trees; established trees rarely need feeding",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Shallow fleshy roots - never dig fertilizer in, just surface-spread and water",
+    "Mulch wide, not deep"
+   ],
+   "watering": "Young trees deeply weekly for 2 seasons; mature trees only in drought",
+   "temperature": "Varies by species; early bloomers lose flowers to late frost — site carefully",
+   "humidity": "Moist, mulched root zone; shallow roots resent disturbance"
+  },
+  "Acer": {
+   "category": "Maple (incl. Japanese maple)",
+   "npk": "Low and slow - light slow-release in spring if growth is weak (e.g., half-rate 10-10-10)",
+   "fertilizer": "Compost mulch is usually all a maple wants",
+   "schedule": "Early spring only, and only young or weak trees",
+   "soil_ph": "5.5-6.5 (Japanese maples prefer slightly acidic)",
+   "tips": [
+    "Japanese maples hate heavy feeding - it causes coarse growth and leaf scorch",
+    "Never fertilize a newly planted maple its first year"
+   ],
+   "watering": "Japanese maples: evenly moist, never waterlogged; big maples: only young trees need help",
+   "temperature": "Hardy; Japanese maple leaves scorch above 32 °C in sun and wind",
+   "humidity": "Moderate; sheltered from hot dry wind to keep leaf tips green"
+  },
+  "Buxus": {
+   "category": "Boxwood",
+   "npk": "Nitrogen-leaning balanced feed (e.g., 10-6-4)",
+   "fertilizer": "Granular shrub feed at the drip line",
+   "schedule": "Early spring; a second light feed in fall is okay in mild climates",
+   "soil_ph": "6.5-7.2",
+   "tips": [
+    "Bronze winter foliage often signals nitrogen hunger",
+    "Shallow roots: surface feed, never dig it in"
+   ],
+   "watering": "Deeply every 1-2 weeks in dry spells; shallow roots under mulch",
+   "temperature": "Hardy; winter sun + frozen ground causes bronzing",
+   "humidity": "Average; good drainage always"
+  },
+  "Ficus": {
+   "category": "Ficus (rubber plant, fiddle-leaf fig, weeping fig)",
+   "npk": "Nitrogen-leaning foliage feed (e.g., 3-1-2 ratio houseplant food)",
+   "fertilizer": "Liquid houseplant fertilizer at half strength",
+   "schedule": "Monthly spring through early fall; nothing in winter",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Fiddle-leaf figs prefer consistency - same spot, same schedule",
+    "Flush the pot with plain water every few months to clear salt buildup"
+   ],
+   "watering": "When the top 3-5 cm dries — typically weekly indoors; less in winter",
+   "temperature": "16-27 °C; hates cold drafts and sudden moves (cue leaf drop)",
+   "humidity": "Moderate (40-60%); wipe dusty leaves so they can breathe"
+  },
+  "Monstera": {
+   "category": "Monstera (houseplant)",
+   "npk": "Balanced to nitrogen-leaning (e.g., 3-1-2 or 20-20-20 diluted)",
+   "fertilizer": "Liquid houseplant feed at half strength",
+   "schedule": "Monthly during spring/summer growth; every 2 months or none in winter",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Big fenestrated leaves come from light and age more than fertilizer",
+    "Pale new leaves = feed; brown crispy edges = probably overfed or dry air"
+   ],
+   "watering": "When the top 5 cm dries — roughly every 1-2 weeks; less in winter",
+   "temperature": "18-29 °C; growth stalls below 15 °C",
+   "humidity": "Happiest at 60%+, tolerates 40%; loves a moss pole and an occasional shower"
+  },
+  "Epipremnum": {
+   "category": "Pothos (houseplant)",
+   "npk": "Any balanced houseplant feed, diluted (e.g., 10-10-10 at half strength)",
+   "fertilizer": "Liquid houseplant fertilizer",
+   "schedule": "Monthly in growing season; pothos tolerates neglect",
+   "soil_ph": "6.1-6.8",
+   "tips": [
+    "One of the hardest plants to underfeed - when in doubt, skip it",
+    "Feed only when actively putting out new leaves"
+   ],
+   "watering": "Let the top half of the pot dry; droopy leaves tell you it's time",
+   "temperature": "18-29 °C; tolerates anything livable indoors",
+   "humidity": "Unfussy — average room humidity is fine"
+  },
+  "Philodendron": {
+   "category": "Philodendron (houseplant)",
+   "npk": "Nitrogen-leaning foliage feed (e.g., 3-1-2 ratio)",
+   "fertilizer": "Liquid houseplant feed at half strength",
+   "schedule": "Monthly spring-summer, every 6-8 weeks in winter if growing",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Small new leaves on a mature plant usually mean it's hungry",
+    "Salt-sensitive - flush the pot occasionally"
+   ],
+   "watering": "When the top 3-5 cm dries; yellow leaves usually mean too much water",
+   "temperature": "18-28 °C; keep above 13 °C",
+   "humidity": "40-60%; higher humidity = bigger leaves"
+  },
+  "Dracaena": {
+   "category": "Dracaena / snake plant group",
+   "npk": "Light balanced feed (e.g., 10-10-10 at quarter strength)",
+   "fertilizer": "Diluted liquid houseplant feed",
+   "schedule": "Every 1-2 months in growing season only",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Very fluoride-sensitive: brown leaf tips often come from tap water and perlite, not hunger",
+    "Overfeeding shows as burnt tips and pale streaks"
+   ],
+   "watering": "Every 10-14 days — let the top half dry; use filtered/rain water if tips brown",
+   "temperature": "18-27 °C; keep above 12 °C",
+   "humidity": "Average room humidity is fine; brown tips are usually water quality, not dryness"
+  },
+  "Sansevieria": {
+   "category": "Snake plant",
+   "npk": "Minimal - cactus feed at half strength (e.g., 2-7-7 diluted)",
+   "fertilizer": "Cactus/succulent fertilizer",
+   "schedule": "2-3 times a year during warm months is plenty",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Snake plants store everything - feeding more does nothing but risk root burn",
+    "Never feed in winter or right after repotting"
+   ],
+   "watering": "Every 2-6 weeks — only when soil is fully dry; monthly or less in winter",
+   "temperature": "18-29 °C; survives anything above 10 °C",
+   "humidity": "Low; thrives in dry air where other plants sulk"
+  },
+  "Chlorophytum": {
+   "category": "Spider plant",
+   "npk": "Dilute balanced feed (e.g., 10-10-10 at quarter to half strength)",
+   "fertilizer": "Liquid houseplant feed",
+   "schedule": "Monthly in spring/summer",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Brown tips are usually fluoride/salts - use rainwater or distilled, and go easy on feed",
+    "Overfed spider plants stop making babies"
+   ],
+   "watering": "Weekly-ish, letting the top few cm dry; fleshy roots store a reserve",
+   "temperature": "13-27 °C; very forgiving",
+   "humidity": "Average; browning tips point at tap-water fluoride before dryness"
+  },
+  "Spathiphyllum": {
+   "category": "Peace lily",
+   "npk": "Dilute balanced feed (e.g., 20-20-20 at quarter strength)",
+   "fertilizer": "Liquid houseplant feed, well diluted",
+   "schedule": "Every 6 weeks spring through summer",
+   "soil_ph": "5.8-6.5",
+   "tips": [
+    "Green flowers mean too much fertilizer",
+    "Brown tips mean salts or chlorinated water - flush the pot"
+   ],
+   "watering": "When it droops slightly or the top 3 cm dries — about weekly; perks up within hours",
+   "temperature": "18-27 °C; below 12 °C causes damage",
+   "humidity": "Moderate to high; brown tips in dry rooms"
+  },
+  "Zamioculcas": {
+   "category": "ZZ plant",
+   "npk": "Minimal - balanced feed at quarter strength",
+   "fertilizer": "Diluted liquid houseplant feed",
+   "schedule": "2-3 times a year, growing season only",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "ZZ plants run on stored energy in their rhizomes - they barely need you",
+    "Overfeeding and overwatering are the only real ways to kill one"
+   ],
+   "watering": "Every 2-4 weeks, fully dry between; when in doubt, wait a week",
+   "temperature": "18-27 °C; fine above 10 °C",
+   "humidity": "Low; dry air is no problem at all"
+  },
+  "Goeppertia": {
+   "category": "Calathea / prayer plant group",
+   "npk": "Very dilute nitrogen-leaning feed (quarter strength)",
+   "fertilizer": "Gentle liquid feed; they are salt-sensitive divas",
+   "schedule": "Monthly in growing season at quarter strength",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Calatheas burn from fertilizer salts easily - less is more",
+    "Crispy edges are almost always water quality or humidity, not hunger"
+   ],
+   "watering": "Keep lightly moist (never soggy) with rain/distilled water; small sips often",
+   "temperature": "18-27 °C; cold drafts curl leaves instantly",
+   "humidity": "High (60%+) — the non-negotiable part of owning a calathea"
+  },
+  "Calathea": {
+   "category": "Calathea / prayer plant group",
+   "npk": "Very dilute nitrogen-leaning feed (quarter strength)",
+   "fertilizer": "Gentle liquid feed; they are salt-sensitive divas",
+   "schedule": "Monthly in growing season at quarter strength",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Calatheas burn from fertilizer salts easily - less is more",
+    "Crispy edges are almost always water quality or humidity, not hunger"
+   ],
+   "watering": "Keep lightly moist (never soggy) with rain/distilled water; small sips often",
+   "temperature": "18-27 °C; cold drafts curl leaves instantly",
+   "humidity": "High (60%+) — the non-negotiable part of owning a calathea"
+  },
+  "Hedera": {
+   "category": "Ivy",
+   "npk": "Balanced foliage feed (e.g., 10-10-10 diluted)",
+   "fertilizer": "Liquid houseplant feed indoors; nothing needed outdoors",
+   "schedule": "Monthly indoors in growing season; outdoor ivy needs none",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Don't feed ivy in hot midsummer or cold winter - it pauses growth then",
+    "Outdoor ivy fed regularly becomes even more invasive"
+   ],
+   "watering": "When the top 3 cm dries; ivy prefers slightly dry to slightly wet",
+   "temperature": "10-21 °C — cooler than most houseplants like it; hardy outdoors",
+   "humidity": "Moderate; hot dry rooms invite spider mites"
+  },
+  "Hoya": {
+   "category": "Hoya (wax plant)",
+   "npk": "Light balanced feed, switch to higher phosphorus when budding (e.g., 5-10-5)",
+   "fertilizer": "Dilute liquid feed or orchid food",
+   "schedule": "Monthly in growth; stop in winter",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Never remove the old flower spurs - they rebloom from the same spot",
+    "Slightly root-bound hoyas flower best"
+   ],
+   "watering": "Let it dry well between waterings — semi-succulent leaves hold reserves",
+   "temperature": "16-29 °C; keep above 10 °C",
+   "humidity": "Moderate (40-60%); higher while setting buds"
+  },
+  "Peperomia": {
+   "category": "Peperomia",
+   "npk": "Dilute balanced feed (quarter strength)",
+   "fertilizer": "Liquid houseplant feed, well diluted",
+   "schedule": "Monthly at most in growing season",
+   "soil_ph": "6.0-6.6",
+   "tips": [
+    "Tiny root systems - they feed lightly by design",
+    "Overwatering is the killer; feeding is almost optional"
+   ],
+   "watering": "When the top half dries — about every 10 days; overwatering is the main killer",
+   "temperature": "18-27 °C; above 13 °C always",
+   "humidity": "Average rooms suit them; thick leaves buffer dry spells"
+  },
+  "Saintpaulia": {
+   "category": "African violet",
+   "npk": "Dedicated violet food (e.g., 14-12-14) or balanced feed at quarter strength",
+   "fertilizer": "African violet fertilizer, every watering at low dose",
+   "schedule": "Quarter strength with each watering, or monthly at half strength",
+   "soil_ph": "5.8-6.2",
+   "tips": [
+    "Water from below to keep leaves dry",
+    "No blooms usually means not enough light, not too little food"
+   ],
+   "watering": "From below when the surface dries; room-temperature water, never on the leaves",
+   "temperature": "Steady 18-24 °C; cold windowsills spot the leaves",
+   "humidity": "Moderate to high (50%+); pebble tray, not misting"
+  },
+  "Phalaenopsis": {
+   "category": "Moth orchid",
+   "npk": "Orchid food, 'weakly weekly' (e.g., 20-20-20 at quarter strength)",
+   "fertilizer": "Dedicated orchid fertilizer",
+   "schedule": "Quarter strength weekly, plain water every 4th watering to flush",
+   "soil_ph": "5.5-6.5 (in bark medium)",
+   "tips": [
+    "Flush with plain water monthly - orchid roots burn from salt easily",
+    "Feed less (or not at all) while in full bloom",
+    "Never use regular potting soil for orchids"
+   ],
+   "watering": "Weekly-ish: when roots turn silvery, soak and drain fully; never leave water in the crown",
+   "temperature": "18-29 °C day; a few weeks of 16-18 °C nights triggers a new flower spike",
+   "humidity": "50-70%; bathroom and kitchen windows are orchid real estate"
+  },
+  "Aloe": {
+   "category": "Aloe (succulent)",
+   "npk": "Low and rare - cactus feed (e.g., 2-7-7) at half strength",
+   "fertilizer": "Cactus/succulent fertilizer",
+   "schedule": "2-3 times during spring and summer, none otherwise",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Overfed aloe grows soft, floppy, and prone to rot",
+    "Gritty soil and sun matter infinitely more than fertilizer"
+   ],
+   "watering": "Deeply, then fully dry — every 2-3 weeks in summer, monthly or less in winter",
+   "temperature": "13-27 °C; damaged below 4 °C",
+   "humidity": "Low; dry air and gritty soil"
+  },
+  "Haworthia": {
+   "category": "Haworthia (small succulent)",
+   "npk": "Almost none - cactus feed at quarter strength",
+   "fertilizer": "Cactus/succulent fertilizer",
+   "schedule": "Once or twice a year in spring/summer",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Slow growers that barely eat - when in doubt, don't feed",
+    "Etiolation (stretching) means it wants light, not food"
+   ],
+   "watering": "Every 2-3 weeks in growth, scarcely in winter; shriveling leaves = finally time",
+   "temperature": "15-26 °C; protect below 5 °C",
+   "humidity": "Low; tolerates rooms too dim and dry for most succulents"
+  },
+  "Echeveria": {
+   "category": "Echeveria (rosette succulent)",
+   "npk": "Low nitrogen cactus feed (e.g., 2-7-7) at half strength",
+   "fertilizer": "Cactus/succulent fertilizer",
+   "schedule": "2-3 times in spring/summer",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Overfeeding ruins the compact rosette shape",
+    "Tight form and good color come from bright light and lean soil"
+   ],
+   "watering": "Soak and dry — every 10-14 days in summer, monthly in winter; never water the rosette",
+   "temperature": "18-27 °C; protect below 5 °C",
+   "humidity": "Low; humid stagnant air rots the rosette"
+  },
+  "Crassula": {
+   "category": "Jade plant and relatives",
+   "npk": "Low - cactus feed at half strength",
+   "fertilizer": "Cactus/succulent fertilizer",
+   "schedule": "Every 2 months in spring/summer only",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Jades live decades on almost nothing - lean feeding keeps them sturdy",
+    "Feed only established, actively growing plants"
+   ],
+   "watering": "When leaves lose their gloss or soil is long dry — every 2-3 weeks, less in winter",
+   "temperature": "18-24 °C; tolerates down to about 7 °C",
+   "humidity": "Low; classic dry-windowsill plant"
+  },
+  "Kalanchoe": {
+   "category": "Kalanchoe",
+   "npk": "Balanced feed while growing; higher potassium to encourage rebloom",
+   "fertilizer": "Diluted balanced or flowering houseplant feed",
+   "schedule": "Monthly in spring/summer; stop during the short-day rest that triggers blooming",
+   "soil_ph": "6.0-6.5",
+   "tips": [
+    "Rebloom needs 6 weeks of long nights, not more fertilizer",
+    "Succulent rules apply: well-drained soil, modest feeding"
+   ],
+   "watering": "Every 1-2 weeks, drying out between; less during the dark winter rest",
+   "temperature": "16-24 °C; protect below 7 °C",
+   "humidity": "Low to moderate"
+  },
+  "Sedum": {
+   "category": "Sedum / stonecrop",
+   "npk": "None to minimal - these thrive in poor soil",
+   "fertilizer": "A thin layer of compost at most",
+   "schedule": "Not needed; maybe once in spring for container plants",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Fertilized sedums grow tall, floppy, and split open",
+    "Lean, gritty, sunny = perfect"
+   ],
+   "watering": "Almost never once established outdoors; pots monthly in summer",
+   "temperature": "Hardy to deep cold; bakes happily above 30 °C",
+   "humidity": "Low; wet winter soil is the only real enemy"
+  },
+  "Agave": {
+   "category": "Agave",
+   "npk": "None in the ground; rare dilute cactus feed in pots",
+   "fertilizer": "Cactus fertilizer for potted plants only",
+   "schedule": "1-2 times a year for pots; never for in-ground plants",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Feeding an agave can push it to flower - and agaves die after flowering",
+    "Seriously: don't fertilize agaves you want to keep"
+   ],
+   "watering": "Monthly deep soak in summer for pots; in-ground plants live on rainfall",
+   "temperature": "Loves heat; hardiness varies wildly by species (-20 °C to frost-tender)",
+   "humidity": "Low; desert conditions"
+  },
+  "Nephrolepis": {
+   "category": "Boston fern",
+   "npk": "Dilute balanced feed (e.g., 20-10-20 at quarter strength)",
+   "fertilizer": "Liquid houseplant feed, well diluted",
+   "schedule": "Monthly spring through early fall",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Ferns have delicate roots - always err on the weak side",
+    "Pale, slow fronds in summer = time for a light feed"
+   ],
+   "watering": "Keep evenly moist always — a dry Boston fern sheds leaflets like confetti",
+   "temperature": "16-24 °C; below 10 °C damages fronds",
+   "humidity": "High (60%+); the classic humid-porch and bathroom fern"
+  },
+  "Pinus": {
+   "category": "Pine",
+   "npk": "Rarely needed; acid evergreen feed (e.g., 4-3-4 with sulfur) if weak",
+   "fertilizer": "Holly-tone type acid fertilizer, or just pine needle mulch",
+   "schedule": "Early spring, only for young or clearly struggling trees",
+   "soil_ph": "5.0-6.5",
+   "tips": [
+    "Established pines in the landscape almost never need fertilizer",
+    "Let fallen needles stay - they are the tree feeding itself"
+   ],
+   "watering": "Only young trees: deeply every 1-2 weeks their first two summers",
+   "temperature": "Hardy across a huge range; established pines ignore weather",
+   "humidity": "Low to average; needs free-draining soil"
+  },
+  "Juniperus": {
+   "category": "Juniper",
+   "npk": "Light evergreen feed (e.g., 16-4-8 slow release) if color is poor",
+   "fertilizer": "Slow-release evergreen fertilizer",
+   "schedule": "Early spring at most; established plants usually need none",
+   "soil_ph": "5.5-7.0",
+   "tips": [
+    "Junipers tolerate poor soil by design",
+    "Yellowing is more often spider mites or wet feet than hunger"
+   ],
+   "watering": "Established junipers rarely need any; new plants deeply weekly for a season",
+   "temperature": "Extremely hardy, heat-tolerant too",
+   "humidity": "Low; humid shade is the one thing junipers hate"
+  },
+  "Thuja": {
+   "category": "Arborvitae / cedar hedge",
+   "npk": "Nitrogen-leaning evergreen feed (e.g., 18-6-12 slow release)",
+   "fertilizer": "Slow-release evergreen/hedge fertilizer",
+   "schedule": "Early spring; a hedge being pushed for growth can get a second feed in late spring",
+   "soil_ph": "6.0-7.5",
+   "tips": [
+    "Feed hedges you're still growing; mature screens need little",
+    "Water deeply after feeding - thujas are shallow-rooted"
+   ],
+   "watering": "Weekly deep soak for hedges in dry spells — shallow roots brown quickly in drought",
+   "temperature": "Cold-hardy; browning in winter wind is common and usually recovers",
+   "humidity": "Moderate; mulch the shallow root zone"
+  }
+ },
+ "family": {
+  "Cactaceae": {
+   "category": "Cactus",
+   "npk": "Low nitrogen, higher P-K (e.g., 2-7-7), well diluted",
+   "fertilizer": "Cactus/succulent fertilizer",
+   "schedule": "Monthly at half strength during spring/summer growth; none in winter rest",
+   "soil_ph": "5.5-7.0",
+   "tips": [
+    "Winter dormancy must be dry and unfed - that's what triggers flowers",
+    "Overfed cacti grow fast, soft, and out of character"
+   ],
+   "watering": "Every 2-4 weeks in summer (soak and dry); near-zero in winter rest",
+   "temperature": "Warm summers; most want a cool (8-13 °C) dry winter to trigger flowering",
+   "humidity": "Very low; humidity + cold = rot"
+  },
+  "Orchidaceae": {
+   "category": "Orchid",
+   "npk": "Orchid food 'weakly weekly' (quarter-strength 20-20-20)",
+   "fertilizer": "Dedicated orchid fertilizer",
+   "schedule": "Quarter strength weekly while growing; flush with plain water monthly",
+   "soil_ph": "5.5-6.5",
+   "tips": [
+    "Orchid roots in bark get almost no nutrients naturally - but burn easily",
+    "Ease off while blooming"
+   ],
+   "watering": "Soak and drain when the medium approaches dry — roughly weekly; never soggy bark",
+   "temperature": "Most: 18-29 °C days; cooler nights encourage blooming",
+   "humidity": "50-70% with moving air"
+  },
+  "Crassulaceae": {
+   "category": "Succulent",
+   "npk": "Low nitrogen cactus feed (e.g., 2-7-7) at half strength",
+   "fertilizer": "Cactus/succulent fertilizer",
+   "schedule": "2-3 times in spring/summer only",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Succulents prefer lean living - overfeeding causes stretching and rot",
+    "Never feed dormant or freshly repotted plants"
+   ],
+   "watering": "Soak fully, then dry fully — every 2-3 weeks in growth, barely in winter",
+   "temperature": "18-27 °C; most need protection below 5 °C",
+   "humidity": "Low; dry air prevents rot"
+  },
+  "Poaceae": {
+   "category": "Grass (lawn / ornamental)",
+   "npk": "Lawn: nitrogen-forward (e.g., 20-5-10). Ornamental grasses: little to none",
+   "fertilizer": "Slow-release lawn fertilizer; compost for ornamentals",
+   "schedule": "Lawns: late spring and early fall. Ornamental grasses: once in spring at most",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Fall feeding builds roots; spring feeding builds mowing work",
+    "Ornamental grasses flop when overfed"
+   ],
+   "watering": "Lawns: 2-3 cm per week in one or two deep sessions; ornamental grasses: rarely once established",
+   "temperature": "Cool-season grasses thrive 15-24 °C; warm-season 24-35 °C",
+   "humidity": "Deep infrequent watering grows deep roots; nightly sprinkles grow fungus"
+  },
+  "Ericaceae": {
+   "category": "Heath family (acid-loving: heather, pieris, etc.)",
+   "npk": "Acid-formula feed (azalea/camellia food), lightly",
+   "fertilizer": "Holly-tone or similar acid fertilizer",
+   "schedule": "Once in spring after flowering",
+   "soil_ph": "4.5-6.0",
+   "tips": [
+    "The whole family demands acidic soil - pH first, fertilizer second",
+    "Fine shallow roots: underfeed, and mulch with pine bark"
+   ],
+   "watering": "Shallow roots want constant light moisture — weekly deep watering plus mulch",
+   "temperature": "Cool-climate family: 13-24 °C; most are cold-hardy",
+   "humidity": "Moderate to high; hot dry wind scorches them"
+  },
+  "Arecaceae": {
+   "category": "Palm",
+   "npk": "Palm formula with magnesium and manganese (e.g., 8-2-12 + Mg)",
+   "fertilizer": "Dedicated palm fertilizer - palms have unique micronutrient needs",
+   "schedule": "Every 2-3 months in the growing season",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Yellow banding on fronds = magnesium deficiency, classic in palms",
+    "Never cut green fronds - palms pull nutrients back from old leaves"
+   ],
+   "watering": "When the top 3-5 cm dries — weekly indoors; more for outdoor palms in sand",
+   "temperature": "Most houseplant palms: 18-29 °C, above 13 °C always",
+   "humidity": "Moderate to high; brown tips track dry air"
+  },
+  "Lamiaceae": {
+   "category": "Mint family herb",
+   "npk": "Light balanced feed; most prefer lean soil",
+   "fertilizer": "Compost; dilute liquid feed for potted herbs",
+   "schedule": "Once or twice a season",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Overfeeding herbs trades flavor for bulk",
+    "Harvest often - it's better than fertilizer for bushy growth"
+   ],
+   "watering": "Most (Mediterranean types) want drying between waterings; mint is the wet exception",
+   "temperature": "18-29 °C growing season",
+   "humidity": "Low to moderate; airflow keeps leaves healthy"
+  },
+  "Rosaceae": {
+   "category": "Rose family (flowering/fruiting shrubs and trees)",
+   "npk": "Balanced feed, low nitrogen for fruiting types (e.g., 5-10-10)",
+   "fertilizer": "Granular balanced or fruit tree fertilizer",
+   "schedule": "Early spring; fruiting types again after fruit set",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Watch for fire blight in this family - avoid overfeeding nitrogen",
+    "Judge trees by annual shoot growth before feeding"
+   ],
+   "watering": "Deeply weekly for young plants and during fruit development",
+   "temperature": "Mostly hardy; bloom time frost is the danger window",
+   "humidity": "Average, with pruning for airflow — this family catches every fungus going"
+  },
+  "Fabaceae": {
+   "category": "Legume family",
+   "npk": "Low nitrogen (they fix their own), modest P-K",
+   "fertilizer": "Compost; skip nitrogen fertilizers",
+   "schedule": "At planting; little after",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Nitrogen-fixing roots mean most legumes feed themselves",
+    "Phosphorus helps nodulation and flowering"
+   ],
+   "watering": "2-3 cm per week, most important at flowering and pod set",
+   "temperature": "Peas cool (13-18 °C), beans warm (18-27 °C)",
+   "humidity": "Moderate; wet foliage spreads bean diseases — water the base"
+  },
+  "Asteraceae": {
+   "category": "Daisy family (asters, zinnias, coneflowers...)",
+   "npk": "Light balanced feed (e.g., 5-5-5); most bloom better lean",
+   "fertilizer": "Compost at planting plus occasional liquid feed",
+   "schedule": "At planting and once mid-season",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Most daisies overfed = tall, floppy, flower-shy",
+    "Deadhead for more blooms instead of feeding more"
+   ],
+   "watering": "Weekly deep watering; most get tough once established",
+   "temperature": "Wide range; most bloom best 15-26 °C",
+   "humidity": "Low to moderate; crowded damp beds invite mildew"
+  },
+  "Cucurbitaceae": {
+   "category": "Squash/cucumber family",
+   "npk": "Balanced early, high potassium at fruiting",
+   "fertilizer": "Compost-rich soil plus vegetable feed",
+   "schedule": "At planting, at flowering, and monthly while fruiting",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Heavy feeders - plant into compost mounds",
+    "Steady water prevents bitter fruit"
+   ],
+   "watering": "Heavy: 2-5 cm per week at the base, daily in heat waves",
+   "temperature": "Warmth-lovers: 21-29 °C; everything stops below 15 °C",
+   "humidity": "Moist soil, dry leaves"
+  },
+  "Solanaceae": {
+   "category": "Nightshade family vegetable",
+   "npk": "Balanced early, low-N high-K at flowering (tomato food)",
+   "fertilizer": "Tomato/vegetable fertilizer with calcium",
+   "schedule": "At transplant, then every 2 weeks from first flowers",
+   "soil_ph": "6.0-6.8",
+   "tips": [
+    "Even watering prevents blossom end rot",
+    "Go easy on nitrogen once flowering starts"
+   ],
+   "watering": "Deep and even — 2-3× a week; fluctuation causes cracked fruit and blossom end rot",
+   "temperature": "21-29 °C days, above 13 °C nights",
+   "humidity": "Moderate; always water at the base"
+  },
+  "Amaryllidaceae": {
+   "category": "Amaryllis/onion family bulb",
+   "npk": "Bulb food; low-N balanced (e.g., 5-10-10)",
+   "fertilizer": "Bulb fertilizer",
+   "schedule": "At planting and as foliage emerges",
+   "soil_ph": "6.0-7.0",
+   "tips": [
+    "Feed the foliage phase - that builds next year's bulb",
+    "Let leaves die back naturally"
+   ],
+   "watering": "Moist during leaf growth, tapering to dry dormancy",
+   "temperature": "Hardy bulbs need winter chill; tender ones (amaryllis) 18-24 °C",
+   "humidity": "Average; dry rest period respected"
+  },
+  "Pinaceae": {
+   "category": "Pine/spruce/fir (conifer)",
+   "npk": "Rarely needed; acid evergreen feed if young or weak",
+   "fertilizer": "Acid-formula evergreen fertilizer or needle mulch",
+   "schedule": "Early spring, only if needed",
+   "soil_ph": "5.0-6.5",
+   "tips": [
+    "Established conifers rarely benefit from fertilizer",
+    "Browning is usually water, salt, or pests - not hunger"
+   ],
+   "watering": "Young conifers deeply every 1-2 weeks; established ones only in extreme drought",
+   "temperature": "Hardy across huge ranges",
+   "humidity": "Average; good drainage matters most"
+  }
+ },
+ "default": {
+  "category": "General recommendation",
+  "npk": "Balanced fertilizer (e.g., 10-10-10) at half the label strength",
+  "fertilizer": "All-purpose balanced feed: granular slow-release outdoors, liquid for pots",
+  "schedule": "Spring and early summer for garden plants; monthly in the growing season (never winter) for houseplants",
+  "soil_ph": "6.0-7.0 suits most plants",
+  "tips": [
+   "When unsure, underfeed: almost every plant recovers from hunger faster than from fertilizer burn",
+   "Feed only during active growth, onto moist (not dry) soil",
+   "Yellow older leaves often mean nitrogen hunger; scorched leaf edges often mean overfeeding"
+  ],
+  "watering": "Water deeply when the top 2-3 cm of soil feels dry; most plants prefer deep-and-infrequent over little-and-often",
+  "temperature": "Most garden and house plants are comfortable at 18-24 °C; protect from frost unless known hardy",
+  "humidity": "Average humidity suits most plants; keep soil moist but never waterlogged, with drainage holes always"
+ }
 }
