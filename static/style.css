@@ -54,6 +54,49 @@ main {
 }
 .banner a { color: inherit; font-weight: 600; }
 
+#key-panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 0;
+  margin-bottom: 16px;
+}
+#key-panel summary {
+  cursor: pointer;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  list-style-position: inside;
+}
+#key-panel summary:hover { background: var(--green-light); border-radius: 14px; }
+.key-body { padding: 0 16px 14px; }
+.key-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.key-row input {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+.key-row button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: var(--green);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+.key-row button:hover { background: var(--green-dark); }
+.key-row button.secondary {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+.key-row button.secondary:hover { background: var(--bg); }
+
 .upload-card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -199,6 +242,69 @@ main {
 .tips li { margin-bottom: 5px; font-size: 0.93rem; }
 
 .match-note { margin-top: 10px; font-size: 0.8rem; color: var(--muted); }
+
+#health-section h2, #symptoms-section h2 { margin: 24px 0 12px; font-size: 1.2rem; }
+.section-sub { margin: -6px 0 12px; color: var(--muted); font-size: 0.9rem; }
+
+.health-card {
+  border-radius: 14px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  background: var(--card);
+}
+.health-card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.health-card p { margin: 6px 0; font-size: 0.93rem; }
+.health-card.good { background: #eef7ea; border-color: #bcd9ae; }
+.health-card.bad { background: #fdf3e7; border-color: #ecc9a3; }
+.health-card.neutral { color: var(--muted); font-size: 0.92rem; }
+.health-card .conf { color: var(--muted); font-size: 0.85rem; }
+.health-card .alt { color: var(--muted); font-size: 0.83rem; }
+.health-card .label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  display: block;
+  margin-top: 8px;
+}
+
+#symptom-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 0.88rem;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--text);
+  transition: background 0.15s, border-color 0.15s;
+}
+.chip:hover { background: var(--green-light); }
+.chip.active {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+
+.symptom-card {
+  margin-top: 12px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+.symptom-card h3 { margin: 0 0 4px; font-size: 1rem; }
+.symptom-card ul { margin: 4px 0 8px; padding-left: 20px; }
+.symptom-card li, .symptom-card p { font-size: 0.92rem; margin: 4px 0; }
+.symptom-card .label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  display: block;
+  margin-top: 8px;
+}
 
 footer {
   text-align: center;

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "yellow-old-leaves",
+    "label": "Yellowing older (lower) leaves",
+    "emoji": "🍂",
+    "causes": [
+      "Nitrogen deficiency - the plant moves nitrogen from old leaves to new growth",
+      "Natural aging if it's just one or two bottom leaves",
+      "Overwatering suffocating the roots"
+    ],
+    "action": "If many lower leaves yellow at once, feed with a balanced or nitrogen-leaning fertilizer and check that the pot drains. One old leaf now and then is normal."
+  },
+  {
+    "id": "yellow-new-leaves",
+    "label": "Yellow new leaves with green veins",
+    "emoji": "💛",
+    "causes": [
+      "Iron or manganese deficiency, usually caused by soil pH being too high (not actual lack of iron)",
+      "Very common in citrus, gardenia, blueberry and other acid-lovers",
+      "Constantly soggy soil blocking micronutrient uptake"
+    ],
+    "action": "Use an acid-formula fertilizer or chelated iron, and water acid-loving plants with rainwater instead of hard tap water. Fix drainage if soil stays wet."
+  },
+  {
+    "id": "interveinal-old",
+    "label": "Older leaves yellow between veins",
+    "emoji": "🟡",
+    "causes": [
+      "Magnesium deficiency - classic on tomatoes, citrus and roses",
+      "Potassium deficiency if edges scorch too"
+    ],
+    "action": "Water in Epsom salt (1 tablespoon per 4 liters) for magnesium, or switch to a feed with magnesium listed. Recheck in 2-3 weeks on new growth."
+  },
+  {
+    "id": "brown-tips",
+    "label": "Brown, crispy leaf tips or edges",
+    "emoji": "🟤",
+    "causes": [
+      "Fertilizer salt buildup in the pot",
+      "Low humidity or underwatering",
+      "Fluoride/chlorine in tap water (dracaena, spider plant, calathea are sensitive)"
+    ],
+    "action": "Flush the pot with plenty of plain water, cut feeding in half, and for sensitive houseplants use rainwater, distilled or overnight-rested water."
+  },
+  {
+    "id": "purple-leaves",
+    "label": "Purple or reddish tint on leaves",
+    "emoji": "🟣",
+    "causes": [
+      "Phosphorus deficiency, especially in cold soil early in the season",
+      "Normal coloring in some varieties and in cool weather"
+    ],
+    "action": "If it's spring and soil is cold, wait - it often fixes itself as soil warms. Otherwise apply a phosphorus-containing feed (bone meal or bloom formula)."
+  },
+  {
+    "id": "dark-spots",
+    "label": "Brown/black spots on leaves",
+    "emoji": "⚫",
+    "causes": [
+      "Fungal leaf spot (often round spots, sometimes with yellow halo)",
+      "Bacterial spot (water-soaked, angular spots between veins)",
+      "Sunburn if spots are bleached and only on the most exposed leaves"
+    ],
+    "action": "Remove the worst leaves, stop wetting the foliage, water at the base in the morning, and improve airflow. Copper spray slows both fungal and bacterial spots."
+  },
+  {
+    "id": "powdery-white",
+    "label": "White powdery coating on leaves",
+    "emoji": "⚪",
+    "causes": [
+      "Powdery mildew - thrives in warm days, cool nights and still air",
+      "Very common on squash, cucumbers, roses, phlox and bee balm"
+    ],
+    "action": "Remove the worst leaves, improve air circulation, and spray with potassium bicarbonate or sulfur. Unlike most fungi, it loves dry leaves - rinsing foliage actually helps."
+  },
+  {
+    "id": "gray-mold",
+    "label": "Gray fuzzy mold on leaves, stems or flowers",
+    "emoji": "🩶",
+    "causes": [
+      "Botrytis (gray mold) - strikes in cool, damp, crowded conditions",
+      "Dead flowers and debris left on the plant feeding the fungus"
+    ],
+    "action": "Remove all affected parts and dead material, space plants out, and ventilate. Keep water off flowers and leaves."
+  },
+  {
+    "id": "wilt-wet",
+    "label": "Wilting even though soil is moist",
+    "emoji": "🥀",
+    "causes": [
+      "Root rot from overwatering - damaged roots can't drink, so the plant wilts in wet soil",
+      "Soil fungal wilts (verticillium, fusarium) in tomatoes and relatives"
+    ],
+    "action": "Stop watering, let the soil dry, and check roots: healthy ones are white and firm, rotten ones brown and mushy. Repot into fresh, fast-draining mix after trimming rot."
+  },
+  {
+    "id": "wilt-dry",
+    "label": "Wilting with dry soil",
+    "emoji": "🏜️",
+    "causes": [
+      "Simple underwatering",
+      "Pot-bound roots or hydrophobic potting mix that sheds water"
+    ],
+    "action": "Water deeply until it runs from the drain holes; for shrunken peat mix, soak the whole pot in a basin for 20 minutes. Repot if roots circle the pot."
+  },
+  {
+    "id": "leggy",
+    "label": "Leggy, stretched, pale growth",
+    "emoji": "📏",
+    "causes": [
+      "Not enough light - the plant is reaching for it",
+      "Too much nitrogen combined with low light"
+    ],
+    "action": "Move it to brighter light (gradually, to avoid sunburn) and ease off feeding until growth is compact again. Fertilizer cannot substitute for light."
+  },
+  {
+    "id": "no-blooms",
+    "label": "No flowers, or buds drop before opening",
+    "emoji": "🌸",
+    "causes": [
+      "Too much nitrogen (lush leaves, no blooms)",
+      "Not enough light",
+      "Temperature or watering swings during bud set (classic in gardenia, hibiscus, citrus)"
+    ],
+    "action": "Switch to a low-nitrogen, higher phosphorus-potassium feed, give more light, and keep water and temperature steady while buds form."
+  },
+  {
+    "id": "sticky-insects",
+    "label": "Sticky residue, tiny insects, or fine webbing",
+    "emoji": "🕷️",
+    "causes": [
+      "Aphids, scale or whitefly (sticky honeydew on leaves and surfaces below)",
+      "Spider mites if there's fine webbing and stippled, dusty-looking leaves"
+    ],
+    "action": "Wash the plant with a strong water spray (undersides too), then treat weekly with insecticidal soap or horticultural oil until clear. Isolate houseplants from the others."
+  },
+  {
+    "id": "holes",
+    "label": "Holes or chewed leaf edges",
+    "emoji": "🐛",
+    "causes": [
+      "Caterpillars (ragged holes, droppings under leaves)",
+      "Slugs and snails (irregular holes plus slime trails, damage overnight)",
+      "Flea beetles (many tiny shot-holes)"
+    ],
+    "action": "Hand-pick caterpillars and check leaf undersides for eggs; use beer traps or barriers for slugs; row cover protects young plants from beetles."
+  },
+  {
+    "id": "blossom-end-rot",
+    "label": "Dark sunken patch on fruit bottom (tomato/pepper)",
+    "emoji": "🍅",
+    "causes": [
+      "Calcium not reaching the fruit - almost always caused by uneven watering, not missing calcium",
+      "Excess nitrogen making leafy growth outcompete fruit for calcium"
+    ],
+    "action": "Water deeply and consistently (mulch helps a lot), ease off high-nitrogen feeds. Affected fruit won't recover, but the next ones will be fine."
+  },
+  {
+    "id": "stunted",
+    "label": "Barely growing / stunted overall",
+    "emoji": "🐌",
+    "causes": [
+      "General nutrient hunger in exhausted soil",
+      "Root-bound pot or compacted soil",
+      "Cold: most plants pause below ~10 °C, houseplants in winter"
+    ],
+    "action": "If it's the growing season and roots have room, feed with a balanced fertilizer and refresh the top layer with compost. Repot root-bound plants one size up."
+  }
+]

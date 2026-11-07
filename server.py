@@ -10,6 +10,7 @@ API key: put PLANTNET_API_KEY=... in a .env file next to this script
 runs in demo mode and returns a sample identification.
 """
 
+import io
 import json
 import os
 from pathlib import Path
@@ -24,6 +25,17 @@ app = Flask(__name__, static_folder=str(BASE_DIR / "static"), static_url_path=""
 
 with open(BASE_DIR / "data" / "fertilizers.json", encoding="utf-8") as f:
     FERT_DB = json.load(f)
+
+with open(BASE_DIR / "data" / "symptoms.json", encoding="utf-8") as f:
+    SYMPTOMS = json.load(f)
+
+try:
+    import health
+
+    HEALTH_OK = health.available()
+except Exception:  # onnxruntime/numpy/Pillow missing or model absent
+    health = None
+    HEALTH_OK = False
 
 
 def load_api_key() -> str:
@@ -81,7 +93,12 @@ def index():
 
 @app.get("/api/status")
 def status():
-    return jsonify({"has_key": bool(load_api_key())})
+    return jsonify({"has_key": bool(load_api_key()), "health_model": HEALTH_OK})
+
+
+@app.get("/api/symptoms")
+def symptoms():
+    return jsonify(SYMPTOMS)
 
 
 @app.post("/api/identify")
@@ -90,8 +107,10 @@ def identify():
         return jsonify({"error": "No image uploaded."}), 400
 
     image = request.files["image"]
+    image_bytes = image.read()
     organ = request.form.get("organ", "auto")
-    api_key = load_api_key()
+    # Per-user key sent by the browser wins; server .env key is the fallback.
+    api_key = (request.form.get("api_key") or "").strip() or load_api_key()
 
     if not api_key:
         payload = {**DEMO_RESULT}
@@ -100,7 +119,7 @@ def identify():
             resp = requests.post(
                 PLANTNET_URL,
                 params={"api-key": api_key, "lang": "en"},
-                files={"images": (image.filename, image.stream, image.mimetype)},
+                files={"images": (image.filename, io.BytesIO(image_bytes), image.mimetype)},
                 data={"organs": organ},
                 timeout=30,
             )
@@ -108,7 +127,9 @@ def identify():
             return jsonify({"error": f"Could not reach Pl@ntNet: {exc}"}), 502
 
         if resp.status_code == 401:
-            return jsonify({"error": "Pl@ntNet rejected the API key. Check your .env file."}), 502
+            return jsonify({"error": "Pl@ntNet rejected the API key. Check the key you entered (or the server's .env file)."}), 502
+        if resp.status_code == 429:
+            return jsonify({"error": "Daily Pl@ntNet quota reached for this API key (500/day on the free tier). Try again tomorrow."}), 502
         if resp.status_code == 404:
             return jsonify({"error": "Pl@ntNet could not recognize a plant in this photo. Try a closer shot of a leaf or flower."}), 404
         if resp.status_code != 200:
@@ -132,7 +153,25 @@ def identify():
     for r in payload["results"]:
         r["fertilizer"] = lookup_fertilizer(r["scientific_name"], r["genus"], r["family"])
 
+    payload["health"] = assess_health(payload["results"], image_bytes)
     return jsonify(payload)
+
+
+def assess_health(results: list, image_bytes: bytes) -> dict:
+    """Run the local disease model when the identified plant is a crop
+    it was trained on; otherwise report that only the checklist applies."""
+    out = {"model_available": HEALTH_OK, "covered_crop": None, "predictions": None, "error": None}
+    if not HEALTH_OK or not results:
+        return out
+    crop = health.genus_covered(results[0].get("genus", ""))
+    out["covered_crop"] = crop
+    if not crop:
+        return out
+    try:
+        out["predictions"] = health.predict(image_bytes)
+    except Exception as exc:
+        out["error"] = f"Disease model failed: {exc}"
+    return out
 
 
 if __name__ == "__main__":

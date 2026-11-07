@@ -14,10 +14,26 @@
 
   <main>
     <div id="demo-banner" class="banner hidden">
-      Demo mode — no Pl@ntNet API key set, so results are sample data.
+      Demo mode — no Pl@ntNet API key, so plant names are sample data.
       Get a free key at <a href="https://my.plantnet.org" target="_blank" rel="noopener">my.plantnet.org</a>
-      and put it in <code>.env</code>.
+      (500 IDs/day) and paste it below.
     </div>
+
+    <details id="key-panel">
+      <summary>🔑 <span id="key-summary">Set your Pl@ntNet API key</span></summary>
+      <div class="key-body">
+        <p class="section-sub">
+          Your key is stored only in this browser and used only to call Pl@ntNet.
+          Get one free at <a href="https://my.plantnet.org" target="_blank" rel="noopener">my.plantnet.org</a> → My API.
+        </p>
+        <div class="key-row">
+          <input type="password" id="key-input" placeholder="Paste your API key" autocomplete="off">
+          <button id="key-save">Save</button>
+          <button id="key-clear" class="secondary">Clear</button>
+        </div>
+        <p id="key-status" class="section-sub"></p>
+      </div>
+    </details>
 
     <section class="upload-card">
       <label id="drop-zone" for="file-input">
@@ -53,6 +69,18 @@
     <section id="results" class="hidden">
       <h2>Results</h2>
       <div id="candidates"></div>
+    </section>
+
+    <section id="health-section" class="hidden">
+      <h2>Health check</h2>
+      <div id="health-verdict"></div>
+    </section>
+
+    <section id="symptoms-section" class="hidden">
+      <h2>How does it look?</h2>
+      <p class="section-sub">Tap anything you notice on your plant for likely causes and what to do:</p>
+      <div id="symptom-chips"></div>
+      <div id="symptom-detail" class="hidden"></div>
     </section>
   </main>
 
