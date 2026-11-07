@@ -30,6 +30,16 @@ header {
   padding: 28px 16px 22px;
 }
 header h1 { margin: 0; font-size: 1.6rem; }
+.lang-row { max-width: 640px; margin: 0 auto 6px; text-align: right; }
+#lang-select {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  padding: 5px 8px;
+  font-size: 0.85rem;
+}
+#lang-select option { color: var(--text); background: #fff; }
 .tagline { margin: 6px 0 0; opacity: 0.9; font-size: 0.95rem; }
 
 main {

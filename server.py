@@ -29,6 +29,32 @@ with open(BASE_DIR / "data" / "fertilizers.json", encoding="utf-8") as f:
 with open(BASE_DIR / "data" / "symptoms.json", encoding="utf-8") as f:
     SYMPTOMS = json.load(f)
 
+# --- Internationalization ---
+SUPPORTED_LANGS = ("en", "zh-TW", "zh-CN", "es", "fr", "pt")
+PLANTNET_LANG = {"en": "en", "zh-TW": "zh", "zh-CN": "zh", "es": "es", "fr": "fr", "pt": "pt"}
+I18N_DIR = BASE_DIR / "data" / "i18n"
+_i18n_cache = {}
+
+
+def get_lang(value) -> str:
+    return value if value in SUPPORTED_LANGS else "en"
+
+
+def load_i18n(lang: str) -> dict:
+    """Translated content files for a language ({} for English/missing)."""
+    if lang == "en" or lang not in SUPPORTED_LANGS:
+        return {}
+    if lang not in _i18n_cache:
+        data = {}
+        folder = I18N_DIR / lang
+        for name in ("fertilizers", "symptoms", "health"):
+            path = folder / (name + ".json")
+            if path.exists():
+                with open(path, encoding="utf-8") as f:
+                    data[name] = json.load(f)
+        _i18n_cache[lang] = data
+    return _i18n_cache[lang]
+
 try:
     import health
 
@@ -52,17 +78,22 @@ def load_api_key() -> str:
     return ""
 
 
-def lookup_fertilizer(scientific_name: str, genus: str, family: str) -> dict:
-    """Most specific match wins: species -> genus -> family -> default."""
-    for level, name in (
-        ("species", scientific_name),
-        ("genus", genus),
-        ("family", family),
-    ):
-        entry = FERT_DB.get(level, {}).get(name)
-        if entry:
-            return {**entry, "match_level": level, "matched_on": name}
-    return {**FERT_DB["default"], "match_level": "default", "matched_on": ""}
+def lookup_fertilizer(scientific_name: str, genus: str, family: str, lang: str = "en") -> dict:
+    """Most specific match wins: species -> genus -> family -> default.
+    Translated database first, English as fallback."""
+    translated = load_i18n(lang).get("fertilizers")
+    databases = [db for db in (translated, FERT_DB) if db]
+    for db in databases:
+        for level, name in (
+            ("species", scientific_name),
+            ("genus", genus),
+            ("family", family),
+        ):
+            entry = db.get(level, {}).get(name)
+            if entry:
+                return {**entry, "match_level": level, "matched_on": name}
+    default = (translated or {}).get("default") or FERT_DB["default"]
+    return {**default, "match_level": "default", "matched_on": ""}
 
 
 DEMO_RESULT = {
@@ -86,6 +117,16 @@ DEMO_RESULT = {
 }
 
 
+DEMO_COMMON = {
+    "en": (["Tomato", "Garden tomato"], ["Eggplant", "Aubergine"]),
+    "zh-TW": (["番茄"], ["茄子"]),
+    "zh-CN": (["番茄"], ["茄子"]),
+    "es": (["Tomate"], ["Berenjena"]),
+    "fr": (["Tomate"], ["Aubergine"]),
+    "pt": (["Tomate"], ["Berinjela"]),
+}
+
+
 @app.get("/")
 def index():
     return send_from_directory(app.static_folder, "index.html")
@@ -98,7 +139,8 @@ def status():
 
 @app.get("/api/symptoms")
 def symptoms():
-    return jsonify(SYMPTOMS)
+    lang = get_lang(request.args.get("lang"))
+    return jsonify(load_i18n(lang).get("symptoms") or SYMPTOMS)
 
 
 @app.post("/api/identify")
@@ -109,16 +151,20 @@ def identify():
     image = request.files["image"]
     image_bytes = image.read()
     organ = request.form.get("organ", "auto")
+    lang = get_lang(request.form.get("lang"))
     # Per-user key sent by the browser wins; server .env key is the fallback.
     api_key = (request.form.get("api_key") or "").strip() or load_api_key()
 
     if not api_key:
-        payload = {**DEMO_RESULT}
+        demo_names = DEMO_COMMON.get(lang, DEMO_COMMON["en"])
+        payload = {"demo": True, "results": [dict(r) for r in DEMO_RESULT["results"]]}
+        for r, names in zip(payload["results"], demo_names):
+            r["common_names"] = names
     else:
         try:
             resp = requests.post(
                 PLANTNET_URL,
-                params={"api-key": api_key, "lang": "en"},
+                params={"api-key": api_key, "lang": PLANTNET_LANG[lang]},
                 files={"images": (image.filename, io.BytesIO(image_bytes), image.mimetype)},
                 data={"organs": organ},
                 timeout=30,
@@ -151,13 +197,13 @@ def identify():
         payload = {"demo": False, "results": results}
 
     for r in payload["results"]:
-        r["fertilizer"] = lookup_fertilizer(r["scientific_name"], r["genus"], r["family"])
+        r["fertilizer"] = lookup_fertilizer(r["scientific_name"], r["genus"], r["family"], lang)
 
-    payload["health"] = assess_health(payload["results"], image_bytes)
+    payload["health"] = assess_health(payload["results"], image_bytes, lang)
     return jsonify(payload)
 
 
-def assess_health(results: list, image_bytes: bytes) -> dict:
+def assess_health(results: list, image_bytes: bytes, lang: str = "en") -> dict:
     """Run the local disease model when the identified plant is a crop
     it was trained on; otherwise report that only the checklist applies."""
     out = {"model_available": HEALTH_OK, "covered_crop": None, "predictions": None, "error": None}
@@ -171,6 +217,15 @@ def assess_health(results: list, image_bytes: bytes) -> dict:
         out["predictions"] = health.predict(image_bytes)
     except Exception as exc:
         out["error"] = f"Disease model failed: {exc}"
+        return out
+    translations = load_i18n(lang).get("health")
+    if translations:
+        labels = translations.get("labels", {})
+        advice = translations.get("advice", {})
+        for p in out["predictions"]:
+            p["label"] = labels.get(p["label"], p["label"])
+            if p.get("advice_key"):
+                p["advice"] = advice.get(p["advice_key"], p["advice"])
     return out
 
 

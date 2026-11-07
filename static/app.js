@@ -8,6 +8,8 @@ const spinner = document.getElementById("spinner");
 const errorBox = document.getElementById("error");
 const resultsSection = document.getElementById("results");
 const candidatesDiv = document.getElementById("candidates");
+applyStaticI18n();
+
 const demoBanner = document.getElementById("demo-banner");
 const healthSection = document.getElementById("health-section");
 const healthVerdict = document.getElementById("health-verdict");
@@ -20,7 +22,7 @@ let symptomsData = [];
 let activeSymptom = null;
 
 // Load the symptom checklist once
-fetch("/api/symptoms")
+fetch("/api/symptoms?lang=" + encodeURIComponent(LANG))
   .then((r) => r.json())
   .then((list) => {
     symptomsData = list;
@@ -49,9 +51,9 @@ function showSymptom(id) {
   symptomDetail.innerHTML = `
     <div class="symptom-card">
       <h3>${s.emoji} ${esc(s.label)}</h3>
-      <span class="label">Likely causes (most common first)</span>
+      <span class="label">${esc(t("likelyCauses"))}</span>
       <ul>${s.causes.map((c) => `<li>${esc(c)}</li>`).join("")}</ul>
-      <span class="label">What to do</span>
+      <span class="label">${esc(t("whatToDo"))}</span>
       <p>${esc(s.action)}</p>
     </div>`;
   symptomDetail.classList.remove("hidden");
@@ -77,13 +79,13 @@ function refreshKeyUI() {
   const userKey = getUserKey();
   demoBanner.classList.toggle("hidden", serverHasKey || !!userKey);
   if (userKey) {
-    keySummary.textContent = "Your Pl@ntNet API key is set";
-    keyStatus.textContent = "✅ Using your key (stored only in this browser).";
+    keySummary.textContent = t("keySummaryYours");
+    keyStatus.textContent = t("keyStatusYours");
   } else if (serverHasKey) {
-    keySummary.textContent = "Using the server's Pl@ntNet key";
-    keyStatus.textContent = "This server has its own key; you can set a personal one to use your own quota.";
+    keySummary.textContent = t("keySummaryServer");
+    keyStatus.textContent = t("keyStatusServer");
   } else {
-    keySummary.textContent = "Set your Pl@ntNet API key";
+    keySummary.textContent = t("keySummarySet");
     keyStatus.textContent = "";
   }
 }
@@ -102,7 +104,7 @@ keySave.addEventListener("click", () => {
   try {
     localStorage.setItem("plantnet_key", val);
   } catch {
-    keyStatus.textContent = "Could not save — browser storage is blocked.";
+    keyStatus.textContent = t("keyStatusBlocked");
     return;
   }
   keyInput.value = "";
@@ -157,6 +159,7 @@ identifyBtn.addEventListener("click", async () => {
   const form = new FormData();
   form.append("image", selectedFile);
   form.append("organ", organSelect.value);
+  form.append("lang", LANG);
   const userKey = getUserKey();
   if (userKey) form.append("api_key", userKey);
 
@@ -178,7 +181,7 @@ function renderResults(data) {
   candidatesDiv.innerHTML = "";
 
   if (!data.results || data.results.length === 0) {
-    errorBox.textContent = "No plant recognized. Try a closer, sharper photo of a leaf or flower.";
+    errorBox.textContent = t("noPlant");
     errorBox.classList.remove("hidden");
     return;
   }
@@ -201,10 +204,10 @@ function renderResults(data) {
       <div class="fert-details ${i === 0 ? "" : "hidden"}">
         <div class="fert-category">🌿 ${esc(fert.category)}</div>
         <div class="fert-grid">
-          <div class="fert-row"><span class="label">Fertilizer (N-P-K)</span>${esc(fert.npk)}</div>
-          <div class="fert-row"><span class="label">What to use</span>${esc(fert.fertilizer)}</div>
-          <div class="fert-row"><span class="label">When to feed</span>${esc(fert.schedule)}</div>
-          <div class="fert-row"><span class="label">Soil pH</span>${esc(fert.soil_ph)}</div>
+          <div class="fert-row"><span class="label">${esc(t("labelNpk"))}</span>${esc(fert.npk)}</div>
+          <div class="fert-row"><span class="label">${esc(t("labelUse"))}</span>${esc(fert.fertilizer)}</div>
+          <div class="fert-row"><span class="label">${esc(t("labelWhen"))}</span>${esc(fert.schedule)}</div>
+          <div class="fert-row"><span class="label">${esc(t("labelPh"))}</span>${esc(fert.soil_ph)}</div>
         </div>
         <ul class="tips">${fert.tips.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>
         ${matchNote(fert)}
@@ -230,8 +233,7 @@ function renderHealth(health, topResult) {
   healthSection.classList.remove("hidden");
 
   if (!health || !health.model_available) {
-    healthVerdict.innerHTML = `<div class="health-card neutral">
-      Disease model not installed — use the symptom checklist below.</div>`;
+    healthVerdict.innerHTML = `<div class="health-card neutral">${esc(t("noModelMsg"))}</div>`;
     return;
   }
   if (health.error) {
@@ -240,9 +242,7 @@ function renderHealth(health, topResult) {
   }
   if (!health.covered_crop) {
     healthVerdict.innerHTML = `<div class="health-card neutral">
-      The AI disease check only covers common crops (apple, tomato, potato, grape, corn,
-      pepper, strawberry…) — <em>${esc(topResult ? topResult.scientific_name : "this plant")}</em>
-      isn't one of them. Use the symptom checklist below instead.</div>`;
+      ${t("notCoveredMsg", { plant: esc(topResult ? topResult.scientific_name : "?") })}</div>`;
     return;
   }
 
@@ -257,28 +257,28 @@ function renderHealth(health, topResult) {
 
   if (top.healthy) {
     healthVerdict.innerHTML = `<div class="health-card good">
-      <h3>✅ Looks healthy</h3>
-      <p>The disease model sees no known disease (${pct}% confident: “${esc(top.label)}”).</p>
-      ${alternates ? `<p class="alt">Also considered: ${alternates}</p>` : ""}
-      ${lowConfidence ? `<p class="alt">Low confidence — try a sharp, close-up photo of a single leaf.</p>` : ""}
+      <h3>${esc(t("healthyTitle"))}</h3>
+      <p>${esc(t("healthyDetail", { pct: pct, label: top.label }))}</p>
+      ${alternates ? `<p class="alt">${esc(t("alsoConsidered"))} ${alternates}</p>` : ""}
+      ${lowConfidence ? `<p class="alt">${esc(t("lowConfTip"))}</p>` : ""}
     </div>`;
   } else {
     healthVerdict.innerHTML = `<div class="health-card bad">
-      <h3>⚠️ Possible issue: ${esc(top.label)}</h3>
-      <p class="conf">Model confidence: ${pct}%${lowConfidence ? " (low — treat as a hint, not a diagnosis)" : ""}</p>
-      <span class="label">What to do</span>
+      <h3>${esc(t("possibleIssue", { label: top.label }))}</h3>
+      <p class="conf">${esc(t("modelConf", { pct: pct }))}${lowConfidence ? esc(t("lowConfNote")) : ""}</p>
+      <span class="label">${esc(t("whatToDo"))}</span>
       <p>${esc(top.advice)}</p>
-      ${alternates ? `<p class="alt">Also considered: ${alternates}</p>` : ""}
+      ${alternates ? `<p class="alt">${esc(t("alsoConsidered"))} ${alternates}</p>` : ""}
     </div>`;
   }
 }
 
 function matchNote(fert) {
   if (fert.match_level === "default") {
-    return `<p class="match-note">No specific entry for this plant yet — showing safe general guidance.</p>`;
+    return `<p class="match-note">${esc(t("matchDefault"))}</p>`;
   }
   if (fert.match_level === "family") {
-    return `<p class="match-note">Advice based on the plant family (${esc(fert.matched_on)}).</p>`;
+    return `<p class="match-note">${esc(t("matchFamily", { name: fert.matched_on }))}</p>`;
   }
   return "";
 }

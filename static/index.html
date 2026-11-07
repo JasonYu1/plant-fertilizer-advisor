@@ -8,28 +8,24 @@
 </head>
 <body>
   <header>
-    <h1>🌱 Plant Fertilizer Advisor</h1>
-    <p class="tagline">Snap a plant, get its feeding plan — free.</p>
+    <div class="lang-row">
+      <select id="lang-select" aria-label="Language"></select>
+    </div>
+    <h1>🌱 <span data-i18n="title">Plant Fertilizer Advisor</span></h1>
+    <p class="tagline" data-i18n="tagline">Snap a plant, get its feeding plan — free.</p>
   </header>
 
   <main>
-    <div id="demo-banner" class="banner hidden">
-      Demo mode — no Pl@ntNet API key, so plant names are sample data.
-      Get a free key at <a href="https://my.plantnet.org" target="_blank" rel="noopener">my.plantnet.org</a>
-      (500 IDs/day) and paste it below.
-    </div>
+    <div id="demo-banner" class="banner hidden" data-i18n-html="demoBannerHtml"></div>
 
     <details id="key-panel">
-      <summary>🔑 <span id="key-summary">Set your Pl@ntNet API key</span></summary>
+      <summary>🔑 <span id="key-summary" data-i18n="keySummarySet">Set your Pl@ntNet API key</span></summary>
       <div class="key-body">
-        <p class="section-sub">
-          Your key is stored only in this browser and used only to call Pl@ntNet.
-          Get one free at <a href="https://my.plantnet.org" target="_blank" rel="noopener">my.plantnet.org</a> → My API.
-        </p>
+        <p class="section-sub" data-i18n-html="keyBodyHtml"></p>
         <div class="key-row">
-          <input type="password" id="key-input" placeholder="Paste your API key" autocomplete="off">
-          <button id="key-save">Save</button>
-          <button id="key-clear" class="secondary">Clear</button>
+          <input type="password" id="key-input" data-i18n-placeholder="keyPlaceholder" placeholder="Paste your API key" autocomplete="off">
+          <button id="key-save" data-i18n="save">Save</button>
+          <button id="key-clear" class="secondary" data-i18n="clear">Clear</button>
         </div>
         <p id="key-status" class="section-sub"></p>
       </div>
@@ -39,56 +35,54 @@
       <label id="drop-zone" for="file-input">
         <div id="drop-prompt">
           <div class="camera-icon">📷</div>
-          <strong>Take or choose a photo</strong>
-          <span>Tap here, or drag &amp; drop an image</span>
+          <strong data-i18n="uploadTitle">Take or choose a photo</strong>
+          <span data-i18n="uploadHint">Tap here, or drag &amp; drop an image</span>
         </div>
         <img id="preview" class="hidden" alt="Selected plant photo">
       </label>
       <input type="file" id="file-input" accept="image/*" capture="environment" hidden>
 
       <div class="controls">
-        <label for="organ">What's in the photo?</label>
+        <label for="organ" data-i18n="organLabel">What's in the photo?</label>
         <select id="organ">
-          <option value="auto" selected>Auto-detect</option>
-          <option value="leaf">Leaf</option>
-          <option value="flower">Flower</option>
-          <option value="fruit">Fruit</option>
-          <option value="bark">Bark / stem</option>
+          <option value="auto" selected data-i18n="organAuto">Auto-detect</option>
+          <option value="leaf" data-i18n="organLeaf">Leaf</option>
+          <option value="flower" data-i18n="organFlower">Flower</option>
+          <option value="fruit" data-i18n="organFruit">Fruit</option>
+          <option value="bark" data-i18n="organBark">Bark / stem</option>
         </select>
-        <button id="identify-btn" disabled>Identify plant</button>
+        <button id="identify-btn" disabled data-i18n="identify">Identify plant</button>
       </div>
     </section>
 
     <div id="spinner" class="hidden">
       <div class="loader"></div>
-      <p>Identifying your plant…</p>
+      <p data-i18n="spinnerMsg">Identifying your plant…</p>
     </div>
 
     <div id="error" class="banner error hidden"></div>
 
     <section id="results" class="hidden">
-      <h2>Results</h2>
+      <h2 data-i18n="resultsH">Results</h2>
       <div id="candidates"></div>
     </section>
 
     <section id="health-section" class="hidden">
-      <h2>Health check</h2>
+      <h2 data-i18n="healthH">Health check</h2>
       <div id="health-verdict"></div>
     </section>
 
     <section id="symptoms-section" class="hidden">
-      <h2>How does it look?</h2>
-      <p class="section-sub">Tap anything you notice on your plant for likely causes and what to do:</p>
+      <h2 data-i18n="howLookH">How does it look?</h2>
+      <p class="section-sub" data-i18n="howLookSub">Tap anything you notice on your plant for likely causes and what to do:</p>
       <div id="symptom-chips"></div>
       <div id="symptom-detail" class="hidden"></div>
     </section>
   </main>
 
-  <footer>
-    Identification by <a href="https://plantnet.org" target="_blank" rel="noopener">Pl@ntNet</a>.
-    Fertilizer guidance is general advice — always check the label on your fertilizer.
-  </footer>
+  <footer data-i18n-html="footerHtml"></footer>
 
+  <script src="i18n.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

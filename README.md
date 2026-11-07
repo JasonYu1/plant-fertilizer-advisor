@@ -4,6 +4,13 @@ Upload a photo of a plant → it gets identified (free, via the
 [Pl@ntNet API](https://my.plantnet.org)) → you get a fertilizer plan:
 N-P-K ratio, what product to use, feeding schedule, soil pH, and care tips.
 
+Available in **six languages** — English, 繁體中文, 简体中文, Español,
+Français, Português — via the picker in the header (auto-detected from
+the browser on first visit). Everything is translated: interface,
+fertilizer database, symptom checklist, disease names and advice
+(`static/i18n.js` for UI strings, `data/i18n/<lang>/` for content), and
+Pl@ntNet returns plant common names in the chosen language.
+
 ## Setup
 
 ```

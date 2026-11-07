@@ -84,12 +84,13 @@ def _preprocess(image_bytes: bytes) -> np.ndarray:
     return arr.transpose(2, 0, 1)[np.newaxis, ...]
 
 
-def advice_for(label: str) -> str:
+def advice_for(label: str):
+    """Return (advice_key, advice_text) for a disease label."""
     low = label.lower()
     for key, text in _ADVICE:
         if key in low:
-            return text
-    return "Remove affected parts, improve airflow, and avoid overhead watering."
+            return key, text
+    return "default", "Remove affected parts, improve airflow, and avoid overhead watering."
 
 
 def predict(image_bytes: bytes, top_k: int = 3) -> list:
@@ -104,12 +105,14 @@ def predict(image_bytes: bytes, top_k: int = 3) -> list:
     for i in order:
         label = labels[str(i)]
         healthy = label.lower().startswith("healthy")
+        key, text = ("", "") if healthy else advice_for(label)
         out.append(
             {
                 "label": label,
                 "score": round(float(probs[i]), 4),
                 "healthy": healthy,
-                "advice": "" if healthy else advice_for(label),
+                "advice": text,
+                "advice_key": key,
             }
         )
     return out

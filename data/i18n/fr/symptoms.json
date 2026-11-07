@@ -1,0 +1,169 @@
+[
+  {
+    "id": "yellow-old-leaves",
+    "label": "Jaunissement des vieilles feuilles (du bas)",
+    "emoji": "🍂",
+    "causes": [
+      "Carence en azote : la plante déplace l'azote des vieilles feuilles vers les nouvelles pousses",
+      "Vieillissement naturel s'il ne s'agit que d'une ou deux feuilles du bas",
+      "Excès d'arrosage qui asphyxie les racines"
+    ],
+    "action": "Si de nombreuses feuilles basses jaunissent en même temps, apportez un engrais équilibré ou à dominante azotée et vérifiez que le pot draine bien. Une vieille feuille de temps en temps, c'est normal."
+  },
+  {
+    "id": "yellow-new-leaves",
+    "label": "Jeunes feuilles jaunes à nervures vertes",
+    "emoji": "💛",
+    "causes": [
+      "Carence en fer ou en manganèse, généralement due à un pH du sol trop élevé (et non à un vrai manque de fer)",
+      "Très fréquent chez les agrumes, le gardénia, le myrtillier et les autres plantes de terre de bruyère",
+      "Sol constamment détrempé qui bloque l'absorption des oligo-éléments"
+    ],
+    "action": "Utilisez un engrais pour terre de bruyère ou du fer chélaté, et arrosez les plantes acidophiles à l'eau de pluie plutôt qu'à l'eau calcaire du robinet. Corrigez le drainage si le sol reste détrempé."
+  },
+  {
+    "id": "interveinal-old",
+    "label": "Vieilles feuilles jaunes entre les nervures",
+    "emoji": "🟡",
+    "causes": [
+      "Carence en magnésium : classique sur les tomates, les agrumes et les rosiers",
+      "Carence en potassium si les bords se dessèchent aussi"
+    ],
+    "action": "Arrosez avec du sel d'Epsom (1 cuillère à soupe pour 4 litres) pour le magnésium, ou passez à un engrais mentionnant du magnésium. Revérifiez sous 2-3 semaines sur les nouvelles pousses."
+  },
+  {
+    "id": "brown-tips",
+    "label": "Pointes ou bords de feuilles bruns et secs",
+    "emoji": "🟤",
+    "causes": [
+      "Accumulation de sels d'engrais dans le pot",
+      "Air trop sec ou manque d'arrosage",
+      "Fluor/chlore de l'eau du robinet (le dracéna, la plante araignée et le calathéa y sont sensibles)"
+    ],
+    "action": "Rincez le pot à grande eau claire, réduisez les apports d'engrais de moitié et, pour les plantes d'intérieur sensibles, utilisez de l'eau de pluie, de l'eau distillée ou de l'eau reposée une nuit."
+  },
+  {
+    "id": "purple-leaves",
+    "label": "Teinte violacée ou rougeâtre sur les feuilles",
+    "emoji": "🟣",
+    "causes": [
+      "Carence en phosphore, surtout en sol froid en début de saison",
+      "Coloration normale chez certaines variétés et par temps frais"
+    ],
+    "action": "Si c'est le printemps et que le sol est froid, patientez : cela se corrige souvent tout seul quand le sol se réchauffe. Sinon, apportez un engrais contenant du phosphore (poudre d'os ou formule floraison)."
+  },
+  {
+    "id": "dark-spots",
+    "label": "Taches brunes/noires sur les feuilles",
+    "emoji": "⚫",
+    "causes": [
+      "Taches foliaires fongiques (souvent des taches rondes, parfois entourées d'un halo jaune)",
+      "Taches bactériennes (taches anguleuses d'aspect huileux, entre les nervures)",
+      "Coup de soleil si les taches sont décolorées et n'apparaissent que sur les feuilles les plus exposées"
+    ],
+    "action": "Retirez les feuilles les plus atteintes, cessez de mouiller le feuillage, arrosez au pied le matin et améliorez la circulation de l'air. Une pulvérisation à base de cuivre freine les taches fongiques comme les taches bactériennes."
+  },
+  {
+    "id": "powdery-white",
+    "label": "Feutrage blanc poudreux sur les feuilles",
+    "emoji": "⚪",
+    "causes": [
+      "Oïdium : il prospère par journées chaudes, nuits fraîches et air stagnant",
+      "Très fréquent sur les courges, les concombres, les rosiers, les phlox et les monardes"
+    ],
+    "action": "Retirez les feuilles les plus atteintes, améliorez la circulation de l'air et pulvérisez du bicarbonate de potassium ou du soufre. Contrairement à la plupart des champignons, il aime les feuilles sèches : rincer le feuillage aide réellement."
+  },
+  {
+    "id": "gray-mold",
+    "label": "Moisissure grise duveteuse sur les feuilles, les tiges ou les fleurs",
+    "emoji": "🩶",
+    "causes": [
+      "Botrytis (pourriture grise) : il frappe par temps frais et humide et dans les cultures trop serrées",
+      "Fleurs fanées et débris laissés sur la plante, qui nourrissent le champignon"
+    ],
+    "action": "Retirez toutes les parties atteintes et les débris morts, espacez les plantes et aérez. Gardez l'eau loin des fleurs et des feuilles."
+  },
+  {
+    "id": "wilt-wet",
+    "label": "Flétrissement alors que le sol est humide",
+    "emoji": "🥀",
+    "causes": [
+      "Pourriture des racines due à l'excès d'eau : des racines abîmées ne peuvent plus boire, la plante flétrit donc en sol détrempé",
+      "Flétrissures fongiques du sol (verticilliose, fusariose) chez la tomate et ses proches"
+    ],
+    "action": "Cessez d'arroser, laissez le sol sécher et examinez les racines : saines, elles sont blanches et fermes ; pourries, brunes et molles. Rempotez dans un substrat frais et drainant après avoir coupé les parties pourries."
+  },
+  {
+    "id": "wilt-dry",
+    "label": "Flétrissement avec un sol sec",
+    "emoji": "🏜️",
+    "causes": [
+      "Simple manque d'arrosage",
+      "Racines à l'étroit dans le pot ou terreau devenu hydrophobe qui repousse l'eau"
+    ],
+    "action": "Arrosez abondamment jusqu'à ce que l'eau s'écoule par les trous de drainage ; pour un terreau tourbeux rétracté, faites tremper tout le pot dans une bassine pendant 20 minutes. Rempotez si les racines tournent en rond dans le pot."
+  },
+  {
+    "id": "leggy",
+    "label": "Croissance étiolée, étirée et pâle",
+    "emoji": "📏",
+    "causes": [
+      "Manque de lumière : la plante s'étire pour l'atteindre",
+      "Trop d'azote combiné à une lumière insuffisante"
+    ],
+    "action": "Installez-la dans une lumière plus vive (progressivement, pour éviter les brûlures) et réduisez les apports d'engrais jusqu'au retour d'une croissance compacte. L'engrais ne remplace pas la lumière."
+  },
+  {
+    "id": "no-blooms",
+    "label": "Pas de fleurs, ou boutons qui tombent avant de s'ouvrir",
+    "emoji": "🌸",
+    "causes": [
+      "Trop d'azote (feuillage luxuriant, pas de fleurs)",
+      "Manque de lumière",
+      "Variations de température ou d'arrosage pendant la formation des boutons (classique chez le gardénia, l'hibiscus et les agrumes)"
+    ],
+    "action": "Passez à un engrais pauvre en azote et plus riche en phosphore-potassium, offrez davantage de lumière et gardez arrosage et température stables pendant la formation des boutons."
+  },
+  {
+    "id": "sticky-insects",
+    "label": "Résidu collant, petits insectes ou fines toiles",
+    "emoji": "🕷️",
+    "causes": [
+      "Pucerons, cochenilles ou aleurodes (miellat collant sur les feuilles et les surfaces en dessous)",
+      "Araignées rouges s'il y a de fines toiles et des feuilles piquetées, d'aspect poussiéreux"
+    ],
+    "action": "Douchez la plante avec un jet d'eau puissant (dessous des feuilles compris), puis traitez chaque semaine au savon insecticide ou à l'huile horticole jusqu'à disparition. Isolez les plantes d'intérieur des autres."
+  },
+  {
+    "id": "holes",
+    "label": "Trous ou bords de feuilles grignotés",
+    "emoji": "🐛",
+    "causes": [
+      "Chenilles (trous déchiquetés, déjections sous les feuilles)",
+      "Limaces et escargots (trous irréguliers plus traces de bave, dégâts pendant la nuit)",
+      "Altises (multitude de petits trous comme des criblures)"
+    ],
+    "action": "Ramassez les chenilles à la main et inspectez le dessous des feuilles à la recherche d'œufs ; utilisez des pièges à bière ou des barrières contre les limaces ; un voile de protection met les jeunes plants à l'abri des altises."
+  },
+  {
+    "id": "blossom-end-rot",
+    "label": "Tache sombre et enfoncée sous le fruit (tomate/poivron)",
+    "emoji": "🍅",
+    "causes": [
+      "Le calcium n'atteint pas le fruit : presque toujours à cause d'un arrosage irrégulier, pas d'un manque de calcium",
+      "Excès d'azote : la croissance du feuillage accapare le calcium au détriment des fruits"
+    ],
+    "action": "Arrosez profondément et régulièrement (le paillage aide beaucoup) et levez le pied sur les engrais riches en azote. Les fruits touchés ne guériront pas, mais les suivants seront sains."
+  },
+  {
+    "id": "stunted",
+    "label": "Croissance quasi nulle / plante rabougrie",
+    "emoji": "🐌",
+    "causes": [
+      "Faim généralisée de nutriments dans un sol épuisé",
+      "Pot devenu trop petit ou sol compacté",
+      "Froid : la plupart des plantes marquent une pause sous ~10 °C, et les plantes d'intérieur en hiver"
+    ],
+    "action": "Si c'est la saison de croissance et que les racines ont de la place, apportez un engrais équilibré et rafraîchissez la couche de surface avec du compost. Rempotez les plantes à l'étroit dans un pot d'une taille au-dessus."
+  }
+]

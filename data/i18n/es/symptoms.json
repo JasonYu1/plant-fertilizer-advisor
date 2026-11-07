@@ -1,0 +1,169 @@
+[
+  {
+    "id": "yellow-old-leaves",
+    "label": "Hojas viejas (inferiores) que amarillean",
+    "emoji": "🍂",
+    "causes": [
+      "Carencia de nitrógeno: la planta traslada el nitrógeno de las hojas viejas a los brotes nuevos",
+      "Envejecimiento natural si solo son una o dos hojas de abajo",
+      "Exceso de riego que asfixia las raíces"
+    ],
+    "action": "Si muchas hojas inferiores amarillean a la vez, abona con un fertilizante equilibrado o con tendencia al nitrógeno y comprueba que la maceta drene. Una hoja vieja de vez en cuando es normal."
+  },
+  {
+    "id": "yellow-new-leaves",
+    "label": "Hojas nuevas amarillas con nervios verdes",
+    "emoji": "💛",
+    "causes": [
+      "Carencia de hierro o manganeso, casi siempre causada por un pH del suelo demasiado alto (no por falta real de hierro)",
+      "Muy común en cítricos, gardenias, arándanos y otras plantas acidófilas",
+      "Suelo constantemente encharcado que bloquea la absorción de micronutrientes"
+    ],
+    "action": "Usa un fertilizante de fórmula ácida o hierro quelatado, y riega las plantas acidófilas con agua de lluvia en lugar de agua del grifo dura. Corrige el drenaje si el suelo se mantiene mojado."
+  },
+  {
+    "id": "interveinal-old",
+    "label": "Hojas viejas amarillas entre los nervios",
+    "emoji": "🟡",
+    "causes": [
+      "Carencia de magnesio: un clásico en tomates, cítricos y rosales",
+      "Carencia de potasio si además se queman los bordes"
+    ],
+    "action": "Riega con sal de Epsom disuelta (1 cucharada por cada 4 litros) para aportar magnesio, o cambia a un abono que incluya magnesio. Revisa los brotes nuevos a las 2-3 semanas."
+  },
+  {
+    "id": "brown-tips",
+    "label": "Puntas o bordes de hoja marrones y crujientes",
+    "emoji": "🟤",
+    "causes": [
+      "Acumulación de sales de fertilizante en la maceta",
+      "Humedad ambiental baja o falta de riego",
+      "Flúor/cloro del agua del grifo (drácena, cinta y calatea son sensibles)"
+    ],
+    "action": "Enjuaga la maceta con abundante agua sola, reduce el abonado a la mitad y, para las plantas de interior sensibles, usa agua de lluvia, destilada o reposada toda la noche."
+  },
+  {
+    "id": "purple-leaves",
+    "label": "Tinte morado o rojizo en las hojas",
+    "emoji": "🟣",
+    "causes": [
+      "Carencia de fósforo, sobre todo en suelo frío a comienzos de temporada",
+      "Coloración normal en algunas variedades y con tiempo fresco"
+    ],
+    "action": "Si es primavera y el suelo está frío, espera: suele corregirse solo al calentarse el suelo. Si no, aplica un abono con fósforo (harina de huesos o fórmula de floración)."
+  },
+  {
+    "id": "dark-spots",
+    "label": "Manchas marrones o negras en las hojas",
+    "emoji": "⚫",
+    "causes": [
+      "Mancha foliar fúngica (a menudo manchas redondas, a veces con halo amarillo)",
+      "Mancha bacteriana (manchas angulosas de aspecto húmedo entre los nervios)",
+      "Quemadura solar si las manchas están decoloradas y solo en las hojas más expuestas"
+    ],
+    "action": "Retira las hojas más afectadas, deja de mojar el follaje, riega en la base por la mañana y mejora la ventilación. La pulverización de cobre frena tanto las manchas fúngicas como las bacterianas."
+  },
+  {
+    "id": "powdery-white",
+    "label": "Capa blanca polvorienta sobre las hojas",
+    "emoji": "⚪",
+    "causes": [
+      "Oídio: prospera con días cálidos, noches frescas y aire estancado",
+      "Muy común en calabazas, pepinos, rosales, flox y monarda"
+    ],
+    "action": "Retira las hojas más afectadas, mejora la circulación de aire y pulveriza con bicarbonato de potasio o azufre. A diferencia de la mayoría de los hongos, adora las hojas secas: enjuagar el follaje de hecho ayuda."
+  },
+  {
+    "id": "gray-mold",
+    "label": "Moho gris afelpado en hojas, tallos o flores",
+    "emoji": "🩶",
+    "causes": [
+      "Botritis (moho gris): ataca en condiciones frescas, húmedas y con plantas apiñadas",
+      "Flores muertas y restos dejados en la planta que alimentan al hongo"
+    ],
+    "action": "Retira todas las partes afectadas y el material muerto, separa las plantas y ventila. Mantén el agua lejos de flores y hojas."
+  },
+  {
+    "id": "wilt-wet",
+    "label": "Marchitez aunque el suelo está húmedo",
+    "emoji": "🥀",
+    "causes": [
+      "Podredumbre de raíz por exceso de riego: las raíces dañadas no pueden beber, así que la planta se marchita en suelo mojado",
+      "Marchiteces fúngicas del suelo (verticillium, fusarium) en tomates y parientes"
+    ],
+    "action": "Deja de regar, deja secar el suelo y revisa las raíces: las sanas son blancas y firmes; las podridas, marrones y blandas. Trasplanta a un sustrato fresco y de drenaje rápido tras recortar lo podrido."
+  },
+  {
+    "id": "wilt-dry",
+    "label": "Marchitez con el suelo seco",
+    "emoji": "🏜️",
+    "causes": [
+      "Simple falta de riego",
+      "Raíces sin espacio en la maceta o sustrato hidrofóbico que repele el agua"
+    ],
+    "action": "Riega a fondo hasta que salga por los agujeros de drenaje; si el sustrato de turba se ha encogido, sumerge toda la maceta en un barreño durante 20 minutos. Trasplanta si las raíces dan vueltas a la maceta."
+  },
+  {
+    "id": "leggy",
+    "label": "Crecimiento espigado, estirado y pálido",
+    "emoji": "📏",
+    "causes": [
+      "Falta de luz: la planta la está buscando",
+      "Demasiado nitrógeno combinado con poca luz"
+    ],
+    "action": "Trasládala a un lugar con más luz (poco a poco, para evitar quemaduras) y reduce el abonado hasta que el crecimiento vuelva a ser compacto. El fertilizante no puede sustituir a la luz."
+  },
+  {
+    "id": "no-blooms",
+    "label": "Sin flores, o los botones caen antes de abrirse",
+    "emoji": "🌸",
+    "causes": [
+      "Demasiado nitrógeno (hojas exuberantes, sin flores)",
+      "Falta de luz",
+      "Cambios de temperatura o de riego durante la formación de botones (clásico en gardenia, hibisco y cítricos)"
+    ],
+    "action": "Cambia a un abono bajo en nitrógeno y más rico en fósforo y potasio, da más luz y mantén el riego y la temperatura estables mientras se forman los botones."
+  },
+  {
+    "id": "sticky-insects",
+    "label": "Residuo pegajoso, insectos diminutos o telarañas finas",
+    "emoji": "🕷️",
+    "causes": [
+      "Pulgones, cochinillas o mosca blanca (melaza pegajosa en las hojas y las superficies de debajo)",
+      "Araña roja si hay telarañas finas y hojas punteadas de aspecto polvoriento"
+    ],
+    "action": "Lava la planta con un chorro fuerte de agua (también por el envés) y luego trata cada semana con jabón insecticida o aceite hortícola hasta que desaparezcan. Aísla las plantas de interior de las demás."
+  },
+  {
+    "id": "holes",
+    "label": "Agujeros o bordes de hoja mordidos",
+    "emoji": "🐛",
+    "causes": [
+      "Orugas (agujeros irregulares, excrementos bajo las hojas)",
+      "Babosas y caracoles (agujeros irregulares más rastros de baba, daños nocturnos)",
+      "Pulguillas (multitud de agujeritos como perdigonadas)"
+    ],
+    "action": "Retira las orugas a mano y revisa el envés de las hojas en busca de huevos; usa trampas de cerveza o barreras contra las babosas; la manta térmica protege a las plantas jóvenes de los escarabajos."
+  },
+  {
+    "id": "blossom-end-rot",
+    "label": "Mancha oscura y hundida en la base del fruto (tomate/pimiento)",
+    "emoji": "🍅",
+    "causes": [
+      "El calcio no llega al fruto: casi siempre por un riego irregular, no por falta de calcio",
+      "Exceso de nitrógeno que hace que el follaje compita con el fruto por el calcio"
+    ],
+    "action": "Riega a fondo y con regularidad (el acolchado ayuda mucho) y modera los abonos ricos en nitrógeno. Los frutos afectados no se recuperan, pero los siguientes saldrán bien."
+  },
+  {
+    "id": "stunted",
+    "label": "Apenas crece / desarrollo atrofiado en general",
+    "emoji": "🐌",
+    "causes": [
+      "Hambre general de nutrientes en un suelo agotado",
+      "Maceta sin espacio para las raíces o suelo compactado",
+      "Frío: la mayoría de las plantas se detiene por debajo de ~10 °C, y las de interior en invierno"
+    ],
+    "action": "Si es la temporada de crecimiento y las raíces tienen espacio, abona con un fertilizante equilibrado y renueva la capa superior con compost. Trasplanta las plantas con raíces apretadas a una maceta un número mayor."
+  }
+]

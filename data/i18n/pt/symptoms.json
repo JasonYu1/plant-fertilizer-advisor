@@ -1,0 +1,169 @@
+[
+  {
+    "id": "yellow-old-leaves",
+    "label": "Folhas mais velhas (de baixo) amarelando",
+    "emoji": "🍂",
+    "causes": [
+      "Deficiência de nitrogênio - a planta move o nitrogênio das folhas velhas para os brotos novos",
+      "Envelhecimento natural, se for só uma ou duas folhas de baixo",
+      "Excesso de água sufocando as raízes"
+    ],
+    "action": "Se muitas folhas de baixo amarelarem de uma vez, adube com um fertilizante equilibrado ou puxado para nitrogênio e confira se o vaso drena bem. Uma folha velha de vez em quando é normal."
+  },
+  {
+    "id": "yellow-new-leaves",
+    "label": "Folhas novas amarelas com nervuras verdes",
+    "emoji": "💛",
+    "causes": [
+      "Deficiência de ferro ou manganês, geralmente causada por pH do solo alto demais (não falta real de ferro)",
+      "Muito comum em cítricos, gardênia, mirtilo e outras plantas acidófilas",
+      "Solo constantemente encharcado bloqueando a absorção de micronutrientes"
+    ],
+    "action": "Use um fertilizante de fórmula ácida ou ferro quelatizado, e regue as plantas acidófilas com água de chuva em vez de água dura da torneira. Corrija a drenagem se o solo ficar sempre molhado."
+  },
+  {
+    "id": "interveinal-old",
+    "label": "Folhas velhas amarelando entre as nervuras",
+    "emoji": "🟡",
+    "causes": [
+      "Deficiência de magnésio - clássica em tomateiros, cítricos e roseiras",
+      "Deficiência de potássio, se as bordas também queimarem"
+    ],
+    "action": "Regue com sal de Epsom diluído (1 colher de sopa por 4 litros) para o magnésio, ou mude para um adubo que liste magnésio na fórmula. Reavalie em 2-3 semanas nos brotos novos."
+  },
+  {
+    "id": "brown-tips",
+    "label": "Pontas ou bordas das folhas marrons e ressecadas",
+    "emoji": "🟤",
+    "causes": [
+      "Acúmulo de sais de fertilizante no vaso",
+      "Umidade do ar baixa ou falta de rega",
+      "Flúor/cloro na água da torneira (dracena, clorofito e calateia são sensíveis)"
+    ],
+    "action": "Lave o vaso com bastante água pura, reduza a adubação pela metade e, para plantas de interior sensíveis, use água de chuva, destilada ou descansada de um dia para o outro."
+  },
+  {
+    "id": "purple-leaves",
+    "label": "Tom roxo ou avermelhado nas folhas",
+    "emoji": "🟣",
+    "causes": [
+      "Deficiência de fósforo, principalmente em solo frio no início da estação",
+      "Coloração normal em algumas variedades e em clima fresco"
+    ],
+    "action": "Se for primavera e o solo estiver frio, aguarde - costuma se resolver sozinho quando o solo esquenta. Caso contrário, aplique um adubo com fósforo (farinha de ossos ou fórmula de floração)."
+  },
+  {
+    "id": "dark-spots",
+    "label": "Manchas marrons/pretas nas folhas",
+    "emoji": "⚫",
+    "causes": [
+      "Mancha foliar fúngica (manchas geralmente redondas, às vezes com halo amarelo)",
+      "Mancha bacteriana (manchas angulosas, de aspecto encharcado, entre as nervuras)",
+      "Queimadura de sol, se as manchas forem esbranquiçadas e só nas folhas mais expostas"
+    ],
+    "action": "Remova as piores folhas, pare de molhar a folhagem, regue na base pela manhã e melhore a circulação de ar. Calda de cobre retarda tanto as manchas fúngicas quanto as bacterianas."
+  },
+  {
+    "id": "powdery-white",
+    "label": "Camada branca como pó sobre as folhas",
+    "emoji": "⚪",
+    "causes": [
+      "Oídio - prospera com dias quentes, noites frescas e ar parado",
+      "Muito comum em abóboras, pepinos, roseiras, flox e bergamota-selvagem"
+    ],
+    "action": "Remova as piores folhas, melhore a circulação de ar e pulverize com bicarbonato de potássio ou enxofre. Ao contrário da maioria dos fungos, ele adora folhas secas - enxaguar a folhagem na verdade ajuda."
+  },
+  {
+    "id": "gray-mold",
+    "label": "Mofo cinza felpudo em folhas, hastes ou flores",
+    "emoji": "🩶",
+    "causes": [
+      "Botrytis (mofo-cinzento) - ataca em condições frescas, úmidas e com plantas aglomeradas",
+      "Flores mortas e restos deixados na planta alimentando o fungo"
+    ],
+    "action": "Remova todas as partes afetadas e o material morto, espace as plantas e ventile. Mantenha a água longe de flores e folhas."
+  },
+  {
+    "id": "wilt-wet",
+    "label": "Murcha mesmo com o solo úmido",
+    "emoji": "🥀",
+    "causes": [
+      "Podridão de raízes por excesso de água - raízes danificadas não conseguem beber, então a planta murcha no solo molhado",
+      "Murchas fúngicas de solo (verticílio, fusário) em tomateiros e parentes"
+    ],
+    "action": "Pare de regar, deixe o solo secar e examine as raízes: as saudáveis são brancas e firmes, as podres, marrons e moles. Replante em substrato novo e bem drenado depois de aparar as partes podres."
+  },
+  {
+    "id": "wilt-dry",
+    "label": "Murcha com o solo seco",
+    "emoji": "🏜️",
+    "causes": [
+      "Simples falta de rega",
+      "Raízes apertadas no vaso ou substrato hidrofóbico que repele a água"
+    ],
+    "action": "Regue fundo até a água escorrer pelos furos de drenagem; para substrato de turfa encolhido, mergulhe o vaso inteiro numa bacia por 20 minutos. Replante se as raízes estiverem enoveladas no vaso."
+  },
+  {
+    "id": "leggy",
+    "label": "Crescimento estiolado, esticado e pálido",
+    "emoji": "📏",
+    "causes": [
+      "Falta de luz - a planta está se esticando atrás dela",
+      "Nitrogênio demais combinado com pouca luz"
+    ],
+    "action": "Mude a planta para um local mais claro (aos poucos, para evitar queimaduras de sol) e reduza a adubação até o crescimento ficar compacto de novo. Fertilizante não substitui luz."
+  },
+  {
+    "id": "no-blooms",
+    "label": "Sem flores, ou os botões caem antes de abrir",
+    "emoji": "🌸",
+    "causes": [
+      "Nitrogênio demais (folhas exuberantes, nada de flores)",
+      "Falta de luz",
+      "Oscilações de temperatura ou de rega durante a formação dos botões (clássico em gardênia, hibisco e cítricos)"
+    ],
+    "action": "Mude para um adubo pobre em nitrogênio e mais rico em fósforo-potássio, dê mais luz e mantenha a rega e a temperatura estáveis enquanto os botões se formam."
+  },
+  {
+    "id": "sticky-insects",
+    "label": "Resíduo pegajoso, insetos minúsculos ou teias finas",
+    "emoji": "🕷️",
+    "causes": [
+      "Pulgões, cochonilhas ou mosca-branca (melado pegajoso nas folhas e nas superfícies abaixo)",
+      "Ácaros, se houver teias finas e folhas pontilhadas, com aspecto empoeirado"
+    ],
+    "action": "Lave a planta com um jato forte de água (também por baixo das folhas) e depois trate semanalmente com sabão inseticida ou óleo hortícola até limpar. Isole as plantas de interior das demais."
+  },
+  {
+    "id": "holes",
+    "label": "Furos ou bordas das folhas roídas",
+    "emoji": "🐛",
+    "causes": [
+      "Lagartas (furos irregulares, excrementos sob as folhas)",
+      "Lesmas e caracóis (furos irregulares mais trilhas de gosma, dano durante a noite)",
+      "Pulguinhas (vaquinhas-pulga): muitos furinhos como de chumbinho"
+    ],
+    "action": "Cate as lagartas à mão e examine o verso das folhas em busca de ovos; use armadilhas de cerveja ou barreiras contra lesmas; manta de proteção (tecido-não-tecido) protege as mudas jovens dos besouros."
+  },
+  {
+    "id": "blossom-end-rot",
+    "label": "Mancha escura e afundada no fundo do fruto (tomate/pimentão)",
+    "emoji": "🍅",
+    "causes": [
+      "O cálcio não está chegando ao fruto - quase sempre causado por rega irregular, não por falta de cálcio",
+      "Excesso de nitrogênio fazendo a folhagem competir com os frutos pelo cálcio"
+    ],
+    "action": "Regue fundo e com regularidade (cobertura morta ajuda muito) e reduza os adubos ricos em nitrogênio. Os frutos afetados não se recuperam, mas os próximos sairão perfeitos."
+  },
+  {
+    "id": "stunted",
+    "label": "Quase não cresce / atrofiada no geral",
+    "emoji": "🐌",
+    "causes": [
+      "Fome generalizada de nutrientes em solo esgotado",
+      "Vaso apertado ou solo compactado",
+      "Frio: a maioria das plantas pausa abaixo de ~10 °C, plantas de interior no inverno"
+    ],
+    "action": "Se for a estação de crescimento e as raízes tiverem espaço, adube com um fertilizante equilibrado e renove a camada superficial com composto. Replante as plantas com raízes apertadas em um vaso um tamanho maior."
+  }
+]
