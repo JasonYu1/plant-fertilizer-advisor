@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plant Fertilizer Advisor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌱 Plant Fertilizer Advisor</h1>
+    <p class="tagline">Snap a plant, get its feeding plan — free.</p>
+  </header>
+
+  <main>
+    <div id="demo-banner" class="banner hidden">
+      Demo mode — no Pl@ntNet API key set, so results are sample data.
+      Get a free key at <a href="https://my.plantnet.org" target="_blank" rel="noopener">my.plantnet.org</a>
+      and put it in <code>.env</code>.
+    </div>
+
+    <section class="upload-card">
+      <label id="drop-zone" for="file-input">
+        <div id="drop-prompt">
+          <div class="camera-icon">📷</div>
+          <strong>Take or choose a photo</strong>
+          <span>Tap here, or drag &amp; drop an image</span>
+        </div>
+        <img id="preview" class="hidden" alt="Selected plant photo">
+      </label>
+      <input type="file" id="file-input" accept="image/*" capture="environment" hidden>
+
+      <div class="controls">
+        <label for="organ">What's in the photo?</label>
+        <select id="organ">
+          <option value="auto" selected>Auto-detect</option>
+          <option value="leaf">Leaf</option>
+          <option value="flower">Flower</option>
+          <option value="fruit">Fruit</option>
+          <option value="bark">Bark / stem</option>
+        </select>
+        <button id="identify-btn" disabled>Identify plant</button>
+      </div>
+    </section>
+
+    <div id="spinner" class="hidden">
+      <div class="loader"></div>
+      <p>Identifying your plant…</p>
+    </div>
+
+    <div id="error" class="banner error hidden"></div>
+
+    <section id="results" class="hidden">
+      <h2>Results</h2>
+      <div id="candidates"></div>
+    </section>
+  </main>
+
+  <footer>
+    Identification by <a href="https://plantnet.org" target="_blank" rel="noopener">Pl@ntNet</a>.
+    Fertilizer guidance is general advice — always check the label on your fertilizer.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
